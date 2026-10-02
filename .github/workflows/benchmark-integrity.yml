@@ -162,3 +162,7 @@ jobs:
           set -e
           test "$code" -ne 0
           echo "EUROC_FAIL_CLOSED_OK"
+
+
+      - name: Verify canonical EuRoC ground-truth conversion
+        run: python benchmarks/tracking_localization_slam/scripts/test_euroc_groundtruth_adapter.py
