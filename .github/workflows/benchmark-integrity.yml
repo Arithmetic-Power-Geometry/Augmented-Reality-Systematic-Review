@@ -68,3 +68,35 @@ jobs:
         run: |
           python benchmarks/tracking_localization_slam/scripts/guard_result_provenance.py \
             benchmarks/tracking_localization_slam/results_schema.csv
+
+
+      - name: Dataset provenance recorder self-test
+        run: |
+          tmpdir=$(mktemp -d)
+          printf 'synthetic-not-a-dataset\n' > "$tmpdir/input.bin"
+          python benchmarks/tracking_localization_slam/scripts/record_dataset_provenance.py \
+            "$tmpdir/input.bin" --dataset SYNTHETIC --sequence TEST \
+            --source https://example.invalid/not-a-real-dataset --output "$tmpdir/provenance.json"
+          python - <<PY
+          import json
+          from pathlib import Path
+          p=Path("$tmpdir/provenance.json")
+          d=json.loads(p.read_text())
+          assert len(d["sha256"])==64
+          assert d["dataset"]=="SYNTHETIC"
+          print("DATASET_PROVENANCE_RECORDER_OK")
+          PY
+
+      - name: E001 immutable source guard
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("benchmarks/tracking_localization_slam/manifests/E001_R01_planned.json")
+          d=json.loads(p.read_text())
+          expected="4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4"
+          assert d["method_commit"]==expected
+          assert d["status"]=="planned"
+          assert d["raw_output_sha256"] is None
+          print("E001_SOURCE_FREEZE_OK")
+          PY
