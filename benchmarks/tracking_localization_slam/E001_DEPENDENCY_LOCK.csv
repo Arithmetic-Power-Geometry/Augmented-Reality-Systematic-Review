@@ -1,0 +1,6 @@
+component,repository,role,ref_type,ref,status,selection_basis
+ORB-SLAM3,UZ-SLAMLab/ORB_SLAM3,method,commit,4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4,frozen,"E001 method source"
+Pangolin,stevenlovegrove/Pangolin,visualization dependency,commit,dd801d244db3a8e27b7fe8020cd751404aa818fd,frozen,"Commit targeted by upstream annotated v0.6 tag (tag object 1c620ff72a93854d1ab3cb42c6b7360073926673)"
+Ubuntu,ubuntu,base environment,release,18.04,frozen,"ORB-SLAM3 frozen README reports testing on Ubuntu 16.04 and 18.04"
+OpenCV,Ubuntu 18.04 package archive,core dependency,distribution-package,libopencv-dev,environment-resolved,"Exact package version must be recorded from built image before scientific run"
+Eigen3,Ubuntu 18.04 package archive,core dependency,distribution-package,libeigen3-dev,environment-resolved,"Exact package version must be recorded from built image before scientific run"
