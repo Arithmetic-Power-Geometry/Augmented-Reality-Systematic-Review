@@ -1,0 +1,5 @@
+source_id,component,repository,commit_sha,status,experiment,notes
+S001,ORB-SLAM3,UZ-SLAMLab/ORB_SLAM3,4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4,frozen,E001,"Exact inference source for first experiment."
+S002,VINS-Mono,HKUST-Aerial-Robotics/VINS-Mono,90dabb5ec79946ae42fd2e1e91d4e69aabe1e25d,candidate,E002,"Not frozen until build compatibility audit."
+S003,OpenVINS,rpng/open_vins,69488123ed9362dd44b6f28e7f4680abbff1442b,candidate,E003,"Not frozen until ROS/environment selection."
+S004,LaMAR,microsoft/lamar-benchmark,5ffd8919fa72fcfd1262d1343642027bd8e8361e,current-candidate,future,"Current audited source; historical release remains separately tracked."
