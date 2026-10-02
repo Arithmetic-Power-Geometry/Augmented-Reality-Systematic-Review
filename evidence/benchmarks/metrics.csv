@@ -1,0 +1,9 @@
+metric_id,metric,definition_level,use_case,comparison_rule
+E001,ATE,"trajectory-level absolute pose/trajectory error after specified alignment","SLAM/VIO trajectory accuracy","Alignment convention and statistic must match; otherwise contextual comparison only."
+E002,RPE,"relative pose error over specified temporal/spatial interval","local drift","Delta definition and rotational/translational units must match."
+E003,localization_recall,"fraction of queries localized within stated translation/rotation thresholds","visual localization / LaMAR","Threshold pair must be reported; recall values with different thresholds are not directly comparable."
+E004,latency,"wall-clock processing time under a declared unit (frame/query/sequence)","real-time feasibility","Hardware, batching, preprocessing and timing boundary must be frozen."
+E005,throughput_fps,"processed frames per second under declared sensor resolution and pipeline","real-time feasibility","Requires identical or normalized input conditions and hardware reporting."
+E006,memory_peak,"peak host/device memory under defined run","resource feasibility","Report measurement tool, host/device and model/runtime configuration."
+E007,energy_per_task,"energy consumed per frame/query/sequence","mobile/AR deployment efficiency","Requires synchronized power measurement and declared task boundary."
+E008,failure_rate,"fraction of runs/sequences failing initialization, tracking, localization or completion under explicit rule","robustness","Failure definition must be preregistered and identical across methods."
