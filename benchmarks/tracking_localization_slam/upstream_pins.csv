@@ -1,0 +1,5 @@
+method_id,upstream,ref_type,candidate_ref,freeze_state,rationale,verified_date,notes
+M001,UZ-SLAMLab/ORB_SLAM3,commit,TO_RESOLVE_FULL_SHA,pending,"Canonical master will be resolved to a full immutable SHA immediately before first container build.",2026-10-02,"Do not benchmark an unpinned branch."
+M002,HKUST-Aerial-Robotics/VINS-Mono,commit,90dabb5,candidate,"Visible canonical upstream commit dated 2024-05-23; full SHA must be resolved before execution.",2026-10-02,"Upstream documents Ubuntu 16.04/ROS Kinetic and Ceres 1.14.0."
+M003,rpng/open_vins,release-or-commit,TO_SELECT,pending,"Active upstream in 2026; select a documented release/commit compatible with chosen ROS mode rather than floating master.",2026-10-02,"Pin after environment compatibility smoke audit."
+M004,microsoft/lamar-benchmark,release-commit,4314382,candidate,"Official v1.0 release anchor visible upstream; resolve full SHA/tag metadata before execution.",2026-10-02,"Use official release as reproducibility anchor unless a later bugfix is scientifically required."
