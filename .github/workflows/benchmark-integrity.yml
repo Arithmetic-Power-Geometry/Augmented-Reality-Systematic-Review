@@ -55,3 +55,16 @@ jobs:
               assert d.get("raw_output_sha256") in (None, ""), f"{p} contains raw output despite planned status"
           print("PLANNED_MANIFEST_GUARD_OK")
           PY
+
+
+      - name: Validate normalized synthetic trajectory
+        run: |
+          tmp=$(mktemp)
+          python benchmarks/tracking_localization_slam/adapters/tum_trajectory_to_common.py \
+            benchmarks/tracking_localization_slam/testdata/synthetic_tum.txt "$tmp"
+          python benchmarks/tracking_localization_slam/scripts/validate_common_trajectory.py "$tmp"
+
+      - name: Guard scientific result provenance
+        run: |
+          python benchmarks/tracking_localization_slam/scripts/guard_result_provenance.py \
+            benchmarks/tracking_localization_slam/results_schema.csv
