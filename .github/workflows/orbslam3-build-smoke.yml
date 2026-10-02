@@ -1,0 +1,34 @@
+name: ORB-SLAM3 build smoke
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'containers/orbslam3/**'
+      - 'containers/build.sh'
+      - '.github/workflows/orbslam3-build-smoke.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build frozen E001 image
+        run: |
+          ./containers/build.sh orbslam3 \
+            4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4 \
+            dd801d244db3a8e27b7fe8020cd751404aa818fd
+      - name: Verify EuRoC executable and source provenance
+        run: |
+          docker run --rm ar-review-orbslam3:4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4 \
+            bash -lc 'test -x Examples/Stereo-Inertial/stereo_inertial_euroc && cat /opt/BUILD_PROVENANCE.txt'
+      - name: Capture image inventory
+        run: |
+          mkdir -p build-evidence
+          ./containers/capture_image_inventory.sh \
+            ar-review-orbslam3:4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4 \
+            build-evidence/orbslam3-image.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: orbslam3-build-evidence
+          path: build-evidence/orbslam3-image.json
