@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AR Benchmark Run Manifest",
+  "type": "object",
+  "required": ["run_id","method","method_commit","dataset","sequence","sensor_mode","environment","hardware","evaluator_commit","status"],
+  "properties": {
+    "run_id":{"type":"string"},
+    "method":{"type":"string"},
+    "method_commit":{"type":"string","minLength":7},
+    "dataset":{"type":"string"},
+    "dataset_version":{"type":"string"},
+    "sequence":{"type":"string"},
+    "sensor_mode":{"type":"string"},
+    "config_sha256":{"type":"string"},
+    "environment":{"type":"string"},
+    "container_digest":{"type":"string"},
+    "hardware":{"type":"object"},
+    "seed":{"type":["integer","null"]},
+    "repeat":{"type":"integer","minimum":1},
+    "evaluator_commit":{"type":"string"},
+    "status":{"enum":["planned","running","success","failed","invalid"]},
+    "failure_stage":{"type":["string","null"]},
+    "raw_output_sha256":{"type":["string","null"]},
+    "notes":{"type":"string"}
+  },
+  "additionalProperties": true
+}
