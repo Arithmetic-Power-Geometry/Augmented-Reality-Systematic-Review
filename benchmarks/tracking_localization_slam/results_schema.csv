@@ -1,0 +1,1 @@
+run_id,date_utc,method_id,method_commit,dataset_id,sequence_or_query,sensor_mode,config_id,repeat,success,failure_stage,ate,rpe,localization_recall,recall_threshold,latency_ms,fps,peak_memory_mb,energy_j,hardware_id,environment_id,evaluator_commit,raw_output_path,notes
