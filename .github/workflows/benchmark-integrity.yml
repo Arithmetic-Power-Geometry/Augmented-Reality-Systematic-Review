@@ -14,10 +14,11 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
+
       - name: Python syntax checks
-        run: |
-          python -m py_compile benchmarks/tracking_localization_slam/scripts/*.py
-      - name: Validate JSON schema syntax
+        run: python -m py_compile benchmarks/tracking_localization_slam/scripts/*.py benchmarks/tracking_localization_slam/adapters/*.py
+
+      - name: Validate JSON syntax
         run: |
           python - <<'PY'
           import json
@@ -26,6 +27,7 @@ jobs:
               json.loads(p.read_text())
               print("valid json:", p)
           PY
+
       - name: Verify CSV readability
         run: |
           python - <<'PY'
@@ -37,4 +39,19 @@ jobs:
               if not rows:
                   raise SystemExit(f"empty csv: {p}")
               print("readable csv:", p)
+          PY
+
+      - name: Run synthetic adapter smoke test
+        run: python benchmarks/tracking_localization_slam/scripts/test_adapter.py
+
+      - name: Ensure planned manifests cannot masquerade as results
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for p in Path("benchmarks/tracking_localization_slam/manifests").glob("planned_*.json"):
+              d=json.loads(p.read_text())
+              assert d["status"] == "planned", f"{p} must remain planned"
+              assert d.get("raw_output_sha256") in (None, ""), f"{p} contains raw output despite planned status"
+          print("PLANNED_MANIFEST_GUARD_OK")
           PY
