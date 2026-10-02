@@ -1,0 +1,6 @@
+method_id,upstream,ref_type,frozen_or_candidate_ref,state,selected_for,selection_basis,verified_date
+M001,UZ-SLAMLab/ORB_SLAM3,commit,4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4,frozen,E001,"Canonical repository head returned by audited GitHub commit search; E001 freezes this exact source revision.",2026-10-02
+M002,HKUST-Aerial-Robotics/VINS-Mono,commit,90dabb5ec79946ae42fd2e1e91d4e69aabe1e25d,candidate,E002,"Canonical repository recent revision; execution environment compatibility remains to be tested.",2026-10-02
+M003,rpng/open_vins,commit,69488123ed9362dd44b6f28e7f4680abbff1442b,candidate,E003,"Canonical repository audited revision; ROS mode/environment remains to be frozen.",2026-10-02
+M004,microsoft/lamar-benchmark,commit,5ffd8919fa72fcfd1262d1343642027bd8e8361e,current-candidate,future-LaMAR,"Current audited upstream revision; do not confuse with historical v1.0 release anchor.",2026-10-02
+M004R,microsoft/lamar-benchmark,release-anchor,4314382,release-candidate,future-LaMAR,"Previously identified v1.0 release short ref; full release SHA must be resolved if this historical release is selected.",2026-10-02
