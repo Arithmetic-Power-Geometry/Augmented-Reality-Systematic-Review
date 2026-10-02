@@ -1,0 +1,16 @@
+{
+  "run_id": "SMOKE-PLANNED-001",
+  "method": "M001",
+  "method_commit": "TO_PIN_FULL_SHA",
+  "dataset": "D002",
+  "dataset_version": "TO_PIN",
+  "sequence": "MH_01_easy",
+  "sensor_mode": "stereo-inertial",
+  "environment": "ENV001",
+  "hardware": {"status": "to_record_on_runner"},
+  "evaluator_commit": "PROJECT_COMMIT_AT_RUN",
+  "status": "planned",
+  "failure_stage": null,
+  "raw_output_sha256": null,
+  "notes": "Planning manifest only. It is not evidence of benchmark execution."
+}
