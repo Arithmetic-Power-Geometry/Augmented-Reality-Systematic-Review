@@ -1,0 +1,6 @@
+environment_id,purpose,base_os,python,ros,core_dependencies,status
+ENV001,ORB-SLAM3,"Ubuntu 18.04 pinned image","evaluator only","optional Melodic","C++11; Pangolin; OpenCV; Eigen3; DBoW2; g2o","specification"
+ENV002,VINS-Mono,"Ubuntu 18.04 pinned image","as required by ROS tools","ROS Melodic candidate","Ceres; DBoW2; camera model; catkin","specification"
+ENV003,OpenVINS,"to be pinned after canonical build audit","to be pinned","to be pinned","canonical upstream dependencies","audit-required"
+ENV004,LaMAR,"Ubuntu 22.04","3.10 candidate","none required for core benchmark","Ceres 2.1; COLMAP 3.8; HLoc 1.4; LaMAR editable package","specification"
+ENV005,Common-Evaluator,"Ubuntu 22.04","3.11 candidate","none","trajectory/localization evaluators; pandas/numpy/scipy; provenance validator","specification"
