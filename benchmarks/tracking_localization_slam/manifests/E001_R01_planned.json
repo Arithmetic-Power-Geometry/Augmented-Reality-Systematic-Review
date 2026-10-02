@@ -1,0 +1,21 @@
+{
+  "experiment_id":"E001",
+  "run_id":"E001-R01",
+  "method":"ORB-SLAM3",
+  "method_commit":"4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+  "dataset":"EuRoC MAV",
+  "dataset_version":"official acquisition pending",
+  "sequence":"MH_01_easy",
+  "sensor_mode":"TO_FREEZE_FROM_CANONICAL_EUROC_EXAMPLE",
+  "config_sha256":"",
+  "environment":"ENV001",
+  "container_digest":"",
+  "hardware":{"status":"record on execution runner"},
+  "seed":null,
+  "repeat":1,
+  "evaluator_commit":"PROJECT_COMMIT_AT_RUN",
+  "status":"planned",
+  "failure_stage":null,
+  "raw_output_sha256":null,
+  "notes":"Method source is frozen. Dataset, sensor-mode/config checksum, image digest and runner hardware remain execution prerequisites."
+}
