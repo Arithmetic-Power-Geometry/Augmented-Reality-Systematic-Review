@@ -1,0 +1,13 @@
+review_id,general_ar,history,tracking_slam,registration,visualization,interaction,user_studies,industrial,healthcare,education,security_privacy,accessibility,intelligent_agents,datasets,metrics,algorithm_performance,reproducibility,temporal_gap_analysis,cross_domain_comparability
+R001,1,1,1,1,1,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+R002,1,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+R003,1,1,1,1,1,1,1,1,1,1,0,0,0,0,0,0,0,0,0
+R004,0,1,0,0,0,1,1,1,1,1,0,0,0,0,1,0,1,1,0
+R005,0,1,1,0,0,1,1,1,0,0,0,0,0,0,1,0,0,0,0
+R006,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
+R007,0,1,0,0,1,1,1,1,0,0,0,0,0,0,0,0,0,1,0
+R008,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,0,0,1,0
+R009,0,1,1,0,1,1,1,0,0,0,0,1,1,0,0,0,0,1,0
+R010,0,0,0,0,1,1,1,1,1,1,0,0,0,0,1,0,0,0,0
+R011,0,1,1,1,0,0,0,0,0,0,0,0,0,1,1,1,0,1,0
+R012,0,1,0,0,0,1,1,1,0,0,0,0,0,0,1,0,1,1,0
