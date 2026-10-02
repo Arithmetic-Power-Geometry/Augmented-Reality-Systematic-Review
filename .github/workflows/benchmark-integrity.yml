@@ -138,3 +138,27 @@ jobs:
           assert d["rpe"]["delta_associated_poses"]==1
           print("E001_EVALUATOR_FREEZE_OK")
           PY
+
+
+      - name: One-command E001 static and component tests
+        run: |
+          bash -n experiments/runners/execute_E001.sh
+          tmpdir=$(mktemp -d)
+          python benchmarks/tracking_localization_slam/scripts/capture_hardware.py "$tmpdir/hardware.json"
+          test -s "$tmpdir/hardware.json"
+          cat > "$tmpdir/orb.txt" <<'EOF'
+          0.0 0 0 0 0 0 0 1
+          0.1 0.1 0 0 0 0 0 1
+          EOF
+          python benchmarks/tracking_localization_slam/adapters/euroc_orbslam_to_common.py "$tmpdir/orb.txt" "$tmpdir/common.csv"
+          python benchmarks/tracking_localization_slam/scripts/validate_common_trajectory.py "$tmpdir/common.csv"
+
+      - name: Incomplete EuRoC input must fail closed
+        run: |
+          tmpdir=$(mktemp -d)
+          set +e
+          python benchmarks/tracking_localization_slam/scripts/validate_euroc_structure.py "$tmpdir"
+          code=$?
+          set -e
+          test "$code" -ne 0
+          echo "EUROC_FAIL_CLOSED_OK"
