@@ -1,0 +1,4 @@
+experiment_id,workstream,dataset,sequence,method,comparison_role,protocol_status,execution_status,results_status
+E001,"tracking/localization/SLAM","EuRoC MAV","MH_01_easy","ORB-SLAM3","pipeline establishment","preregistered","not run","none"
+E002,"tracking/localization/SLAM","EuRoC MAV","MH_01_easy","VINS-Mono","planned matched baseline","draft","not run","none"
+E003,"tracking/localization/SLAM","EuRoC MAV","MH_01_easy","OpenVINS","planned matched baseline","draft","not run","none"
