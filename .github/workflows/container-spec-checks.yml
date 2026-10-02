@@ -1,0 +1,44 @@
+name: Container specification checks
+
+on:
+  push:
+    paths:
+      - "containers/**"
+      - ".github/workflows/container-spec-checks.yml"
+  pull_request:
+    paths:
+      - "containers/**"
+
+jobs:
+  static-checks:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Shell syntax
+        run: |
+          bash -n containers/build.sh
+          bash -n containers/vinsmono/install_vins_dependencies.sh
+      - name: Dockerfile presence and pin guards
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          required={
+            "containers/orbslam3/Dockerfile":"ORB_SLAM3_REF",
+            "containers/vinsmono/Dockerfile":"VINS_MONO_REF",
+            "containers/openvins/Dockerfile":"OPENVINS_REF",
+            "containers/lamar/Dockerfile":"LAMAR_REF",
+          }
+          for p,arg in required.items():
+              s=Path(p).read_text()
+              assert f"ARG {arg}" in s
+              assert f'test -n "$'+arg+'"' in s
+              print("pin guard:",p,arg)
+          PY
+      - name: Build script rejects missing refs
+        run: |
+          set +e
+          bash containers/build.sh orbslam3
+          code=$?
+          set -e
+          test "$code" -eq 64
+          echo "MISSING_REF_GUARD_OK"
