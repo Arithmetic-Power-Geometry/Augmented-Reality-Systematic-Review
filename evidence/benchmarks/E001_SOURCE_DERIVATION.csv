@@ -1,0 +1,5 @@
+evidence_id,experiment,source_component,source_ref,observation,project_decision,status
+P001,E001,ORB-SLAM3 README,4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4,"EuRoC supports stereo/monocular with or without IMU; README describes helper scripts.","Use stereo-inertial mode for E001.",verified
+P002,E001,stereo_inertial_euroc.cc,4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4,"Executable reads cam0/cam1 images plus imu0/data.csv and constructs System::IMU_STEREO.","Direct executable invocation is the authoritative run contract.",verified
+P003,E001,EuRoC.yaml,4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4,"752x480; 20 Hz camera; 200 Hz IMU; 1200 ORB features; scale factor 1.2; 8 levels; FAST 20/7.","Use upstream settings without tuning.",verified
+P004,E001,repository content audit,4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4,"README-referenced root EuRoC helper scripts were not retrievable through the content interface at the frozen ref.","Do not invent helper contents; call executable directly.",verified
