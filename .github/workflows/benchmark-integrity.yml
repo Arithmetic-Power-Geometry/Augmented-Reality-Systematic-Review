@@ -100,3 +100,21 @@ jobs:
           assert d["raw_output_sha256"] is None
           print("E001_SOURCE_FREEZE_OK")
           PY
+
+
+      - name: E001 runner syntax and frozen contract
+        run: |
+          bash -n experiments/runners/run_E001.sh
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          d=json.loads(Path("experiments/E001_EVALUATOR_CONFIG.json").read_text())
+          assert d["alignment"]["type"]=="SE3_rigid"
+          assert d["alignment"]["scale_correction"] is False
+          assert d["primary_metric"]=="ATE_RMSE_translation_m"
+          runner=Path("experiments/runners/run_E001.sh").read_text()
+          assert "stereo_inertial_euroc" in runner
+          assert "EuRoC.yaml" in runner
+          assert "E001_R01" in runner
+          print("E001_INVOCATION_CONTRACT_OK")
+          PY
