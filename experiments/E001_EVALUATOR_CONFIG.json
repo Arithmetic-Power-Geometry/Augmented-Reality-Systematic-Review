@@ -1,18 +1,11 @@
 {
   "experiment_id":"E001",
-  "trajectory_type":"EuRoC_SE3",
+  "evaluator_version":"project-se3-evaluator-v1",
   "primary_metric":"ATE_RMSE_translation_m",
   "secondary_metrics":["RPE_translation_RMSE_m","RPE_rotation_RMSE_deg"],
-  "alignment":{
-    "type":"SE3_rigid",
-    "scale_correction":false,
-    "rationale":"Stereo-inertial output is metric-scale; scale correction would change the experiment contract."
-  },
+  "alignment":{"type":"SE3_rigid","scale_correction":false},
+  "association":{"method":"nearest_timestamp_one_to_one","tolerance_seconds":0.01},
+  "rpe":{"delta_associated_poses":1,"translation_unit":"m","rotation_unit":"deg"},
   "ground_truth_usage":"post-inference evaluation only",
-  "association":{
-    "method":"timestamp",
-    "tolerance_seconds":"TO_FREEZE_WITH_EVALUATOR_IMPLEMENTATION"
-  },
-  "status":"frozen_except_association_tolerance",
-  "note":"No numeric result is valid until evaluator implementation and timestamp tolerance are frozen."
+  "status":"frozen"
 }
