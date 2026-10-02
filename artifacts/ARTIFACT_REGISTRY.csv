@@ -1,0 +1,8 @@
+artifact_id,type,path,scientific_evidence,generated_by,status
+A0001,"CI integrity check",".github/workflows/benchmark-integrity.yml",no,"GitHub Actions","implemented"
+A0002,"trajectory adapter","benchmarks/tracking_localization_slam/adapters/tum_trajectory_to_common.py",no,"repository code","implemented"
+A0003,"synthetic adapter smoke output","ephemeral CI output",no,"test_adapter.py","implemented"
+A0004,"ORB-SLAM3 container specification","containers/orbslam3/Dockerfile",no,"repository code","implemented-unbuilt"
+A0005,"VINS-Mono container specification","containers/vinsmono/Dockerfile",no,"repository code","dependency-gated"
+A0006,"OpenVINS container specification","containers/openvins/Dockerfile",no,"repository code","environment-selection-gated"
+A0007,"LaMAR container specification","containers/lamar/Dockerfile",no,"repository code","dependency-gated"
