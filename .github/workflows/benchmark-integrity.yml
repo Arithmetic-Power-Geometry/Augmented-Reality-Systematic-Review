@@ -1,0 +1,40 @@
+name: Benchmark integrity
+
+on:
+  push:
+    paths:
+      - "benchmarks/tracking_localization_slam/**"
+      - ".github/workflows/benchmark-integrity.yml"
+  pull_request:
+    paths:
+      - "benchmarks/tracking_localization_slam/**"
+
+jobs:
+  integrity:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python syntax checks
+        run: |
+          python -m py_compile benchmarks/tracking_localization_slam/scripts/*.py
+      - name: Validate JSON schema syntax
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for p in Path("benchmarks/tracking_localization_slam/manifests").glob("*.json"):
+              json.loads(p.read_text())
+              print("valid json:", p)
+          PY
+      - name: Verify CSV readability
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          for p in Path("benchmarks/tracking_localization_slam").rglob("*.csv"):
+              with p.open(newline="", encoding="utf-8") as f:
+                  rows=list(csv.reader(f))
+              if not rows:
+                  raise SystemExit(f"empty csv: {p}")
+              print("readable csv:", p)
+          PY
