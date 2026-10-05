@@ -172,4 +172,8 @@ Rethlefsen2021PRISMAS,R103,validated,"Systematic Reviews/EQUATOR/PMC",yes,"PRISM
 McGowan2016PRESS,R104,validated,"PubMed/Journal of Clinical Epidemiology",yes,"PRESS 2015 guideline; six authors/volume/pages/DOI confirmed"
 Bramer2016Deduplication,R105,validated,"PubMed/PMC/Erasmus repository",yes,"Deduplication method; five authors/volume/issue/pages/DOI confirmed"
 Bramer2017DatabaseCombinations,R106,validated,"PubMed/Systematic Reviews/Crossref",yes,"Four authors/volume/article/DOI confirmed"
+Tang2020MedicalEducation,R107,validated,"Canadian Medical Education Journal + PubMed/PMC",yes,"Four authors/11(1)/e81-e96/DOI confirmed; 36-study medical-education systematic review"
+Tene2024MedicalUmbrella,R108,validated,"Frontiers in Digital Health + PubMed",yes,"Five authors/volume/article/DOI confirmed; umbrella review of VR/AR medical education"
+RodriguezAbad2021HealthSciences,R109,validated,"IJERPH + PubMed",yes,"Four authors/18(8)/4262/DOI confirmed; health-sciences higher-education systematic review"
+Lauinger2026XRHealthEducation,R110,validated,"Frontiers in Medicine + PubMed",yes,"Seven authors/volume/article/DOI confirmed; 29-study US XR-HMD healthcare-education scoping review"
 
