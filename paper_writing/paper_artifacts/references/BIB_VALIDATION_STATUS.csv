@@ -15,3 +15,7 @@ PENDING-S0013,S0013,pending,"needs complete author/page metadata",no,"Do not cit
 PENDING-S0014,S0014,pending,"needs complete author/page metadata",no,"Do not cite from master.bib until validated"
 PENDING-S0015,S0015,pending,"needs complete author/page metadata",no,"Do not cite from master.bib until validated"
 PENDING-S0016,S0016,pending,"needs complete author/page metadata",no,"Do not cite from master.bib until validated"
+Kagami2026TagAlong,PD0017,validated,"PubMed authoritative journal metadata + IEEE VR program",yes,"Authors/volume/issue/pages/DOI confirmed"
+Kanellopoulos2026Diagnosing,PD0018,validated,"ACM Digital Library article metadata",yes,"Authors/volume/issue/article/pages/DOI confirmed"
+Ahmetovic2025Artwork,PD0019,validated,"ACM MobileHCI accepted list + publisher-format manuscript/institutional repository",yes,"Authors/volume/issue/article/pages/DOI confirmed"
+Chen2026UbiGrip,PD0020,validated,"IEEE Xplore + official IEEE VR 2026 program",yes,"12 authors/venue/DOI confirmed; proceedings pages cross-checked"
