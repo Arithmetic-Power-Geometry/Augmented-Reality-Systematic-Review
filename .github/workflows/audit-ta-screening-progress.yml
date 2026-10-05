@@ -1,0 +1,21 @@
+name: Audit formal TA screening progress
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/audit_ta_screening_progress.py"
+      - "evidence/screening/formal_pubmed_batches/**"
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python scripts/audit_ta_screening_progress.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: run58-ta-screening-progress
+          path: paper_writing/paper_artifacts/provenance/RUN58_TA_SCREENING_PROGRESS.json
