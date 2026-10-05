@@ -120,4 +120,8 @@ PA118,figure,P1,paper_writing/paper_artifacts/figures/FIG_FORMAL_CORPUS_COMPLETI
 PA119,table,P1,paper_writing/paper_artifacts/tables/COMPLETION_PATH_DECISION_MATRIX.md,protocol/PROTOCOL_AMENDMENT_A01_FORMAL_SOURCE_ACCESS.md,control,"Systematic versus structured-review completion paths"
 PA120,algorithm,P1,paper_writing/paper_artifacts/algorithms/REVIEW_TYPE_INTEGRITY_GATE.md,protocol/PROTOCOL_AMENDMENT_A01_FORMAL_SOURCE_ACCESS.md,control,"Prevents silent substitution of web discovery for formal database execution"
 PA121,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN40_STATUS.md,protocol/PROTOCOL_AMENDMENT_A01_FORMAL_SOURCE_ACCESS.md,in-progress,"172 validated references; Path S retained; formal exports still blocking"
+PA122,table,P1,paper_writing/paper_artifacts/tables/REHABILITATION_NEUROCOGNITIVE_EVIDENCE_RUN41.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-secondary,"Secondary-review evidence; not primary-corpus counts"
+PA123,algorithm,P1,paper_writing/paper_artifacts/algorithms/SECONDARY_REVIEW_EVIDENCE_PROMOTION_GATE.md,paper_writing/paper_artifacts/references/master.bib,workflow,"Prevents secondary-review evidence leaking into primary PRISMA corpus"
+PA124,figure,P1,paper_writing/paper_artifacts/figures/FIG_CONDITIONAL_REHABILITATION_EVIDENCE_RUN41.svg,paper_writing/paper_artifacts/tables/REHABILITATION_NEUROCOGNITIVE_EVIDENCE_RUN41.md,pre-freeze-secondary,"Conditional rehabilitation synthesis; no universal efficacy claim"
+PA125,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN41_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"178 validated references; 22+ to 200; formal corpus blocked"
 
