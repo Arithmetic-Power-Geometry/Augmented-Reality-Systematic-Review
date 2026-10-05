@@ -96,4 +96,7 @@ Arefin2025Replication,R039,validated,"IEEE ISMAR metadata + University of Glasgo
 Liu2026CGEducationReview,R040,validated,"Elsevier ScienceDirect + DBLP",yes,"Four authors/volume/article/DOI confirmed; secondary review"
 Balado2026AsBuiltXR,R041,validated,"Wiley version of record",yes,"Five authors/volume/issue/article/DOI confirmed; secondary XR workflow review"
 Angra2025ARVRReview,R042,validated,"Frontiers version of record",yes,"Six authors/volume/article/DOI confirmed; broad bibliometric/systematic review"
+Hu2025XRRealityCheck,PD0071,validated,"IEEE Xplore + Duke Scholars + official artifact repository",yes,"Four authors/pages/DOI confirmed; peer-reviewed benchmark with public reproducibility artifacts"
+Makamara2022XRStandards,R043,validated,"IEEE Xplore + ITU proceedings + DBLP",yes,"Two authors/pages/DOI confirmed; secondary standards survey"
+IEEE2048_101_2023,S001,validated,"IEEE Standards Association",yes,"Active standard; approval/publication dates and scope confirmed; standards source not primary study"
 
