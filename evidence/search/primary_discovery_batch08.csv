@@ -1,0 +1,4 @@
+discovery_id,year,title,venue,doi,workstream,evidence_type,status
+PD0049,2024,"Context-Adaptive Visual Cues for Safe Navigation in Augmented Reality Using Machine Learning","International Journal of Human-Computer Interaction","10.1080/10447318.2022.2122114","context-adaptive AR; safety; human factors","two user studies + ML system",validated_candidate
+PD0050,2026,"A Secure Augmented Reality (AR)-Based Authentication Mechanism for Automated Teller Machines","IEEE Access","10.1109/ACCESS.2026.3670319","security; authentication","design-science/security primary",validated_candidate
+R032,2026,"Enhancing user authentication and security in metaverse: a review of innovative techniques and the role of zero-trust models","Frontiers in Virtual Reality","10.3389/frvir.2026.1753188","security; authentication","secondary review",review_corpus
