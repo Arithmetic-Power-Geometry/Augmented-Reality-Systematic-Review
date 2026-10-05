@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
 set -euo pipefail
 # One-command E001 orchestration. Does not download data or install ORB-SLAM3.
-# Usage: execute_E001.sh ORB_ROOT EUROC_MH01_ROOT TIMESTAMPS_FILE GT_NORMALIZED_CSV RUN_ROOT
+# Usage: execute_E001.sh ORB_ROOT EUROC_MH01_ROOT TIMESTAMPS_FILE GT_RAW_EUROC_CSV RUN_ROOT
 ORB_ROOT="${1:?ORB root}"; DATA="${2:?EuRoC MH_01_easy root}"; TIMES="${3:?timestamps file}"
 GT_RAW="${4:?official EuRoC state_groundtruth_estimate0/data.csv}"; ROOT="${5:?run root}"
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 RUN="$ROOT/E001/E001-R01"
-mkdir -p "$RUN"/{raw,normalized,evaluation,provenance}\npython "$HERE/benchmarks/tracking_localization_slam/adapters/euroc_groundtruth_to_common.py" "$GT_RAW" "$RUN/normalized/groundtruth.csv"\nsha256sum "$GT_RAW" "$RUN/normalized/groundtruth.csv" > "$RUN/provenance/groundtruth.sha256"
+mkdir -p "$RUN"/{raw,normalized,evaluation,provenance}
+python "$HERE/benchmarks/tracking_localization_slam/adapters/euroc_groundtruth_to_common.py" "$GT_RAW" "$RUN/normalized/groundtruth.csv"
+sha256sum "$GT_RAW" "$RUN/normalized/groundtruth.csv" > "$RUN/provenance/groundtruth.sha256"
 
 python "$HERE/benchmarks/tracking_localization_slam/scripts/capture_hardware.py" "$RUN/provenance/hardware.json"
 python "$HERE/benchmarks/tracking_localization_slam/scripts/validate_euroc_structure.py" "$DATA"
