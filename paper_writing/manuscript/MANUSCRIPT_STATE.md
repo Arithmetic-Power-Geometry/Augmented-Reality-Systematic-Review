@@ -1,4 +1,4 @@
-# Manuscript State — Run 50
+# Manuscript State — Run 51
 
 Date: 2026-10-05
 Status: **PAPER-READY DRAFT / FINAL SYSTEMATIC RESULTS EXTERNALLY BLOCKED**
@@ -35,4 +35,4 @@ PRISMA 2020 requires the actual information sources and dates searched, full exe
 A full paper draft may now be developed using the completed background, Methods and explicitly labeled pilot validation. Final systematic-review Abstract numbers, PRISMA counts, population frequencies, final gap prevalence and final Conclusions remain locked until the formal corpus is frozen.
 
 ## Immediate trigger
-On receipt of formal exports: ingest → deduplicate → screen → full text → families → citation chase → freeze → PRISMA → rerun NEXT-06..NEXT-19 → replace pilot labels → final manuscript audit.
+Immediate next evidence gate: complete title/abstract review for 7,728 PubMed records and resolve 11 metadata-unavailable records; then full text → families → citation chase → second independent verification → freeze → PRISMA → rerun NEXT-06..NEXT-19 → final manuscript audit.
