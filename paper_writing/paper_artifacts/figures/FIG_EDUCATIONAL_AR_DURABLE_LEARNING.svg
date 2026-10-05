@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="650" viewBox="0 0 1280 650">
+<rect width="1280" height="650" fill="white"/>
+<text x="640" y="45" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">Educational AR: From Immediate Effect to Durable Learning</text>
+<g font-family="Arial" text-anchor="middle">
+<g font-size="16">
+<rect x="45" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="120" y="152">E0</text><text x="120" y="178">Reaction/usability</text>
+<rect x="220" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="295" y="152">E1</text><text x="295" y="178">Immediate test</text>
+<rect x="395" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="470" y="152">E2</text><text x="470" y="178">Repeated exposure</text>
+<rect x="570" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="645" y="152">E3</text><text x="645" y="178">Retention</text>
+<rect x="745" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="820" y="152">E4</text><text x="820" y="178">Transfer</text>
+<rect x="920" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="995" y="152">E5</text><text x="995" y="178">Authentic task</text>
+<rect x="1095" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="1170" y="152">E6</text><text x="1170" y="178">Longitudinal</text>
+</g>
+<g stroke="#333" stroke-width="3"><path d="M195 162H220"/><path d="M370 162H395"/><path d="M545 162H570"/><path d="M720 162H745"/><path d="M895 162H920"/><path d="M1070 162H1095"/></g>
+<text x="640" y="285" font-size="22" font-weight="bold">Do not collapse different educational outcomes</text>
+<rect x="85" y="340" width="300" height="115" rx="12" fill="#f4f4f4" stroke="#333"/><text x="235" y="380" font-size="18">Learning</text><text x="235" y="410" font-size="15">knowledge / concept / skill</text>
+<rect x="490" y="340" width="300" height="115" rx="12" fill="#f4f4f4" stroke="#333"/><text x="640" y="380" font-size="18">Learner state</text><text x="640" y="410" font-size="15">motivation / engagement / load</text>
+<rect x="895" y="340" width="300" height="115" rx="12" fill="#f4f4f4" stroke="#333"/><text x="1045" y="380" font-size="18">Durability</text><text x="1045" y="410" font-size="15">retention / transfer / adoption</text>
+<text x="640" y="535" font-size="19">A positive immediate post-test does not establish retention or transfer.</text>
+<text x="640" y="570" font-size="19">A pooled AR effect must remain conditional on pedagogy, learner, exposure, comparator and outcome.</text>
+</g>
+</svg>
