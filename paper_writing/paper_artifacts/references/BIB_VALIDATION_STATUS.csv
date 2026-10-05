@@ -131,4 +131,8 @@ Gong2024ARSafetyTraining,R062,validated,"Safety Science + DOI metadata",yes,"Fiv
 Dodoo2025XRWorkerSafety,R063,validated,"Safety Science version of record",yes,"Four authors/volume/article/DOI confirmed; 41-study high-risk-industry XR safety review"
 Ma2026CognitionAwareSafety,R064,validated,"Safety Science + TRID",yes,"Four authors/volume/article/DOI confirmed; 128-study cognition-aware construction AR safety review"
 GonnermannMuller2025ARLearningDesign,R065,validated,"Wiley + University of Twente",yes,"Two authors/volume/issue/article/DOI confirmed; empirical cognitive-load design review"
+Merino2020MRAREvaluation,R066,validated,"IEEE ISMAR + TU Graz metadata",yes,"Six authors/pages/DOI confirmed; 458-paper MR/AR evaluation SLR"
+Hepperle2021Reproducibility,R067,validated,"IEEE ISMAR-Adjunct + University of Vienna metadata",yes,"Three authors/pages/DOI confirmed; VR reproducibility/replicability methods paper"
+Vlake2024RATEXR,R068,validated,"JMIR + PubMed + EQUATOR",yes,"Full author/group metadata/volume/article/DOI confirmed; XR reporting guideline"
+Banzi2026ReproducibilityConsensus,R069,validated,"PLOS Biology + PMC",yes,"Six named authors plus study group/volume/issue/article/DOI confirmed; multidisciplinary reproducibility consensus"
 
