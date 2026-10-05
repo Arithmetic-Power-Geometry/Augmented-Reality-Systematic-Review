@@ -3,3 +3,6 @@ PA001,table,P1,paper_writing/paper_artifacts/tables/primary_discovery_batch01.md
 PA002,figure,P1,paper_writing/paper_artifacts/figures/workstream_coverage_batch01.svg,paper_writing/paper_artifacts/analysis/workstream_coverage_batch01.csv,discovery,"Coverage diagnostic only"
 PA003,analysis,P1,paper_writing/paper_artifacts/analysis/workstream_coverage_batch01.csv,evidence/search/primary_discovery_batch01.csv,discovery,"Overlapping workstream counts"
 PA004,algorithm,P1,paper_writing/paper_artifacts/algorithms/A1_DISCOVERY_TO_SCREENING.md,protocol/PRIMARY_STUDY_SEARCH_STRATEGY.md,workflow,"Not an AR scientific algorithm"
+PA005,table,P1,paper_writing/paper_artifacts/tables/NEXT_03_SCREENING_OUTCOME.md,evidence/search/screening_batch01.csv,screened-seed,"Not final PRISMA corpus"
+PA006,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_03_screening_flow.csv,evidence/search/screening_batch01.csv,screened-seed,"Seed-batch flow only"
+PA007,algorithm,P1,paper_writing/paper_artifacts/algorithms/A2_CANONICALIZE_DEDUP_SCREEN.md,protocol/PRIMARY_STUDY_SEARCH_STRATEGY.md,workflow,"Review workflow algorithm; not AR method"
