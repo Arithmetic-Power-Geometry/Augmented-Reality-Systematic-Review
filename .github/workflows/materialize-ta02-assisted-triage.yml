@@ -1,0 +1,28 @@
+name: Materialize TA-02 and assisted triage
+on:
+  push:
+    branches: [main]
+    paths: ["scripts/build_ta02_assisted_triage.py"]
+permissions:
+  contents: write
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Rebuild immutable formal batches
+        run: python scripts/build_formal_pubmed_screening_batches.py
+      - name: Build TA-02 nonbinding assisted triage
+        run: python scripts/build_ta02_assisted_triage.py
+      - name: Commit TA-02 evidence
+        run: |
+          git pull --rebase origin main
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/screening/formal_pubmed_batches/TA-02.csv evidence/screening/assisted/TA-02_ASSISTED_TRIAGE_RUN60.csv
+          git diff --cached --quiet && exit 0
+          git commit -m "Materialize Run 66 TA-02 screening evidence"
+          git push
