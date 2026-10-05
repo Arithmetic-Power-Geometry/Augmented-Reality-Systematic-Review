@@ -91,4 +91,8 @@ PA089,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_AR_LEARNING_EVIDEN
 PA090,algorithm,P1,paper_writing/paper_artifacts/algorithms/EDUCATIONAL_AR_EVIDENCE_PROMOTION_GATE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Educational outcome/time-horizon/moderator claim gate"
 PA091,figure,P1,paper_writing/paper_artifacts/figures/FIG_EDUCATIONAL_AR_DURABLE_LEARNING.svg,paper_writing/paper_artifacts/tables/CANDIDATE_AR_LEARNING_EVIDENCE_TRANSFER_MODEL.md,pre-freeze-candidate,"Immediate effect to retention/transfer/longitudinal learning evidence"
 PA092,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN32_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"144 validated references; educational AR evidence model added"
+PA093,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_CLINICAL_AR_EVIDENCE_TRANSLATION_MODEL.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"C0-C6 technical/training/clinical/patient evidence translation model"
+PA094,algorithm,P1,paper_writing/paper_artifacts/algorithms/CLINICAL_AR_EVIDENCE_TRANSLATION_GATE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Clinical AR evidence translation and claim-promotion gate"
+PA095,figure,P1,paper_writing/paper_artifacts/figures/FIG_CLINICAL_AR_TRANSLATION_LADDER.svg,paper_writing/paper_artifacts/tables/CANDIDATE_CLINICAL_AR_EVIDENCE_TRANSLATION_MODEL.md,pre-freeze-candidate,"Technical feasibility to patient/multicenter clinical evidence ladder"
+PA096,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN33_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"150 validated references; clinical AR evidence translation model added"
 
