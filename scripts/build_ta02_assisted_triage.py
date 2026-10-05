@@ -7,7 +7,7 @@ out=Path("evidence/screening/assisted/TA-02_ASSISTED_TRIAGE_RUN60.csv")
 if not src.exists(): raise SystemExit("BLOCK: TA-02 is not committed")
 rows=list(csv.DictReader(src.open(encoding="utf-8-sig")))
 if len(rows)!=250: raise SystemExit(f"BLOCK: expected 250 rows, got {len(rows)}")
-strong=["augmented reality","mixed reality","mixed-reality","blended reality","augmented-reality","head-mounted display","head mounted display","hololens","magic leap","optical see-through","video see-through","spatial computing"]
+strong=["augmented reality","mixed reality","mixed-reality","blended reality","extended reality","augmented-reality","head-mounted display","head mounted display","hololens","magic leap","optical see-through","video see-through","spatial computing"]
 fields=["screening_ordinal","batch_id","pmid","doi","title","abstract","year","journal","assisted_recommendation","assisted_confidence","assisted_rationale","primary_decision","reason_code","primary_screener","decision_timestamp","evidence_note","decision_version","second_verification_state","adjudication_state"]
 out.parent.mkdir(parents=True,exist_ok=True); rr=[]
 for r in rows:
