@@ -1,4 +1,4 @@
-# Manuscript State — Run 48
+# Manuscript State — Run 50
 
 Date: 2026-10-05
 Status: **PAPER-READY DRAFT / FINAL SYSTEMATIC RESULTS EXTERNALLY BLOCKED**
@@ -9,7 +9,7 @@ Status: **PAPER-READY DRAFT / FINAL SYSTEMATIC RESULTS EXTERNALLY BLOCKED**
 - contribution framing;
 - RQ1-RQ13;
 - systematic-review Methods architecture;
-- 200-reference validated evidence library;
+- 212-reference validated evidence library;
 - 16-study Pilot Corpus V1;
 - pilot downstream analyses NEXT-06 through NEXT-19;
 - P_i representation and pilot extraction;
