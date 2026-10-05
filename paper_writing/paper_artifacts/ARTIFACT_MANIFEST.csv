@@ -128,4 +128,8 @@ PA126,table,P1,paper_writing/paper_artifacts/tables/BROAD_HEALTH_PROFESSIONS_EVI
 PA127,algorithm,P1,paper_writing/paper_artifacts/algorithms/MIXED_XR_SEPARABILITY_GATE.md,paper_writing/paper_artifacts/references/master.bib,workflow,"Prevents pooled XR evidence from being relabeled as AR evidence"
 PA128,figure,P1,paper_writing/paper_artifacts/figures/FIG_MIXED_XR_SEPARABILITY_RUN42.svg,paper_writing/paper_artifacts/algorithms/MIXED_XR_SEPARABILITY_GATE.md,pre-freeze-secondary,"AR separability logic; no primary-corpus result"
 PA129,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN42_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"183 validated references; 17+ to 200; formal corpus blocked"
+PA130,table,P1,paper_writing/paper_artifacts/tables/VALIDATED_EVIDENCE_LIBRARY_200_RUN43.md,paper_writing/paper_artifacts/references/master.bib,milestone-complete,"200 validated references; coverage audit; not primary-corpus count"
+PA131,algorithm,P1,paper_writing/paper_artifacts/algorithms/POST_200_REFERENCE_ADMISSION_GATE.md,paper_writing/paper_artifacts/references/master.bib,workflow,"After 200 references, additions require documented evidence obligation"
+PA132,figure,P1,paper_writing/paper_artifacts/figures/FIG_VALIDATED_EVIDENCE_LIBRARY_200_RUN43.svg,paper_writing/paper_artifacts/tables/VALIDATED_EVIDENCE_LIBRARY_200_RUN43.md,milestone-complete,"200-reference evidence-library milestone and next scientific gate"
+PA133,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN43_STATUS.md,paper_writing/paper_artifacts/references/master.bib,milestone-complete,"200 validated references reached; formal corpus remains blocked"
 
