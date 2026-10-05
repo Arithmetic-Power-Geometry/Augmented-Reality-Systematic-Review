@@ -37,4 +37,6 @@ PA035,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_COLLABORATIVE_AR_T
 PA036,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN11_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"63 validated references"
 PA037,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_DEVICE_TASK_TIME_CONDITIONALITY.md,evidence/search/primary_discovery_batch10.csv,pre-freeze-candidate,"Hardware effects conditional; no universal device leaderboard"
 PA038,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN12_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"68 validated references"
+PA039,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_AR_BENCHMARK_LAYER_TAXONOMY.md,evidence/search/primary_discovery_batch11.csv,pre-freeze-candidate,"Multi-layer benchmark taxonomy; prohibits cross-layer universal ranking"
+PA040,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN13_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"72 validated references"
 
