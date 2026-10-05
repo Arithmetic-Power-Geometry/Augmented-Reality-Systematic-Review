@@ -111,4 +111,8 @@ Hughes2025InteractionUX,R044,validated,"Frontiers version of record",yes,"Two au
 Suzuki2024PhysiologicalCognitiveLoad,R045,validated,"Wiley version of record",yes,"Three authors/volume/issue/pages/DOI confirmed; physiological cognitive-load systematic review"
 Buchner2021CognitiveLoadMap,R046,validated,"Elsevier + University repository",yes,"Three authors/volume/article/DOI confirmed; 64-study cognitive-load systematic map"
 Lim2019UsabilityMeasures,R047,validated,"MDPI version of record + EBSCO metadata",yes,"Five authors/volume/issue/article/DOI confirmed; 72-study MAR usability-measure review"
+Zhou2008ISMARTrends,R048,validated,"IEEE Xplore + DBLP + University of Canterbury",yes,"Three authors/pages/DOI confirmed; historical ISMAR tracking-interaction-display review"
+Hertel2021InteractionTaxonomy,R049,validated,"IEEE ISMAR + University of Hamburg + DBLP",yes,"Six authors/pages/DOI confirmed; 44-paper task-modality taxonomy"
+Bai2025GestureSpeech,R050,validated,"Springer + DBLP",yes,"Three authors/volume/issue/pages/DOI confirmed; 16-study gesture-speech multimodal review"
+Quinn2024OutOfView,R051,validated,"IEEE Xplore + DBLP",yes,"Two authors/pages/DOI confirmed; out-of-view attention-guidance systematic review"
 
