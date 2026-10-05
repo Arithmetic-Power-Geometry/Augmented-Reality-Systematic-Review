@@ -27,7 +27,7 @@ Status: **PAPER-READY DRAFT / FINAL SYSTEMATIC RESULTS EXTERNALLY BLOCKED**
 - final analysis acceptance tests and PRISMA derivation rules.
 
 ## External blocker
-The seven registered formal databases × Q00-Q12 remain 91/91 NOT_EXECUTED because source-native exports are not available in the current environment.
+Formal execution has advanced: PubMed Q00-Q12 are 13/13 EXECUTED with immutable exports and checksums. The remaining 78 non-PubMed cells have explicit access limitations documented but are not executed. PubMed Q00 yielded 10,198 unique PMIDs; deterministic prescreening excluded 2,459 and retained/advanced 7,739 uncertain records.
 
 PRISMA 2020 requires the actual information sources and dates searched, full executed strategies, selection process and study flow. These cannot be reconstructed from the curated bibliography.
 
