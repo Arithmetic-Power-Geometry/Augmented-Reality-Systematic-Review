@@ -92,4 +92,8 @@ ElAshry2026SurgicalTrainingReview,R035,validated,"PubMed/NLM + JMIR",yes,"Five a
 Man2026NavigationMetaAnalysis,R036,validated,"PubMed/NLM",yes,"Five authors/volume/issue/pages/DOI confirmed; secondary evidence"
 Kostakopoulos2026RoboticUrologyReview,R037,validated,"PubMed/NLM + Springer",yes,"Seven authors/volume/issue/DOI confirmed; secondary evidence"
 Xu2026DentalImplantMetaAnalysis,R038,validated,"PubMed/NLM + Elsevier",yes,"Four authors/article number/DOI confirmed; secondary evidence"
+Arefin2025Replication,R039,validated,"IEEE ISMAR metadata + University of Glasgow repository",yes,"Six authors/pages/DOI confirmed; replication scoping review"
+Liu2026CGEducationReview,R040,validated,"Elsevier ScienceDirect + DBLP",yes,"Four authors/volume/article/DOI confirmed; secondary review"
+Balado2026AsBuiltXR,R041,validated,"Wiley version of record",yes,"Five authors/volume/issue/article/DOI confirmed; secondary XR workflow review"
+Angra2025ARVRReview,R042,validated,"Frontiers version of record",yes,"Six authors/volume/article/DOI confirmed; broad bibliometric/systematic review"
 
