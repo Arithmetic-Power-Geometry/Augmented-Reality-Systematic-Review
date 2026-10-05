@@ -154,4 +154,10 @@ PA152,table,P1,paper_writing/paper_artifacts/tables/PILOT_GAP_PROMOTION_RUN46.md
 PA153,table,P1,paper_writing/paper_artifacts/tables/PILOT_EVIDENCE_FLOW_RUN46.md,evidence/search/screening_batch01.csv,pilot-flow,"16→16 canonical→16 TA include→16 extraction; explicitly not PRISMA"
 PA154,analysis,P1,paper_writing/paper_artifacts/analysis/PAPER_FACING_PILOT_RESULTS_RUN46.md,paper_writing/paper_artifacts/tables/PILOT_PI_RESULTS_RUN46.md,pilot-results,"Reusable paper-facing pilot Results with explicit boundary"
 PA155,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN46_EXECUTED_PILOT_STATUS.md,paper_writing/paper_artifacts/analysis/PILOT_CORPUS_V1_FREEZE_RUN46.md,pilot-pass,"Downstream machinery executed on real seed evidence"
+PA156,table,P1,paper_writing/paper_artifacts/tables/PENDING_WORK_CLOSURE_REGISTER_RUN47.md,paper_writing/paper_artifacts/analysis/NEXT_05_RUN46_EXECUTED_PILOT_STATUS.md,control,"Separates completed internal work from source-dependent scientific work"
+PA157,analysis,P1,paper_writing/paper_artifacts/analysis/FORMAL_EXPORT_HANDOFF_PACK_RUN47.md,evidence/search/formal_search_execution_matrix.csv,handoff,"Exact provenance package required to unlock formal corpus"
+PA158,analysis,P1,paper_writing/paper_artifacts/analysis/FINAL_PAPER_WRITING_TRIGGER_RUN47.md,paper_writing/manuscript/main.md,control,"Defines writable content and locked final empirical claims"
+PA159,table,P1,paper_writing/paper_artifacts/tables/FINAL_ANALYSIS_ACCEPTANCE_TESTS_RUN47.md,paper_writing/paper_artifacts/tables/FINAL_CORPUS_ANALYSIS_SCHEMAS_RUN45.md,control,"Acceptance tests for final P_i/C0-C3/R/contradiction/gap/PRISMA modules"
+PA160,figure,P1,paper_writing/paper_artifacts/figures/FIG_REMAINING_PATH_TO_FINAL_PAPER_RUN47.svg,paper_writing/paper_artifacts/tables/PENDING_WORK_CLOSURE_REGISTER_RUN47.md,control,"Complete-to-external-input-to-final-paper dependency"
+PA161,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN47_PENDING_COMPLETION_STATUS.md,paper_writing/paper_artifacts/tables/PENDING_WORK_CLOSURE_REGISTER_RUN47.md,complete-internal,"All non-source-dependent pending work complete"
 
