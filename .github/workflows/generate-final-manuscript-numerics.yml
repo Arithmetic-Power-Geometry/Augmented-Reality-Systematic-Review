@@ -1,0 +1,25 @@
+name: Generate frozen-corpus final manuscript numerics
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/generate_final_manuscript_numerics.py"
+      - "paper_writing/paper_artifacts/provenance/RUN57_FINAL_CORPUS_GATE.json"
+      - "evidence/screening/final_*"
+      - "evidence/primary/final_study_family_ledger.csv"
+permissions:
+  contents: read
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python scripts/generate_final_manuscript_numerics.py
+      - uses: actions/upload-artifact@v4
+        if: success()
+        with:
+          name: final-frozen-corpus-manuscript-numerics
+          path: paper_writing/paper_artifacts/final_generated/
