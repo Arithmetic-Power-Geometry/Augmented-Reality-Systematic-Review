@@ -1,0 +1,3 @@
+# Run 71 — TA-03 Reviewer Handoff
+
+TA-03 demonstrates the stabilized screening-assistance workflow. After corrected AR/MR/XR-aware triage, every proposed exclusion was safety-audited and every assisted inclusion was subjected to false-positive risk checks. The resulting priority subset was stratified into secondary-title confirmation, missing-report verification, direct AR-title advance and unresolved contextual judgment. These computational states only order human review; they do not determine eligibility. The final 250-record reviewer packet therefore retains blank primary-decision and reviewer-identity fields and is excluded from final PRISMA counts until genuine screening is completed.
