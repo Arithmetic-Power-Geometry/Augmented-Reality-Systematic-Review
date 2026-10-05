@@ -83,4 +83,8 @@ Pan2023AriaDigitalTwin,PD0063,validated,"CVF ICCV Open Access + IEEE DOI metadat
 Zhu2023EgoObjects,PD0064,validated,"CVF ICCV Open Access + DOI metadata",yes,"Nine authors/pages/DOI confirmed"
 Deng2026EgoHOIBench,PD0065,validated,"Elsevier ScienceDirect",yes,"Three authors/volume/article/DOI confirmed"
 Xiu2026ContrAR,PD0066,validated,"CVF CVPR Findings Open Access",yes,"Four authors/pages confirmed; no DOI asserted"
+Donley2021EasyCom,PD0067,validated,"Official EasyCom repository + arXiv record",yes,"Nine authors/arXiv identifier confirmed; dataset paper intentionally cited as preprint"
+Aromaa2020Awareness,PD0068,validated,"PubMed + ScienceDirect",yes,"Six authors/volume/article/DOI confirmed"
+Chaudhari2025SafetyHazards,PD0069,validated,"ScienceDirect + institutional repository",yes,"Seven authors/volume/article/DOI confirmed"
+Cardenas2026DisplayClutterSafety,PD0070,validated,"SAGE Human Factors",yes,"Four authors/volume/issue/pages/DOI confirmed"
 
