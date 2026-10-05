@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="620" viewBox="0 0 1280 620">
+<rect width="1280" height="620" fill="white"/>
+<text x="640" y="45" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">When Manuscript Writing Can Start</text>
+<g font-family="Arial" text-anchor="middle">
+<rect x="70" y="120" width="300" height="115" rx="12" fill="#f4f4f4" stroke="#333"/><text x="220" y="158" font-size="20">WRITE NOW</text><text x="220" y="190" font-size="16">framing • prior reviews</text><text x="220" y="214" font-size="16">protocol • evidence model</text>
+<rect x="490" y="120" width="300" height="115" rx="12" fill="#f4f4f4" stroke="#333"/><text x="640" y="158" font-size="20">PROVISIONAL</text><text x="640" y="190" font-size="16">contributions • novelty</text><text x="640" y="214" font-size="16">pilot-derived interpretation</text>
+<rect x="910" y="120" width="300" height="115" rx="12" fill="#f4f4f4" stroke="#333"/><text x="1060" y="158" font-size="20">WAIT FOR FREEZE</text><text x="1060" y="190" font-size="16">PRISMA • corpus counts</text><text x="1060" y="214" font-size="16">final results • prevalence</text>
+<path d="M370 177H490" stroke="#333" stroke-width="3"/><path d="M790 177H910" stroke="#333" stroke-width="3"/>
+<text x="640" y="320" font-size="22" font-weight="bold">Writing can begin before Results are available</text>
+<rect x="190" y="375" width="900" height="105" rx="12" fill="#f4f4f4" stroke="#333"/>
+<text x="640" y="415" font-size="18">Planned search language remains prospective until execution provenance exists.</text>
+<text x="640" y="448" font-size="18">Final corpus claims remain blocked until deduplication, screening and PRISMA reconciliation.</text>
+<text x="640" y="550" font-size="19">Draft early. Freeze claims late. Never convert planned work into completed work by wording.</text>
+</g></svg>
