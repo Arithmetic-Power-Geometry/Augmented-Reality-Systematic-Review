@@ -1,0 +1,100 @@
+name: Formal PubMed Search Execution
+
+on:
+  push:
+    paths:
+      - '.github/workflows/formal-pubmed-execution.yml'
+      - 'protocol/PRIMARY_STUDY_SEARCH_STRATEGY.md'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  execute-pubmed:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Execute frozen PubMed Q00-Q12
+        run: |
+          python - <<'PY'
+          import csv, hashlib, json, time, urllib.parse, urllib.request
+          from pathlib import Path
+          from datetime import date
+
+          core='("augmented reality"[Title/Abstract] OR "mixed reality"[Title/Abstract] OR "extended reality"[Title/Abstract] OR "AR system"[Title/Abstract] OR "AR application"[Title/Abstract])'
+          blocks={
+          'Q00':'',
+          'Q01':'tracking OR localization OR localisation OR SLAM OR "simultaneous localization and mapping" OR registration OR calibration OR pose',
+          'Q02':'occlusion OR depth OR segmentation OR detection OR recognition OR "scene understanding" OR perception',
+          'Q03':'interaction OR gesture OR gaze OR haptic OR speech OR multimodal OR collaborative OR collaboration OR multiuser OR "multi-user"',
+          'Q04':'edge OR cloud OR networking OR latency OR bandwidth OR energy OR thermal OR resource',
+          'Q05':'security OR privacy OR safety OR governance OR attack OR adversarial OR authentication',
+          'Q06':'usability OR "user experience" OR cognitive OR workload OR accessibility OR disability OR inclusive OR ergonomics OR presence',
+          'Q07':'adaptive OR context-aware OR intelligent OR agent OR "large language model" OR LLM OR generative OR multimodal OR transformer',
+          'Q08':'"digital twin" OR "cyber-physical" OR "cyber physical"',
+          'Q09':'education OR learning OR teaching OR training',
+          'Q10':'health OR healthcare OR clinical OR medical OR surgery OR rehabilitation OR patient',
+          'Q11':'industrial OR manufacturing OR maintenance OR assembly OR inspection OR warehouse OR logistics',
+          'Q12':'dataset OR benchmark OR metric OR evaluation OR experiment OR reproducibility OR replication OR code OR "open source"'}
+          concepts={'Q00':'AR core','Q01':'B01 Tracking/localization/SLAM','Q02':'B02 Perception/occlusion/scene understanding','Q03':'B03 Interaction/multimodal/collaboration','Q04':'B04 Networking/resources','Q05':'B05 Security/privacy/safety/governance','Q06':'B06 Human factors/accessibility/UX','Q07':'B07 Adaptive/intelligent/generative AR','Q08':'B08 Digital twin/cyber-physical','Q09':'B09 Education/training','Q10':'B10 Health/clinical','Q11':'B11 Industrial/maintenance/assembly','Q12':'B12 Evidence/benchmark/reproducibility'}
+          out=Path('evidence/search/raw_exports/pubmed'); out.mkdir(parents=True,exist_ok=True)
+          prov=Path('evidence/search/pubmed_execution_provenance'); prov.mkdir(parents=True,exist_ok=True)
+          execution='2026-10-05'
+          def get(params):
+              url='https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?'+urllib.parse.urlencode(params)
+              for attempt in range(5):
+                  try:
+                      req=urllib.request.Request(url,headers={'User-Agent':'AR-Systematic-Review/1.0 (GitHub Actions)'})
+                      with urllib.request.urlopen(req,timeout=60) as r: return json.load(r),url
+                  except Exception:
+                      if attempt==4: raise
+                      time.sleep(2**attempt)
+          rows=[]
+          for qi,block in blocks.items():
+              term=core if not block else f'{core} AND ({block})'
+              # Count exact frozen window.
+              data,url=get({'db':'pubmed','term':term,'datetype':'pdat','mindate':'1800/01/01','maxdate':'2026/10/05','rettype':'count','retmode':'json'})
+              total=int(data['esearchresult']['count'])
+              ids=[]
+              # Year segmentation avoids PubMed 10k ESearch retrieval ceiling.
+              for y in range(1800,2027):
+                  end='2026/10/05' if y==2026 else f'{y}/12/31'
+                  d,u=get({'db':'pubmed','term':term,'datetype':'pdat','mindate':f'{y}/01/01','maxdate':end,'retmax':'10000','retmode':'json'})
+                  cnt=int(d['esearchresult']['count'])
+                  if cnt>10000: raise RuntimeError(f'{qi} year {y} exceeds 10k; subdivide before execution')
+                  ids.extend(d['esearchresult'].get('idlist',[]))
+                  time.sleep(.34)
+              # preserve unique PMID export; count reconciliation is mandatory
+              ids=list(dict.fromkeys(ids))
+              if len(ids)!=total: raise RuntimeError(f'{qi}: count {total} != unique exported PMID {len(ids)}')
+              f=out/f'SR_PUBMED_{qi}_2026-10-05.csv'
+              with f.open('w',newline='',encoding='utf-8') as h:
+                  w=csv.writer(h); w.writerow(['pmid']); w.writerows([[x] for x in ids])
+              sha=hashlib.sha256(f.read_bytes()).hexdigest()
+              exact=f'{term} | PubMed Title/Abstract translation; pdat 1800/01/01..2026/10/05'
+              rows.append([f'SR-PUBMED-{qi}','PubMed',qi,concepts[qi],exact,execution,'','2026-10-05','Title/Abstract; English terms; publication-date cap',total,len(ids),str(f),sha,'','NCBI E-utilities via GitHub Actions','EXECUTED','Year-segmented PMID export; count reconciled'])
+              (prov/f'{qi}.json').write_text(json.dumps({'query_id':qi,'term':term,'count':total,'exported':len(ids),'sha256':sha,'count_endpoint':url,'execution_date':execution},indent=2),encoding='utf-8')
+              print(qi,total,sha)
+          reg=Path('evidence/search/search_registry.csv')
+          existing=list(csv.reader(reg.open(encoding='utf-8')))
+          header=existing[0]; old=[r for r in existing[1:] if not (len(r)>1 and r[1]=='PubMed')]
+          with reg.open('w',newline='',encoding='utf-8') as h:
+              w=csv.writer(h); w.writerow(header); w.writerows(old); w.writerows(rows)
+          mat=Path('evidence/search/formal_search_execution_matrix.csv')
+          mr=list(csv.DictReader(mat.open(encoding='utf-8')))
+          for r in mr:
+              if r['source']=='PubMed': r['status']='EXECUTED'; r['notes']='Executed 2026-10-05 via NCBI E-utilities GitHub Actions; registry/raw export/checksum required and generated'
+          with mat.open('w',newline='',encoding='utf-8') as h:
+              w=csv.DictWriter(h,fieldnames=mr[0].keys()); w.writeheader(); w.writerows(mr)
+          PY
+      - name: Commit auditable PubMed execution
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/search/raw_exports/pubmed evidence/search/pubmed_execution_provenance evidence/search/search_registry.csv evidence/search/formal_search_execution_matrix.csv
+          git commit -m "Execute frozen PubMed formal searches Q00-Q12" || exit 0
+          git push
