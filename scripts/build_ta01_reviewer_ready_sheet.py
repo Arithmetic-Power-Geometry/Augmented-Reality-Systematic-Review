@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run 64: build reviewer-ready TA-01 sheet without fabricating primary decisions."""
+"""Run 64: build reviewer-ready TA-01 sheet while preserving blank primary-decision fields."""
 import csv, hashlib
 from pathlib import Path
 
