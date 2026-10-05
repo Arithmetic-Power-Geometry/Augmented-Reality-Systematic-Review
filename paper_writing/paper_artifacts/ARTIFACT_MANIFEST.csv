@@ -44,4 +44,6 @@ PA042,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_CORPUS_FREEZE_R
 PA043,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN14_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"76 validated references"
 PA044,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_SEARCH_PROVENANCE_GATE.md,evidence/search/formal_search_execution_matrix.csv,in-progress,"91 planned source-query executions; no PRISMA counts until provenance complete"
 PA045,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN15_STATUS.md,evidence/search/DATABASE_QUERY_TRANSLATION_SPEC.md,in-progress,"Search translation and raw-export/dedup contracts frozen before execution"
+PA046,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_PRIOR_REVIEW_POSITIONING_2026.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Domain-specific 2026 review positioning; broad-review novelty not overstated"
+PA047,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN16_STATUS.md,evidence/search/formal_search_execution_matrix.csv,in-progress,"81 validated references; formal exports still blocking corpus freeze"
 
