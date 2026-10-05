@@ -41,4 +41,11 @@ Sarlin2022LaMAR,M004,validated,"ECVA + ETH Research Collection + DBLP",yes,"Auth
 Chegini2023RegistrationValidation,R029,validated,"PubMed",yes,"Authors/journal/volume/issue/pages/DOI confirmed"
 Kovoor2021SurgicalEducation,R030,validated,"PubMed",yes,"Authors/journal/volume/issue/pages/DOI confirmed"
 Barsom2016MedicalTraining,R031,validated,"Springer Nature + PMC",yes,"Authors/journal/volume/pages/DOI confirmed"
+Drouot2022IndustrialAssembly,PD0027,validated,"PubMed + ScienceDirect",yes,"Authors/volume/article/DOI confirmed"
+Yang2019AssemblyCognitiveLoad,PD0028,validated,"Frontiers + PMC",yes,"Eight authors/volume/article/DOI confirmed"
+Seeliger2023QualityInspection,PD0029,validated,"ScienceDirect",yes,"Authors/volume/article/DOI confirmed"
+AticiUlusu2021CognitiveLoad,PD0030,validated,"Taylor & Francis publisher page",yes,"Authors/volume/issue/pages/DOI confirmed"
+Marino2024AssemblyGuidance,PD0031,validated,"University of Calabria repository + DOI metadata",yes,"Authors/volume/article/DOI confirmed"
+Kim2024MarkerlessSurgery,PD0032,validated,"PubMed + ScienceDirect",yes,"Six authors/volume/issue/pages/DOI confirmed"
+Schneider2020LiverRegistration,PD0033,validated,"PubMed + Springer Nature",yes,"14 authors/volume/issue/pages/DOI confirmed"
 
