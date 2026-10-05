@@ -58,3 +58,7 @@ milestone,commit_sha,path
 "Run 60 triage result",f8f5daf8b5325eafddf3d769c0342503b15e5913,paper_writing/paper_artifacts/tables/RUN60_TA01_ASSISTED_TRIAGE_RESULT.md
 "Run 60 triage algorithm",6b95de381b037362761b13e6b49197a73e7fb491,paper_writing/paper_artifacts/algorithms/RUN60_TA01_ASSISTED_TRIAGE_ALGORITHM.md
 "Run 60 triage figure",f3df5425e14af1a74b9e4bc829dc7e5c88b8946e,paper_writing/paper_artifacts/figures/FIG_RUN60_TA01_ASSISTED_TRIAGE.svg
+"Run 61 exclusion candidate audit",ff3cadb6aad7a2e196dbcb6d8b678fba6e60c43a,paper_writing/paper_artifacts/tables/RUN61_TA01_EXCLUSION_CANDIDATE_AUDIT.md
+"Run 61 rescue gate",7ca845d4b69f8075990ed252a391db47e79de596,paper_writing/paper_artifacts/algorithms/RUN61_EXCLUSION_CANDIDATE_RESCUE_GATE.md
+"Run 61 exclusion audit figure",01d3653cbb7c01ee05a8da308d72f6c9f4018f4a,paper_writing/paper_artifacts/figures/FIG_RUN61_TA01_EXCLUSION_AUDIT.svg
+"Run 61 triage terminology correction",5ae4c31a61d630bc9ce653c9ba535105e8da1326,scripts/build_ta01_assisted_triage.py
