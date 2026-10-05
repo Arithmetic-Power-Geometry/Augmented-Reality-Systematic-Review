@@ -1,0 +1,26 @@
+name: Build formal PubMed screening batches
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/build_formal_pubmed_screening_batches.py"
+      - "evidence/search/derived/pubmed/PUBMED_Q00_DETERMINISTIC_PRESCREEN_2026-10-05.csv"
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build and validate batches
+        run: python scripts/build_formal_pubmed_screening_batches.py
+      - name: Upload screening work units
+        uses: actions/upload-artifact@v4
+        with:
+          name: formal-pubmed-screening-batches
+          path: evidence/screening/formal_pubmed_batches/
+          if-no-files-found: error
