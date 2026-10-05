@@ -1,0 +1,9 @@
+# Run 58 — Manuscript Selection-Process Text
+
+### Study selection and assisted screening
+
+Study selection was designed as a versioned, fail-closed process. Records surviving deterministic preprocessing were partitioned into immutable title/abstract work units while preserving PubMed identity and source order. Eligibility assessment used the frozen inclusion and exclusion criteria and the controlled reason-code vocabulary. Each record received one of three primary states: include, exclude, or uncertain. Uncertainty advanced rather than being converted to exclusion on the basis of missing keywords or incomplete metadata.
+
+Computational assistance was restricted to corpus engineering and, where used during screening, nonbinding decision support. Automated operations could normalize metadata, expose the relevant eligibility rule, flag missing information, or propose a reasoned recommendation; they were not represented as an independent human reviewer and could not silently remove a record. The decision ledger separates any assisted recommendation from the primary reviewer decision and preserves the reviewer, controlled reason, timestamp, evidence note, decision version, second-verification state, and adjudication state.
+
+Before corpus freeze, all proposed final inclusions and the prespecified stratified exclusion sample require genuine independent verification. Original decisions are retained when disagreement occurs, and resolution is recorded separately through adjudication against the frozen eligibility criteria. Inter-rater agreement is reported only if genuine independent decisions exist. This separation between automated assistance, primary eligibility judgment, and independent verification makes the role of automation auditable and prevents data-processing operations from being misreported as reviewer agreement.
