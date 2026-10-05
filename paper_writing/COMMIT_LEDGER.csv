@@ -67,3 +67,7 @@ milestone,commit_sha,path
 "Run 62 include risk table",11ceb67201d1db83fb4fe030cc95ff10f475eb2a,paper_writing/paper_artifacts/tables/RUN62_TA01_INCLUDE_CANDIDATE_RISK_AUDIT.md
 "Run 62 include risk algorithm",a19b65c40c39024b7a4cf08da632e7c7b63a19b3,paper_writing/paper_artifacts/algorithms/RUN62_INCLUDE_CANDIDATE_FALSE_POSITIVE_GATE.md
 "Run 62 include risk figure",7c472f267ddbb415d8847f19496c893ab0a978a1,paper_writing/paper_artifacts/figures/FIG_RUN62_TA01_INCLUDE_RISK_AUDIT.svg
+"Run 63 priority export workflow",cbcd4ae4cf3657f22807d7bb1bace476ca342ffb,.github/workflows/export-ta01-priority-verification.yml
+"Run 63 priority findings",f4926037bf6df15e856dd8b44a930231f39f9c29,paper_writing/paper_artifacts/tables/RUN63_TA01_PRIORITY_VERIFICATION_FINDINGS.md
+"Run 63 decision order",f5490f7c8194e74a732b026edfd1605999725fce,paper_writing/paper_artifacts/algorithms/RUN63_PRIORITY_VERIFICATION_DECISION_ORDER.md
+"Run 63 priority figure",7c7c09def73fb9016b309b8d2edac4250d3418d3,paper_writing/paper_artifacts/figures/FIG_RUN63_TA01_PRIORITY_VERIFICATION.svg
