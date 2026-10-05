@@ -38,3 +38,5 @@ results=f"""# Final Results — Frozen-Corpus Core\n\n## Study selection\nThe fi
 conc=f"""# Final Conclusions — Frozen-Corpus Gate\n\nThe review conclusions must be synthesized from the frozen NEXT-06--NEXT-19 outputs for {included_studies:,} canonical included studies. Claims about prevalence, reproducibility, contradictions, failure regimes and research gaps are permitted only when their denominators and evidence references resolve to the frozen corpus.\n"""
 (out/"FINAL_CONCLUSIONS_CORE.md").write_text(conc,encoding="utf-8")
 print("FINAL_MANUSCRIPT_GENERATION PASS",prisma)
+
+# Run 59 fail-closed execution trigger.
