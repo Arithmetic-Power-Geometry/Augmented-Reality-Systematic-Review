@@ -75,4 +75,8 @@ PA073,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_REPRODUCIBILITY_RE
 PA074,algorithm,P1,paper_writing/paper_artifacts/algorithms/REPRODUCIBILITY_EVIDENCE_CLASSIFICATION_GATE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Classification and synthesis claim gate for reproducibility evidence"
 PA075,figure,P1,paper_writing/paper_artifacts/figures/FIG_REPRODUCIBILITY_EVIDENCE_LADDER.svg,paper_writing/paper_artifacts/tables/CANDIDATE_REPRODUCIBILITY_REPLICATION_MODEL.md,pre-freeze-candidate,"Transparency-to-replication evidence ladder"
 PA076,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN28_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"124 validated references; reproducibility/replication model added"
+PA077,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_BENCHMARK_VALIDITY_TRANSFER_MODEL.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Benchmark comparability and T0-T5 evidence-transfer structure"
+PA078,algorithm,P1,paper_writing/paper_artifacts/algorithms/BENCHMARK_COMPARABILITY_TRANSFER_GATE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"C0-C3 comparability and benchmark-to-field transfer gate"
+PA079,figure,P1,paper_writing/paper_artifacts/figures/FIG_BENCHMARK_TO_FIELD_TRANSFER.svg,paper_writing/paper_artifacts/tables/CANDIDATE_BENCHMARK_VALIDITY_TRANSFER_MODEL.md,pre-freeze-candidate,"Benchmark-to-AR-field validity evidence transitions"
+PA080,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN29_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"129 validated references; benchmark validity/transfer model added"
 
