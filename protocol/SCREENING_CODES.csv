@@ -1,0 +1,12 @@
+code,decision,label,definition
+I-INCLUDE,include,Eligible primary study,"Meets frozen inclusion criteria and advances to extraction."
+E-NOT-AR,exclude,Not materially AR,"No separable or materially relevant augmented-reality contribution."
+E-VR-ONLY,exclude,VR only,"Pure virtual-reality study without separable AR evidence."
+E-SECONDARY,exclude,Secondary literature,"Review/survey/meta-analysis/editorial; route relevant records to review-of-reviews layer."
+E-NONRESEARCH,exclude,Non-research record,"News/tutorial/commercial/commentary or insufficient research report type."
+E-DUPLICATE,exclude,Bibliographic duplicate,"Same report already represented by canonical record."
+E-COMPANION,exclude,Noncanonical companion,"Same study family without materially additional evidence."
+E-INSUFFICIENT,exclude,Insufficient method,"Cannot extract required methodological evidence."
+E-LANGUAGE,exclude,Language limitation,"Full text not available in English."
+E-OUTSIDE-DATE,exclude,Outside frozen date,"Publication after 2026-10-05."
+U-UNCERTAIN,uncertain,Needs full-text/adjudication,"Insufficient information for a defensible include/exclude decision at current stage."
