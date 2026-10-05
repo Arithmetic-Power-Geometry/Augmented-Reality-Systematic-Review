@@ -1,0 +1,7 @@
+claim_id,paper,candidate_claim,evidence_state,writing_rule
+C001,P1,"Cross-study comparability is a field-level issue",candidate,"Do not state as established until primary-study comparability audit"
+C002,P1,"Review transparency is distinct from primary-study reproducibility",candidate,"Conceptual distinction safe; prevalence claim pending"
+C003,P1,"AR cognitive-load evidence is heterogeneous",supported,"Use scope/source qualification"
+C004,P2,"Controlled benchmark rankings transfer poorly to AR-native settings","hypothesis only","Do not state as finding"
+C005,P2,"ORB-SLAM3 E001 performance","no result","No numeric performance claim before execution"
+C006,P3,"Adaptive AR Localization Orchestrator is novel","not established","Never call novel before closest-prior-work and experimental gate"
