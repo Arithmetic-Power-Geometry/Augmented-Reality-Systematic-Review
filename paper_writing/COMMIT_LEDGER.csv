@@ -120,3 +120,13 @@ milestone,commit_sha,path
 "Run 71 packet table",e81ec254e32930d1bd18ddb397fd77a0aa8d2051,paper_writing/paper_artifacts/tables/RUN71_TA03_FINAL_REVIEWER_PACKET.md
 "Run 71 packet figure",f7af13df41fda6e06bf43fc70ca121304325cd19,paper_writing/paper_artifacts/figures/FIG_RUN71_TA03_FINAL_REVIEWER_PACKET.svg
 "Run 71 manuscript handoff",1421e72a2180588c938789ffc22f14f16310dea9,paper_writing/manuscript/sections/RUN71_TA03_REVIEWER_HANDOFF.md
+"Run 72 TA04 triage builder",a52d615e2f1e254c05aa3ea57f2501731bd994d8,scripts/build_ta04_assisted_triage.py
+"Run 72 TA04 pipeline",ae7dd44aa375bb4714285e663aeae086cc43d59e,.github/workflows/run72-ta04-pipeline.yml
+"Run 72 TA04 include audit script",cba968372f2f02f642a1fd2c1a7f8f01631eb21f,scripts/audit_ta04_include_candidates.py
+"Run 72 TA04 include audit workflow",f2f213d379bf51ef920e750a080067534f5091ed,.github/workflows/run72-ta04-include-audit.yml
+"Run 72 TA04 packet builder",1e437168fb93fc43d219b1e863be7f4dfe154933,scripts/build_ta04_reviewer_ready_run72.py
+"Run 72 TA04 packet workflow",506cc43f5c6aa07b366f6082d3d0603c8b23a925,.github/workflows/run72-ta04-reviewer-packet.yml
+"Run 72 result table",4b74fae348eea65d903c621e3a55cccd391c41ca,paper_writing/paper_artifacts/tables/RUN72_TA04_STABILIZED_RESULT.md
+"Run 72 algorithm",7bf90c475c20f0bc818349796e4256dcf58ef6b1,paper_writing/paper_artifacts/algorithms/RUN72_STABILIZED_BATCH_TO_REVIEWER_ALGORITHM.md
+"Run 72 figure",a0303fcdf97d4d89fb1d88b18618f0e6679af1ff,paper_writing/paper_artifacts/figures/FIG_RUN72_TA04_FINAL_REVIEWER_PACKET.svg
+"Run 72 manuscript",a6e005c41d431f7797b2b8c8cea3b3ff67ab2596,paper_writing/manuscript/sections/RUN72_STABILIZED_REVIEWER_PACKET_WORKFLOW.md
