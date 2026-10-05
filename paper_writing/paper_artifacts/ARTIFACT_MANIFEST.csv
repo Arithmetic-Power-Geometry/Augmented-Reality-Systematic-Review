@@ -39,4 +39,7 @@ PA037,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_DEVICE_TASK_TIME_C
 PA038,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN12_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"68 validated references"
 PA039,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_AR_BENCHMARK_LAYER_TAXONOMY.md,evidence/search/primary_discovery_batch11.csv,pre-freeze-candidate,"Multi-layer benchmark taxonomy; prohibits cross-layer universal ranking"
 PA040,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN13_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"72 validated references"
+PA041,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_SAFETY_SITUATIONAL_AWARENESS_CONTRADICTION.md,evidence/search/primary_discovery_batch12.csv,pre-freeze-candidate,"Safety contradiction stratification for NEXT-16"
+PA042,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_CORPUS_FREEZE_READINESS.md,protocol/PRIMARY_STUDY_SEARCH_STRATEGY.md,in-progress,"Ten remaining operations before corpus freeze/manuscript folder"
+PA043,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN14_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"76 validated references"
 
