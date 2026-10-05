@@ -12,3 +12,6 @@ PA010,references,P1,paper_writing/paper_artifacts/references/master.bib,paper_wr
 PA011,analysis,P1,paper_writing/paper_artifacts/analysis/PRE_RUN_WORKFLOW_AUDIT_2026-10-05.md,"workflow files + E001 runner + master.bib",pre-run-audit,"No workflow success claim"
 PA012,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_PROGRESS.md,evidence/search/primary_discovery_batch02.csv,in-progress,"Corpus not frozen; no PRISMA totals"
 PA013,references,P1,paper_writing/paper_artifacts/references/master.bib,paper_writing/paper_artifacts/references/BIB_VALIDATION_STATUS.csv,8-validated-entries,"Append only after bibliographic validation"
+PA014,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN2_STATUS.md,evidence/search/primary_discovery_batch03.csv,in-progress,"Corpus not frozen; bibliography=14 validated entries"
+PA015,references,P1,paper_writing/paper_artifacts/references/master.bib,paper_writing/paper_artifacts/references/BIB_VALIDATION_STATUS.csv,14-validated-entries,"200+ is breadth goal, not inclusion criterion"
+
