@@ -3,7 +3,7 @@ NEXT-01,COMPLETE,P1,none,"protocol/search_strategy.md + evidence/search/search_r
 NEXT-02,COMPLETE,P1,NEXT-01,"raw primary-study discovery records"
 NEXT-03,COMPLETE,P1,NEXT-02,"deduplication + screening ledger"
 NEXT-04,COMPLETE,P1,NEXT-03,"coded primary-study evidence"
-NEXT-05,BLOCKED_EXTERNAL_EXPORTS,P1,NEXT-04,"frozen corpus + PRISMA counts"
+NEXT-05,PARTIAL_FORMAL_EXECUTION,P1,NEXT-04,"13/91 executed (PubMed Q00-Q12); 78/91 access limitations documented; final corpus + PRISMA pending"
 NEXT-06,PILOT_COMPLETE_FINAL_BLOCKED,P1,NEXT-05,"temporal evolution artifacts"
 NEXT-07,PILOT_COMPLETE_FINAL_BLOCKED,P1,NEXT-05,"Evidence Cube artifacts"
 NEXT-08,PILOT_COMPLETE_FINAL_BLOCKED,P1,NEXT-05,"final method taxonomy"
