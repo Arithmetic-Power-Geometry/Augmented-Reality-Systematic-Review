@@ -64,4 +64,7 @@ PA062,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_COLLABORATIVE_AR_T
 PA063,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN24_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"108 validated references; collaborative AR two-layer model added"
 PA064,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_ACCESSIBILITY_INCLUSIVE_AR_MODEL.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Accessibility evidence model separating need, interface demand, adaptation, evaluation and participation"
 PA065,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN25_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"112 validated references; inclusive-AR evidence structure added"
+PA066,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_SECURITY_PRIVACY_TRUST_MODEL.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Security/privacy threat-model and comparability structure"
+PA067,algorithm,P1,paper_writing/paper_artifacts/algorithms/SECURITY_PRIVACY_EVIDENCE_PROMOTION_GATE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Claim-promotion procedure for security/privacy synthesis"
+PA068,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN26_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"116 validated references; security/privacy evidence model added"
 
