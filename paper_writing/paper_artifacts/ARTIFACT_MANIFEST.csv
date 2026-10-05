@@ -60,4 +60,6 @@ PA058,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_EVALUATION_MEASURE
 PA059,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN22_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"100 validated references; measurement ontology added"
 PA060,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_INTERACTION_GUIDANCE_ONTOLOGY.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Interaction configuration ontology and comparability rule"
 PA061,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN23_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"104 validated references; interaction lineage added"
+PA062,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_COLLABORATIVE_AR_TWO_LAYER_MODEL.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"C1 shared-system plus C2 human-collaboration evidence model"
+PA063,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN24_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"108 validated references; collaborative AR two-layer model added"
 
