@@ -140,4 +140,9 @@ Dey2018UsabilityReview,R071,validated,"Frontiers + PMC",yes,"Four authors/volume
 SadeghiNiaraki2020MarkerlessSurvey,R072,validated,"Sensors + PubMed/PMC",yes,"Two authors/volume/issue/article/DOI confirmed; markerless tracking/registration survey"
 Schubert2018TUMVI,R073,validated,"IEEE IROS + TUM institutional metadata",yes,"Six authors/pages/DOI confirmed; public visual-inertial benchmark"
 Burri2016EuRoC,R074,validated,"IJRR/SAGE + ETH dataset metadata",yes,"Eight authors/volume/issue/pages/DOI confirmed; visual-inertial dataset benchmark"
+Bassyouni2021AIRobotics,R075,validated,"Frontiers + PubMed/PMC",yes,"Two authors/volume/article/DOI confirmed; 29-paper AR+AI robotics systematic review"
+Wu2026ConversationalAR,R076,validated,"ACM TiiS version of record",yes,"Five authors/accepted-online date/DOI confirmed; 44-study conversational-agent AR systematic review"
+Mustapha2026AugmentedIntelligence,R077,validated,"Atlantis Press version of record",yes,"Two authors/proceedings/pages/DOI confirmed; 30-paper AR+AI systematic review"
+Ramtohul2025AdaptiveMultimodal,R078,validated,"Array/ScienceDirect + DOAJ",yes,"Two authors/volume/article/DOI confirmed; 15-study adaptive multimodal MAR review"
+Wang2026ImmersiveAI,R079,validated,"Computational Visual Media/SciOpen",yes,"Five authors/volume/issue/pages/DOI confirmed; 43-study immersive analytics+AI review"
 
