@@ -19,4 +19,6 @@ PA017,table,P1,paper_writing/paper_artifacts/tables/REFERENCE_LIBRARY_GROWTH.md,
 PA018,analysis,P1/P2,paper_writing/paper_artifacts/analysis/WORKFLOW_PREFLIGHT_GATE.md,scripts/preflight_repository.sh,pre-run-control,"Static gate; not workflow-success evidence"
 PA019,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN4_WORKFLOW_AND_BIB.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"26 validated references"
 PA020,table,P1/P2,paper_writing/paper_artifacts/tables/WORKFLOW_FAILURE_MODES_AND_CONTROLS.md,scripts/preflight_repository.sh,control-table,"Failure analysis; not experimental result"
+PA021,references,P1,paper_writing/paper_artifacts/references/REFERENCE_TARGET_BY_WORKSTREAM.csv,paper_writing/paper_artifacts/references/master.bib,in-progress,"250-candidate coverage plan; final bibliography target 200+ if warranted"
+PA022,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN5_STATUS.md,paper_writing/paper_artifacts/references/BIB_VALIDATION_STATUS.csv,in-progress,"30 validated references"
 
