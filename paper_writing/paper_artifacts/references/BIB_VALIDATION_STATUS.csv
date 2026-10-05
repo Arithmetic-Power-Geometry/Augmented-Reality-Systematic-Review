@@ -167,4 +167,9 @@ Wang2016Assembly,R098,validated,"Advances in Manufacturing/Springer",yes,"Three 
 Baroroh2021SmartManufacturing,R099,validated,"Journal of Manufacturing Systems/ScienceDirect",yes,"Three authors/volume/pages/DOI confirmed; human-computational-intelligence manufacturing SLR"
 Ho2022QualityControl,R100,validated,"Applied Sciences version of record",yes,"Four authors/volume/issue/article/DOI confirmed; AR manufacturing quality-control SLR"
 Breitkreuz2022RemoteMaintenance,R101,validated,"Springer LNCS version of record",yes,"Four authors/volume/pages/DOI confirmed; 89-article remote-maintenance SLR"
+Page2021PRISMA,R102,validated,"BMJ/PubMed",yes,"PRISMA 2020 statement; full authors/volume/article/DOI confirmed"
+Rethlefsen2021PRISMAS,R103,validated,"Systematic Reviews/EQUATOR/PMC",yes,"PRISMA-S; authors/group/volume/article/DOI confirmed"
+McGowan2016PRESS,R104,validated,"PubMed/Journal of Clinical Epidemiology",yes,"PRESS 2015 guideline; six authors/volume/pages/DOI confirmed"
+Bramer2016Deduplication,R105,validated,"PubMed/PMC/Erasmus repository",yes,"Deduplication method; five authors/volume/issue/pages/DOI confirmed"
+Bramer2017DatabaseCombinations,R106,validated,"PubMed/Systematic Reviews/Crossref",yes,"Four authors/volume/article/DOI confirmed"
 
