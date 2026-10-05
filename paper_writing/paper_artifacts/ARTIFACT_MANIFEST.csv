@@ -170,4 +170,4 @@ PA168,analysis,P1,paper_writing/paper_artifacts/analysis/PILOT_RESEARCHER_DECISI
 PA169,table,P1,paper_writing/paper_artifacts/tables/PILOT_EXPERIMENTAL_OPPORTUNITY_PRIORITY_NEXT19_RUN48.md,paper_writing/paper_artifacts/tables/PILOT_GAP_PROMOTION_RUN46.md,pilot-complete,"NEXT-19 validation priority; no verified opportunity"
 PA170,table,P1,paper_writing/paper_artifacts/tables/P1_PILOT_ANALYSIS_COMPLETION_MATRIX_RUN48.md,paper_writing/EXECUTION_QUEUE.csv,pilot-complete,"NEXT-06 through NEXT-19 pilot analysis backlog closed"
 PA171,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN48_GENUINE_PENDING_CLOSURE.md,paper_writing/EXECUTION_QUEUE.csv,complete-internal,"Stale TODOs reconciled; final reruns blocked only by formal exports"
-
+PA172,analysis,P1,paper_writing/paper_artifacts/analysis/RUN49_PAPER1_PENDING_CLOSURE_AUDIT.md,paper_writing/EXECUTION_QUEUE.csv,complete-internal,"212 references; zero pending bibliography rows; no internal P1 TODO; final corpus externally blocked"
