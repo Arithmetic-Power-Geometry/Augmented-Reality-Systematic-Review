@@ -1,0 +1,6 @@
+discovery_id,year,title,venue,doi,workstream,evidence_type,status
+PD0039,2022,"Privacy-Enhancing Technology and Everyday Augmented Reality: Understanding Bystanders' Varying Needs for Awareness and Consent","PACM IMWUT","10.1145/3569501","privacy/governance","survey primary; N=102",validated_candidate
+PD0040,2023,"BystandAR: Protecting Bystander Visual Data in Augmented Reality Systems","ACM MobiSys","10.1145/3581791.3596830","privacy/security","systems primary",validated_candidate
+PD0041,2024,"Delay-Guaranteed Mobile Augmented Reality Task Offloading in Edge-Assisted Environment","Ad Hoc Networks","10.1016/j.adhoc.2024.103539","networking/edge/cloud","algorithmic primary",validated_candidate
+PD0042,2024,"Generative AI-Enabled Energy-Efficient Mobile Augmented Reality in Multi-Access Edge Computing","Applied Sciences","10.3390/app14188419","networking/edge; energy; generative AI","algorithmic primary",validated_candidate
+PD0043,2020,"A Novel Resolution and Power Control Scheme for Energy-Efficient Mobile Augmented Reality Applications in Mobile Edge Computing","IEEE Wireless Communications Letters","10.1109/LWC.2019.2950250","energy/resources; edge","optimization primary",validated_candidate
