@@ -35,3 +35,9 @@ milestone,commit_sha,path
 "Run 56 manuscript methods",22821098074ff7cb44db1b036abd223b07ead071,paper_writing/manuscript/sections/RUN56_FORMAL_SEARCH_AND_SELECTION_METHODS.md
 "Run 56 metadata retry result",b990ee1dbc6aa9e52b0f0eb6f00928f66368efcd,paper_writing/paper_artifacts/tables/RUN56_PUBMED_METADATA_RETRY_RESULT.md
 "Run 56 metadata retry figure",61d637d85c113aea301d67275432c9ce0d3740e6,paper_writing/paper_artifacts/figures/FIG_RUN56_METADATA_RETRY.svg
+"Run 57 final corpus workflow",7fdc12dbc4395fd9b9c01e2c6e38ffc57ef2a9af,.github/workflows/final-corpus-gate.yml
+"Run 57 final corpus gate",efe70e357161ab5e5601cc625306e0aee8d6b9f5,scripts/final_corpus_gate.py
+"Run 57 finalization algorithm",98b3e02242f4772015e1fd52d49b17637d6bc8d8,paper_writing/paper_artifacts/algorithms/RUN57_CITATION_CHASE_TO_FINAL_RESULTS_GATE.md
+"Run 57 dependency matrix",02b21cc76101d087dcc8af44830cf6f63f4800cf,paper_writing/paper_artifacts/tables/RUN57_FINALIZATION_DEPENDENCY_MATRIX.md
+"Run 57 critical path figure",9b856ac9d77209a923c7e0373dea871d54c1c648,paper_writing/paper_artifacts/figures/FIG_RUN57_CRITICAL_PATH_TO_FINAL.svg
+"Run 57 source accounting fix",c709e32c86a513375669efe81f565556a87b5a88,scripts/final_corpus_gate.py
