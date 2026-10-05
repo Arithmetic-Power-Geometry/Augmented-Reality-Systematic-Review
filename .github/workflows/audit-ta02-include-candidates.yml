@@ -1,0 +1,26 @@
+name: Audit TA-02 include candidates
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/audit-ta02-include-candidates.yml"]
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python scripts/audit_ta02_include_candidates.py
+      - name: Commit Run 68 audit
+        run: |
+          git pull --rebase origin main
+          python scripts/audit_ta02_include_candidates.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/screening/assisted/TA-02_INCLUDE_CANDIDATE_AUDIT_RUN68.csv paper_writing/paper_artifacts/provenance/RUN68_TA02_INCLUDE_AUDIT.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Materialize Run 68 TA-02 include risk audit"
+          git push
