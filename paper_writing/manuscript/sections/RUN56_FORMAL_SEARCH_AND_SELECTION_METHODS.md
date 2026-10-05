@@ -1,0 +1,19 @@
+# Run 56 — Manuscript-Ready Formal Search and Selection Methods
+
+## Search execution and provenance
+The review used a preregistered source-by-query matrix with a core augmented-reality query and twelve specialist blocks. Search execution was fail-closed: a source-query cell was recorded as executed only when the source-native query, execution date, returned count, export, and checksum were preserved. PubMed Q00--Q12 were executed through NCBI E-utilities on 5 October 2026. The broad Q00 search returned 10,198 unique PubMed identifiers. Source-query cells that could not be executed through the available authenticated interfaces were retained as explicit access limitations rather than replaced by inferred or web-search counts.
+
+## Metadata enrichment and deterministic prescreen
+The frozen Q00 PMID set was enriched through NCBI E-utilities. Metadata retrieval initially succeeded for 10,187 records, while 11 identifiers were preserved as unresolved rather than discarded. Before relevance screening, only protocol-defined deterministic exclusions were applied: 227 records failed the language rule and 2,232 had secondary/non-primary publication types, yielding 2,459 deterministic exclusions. The remaining 7,728 metadata-resolved records required title/abstract eligibility assessment; the 11 unresolved identities remained in the advance set pending metadata resolution.
+
+## Screening work units
+To prevent silent reshuffling, the 7,728 title/abstract records were selected directly from the checksum-frozen prescreen in source order and assigned immutable ordinals. They were partitioned into 31 work units: TA-01--TA-30 contained 250 records each and TA-31 contained 228. A repository-native validation workflow asserted the 10,198-record input cardinality, the 7,728-record screening cardinality, PMID uniqueness, batch coverage, and per-batch SHA-256 generation. GitHub Actions run 37332301395 completed successfully with the assertion that 31 batches covered 7,728 unique PMIDs.
+
+## Selection decisions and automation boundary
+Batch construction, metadata handling, checksum generation, and deterministic publication-type/language rules were treated as data-processing operations rather than relevance decisions. Title/abstract and full-text eligibility decisions use the frozen inclusion/exclusion codebook. Uncertainty advances to the next stage rather than being converted to exclusion by keyword absence. Screening records preserve the decision, controlled reason code, screener, timestamp, evidence note, decision version, second-verification state, and adjudication state. Automation used for corpus engineering is reported separately from genuine eligibility assessment, consistent with PRISMA 2020 Item 8.
+
+## Full text, study families, verification and freeze
+Records advancing from title/abstract screening proceed to full-text assessment under the same frozen criteria. Multiple reports of the same underlying study are linked through a study-family identifier and a canonical report is selected without deleting provenance. Backward and forward citation chasing is applied to the frozen seed set until the prespecified stopping condition is met. Before corpus freeze, all final inclusions and the frozen stratified exclusion sample require genuine independent verification; disagreements retain the original decisions and are resolved through adjudication. Agreement statistics are reported only if independent second-screen decisions actually exist. The final corpus, decision ledger and PRISMA counts are checksum-frozen before downstream analyses are rerun.
+
+## Reporting status
+The above text is manuscript-ready for the Methods section. Final numerical Results, final PRISMA counts and population-level gap/frequency claims remain intentionally withheld until screening, full-text review, citation chasing, verification and corpus freeze are complete.
