@@ -87,3 +87,7 @@ milestone,commit_sha,path
 "Run 66 TA02 result",caf12fb109eb34a880acc55a81c6ffa8f84ce58d,paper_writing/paper_artifacts/tables/RUN66_TA02_ASSISTED_TRIAGE_RESULT.md
 "Run 66 TA02 algorithm",71a0b8668d232b53fa881e2f14c3f0111173099a,paper_writing/paper_artifacts/algorithms/RUN66_TA02_PROGRESSION_ALGORITHM.md
 "Run 66 TA02 figure",5426723d28f3f7079431735860467eae1add66b9,paper_writing/paper_artifacts/figures/FIG_RUN66_TA02_ASSISTED_TRIAGE.svg
+"Run 67 TA02 exclusion rescue table",889446c2d91b5c7bbec83f37c2ba4ccb421cdf1d,paper_writing/paper_artifacts/tables/RUN67_TA02_EXCLUSION_RESCUE_AUDIT.md
+"Run 67 TA02 rescue gate",41db14f426c27936c3bd9337d0b07f8fb9aac885,paper_writing/paper_artifacts/algorithms/RUN67_TA02_EXCLUSION_RESCUE_GATE.md
+"Run 67 TA02 rescue figure",8435cfae9394ce421984a333afdaae6f90d32727,paper_writing/paper_artifacts/figures/FIG_RUN67_TA02_EXCLUSION_RESCUE.svg
+"Run 67 XR terminology correction",41efcde201364451308522131fb900a7f4eef4da,scripts/build_ta02_assisted_triage.py
