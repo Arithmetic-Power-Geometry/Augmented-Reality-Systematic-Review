@@ -113,4 +113,8 @@ PA111,table,P1,paper_writing/paper_artifacts/tables/PRIOR_REVIEW_POSITIONING_MAT
 PA112,algorithm,P1,paper_writing/paper_artifacts/algorithms/PRIOR_REVIEW_NOVELTY_STRESS_TEST.md,paper_writing/paper_artifacts/references/master.bib,workflow,"Rejects broadness/taxonomy-only novelty claims"
 PA113,figure,P1,paper_writing/paper_artifacts/figures/FIG_PRIOR_REVIEWS_TO_EVIDENCE_ARCHITECTURE.svg,paper_writing/paper_artifacts/tables/PRIOR_REVIEW_POSITIONING_MATRIX_V02.md,draft-v0.2,"Prior-review clusters to evidence-centered integration; conceptual figure"
 PA114,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN38_STATUS.md,paper_writing/manuscript/main.md,in-progress,"Manuscript V0.2; 167 validated references; 0 missing citation keys"
+PA115,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN39_FORMAL_COMPLETION_ATTEMPT.md,evidence/search/formal_search_execution_matrix.csv,blocked,"One-go completion attempted; hard blocker is source-native exports"
+PA116,table,P1,paper_writing/paper_artifacts/tables/FORMAL_SOURCE_COMPLETION_MATRIX_RUN39.md,evidence/search/formal_search_execution_matrix.csv,blocked,"91 planned formal cells; 0 source-native exports available here"
+PA117,algorithm,P1,paper_writing/paper_artifacts/algorithms/FORMAL_CORPUS_COMPLETION_GATE.md,evidence/search/RAW_EXPORT_INGESTION_DEDUP_CONTRACT.md,workflow,"Dependency gate from formal exports to final analyses"
+PA118,figure,P1,paper_writing/paper_artifacts/figures/FIG_FORMAL_CORPUS_COMPLETION_DEPENDENCY.svg,paper_writing/paper_artifacts/tables/FORMAL_SOURCE_COMPLETION_MATRIX_RUN39.md,blocked,"Shows hard dependency; no scientific result"
 
