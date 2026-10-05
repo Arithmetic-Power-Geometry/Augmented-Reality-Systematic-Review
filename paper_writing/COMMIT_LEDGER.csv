@@ -76,3 +76,8 @@ milestone,commit_sha,path
 "Run 64 reviewer status",f675060ee80ded61c35c316107a17b32a8b8c1f2,paper_writing/paper_artifacts/tables/RUN64_TA01_REVIEWER_READY_STATUS.md
 "Run 64 reviewer algorithm",02895fac748ff762e05e455962f33afab394751a,paper_writing/paper_artifacts/algorithms/RUN64_REVIEWER_READY_ORDERING_ALGORITHM.md
 "Run 64 reviewer figure",c72b7f0bc02983b7ce913472d208f0699f40eb33,paper_writing/paper_artifacts/figures/FIG_RUN64_TA01_REVIEWER_READY_ORDER.svg
+"Run 64 workflow race fix",cd39b5017808e6fbb10210860fe2707951965f85,.github/workflows/build-ta01-reviewer-ready.yml
+"Run 64 corrected status counts",9ff0253a30422706874a5d587704a0df23435764,paper_writing/paper_artifacts/tables/RUN64_TA01_REVIEWER_READY_STATUS.md
+"Run 64 corrected figure counts",41e6258c3882392f8267542ec4b7a6d4b0d19d65,paper_writing/paper_artifacts/figures/FIG_RUN64_TA01_REVIEWER_READY_ORDER.svg
+"Run 65 manuscript selection boundary",5f064f1c643c3724fb155644175064be28dff780,paper_writing/manuscript/sections/RUN65_HUMAN_CONFIRMED_SELECTION_BOUNDARY.md
+"Run 65 TA01 completion validator",cb0968859f3f3bba78426d3312a2748f860a5900,scripts/validate_ta01_primary_completion.py
