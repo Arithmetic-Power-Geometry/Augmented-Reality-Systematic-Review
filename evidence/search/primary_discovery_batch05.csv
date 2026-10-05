@@ -1,0 +1,6 @@
+discovery_id,year,title,venue,doi,workstream,evidence_type,status
+PD0034,2005,"Occlusion Handling in Augmented Reality Using Background-Foreground Segmentation and Projective Geometry","Presence: Teleoperators and Virtual Environments","10.1162/105474605323384636","occlusion/depth","algorithmic primary",validated_candidate
+PD0035,2010,"Real-Time Occlusion Handling in Augmented Reality Based on an Object Tracking Approach","Sensors","10.3390/s100402885","occlusion/depth; tracking","algorithmic primary",validated_candidate
+PD0036,2022,"Real-Time Occlusion Handling for Augmented Reality Assistance Assembly Systems with Monocular Images","Journal of Manufacturing Systems","10.1016/j.jmsy.2022.01.012","occlusion/depth; industrial AR","algorithmic primary",validated_candidate
+PD0037,2026,"Depth Cue Integration under Stereopsis-Occlusion Conflicts in Augmented Reality: Impacts on Visual Comfort and Performance","Virtual Reality","10.1007/s10055-026-01377-4","occlusion/depth; human factors","controlled perceptual primary",validated_candidate
+PD0038,2014,"In Situ with Bystanders of Augmented Reality Glasses: Perspectives on Recording and Privacy-Mediating Technologies","CHI 2014","10.1145/2556288.2557352","privacy/governance","field study primary",validated_candidate
