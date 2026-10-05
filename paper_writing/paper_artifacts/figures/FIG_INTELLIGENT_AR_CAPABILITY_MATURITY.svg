@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="650" viewBox="0 0 1280 650">
+<rect width="1280" height="650" fill="white"/>
+<text x="640" y="45" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">Intelligent AR: Capability Is Not Evidence Maturity</text>
+<g font-family="Arial" text-anchor="middle">
+<rect x="55" y="115" width="180" height="90" rx="12" fill="#f4f4f4" stroke="#333"/><text x="145" y="150" font-size="18">AI function</text><text x="145" y="178" font-size="15">perceive / decide / generate</text>
+<rect x="275" y="115" width="180" height="90" rx="12" fill="#f4f4f4" stroke="#333"/><text x="365" y="150" font-size="18">Context</text><text x="365" y="178" font-size="15">user / task / environment</text>
+<rect x="495" y="115" width="180" height="90" rx="12" fill="#f4f4f4" stroke="#333"/><text x="585" y="150" font-size="18">Decision</text><text x="585" y="178" font-size="15">policy / model / agent</text>
+<rect x="715" y="115" width="180" height="90" rx="12" fill="#f4f4f4" stroke="#333"/><text x="805" y="150" font-size="18">AR adaptation</text><text x="805" y="178" font-size="15">content / modality / guidance</text>
+<rect x="935" y="115" width="290" height="90" rx="12" fill="#f4f4f4" stroke="#333"/><text x="1080" y="150" font-size="18">Measured consequence</text><text x="1080" y="178" font-size="15">human + system + safety/privacy</text>
+<g stroke="#333" stroke-width="3"><path d="M235 160H275"/><path d="M455 160H495"/><path d="M675 160H715"/><path d="M895 160H935"/></g>
+<text x="640" y="285" font-size="22" font-weight="bold">Evidence maturity is a separate axis</text>
+<g font-size="16">
+<rect x="90" y="335" width="130" height="70" rx="10" fill="#f4f4f4" stroke="#333"/><text x="155" y="365">M0-M1</text><text x="155" y="388">concept/offline</text>
+<rect x="260" y="335" width="130" height="70" rx="10" fill="#f4f4f4" stroke="#333"/><text x="325" y="365">M2</text><text x="325" y="388">prototype</text>
+<rect x="430" y="335" width="130" height="70" rx="10" fill="#f4f4f4" stroke="#333"/><text x="495" y="365">M3</text><text x="495" y="388">controlled user</text>
+<rect x="600" y="335" width="130" height="70" rx="10" fill="#f4f4f4" stroke="#333"/><text x="665" y="365">M4</text><text x="665" y="388">realistic task</text>
+<rect x="770" y="335" width="130" height="70" rx="10" fill="#f4f4f4" stroke="#333"/><text x="835" y="365">M5</text><text x="835" y="388">field</text>
+<rect x="940" y="335" width="130" height="70" rx="10" fill="#f4f4f4" stroke="#333"/><text x="1005" y="365">M6</text><text x="1005" y="388">longitudinal</text>
+<rect x="1110" y="335" width="130" height="70" rx="10" fill="#f4f4f4" stroke="#333"/><text x="1175" y="365">M7</text><text x="1175" y="388">replicated</text>
+</g>
+<text x="640" y="500" font-size="19">A sophisticated LLM at M2 remains prototype evidence.</text>
+<text x="640" y="535" font-size="19">Model accuracy is not automatically usability, safety, or task effectiveness.</text>
+<text x="640" y="570" font-size="19">Adaptation claims require evidence that the adaptive decision itself caused benefit.</text>
+</g>
+</svg>
