@@ -96,3 +96,11 @@ milestone,commit_sha,path
 "Run 68 TA02 include audit table",6c0d5d868334324c47cc86c393643a1aa2657e7d,paper_writing/paper_artifacts/tables/RUN68_TA02_INCLUDE_CANDIDATE_RISK_AUDIT.md
 "Run 68 TA02 include audit algorithm",9b6ae65cabe9a53d69644eef52ef154cfe3174e5,paper_writing/paper_artifacts/algorithms/RUN68_TA02_INCLUDE_FALSE_POSITIVE_GATE.md
 "Run 68 TA02 include audit figure",83e8a397d55227a47e6bd2175c51385c3ddcdd80,paper_writing/paper_artifacts/figures/FIG_RUN68_TA02_INCLUDE_RISK_AUDIT.svg
+"Run 69 priority findings",1c17181216e54e67cd7a175405de8d959fb74815,paper_writing/paper_artifacts/tables/RUN69_TA02_PRIORITY_VERIFICATION_FINDINGS.md
+"Run 69 verification algorithm",f20cfe609235f6d7c3b92a056291fc5f32ff30de,paper_writing/paper_artifacts/algorithms/RUN69_TA02_PRIORITY_VERIFICATION_ORDER.md
+"Run 69 verification figure",6ac5e4d8700620367bb9bea2d63e8d3219075adc,paper_writing/paper_artifacts/figures/FIG_RUN69_TA02_PRIORITY_VERIFICATION.svg
+"Run 69 packet builder",34e42c10275b4e629578a0dd63d22124988f753a,scripts/build_ta02_reviewer_ready_run69.py
+"Run 69 packet workflow",63b068a5302cf87c7793adf4fe2cc7e72dfe9ed9,.github/workflows/build-ta02-reviewer-ready-run69.yml
+"Run 69 manuscript handoff",d2b5f512f4ea56cd577d35296cd0876cdeb6282f,paper_writing/manuscript/sections/RUN69_TA02_REVIEWER_HANDOFF.md
+"Run 69 packet table",d6023a6c217094ee3f049a4213e8d9ff49b74fe1,paper_writing/paper_artifacts/tables/RUN69_TA02_FINAL_REVIEWER_PACKET_SUMMARY.md
+"Run 69 packet figure",1f9d5d2b22906720e3bcb9ff1fddbde95a9f1824,paper_writing/paper_artifacts/figures/FIG_RUN69_TA02_FINAL_REVIEWER_PACKET.svg
