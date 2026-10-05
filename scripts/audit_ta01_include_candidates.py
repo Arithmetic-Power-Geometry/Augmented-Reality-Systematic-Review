@@ -29,3 +29,5 @@ flag=Counter(x for r in out for x in r["run62_flags"].split(";") if x)
 summary={"n":len(out),"states":dict(c),"flags":dict(flag)}
 Path("paper_writing/paper_artifacts/provenance/RUN62_TA01_INCLUDE_AUDIT.json").write_text(json.dumps(summary,indent=2),encoding="utf-8")
 print("RUN62_INCLUDE_AUDIT",json.dumps(summary,sort_keys=True))
+
+# Run 62 execution trigger.
