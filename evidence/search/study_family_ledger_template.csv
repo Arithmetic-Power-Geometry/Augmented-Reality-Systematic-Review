@@ -1,0 +1,2 @@
+study_family_id,canonical_record_id,member_record_id,report_type,relationship,materially_distinct_evidence,canonical_reason,decision_by,decision_date,notes
+SF0000,TEMPLATE_CANONICAL,TEMPLATE_MEMBER,template,template,unknown,"","",,"Preprint/conference/journal versions are linked; not blindly counted as independent studies"
