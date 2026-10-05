@@ -28,4 +28,6 @@ PA026,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN7_STATUS.md,
 PA027,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_EDGE_RESOURCE_TRADEOFF.md,evidence/search/primary_discovery_batch06.csv,pre-freeze-candidate,"Latency-energy-quality synthesis; no novelty claim"
 PA028,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_BYSTANDER_PRIVACY_PROGRESSION.md,evidence/search/primary_discovery_batch06.csv,pre-freeze-candidate,"Privacy progression; verify after corpus freeze"
 PA029,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN8_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"47 validated references"
+PA030,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_ACCESSIBILITY_MULTIDIMENSIONAL_EVALUATION.md,evidence/search/primary_discovery_batch07.csv,pre-freeze-candidate,"Accessibility benefit-cost synthesis; verify after corpus freeze"
+PA031,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN9_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"52 validated references"
 
