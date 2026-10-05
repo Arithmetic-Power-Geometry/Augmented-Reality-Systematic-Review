@@ -1,0 +1,52 @@
+name: Formal search ingestion integrity
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "scripts/ingest_search_exports.py"
+      - "scripts/test_ingest_search_exports.py"
+      - "evidence/search/**"
+      - ".github/workflows/formal-search-ingestion-integrity.yml"
+  pull_request:
+    paths:
+      - "scripts/ingest_search_exports.py"
+      - "scripts/test_ingest_search_exports.py"
+      - "evidence/search/**"
+
+jobs:
+  validate:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python syntax
+        run: python -m py_compile scripts/ingest_search_exports.py scripts/test_ingest_search_exports.py
+      - name: Synthetic importer self-test
+        run: python scripts/test_ingest_search_exports.py
+      - name: Guard unexecuted formal matrix
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          rows=list(csv.DictReader(Path("evidence/search/formal_search_execution_matrix.csv").open(encoding="utf-8")))
+          if not rows:
+              raise SystemExit("formal search execution matrix is empty")
+          allowed={"NOT_EXECUTED","EXECUTED"}
+          bad=[r for r in rows if r["status"] not in allowed]
+          if bad:
+              raise SystemExit("invalid formal-search status")
+          print("FORMAL_MATRIX_STATUS_OK", len(rows))
+          PY
+      - name: Guard registry provenance fields
+        run: |
+          python - <<'PY'
+          import csv
+          from pathlib import Path
+          rows=list(csv.DictReader(Path("evidence/search/search_registry.csv").open(encoding="utf-8")))
+          for r in rows:
+              if r["status"]=="EXECUTED":
+                  for k in ("search_run_id","source","query_id","exact_executed_query","execution_date","exported_count","export_file","export_sha256"):
+                      if not (r.get(k) or "").strip():
+                          raise SystemExit(f"EXECUTED row missing {k}: {r.get('search_run_id')}")
+          print("SEARCH_REGISTRY_PROVENANCE_OK")
+          PY
