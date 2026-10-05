@@ -27,7 +27,7 @@ jobs:
           if len(ids)!=10198: raise RuntimeError(f'Expected frozen Q00 10198 PMIDs, got {len(ids)}')
           out=Path('evidence/search/derived/pubmed'); out.mkdir(parents=True,exist_ok=True)
           dst=out/'PUBMED_Q00_METADATA_2026-10-05.csv'
-          fields=['pmid','doi','title','abstract','authors','journal','year','publication_types','language']
+          fields=['pmid','doi','title','abstract','authors','journal','year','publication_types','language','metadata_status']
           rows=[]
           for i in range(0,len(ids),200):
               batch=ids[i:i+200]
@@ -56,15 +56,18 @@ jobs:
                   doi=''
                   for aid in art.findall('./PubmedData/ArticleIdList/ArticleId'):
                       if aid.attrib.get('IdType')=='doi': doi=(aid.text or '').strip()
-                  rows.append({'pmid':pmid,'doi':doi,'title':title,'abstract':absx,'authors':'; '.join(authors),'journal':journal,'year':year,'publication_types':ptypes,'language':langs})
+                  rows.append({'pmid':pmid,'doi':doi,'title':title,'abstract':absx,'authors':'; '.join(authors),'journal':journal,'year':year,'publication_types':ptypes,'language':langs,'metadata_status':'retrieved'})
               time.sleep(.34)
           by={r['pmid']:r for r in rows}
-          if len(by)!=len(ids): raise RuntimeError(f'Metadata reconciliation failed: {len(by)} != {len(ids)}')
+          missing=[x for x in ids if x not in by]
+          for x in missing: by[x]={'pmid':x,'doi':'','title':'','abstract':'','authors':'','journal':'','year':'','publication_types':'','language':'','metadata_status':'metadata_unavailable_from_efetch'}
+          if len(by)!=len(ids): raise RuntimeError(f'Identity reconciliation failed: {len(by)} != {len(ids)}')
           with dst.open('w',newline='',encoding='utf-8') as h:
               w=csv.DictWriter(h,fieldnames=fields); w.writeheader(); w.writerows(by[x] for x in ids)
+          (out/'PUBMED_Q00_METADATA_MISSING_PMIDS.txt').write_text('\n'.join(missing)+'\n',encoding='utf-8')
           sha=hashlib.sha256(dst.read_bytes()).hexdigest()
           (out/'PUBMED_Q00_METADATA_2026-10-05.sha256').write_text(sha+'  '+dst.name+'\n')
-          print('records',len(ids),'sha256',sha)
+          print('records',len(ids),'metadata_retrieved',len(rows),'metadata_missing',len(missing),'sha256',sha)
           PY
       - name: Commit formal metadata
         run: |
