@@ -161,4 +161,10 @@ Yoon2018Surgeon,R092,validated,"Wiley version of record",yes,"Ten authors/volume
 Bollen2022IntraoperativeAR,R093,validated,"PubMed + Wiley",yes,"Four authors/volume/issue/article/DOI confirmed; intraoperative AR/MR outcomes review"
 Williams2020SurgicalTraining,R094,validated,"PubMed + Postgraduate Medical Journal",yes,"Four authors/volume/issue/pages/DOI confirmed; surgical-training review"
 Suresh2023SurgicalTraining,R095,validated,"PubMed/PMC + Surgical Innovation",yes,"Five authors/volume/issue/pages/DOI confirmed; surgical-training systematic review"
+Palmarini2018Maintenance,R096,validated,"RCIM/ScienceDirect + City Research Online",yes,"Four authors/volume/pages/DOI confirmed; 30-primary-study maintenance SLR"
+Gattullo2022VisualAssets,R097,validated,"IEEE TVCG + PubMed",yes,"Five authors/volume/issue/pages/DOI confirmed; industrial visual-assets systematic review"
+Wang2016Assembly,R098,validated,"Advances in Manufacturing/Springer",yes,"Three authors/volume/issue/pages/DOI confirmed; comprehensive AR assembly survey"
+Baroroh2021SmartManufacturing,R099,validated,"Journal of Manufacturing Systems/ScienceDirect",yes,"Three authors/volume/pages/DOI confirmed; human-computational-intelligence manufacturing SLR"
+Ho2022QualityControl,R100,validated,"Applied Sciences version of record",yes,"Four authors/volume/issue/article/DOI confirmed; AR manufacturing quality-control SLR"
+Breitkreuz2022RemoteMaintenance,R101,validated,"Springer LNCS version of record",yes,"Four authors/volume/pages/DOI confirmed; 89-article remote-maintenance SLR"
 
