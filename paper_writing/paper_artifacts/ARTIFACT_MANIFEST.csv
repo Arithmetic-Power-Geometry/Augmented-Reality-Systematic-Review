@@ -52,4 +52,6 @@ PA050,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_BROAD_REVIEW_REPLI
 PA051,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN18_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"85 validated references; broadness-only novelty prohibited"
 PA052,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_TRACKING_STANDARDS_EVIDENCE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Cross-device tracking conditionality and standards taxonomy"
 PA053,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN19_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"88 validated sources; formal export blocker remains"
+PA054,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_RESOURCE_SAFETY_DECOMPOSITION.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Resource multiobjective comparability and safety evidence separation"
+PA055,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN20_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"92 validated references; formal export blocker remains"
 
