@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create nonbinding TA-02 assisted recommendations from the frozen committed batch. Run 66 TA-02."""
+"""Create nonbinding TA-02 assisted recommendations from the frozen committed batch. Run 66 execution."""
 import csv,re,hashlib
 from pathlib import Path
 src=Path("evidence/screening/formal_pubmed_batches/TA-02.csv")
