@@ -1,0 +1,4 @@
+paper_id,type,working_title,status,completion,next_gate
+P1,Systematic Review,"Augmented Reality: A Systematic Review of Technologies, Algorithms, Benchmarks, Evaluation, Reproducibility, and Research Gaps","foundation advanced","65-70%","expand primary-study corpus; complete cross-cutting analyses; freeze figures/tables"
+P2,Benchmark / Experimental,"Benchmark-Transfer Stability in AR Localization and SLAM","protocol ready; no scientific results","45-50%","confirm build; execute E001; matched baselines; AR-native track"
+P3,Novel Method Candidate,"Adaptive AR Localization Orchestrator","novelty gate open","20-25%","failure-regime evidence; closest-prior-work audit; formulate only if justified"
