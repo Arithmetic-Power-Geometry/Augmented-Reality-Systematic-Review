@@ -32,4 +32,9 @@ Sereno2022Collaborative,R025,validated,"PubMed + IEEE TVCG bibliographic metadat
 Macedo2023Occlusion,R026,validated,"PubMed + IEEE TVCG bibliographic metadata",yes,"Authors/volume/issue/pages/DOI confirmed"
 Gsaxner2023HoloLensMedicine,R027,validated,"PubMed + ScienceDirect",yes,"Seven authors/volume/article/DOI confirmed"
 Birlo2022OSTSurgery,R028,validated,"PubMed/PMC + ScienceDirect + UCL repository",yes,"Four authors/volume/article/DOI confirmed"
+Klein2007PTAM,M005,validated,"Oxford PTAM project + DBLP/IEEE DOI metadata",yes,"Authors/ISMAR/pages/DOI confirmed"
+MurArtal2015ORBSLAM,M006,validated,"IEEE Xplore + official ORB-SLAM repository citation",yes,"Authors/volume/issue/pages/DOI confirmed"
+MurArtal2017ORBSLAM2,M007,validated,"IEEE Xplore + official ORB-SLAM2 repository citation",yes,"Authors/volume/issue/pages/DOI confirmed"
+Qin2018VINSMono,M002,validated,"IEEE Xplore + bibliographic cross-check",yes,"Authors/volume/issue/pages/DOI confirmed"
+Campos2021ORBSLAM3,M001,validated,"IEEE Xplore + author publication record",yes,"Authors/volume/issue/pages/DOI confirmed"
 
