@@ -7,13 +7,13 @@ Run 64 consolidates the complete 250-record TA-01 work unit into a single review
 | Tier | Reviewer task | Records |
 |---:|---|---:|
 | 1 | Confirm six highest-confidence likely exclusions identified in Run 63 | 6 |
-| 2 | Confirm remaining Run 61 likely non-AR candidates | 28 |
+| 2 | Confirm remaining Run 61 likely non-AR candidates | 32 |
 | 3 | Resolve Run 61 rescued records as advance/uncertain | 7 |
 | 4 | Review remaining Run 62 priority-risk candidates | 34 |
-| 6 | Confirm remaining likely-advance records | 175 |
+| 6 | Confirm remaining likely-advance records | 171 |
 | **Total** | | **250** |
 
-Tier 5 is logically available for explicit Run 63 strong-advance exemplars, but those records also carry Run 62 priority flags and therefore remain in Tier 4 under the conservative ordering.
+The executed builder produced 38 likely-exclude confirmations in total (6 Tier 1 + 32 Tier 2), 7 rescued/uncertain, 34 priority-verification, and 171 likely-advance confirmations.\n\nTier 5 is logically available for explicit Run 63 strong-advance exemplars, but those records also carry Run 62 priority flags and therefore remain in Tier 4 under the conservative ordering.
 
 ## Decision fields
 The generated sheet contains blank fields for `primary_decision`, `primary_reason_code`, `primary_screener`, timestamp, evidence note, decision version, second-verification state and adjudication state.
