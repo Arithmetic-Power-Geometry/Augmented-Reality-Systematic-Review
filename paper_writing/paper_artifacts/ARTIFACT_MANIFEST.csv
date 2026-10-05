@@ -117,4 +117,7 @@ PA115,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN39_FORMAL_CO
 PA116,table,P1,paper_writing/paper_artifacts/tables/FORMAL_SOURCE_COMPLETION_MATRIX_RUN39.md,evidence/search/formal_search_execution_matrix.csv,blocked,"91 planned formal cells; 0 source-native exports available here"
 PA117,algorithm,P1,paper_writing/paper_artifacts/algorithms/FORMAL_CORPUS_COMPLETION_GATE.md,evidence/search/RAW_EXPORT_INGESTION_DEDUP_CONTRACT.md,workflow,"Dependency gate from formal exports to final analyses"
 PA118,figure,P1,paper_writing/paper_artifacts/figures/FIG_FORMAL_CORPUS_COMPLETION_DEPENDENCY.svg,paper_writing/paper_artifacts/tables/FORMAL_SOURCE_COMPLETION_MATRIX_RUN39.md,blocked,"Shows hard dependency; no scientific result"
+PA119,table,P1,paper_writing/paper_artifacts/tables/COMPLETION_PATH_DECISION_MATRIX.md,protocol/PROTOCOL_AMENDMENT_A01_FORMAL_SOURCE_ACCESS.md,control,"Systematic versus structured-review completion paths"
+PA120,algorithm,P1,paper_writing/paper_artifacts/algorithms/REVIEW_TYPE_INTEGRITY_GATE.md,protocol/PROTOCOL_AMENDMENT_A01_FORMAL_SOURCE_ACCESS.md,control,"Prevents silent substitution of web discovery for formal database execution"
+PA121,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN40_STATUS.md,protocol/PROTOCOL_AMENDMENT_A01_FORMAL_SOURCE_ACCESS.md,in-progress,"172 validated references; Path S retained; formal exports still blocking"
 
