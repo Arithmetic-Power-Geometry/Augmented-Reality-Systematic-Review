@@ -44,7 +44,7 @@ Candidate gaps are not findings. Reported results are not reproduced results. Em
 | NEXT-02 | Primary-study discovery batch 1 across 25 workstreams; preserve raw discovery records | BLOCKING | P1 | **COMPLETE — discovery-only reviewer PASS** |
 | NEXT-03 | Deduplication and screening engine with exclusion reasons | BLOCKING | P1 | **COMPLETE — reviewer PASS** |
 | NEXT-04 | Populate D,T,H,S,A,M,E,U,R and reproducibility fields for eligible studies | BLOCKING | P1 | TODO |
-| NEXT-05 | Continue search/screening to exhaustion; freeze eligible corpus and PRISMA counts | BLOCKING | P1 | TODO |
+| NEXT-05 | Continue search/screening to exhaustion; freeze eligible corpus and PRISMA counts | BLOCKING | P1 | **NEXT** |
 | NEXT-06 | Temporal evolution analysis | REQUIRED | P1 | TODO |
 | NEXT-07 | Domain × technology / Evidence Cube analysis | REQUIRED | P1 | TODO |
 | NEXT-08 | Finalize algorithm/method taxonomy beyond localization | REQUIRED | P1 | TODO |
@@ -108,6 +108,6 @@ Framework/Methods prose may be drafted before the evidence corpus is frozen. Res
 
 ## Resume marker
 
-> **NEXT TASK: NEXT-04 — Perform field-level structured extraction for the 16 screened seed studies into D,T,H,S,A,M,E,U,R plus reproducibility, statistics, datasets, baselines and limitations, with provenance for each coded field.**
+> **NEXT TASK: NEXT-05 — Execute/expand the frozen systematic search, process source-query exports, deduplicate and screen to search exhaustion, validate remaining bibliography records, and freeze the eligible corpus plus defensible PRISMA counts.**
 
 For every future **do next** instruction: execute the current NEXT item, save machine-readable and human-readable outputs, validate them, submit the stage to the adversarial IEEE/TVCG reviewer gate, resolve every CRITICAL/HIGH objection, commit the reviewed artifacts to GitHub, update this ledger, and advance the resume marker.
