@@ -1,6 +1,6 @@
 task_id,status,paper,dependency,primary_output
-NEXT-01,NEXT,P1,none,"protocol/search_strategy.md + evidence/search/search_registry.csv"
-NEXT-02,TODO,P1,NEXT-01,"raw primary-study discovery records"
+NEXT-01,COMPLETE,P1,none,"protocol/search_strategy.md + evidence/search/search_registry.csv"
+NEXT-02,NEXT,P1,NEXT-01,"raw primary-study discovery records"
 NEXT-03,TODO,P1,NEXT-02,"deduplication + screening ledger"
 NEXT-04,TODO,P1,NEXT-03,"coded primary-study evidence"
 NEXT-05,TODO,P1,NEXT-04,"frozen corpus + PRISMA counts"
