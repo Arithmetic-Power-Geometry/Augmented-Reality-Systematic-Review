@@ -1,45 +1,38 @@
-# Manuscript State — Draft V0.1
+# Manuscript State — Run 48
 
 Date: 2026-10-05
-Status: ACTIVE METHODS-FIRST DRAFT
+Status: **PAPER-READY DRAFT / FINAL SYSTEMATIC RESULTS EXTERNALLY BLOCKED**
 
-## Written now
-- title;
-- abstract shell with explicit pending-results boundary;
-- Introduction;
-- contribution positioning;
-- RQ1–RQ13;
-- reporting/search framework;
-- scope and information sources;
-- search architecture;
-- eligibility;
-- provenance/raw-export integrity;
-- deduplication/study families;
-- screening method;
-- evidence extraction;
-- comparability/evidence synthesis;
-- reproducibility;
-- stopping/freeze rule;
-- PRISMA count derivation;
-- Results/Discussion/Conclusion guarded placeholders.
+## Complete
+- title and manuscript architecture;
+- Introduction and prior-review positioning;
+- contribution framing;
+- RQ1-RQ13;
+- systematic-review Methods architecture;
+- 200-reference validated evidence library;
+- 16-study Pilot Corpus V1;
+- pilot downstream analyses NEXT-06 through NEXT-19;
+- P_i representation and pilot extraction;
+- C0-C3 pilot comparability;
+- reproducibility pilot;
+- Evidence Cube pilot;
+- method taxonomy pilot;
+- hardware×sensor×environment pilot;
+- dataset/metric fragmentation pilot;
+- user/accessibility/cognitive-load pilot;
+- contradiction/failure-regime candidates;
+- pilot gap-promotion states;
+- researcher decision map;
+- experimental validation-priority map;
+- final analysis acceptance tests and PRISMA derivation rules.
 
-## Not yet scientifically writable as final results
-- source retrieval counts;
-- duplicate count;
-- screened/excluded/full-text/included counts;
-- final primary corpus size;
-- corpus frequencies/prevalence;
-- final contradiction strengths;
-- final persistent-gap claims;
-- final cross-study comparative results.
+## External blocker
+The seven registered formal databases × Q00-Q12 remain 91/91 NOT_EXECUTED because source-native exports are not available in the current environment.
 
-## Immediate next work
-1. Continue validated bibliography toward 200+ in parallel.
-2. Execute formal database searches outside this repository where access permits.
-3. Save raw exports and exact queries.
-4. Run ingestion/dedup CI and freeze derived ledgers.
-5. Complete screening and study-family adjudication.
-6. Derive PRISMA counts.
-7. Replace pending fields and begin Results.
+PRISMA 2020 requires the actual information sources and dates searched, full executed strategies, selection process and study flow. These cannot be reconstructed from the curated bibliography.
 
-Reference count entering V0.1: 161 validated.
+## Manuscript writing state
+A full paper draft may now be developed using the completed background, Methods and explicitly labeled pilot validation. Final systematic-review Abstract numbers, PRISMA counts, population frequencies, final gap prevalence and final Conclusions remain locked until the formal corpus is frozen.
+
+## Immediate trigger
+On receipt of formal exports: ingest → deduplicate → screen → full text → families → citation chase → freeze → PRISMA → rerun NEXT-06..NEXT-19 → replace pilot labels → final manuscript audit.
