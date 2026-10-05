@@ -13,8 +13,14 @@ mx=ROOT/"evidence/search/formal_search_execution_matrix.csv"
 if mx.exists():
     rows=list(csv.DictReader(mx.open(encoding="utf-8-sig")))
     statuses=[(r.get("status") or r.get("execution_status") or "").upper() for r in rows]
-    closed=sum(s in {"EXECUTED","LIMITATION","ACCESS_LIMITATION_DOCUMENTED"} or "LIMIT" in s for s in statuses)
-    add("registered_source_cells_accounted",len(rows)>=91 and closed>=91,str(mx),f"rows={len(rows)} accounted={closed}")
+    executed=sum(s=="EXECUTED" for s in statuses)
+    registry=ROOT/"evidence/search/search_registry.csv"
+    limitation_rows=0
+    if registry.exists():
+        rr=list(csv.DictReader(registry.open(encoding="utf-8-sig")))
+        limitation_rows=sum((x.get("status") or "").upper()=="LIMITATION" for x in rr)
+    accounted=executed+limitation_rows
+    add("registered_source_cells_accounted",len(rows)>=91 and accounted>=91,str(mx),f"matrix_rows={len(rows)} executed={executed} limitation_registry_rows={limitation_rows} accounted={accounted}")
 else: add("registered_source_cells_accounted",False,str(mx),"missing")
 
 # Screening completion cannot be inferred from work-unit generation.
