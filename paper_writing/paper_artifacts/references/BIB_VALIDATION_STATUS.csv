@@ -103,4 +103,8 @@ Sahu2025EdgeEnergy,PD0072,validated,"Scientific Reports + PubMed/PMC",yes,"Seven
 Chen2024ConstructionSafetyVLM,PD0073,validated,"Elsevier Automation in Construction",yes,"Seven authors/volume/article/DOI confirmed; AR+DL+VLM construction safety system"
 Seo2021CachePower,PD0074,validated,"IEEE WCL + KAIST repository",yes,"Six authors/volume/issue/pages/DOI confirmed; cache/power MAR optimization"
 He2021DRLOffloading,PD0075,validated,"IEEE Xplore",yes,"Five authors/volume/issue/pages/DOI confirmed; DRL offloading/resource allocation"
+Scargill2024EnvironmentTexture,PD0076,validated,"ACM DL + DBLP + Duke Scholars",yes,"Five authors/volume/issue/article/pages/DOI confirmed; persistent markerless AR environment optimization"
+Masood2020IndustrialAdoption,PD0077,validated,"Elsevier + Strathclyde/Cambridge repositories",yes,"Two authors/volume/article/DOI confirmed; 22 industrial/university experiments"
+Loizeau2021FieldEvaluation,PD0078,validated,"Frontiers version of record + DOAJ",yes,"Four authors/volume/article/DOI confirmed; aeronautical maintenance field-evaluation methodology"
+Zigart2022IndustrialSAR,PD0079,validated,"IEEE Xplore + TU Wien repository",yes,"Two authors/pages/DOI confirmed; industrial SAR field study"
 
