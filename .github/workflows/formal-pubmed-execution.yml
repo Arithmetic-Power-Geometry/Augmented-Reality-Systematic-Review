@@ -65,14 +65,17 @@ jobs:
                   ids.extend(d['esearchresult'].get('idlist',[]))
                   time.sleep(.34)
               else:
-                  # Segment only large sets to respect PubMed's 10k ESearch retrieval ceiling.
-                  for y in range(1800,2027):
-                      end='2026/10/05' if y==2026 else f'{y}/12/31'
-                      d,u=get({'db':'pubmed','term':term,'datetype':'pdat','mindate':f'{y}/01/01','maxdate':end,'retmax':'10000','retmode':'json'})
+                  # Recursively split date ranges only where needed to respect PubMed's 10k ceiling.
+                  def collect(y0,y1):
+                      start=f'{y0}/01/01'; end='2026/10/05' if y1==2026 else f'{y1}/12/31'
+                      d,u=get({'db':'pubmed','term':term,'datetype':'pdat','mindate':start,'maxdate':end,'retmax':'10000','retmode':'json'})
                       cnt=int(d['esearchresult']['count'])
-                      if cnt>10000: raise RuntimeError(f'{qi} year {y} exceeds 10k; subdivide before execution')
-                      ids.extend(d['esearchresult'].get('idlist',[]))
-                      time.sleep(.34)
+                      if cnt<=10000:
+                          ids.extend(d['esearchresult'].get('idlist',[])); time.sleep(.34); return
+                      if y0==y1: raise RuntimeError(f'{qi} year {y0} exceeds 10k; finer date subdivision required')
+                      mid=(y0+y1)//2
+                      collect(y0,mid); collect(mid+1,y1)
+                  collect(1800,2026)
               # preserve unique PMID export; count reconciliation is mandatory
               ids=list(dict.fromkeys(ids))
               if len(ids)!=total: raise RuntimeError(f'{qi}: count {total} != unique exported PMID {len(ids)}')
