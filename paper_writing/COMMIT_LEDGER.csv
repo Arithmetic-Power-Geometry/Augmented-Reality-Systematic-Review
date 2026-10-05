@@ -17,3 +17,8 @@ milestone,commit_sha,path
 "Full-SHA build guard",a20969abc9850eb77ac892698cf4db1c7e8b5385,containers/build.sh
 "E001 dependency lock",a00502eed69b8152e0a7cf339d729603f0969f45,benchmarks/tracking_localization_slam/E001_DEPENDENCY_LOCK.csv
 "Build smoke workflow",0e7b662447076af0c3433e6739011f52fc99f3d2,.github/workflows/orbslam3-build-smoke.yml
+"Run 53 screening workplan",35df875eb85753a477b686ea9cccf0b31778cfd1,paper_writing/paper_artifacts/tables/FORMAL_SCREENING_WORKPLAN_RUN53.md
+"Run 53 screening gate",b43c4a60be7c0e378b9d398a4829f2f97e737c81,paper_writing/paper_artifacts/algorithms/FORMAL_SCREENING_DECISION_GATE_RUN53.md
+"Run 53 screening path figure",fa617c1128d02f2e0a86714d5716481c11a692c7,paper_writing/paper_artifacts/figures/FIG_FORMAL_SCREENING_PATH_RUN53.svg
+"Run 53 screening package",0f9228e3aa14f1be4c3553ad6e848b22a75b417c,paper_writing/paper_artifacts/analysis/RUN53_SCREENING_EXECUTION_PACKAGE.md
+"Run 53 screening batch manifest",4abe66b37d705443f211d3c444d4f17988eef303,paper_writing/paper_artifacts/tables/FORMAL_SCREENING_BATCH_MANIFEST_RUN53.csv
