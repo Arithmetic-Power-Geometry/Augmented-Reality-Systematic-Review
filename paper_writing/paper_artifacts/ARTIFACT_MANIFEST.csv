@@ -145,4 +145,13 @@ PA143,table,P1,paper_writing/paper_artifacts/tables/FINAL_CORPUS_ANALYSIS_SCHEMA
 PA144,table,P1,paper_writing/paper_artifacts/tables/PRISMA_FINAL_RESULTS_TEMPLATE_RUN45.md,paper_writing/paper_artifacts/analysis/PRISMA_COUNT_DERIVATION_SPEC.md,locked,"No estimated PRISMA or Results values"
 PA145,figure,P1,paper_writing/paper_artifacts/figures/FIG_PARALLEL_CORPUS_COMPLETION_PIPELINE_RUN45.svg,paper_writing/paper_artifacts/algorithms/PARALLEL_FORMAL_CORPUS_COMPLETION_PIPELINE.md,workflow-ready,"Parallel lanes and dependency barriers"
 PA146,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN45_PARALLEL_COMPLETION_STATUS.md,evidence/search/search_registry.csv,blocked-by-access,"Parallel completion attempted; downstream formal stages fail closed pending exports"
+PA147,analysis,P1,paper_writing/paper_artifacts/analysis/PILOT_CORPUS_V1_FREEZE_RUN46.md,evidence/primary/structured_extraction_batch01.csv,pilot-frozen,"16-study identity/schema pilot; not final systematic corpus"
+PA148,table,P1,paper_writing/paper_artifacts/tables/PILOT_PI_RESULTS_RUN46.md,evidence/primary/structured_extraction_batch01.csv,pilot-results,"P_i structural observations; no field prevalence"
+PA149,table,P1,paper_writing/paper_artifacts/tables/PILOT_COMPARABILITY_C0_C3_RUN46.md,evidence/primary/structured_extraction_batch01.csv,pilot-results,"No C3 pair asserted; thematic families conservatively C1-C2"
+PA150,table,P1,paper_writing/paper_artifacts/tables/PILOT_REPRODUCIBILITY_RUN46.md,evidence/primary/structured_extraction_batch01.csv,pilot-results,"No rate computed from unknown artifact fields"
+PA151,table,P1,paper_writing/paper_artifacts/tables/PILOT_CONTRADICTIONS_FAILURE_REGIMES_RUN46.md,evidence/primary/structured_extraction_batch01.csv,pilot-results,"Candidate tensions only; condition-matched verification pending"
+PA152,table,P1,paper_writing/paper_artifacts/tables/PILOT_GAP_PROMOTION_RUN46.md,evidence/primary/structured_extraction_batch01.csv,pilot-results,"Observed/seed-supported states; no verified opportunity"
+PA153,table,P1,paper_writing/paper_artifacts/tables/PILOT_EVIDENCE_FLOW_RUN46.md,evidence/search/screening_batch01.csv,pilot-flow,"16→16 canonical→16 TA include→16 extraction; explicitly not PRISMA"
+PA154,analysis,P1,paper_writing/paper_artifacts/analysis/PAPER_FACING_PILOT_RESULTS_RUN46.md,paper_writing/paper_artifacts/tables/PILOT_PI_RESULTS_RUN46.md,pilot-results,"Reusable paper-facing pilot Results with explicit boundary"
+PA155,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN46_EXECUTED_PILOT_STATUS.md,paper_writing/paper_artifacts/analysis/PILOT_CORPUS_V1_FREEZE_RUN46.md,pilot-pass,"Downstream machinery executed on real seed evidence"
 
