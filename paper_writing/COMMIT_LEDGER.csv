@@ -71,3 +71,8 @@ milestone,commit_sha,path
 "Run 63 priority findings",f4926037bf6df15e856dd8b44a930231f39f9c29,paper_writing/paper_artifacts/tables/RUN63_TA01_PRIORITY_VERIFICATION_FINDINGS.md
 "Run 63 decision order",f5490f7c8194e74a732b026edfd1605999725fce,paper_writing/paper_artifacts/algorithms/RUN63_PRIORITY_VERIFICATION_DECISION_ORDER.md
 "Run 63 priority figure",7c7c09def73fb9016b309b8d2edac4250d3418d3,paper_writing/paper_artifacts/figures/FIG_RUN63_TA01_PRIORITY_VERIFICATION.svg
+"Run 64 reviewer sheet builder",6f9f59f011830048650d0ea8a924f9ea574fade1,scripts/build_ta01_reviewer_ready_sheet.py
+"Run 64 reviewer workflow",92ecdc57b8a7dd821cfec10d84b2fe79195a9f80,.github/workflows/build-ta01-reviewer-ready.yml
+"Run 64 reviewer status",f675060ee80ded61c35c316107a17b32a8b8c1f2,paper_writing/paper_artifacts/tables/RUN64_TA01_REVIEWER_READY_STATUS.md
+"Run 64 reviewer algorithm",02895fac748ff762e05e455962f33afab394751a,paper_writing/paper_artifacts/algorithms/RUN64_REVIEWER_READY_ORDERING_ALGORITHM.md
+"Run 64 reviewer figure",c72b7f0bc02983b7ce913472d208f0699f40eb33,paper_writing/paper_artifacts/figures/FIG_RUN64_TA01_REVIEWER_READY_ORDER.svg
