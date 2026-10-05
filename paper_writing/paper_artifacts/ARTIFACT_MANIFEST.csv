@@ -67,4 +67,8 @@ PA065,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN25_STATUS.md
 PA066,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_SECURITY_PRIVACY_TRUST_MODEL.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Security/privacy threat-model and comparability structure"
 PA067,algorithm,P1,paper_writing/paper_artifacts/algorithms/SECURITY_PRIVACY_EVIDENCE_PROMOTION_GATE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Claim-promotion procedure for security/privacy synthesis"
 PA068,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN26_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"116 validated references; security/privacy evidence model added"
+PA069,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_HUMAN_FACTOR_SAFETY_MODEL.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Human-factor safety layers and comparability constraints"
+PA070,algorithm,P1,paper_writing/paper_artifacts/algorithms/HUMAN_FACTOR_SAFETY_CLAIM_PROMOTION.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Safety claim promotion/qualification gate"
+PA071,figure,P1,paper_writing/paper_artifacts/figures/FIG_HUMAN_FACTOR_SAFETY_EVIDENCE_CHAIN.svg,paper_writing/paper_artifacts/tables/CANDIDATE_HUMAN_FACTOR_SAFETY_MODEL.md,pre-freeze-candidate,"Benefit/burden human-factor safety evidence chain"
+PA072,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN27_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"120 validated references; human-factor safety structure added"
 
