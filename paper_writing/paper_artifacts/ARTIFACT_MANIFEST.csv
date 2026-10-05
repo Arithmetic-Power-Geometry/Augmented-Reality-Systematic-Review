@@ -103,4 +103,8 @@ PA101,algorithm,P1,paper_writing/paper_artifacts/algorithms/FORMAL_SEARCH_EXPORT
 PA102,table,P1,paper_writing/paper_artifacts/tables/FORMAL_SEARCH_INGESTION_READINESS_MATRIX.md,scripts/ingest_search_exports.py,workflow,"Readiness matrix; no PRISMA or retrieval counts"
 PA103,figure,P1,paper_writing/paper_artifacts/figures/FIG_FORMAL_SEARCH_PROVENANCE_FLOW.svg,evidence/search/RAW_EXPORT_INGESTION_DEDUP_CONTRACT.md,workflow,"Provenance workflow figure; not scientific result"
 PA104,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN35_STATUS.md,evidence/search/formal_search_execution_matrix.csv,in-progress,"156 validated references; importer committed; 91 formal source-query cells still unexecuted"
+PA105,algorithm,P1,paper_writing/paper_artifacts/algorithms/MANUSCRIPT_CLAIM_STATE_GATE.md,paper_writing/paper_artifacts/analysis/NEXT_05_RUN36_STATUS.md,workflow,"Separates draftable claims from corpus-freeze-dependent claims"
+PA106,table,P1,paper_writing/paper_artifacts/tables/MANUSCRIPT_START_GATE.md,paper_writing/paper_artifacts/analysis/NEXT_05_RUN36_STATUS.md,workflow,"Methods-first drafting permitted; final Results remain blocked"
+PA107,figure,P1,paper_writing/paper_artifacts/figures/FIG_MANUSCRIPT_START_GATE.svg,paper_writing/paper_artifacts/tables/MANUSCRIPT_START_GATE.md,workflow,"Writing-start decision figure; no scientific result"
+PA108,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN36_STATUS.md,evidence/search/formal_search_execution_matrix.csv,in-progress,"161 validated references; CI gate configured; formal corpus still unexecuted"
 
