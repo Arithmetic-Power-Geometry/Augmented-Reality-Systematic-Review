@@ -14,4 +14,6 @@ PA012,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_PROGRESS.md,evi
 PA013,references,P1,paper_writing/paper_artifacts/references/master.bib,paper_writing/paper_artifacts/references/BIB_VALIDATION_STATUS.csv,8-validated-entries,"Append only after bibliographic validation"
 PA014,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN2_STATUS.md,evidence/search/primary_discovery_batch03.csv,in-progress,"Corpus not frozen; bibliography=14 validated entries"
 PA015,references,P1,paper_writing/paper_artifacts/references/master.bib,paper_writing/paper_artifacts/references/BIB_VALIDATION_STATUS.csv,14-validated-entries,"200+ is breadth goal, not inclusion criterion"
+PA016,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN3_REFERENCE_HUBS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"21 validated refs; corpus not frozen"
+PA017,table,P1,paper_writing/paper_artifacts/tables/REFERENCE_LIBRARY_GROWTH.md,paper_writing/paper_artifacts/references/BIB_VALIDATION_STATUS.csv,in-progress,"Reference growth diagnostic; not corpus size"
 
