@@ -40,8 +40,8 @@ Candidate gaps are not findings. Reported results are not reproduced results. Em
 
 | ID | Task | Gate | Paper | Status |
 |---|---|---|---|---|
-| NEXT-01 | Freeze systematic primary-study search protocol: sources, queries, dates, inclusion/exclusion, deduplication, screening rules and search registry | BLOCKING | P1 | **NEXT** |
-| NEXT-02 | Primary-study discovery batch 1 across 25 workstreams; preserve raw discovery records | BLOCKING | P1 | TODO |
+| NEXT-01 | Freeze systematic primary-study search protocol: sources, queries, dates, inclusion/exclusion, deduplication, screening rules and search registry | BLOCKING | P1 | **COMPLETE — adversarial gate PASS** |
+| NEXT-02 | Primary-study discovery batch 1 across 25 workstreams; preserve raw discovery records | BLOCKING | P1 | **NEXT** |
 | NEXT-03 | Deduplication and screening engine with exclusion reasons | BLOCKING | P1 | TODO |
 | NEXT-04 | Populate D,T,H,S,A,M,E,U,R and reproducibility fields for eligible studies | BLOCKING | P1 | TODO |
 | NEXT-05 | Continue search/screening to exhaustion; freeze eligible corpus and PRISMA counts | BLOCKING | P1 | TODO |
@@ -108,6 +108,6 @@ Framework/Methods prose may be drafted before the evidence corpus is frozen. Res
 
 ## Resume marker
 
-> **NEXT TASK: NEXT-01 — Freeze the systematic primary-study search protocol.**
+> **NEXT TASK: NEXT-02 — Execute primary-study discovery batch 1 across the 25 workstreams and preserve raw discovery records.**
 
-For every future **do next** instruction: execute the current NEXT item, save machine-readable and human-readable outputs, validate them, commit them to GitHub, update this ledger, and advance the resume marker.
+For every future **do next** instruction: execute the current NEXT item, save machine-readable and human-readable outputs, validate them, submit the stage to the adversarial IEEE/TVCG reviewer gate, resolve every CRITICAL/HIGH objection, commit the reviewed artifacts to GitHub, update this ledger, and advance the resume marker.
