@@ -1,5 +1,5 @@
 name: Build TA-01 reviewer-ready sheet
-# Run 64 registered
+# Run 65 corrected materialization
 on:
   push:
     branches: [main]
