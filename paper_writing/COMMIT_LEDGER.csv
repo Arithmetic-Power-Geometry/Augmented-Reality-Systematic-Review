@@ -104,3 +104,9 @@ milestone,commit_sha,path
 "Run 69 manuscript handoff",d2b5f512f4ea56cd577d35296cd0876cdeb6282f,paper_writing/manuscript/sections/RUN69_TA02_REVIEWER_HANDOFF.md
 "Run 69 packet table",d6023a6c217094ee3f049a4213e8d9ff49b74fe1,paper_writing/paper_artifacts/tables/RUN69_TA02_FINAL_REVIEWER_PACKET_SUMMARY.md
 "Run 69 packet figure",1f9d5d2b22906720e3bcb9ff1fddbde95a9f1824,paper_writing/paper_artifacts/figures/FIG_RUN69_TA02_FINAL_REVIEWER_PACKET.svg
+"Run 70 TA03 builder",3d6c4ddb71ff87b9daefe4dfbe1e23ac62795a29,scripts/build_ta03_assisted_triage.py
+"Run 70 TA03 workflow",3435523a0542e27317531cc30c6df8f145c046a1,.github/workflows/run70-ta03-triage.yml
+"Run 70 provenance section",52a639706407a274803c679887dec31bd46be317,paper_writing/manuscript/sections/RUN70_SEARCH_SCREENING_PROVENANCE_SEPARATION.md
+"Run 70 TA03 audit table",fc87442e4d073216cc168dcfea6e308158310cb9,paper_writing/paper_artifacts/tables/RUN70_TA03_TRIAGE_AND_RESCUE_AUDIT.md
+"Run 70 TA03 algorithm",e36eed0ca9d90e51c96f25e691d482aaf853eb89,paper_writing/paper_artifacts/algorithms/RUN70_TA03_CORRECTED_SAFETY_PIPELINE.md
+"Run 70 TA03 figure",d1e6beb989462de11df51cdfab2ee24b09a86c55,paper_writing/paper_artifacts/figures/FIG_RUN70_TA03_TRIAGE.svg
