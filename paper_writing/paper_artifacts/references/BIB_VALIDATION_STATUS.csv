@@ -115,4 +115,8 @@ Zhou2008ISMARTrends,R048,validated,"IEEE Xplore + DBLP + University of Canterbur
 Hertel2021InteractionTaxonomy,R049,validated,"IEEE ISMAR + University of Hamburg + DBLP",yes,"Six authors/pages/DOI confirmed; 44-paper task-modality taxonomy"
 Bai2025GestureSpeech,R050,validated,"Springer + DBLP",yes,"Three authors/volume/issue/pages/DOI confirmed; 16-study gesture-speech multimodal review"
 Quinn2024OutOfView,R051,validated,"IEEE Xplore + DBLP",yes,"Two authors/pages/DOI confirmed; out-of-view attention-guidance systematic review"
+Wang2021RemoteCollaborationReview,R052,validated,"Elsevier + DBLP",yes,"Nine authors/volume/article/DOI confirmed; 215-paper AR/MR remote-collaboration review"
+Ghamandi2023CollaborativeXR,R053,validated,"IEEE ISMAR + UCF manuscript + bibliographic index",yes,"Seven authors/pages/DOI confirmed; 148-paper collaborative XR task taxonomy"
+Vanukuru2023DualStream,PD0080,validated,"IEEE Xplore + DBLP",yes,"Seven authors/pages/DOI confirmed; synchronous mobile AR spatial communication"
+VidalBalea2025AnchorSharing,PD0081,validated,"Applied Sciences version of record + DOAJ",yes,"Four authors/volume/issue/article/DOI confirmed; multi-user multi-platform spatial-anchor synchronization"
 
