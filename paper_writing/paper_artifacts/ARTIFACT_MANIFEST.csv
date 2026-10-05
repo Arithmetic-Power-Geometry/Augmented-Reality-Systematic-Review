@@ -21,4 +21,6 @@ PA019,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN4_WORKFLOW_A
 PA020,table,P1/P2,paper_writing/paper_artifacts/tables/WORKFLOW_FAILURE_MODES_AND_CONTROLS.md,scripts/preflight_repository.sh,control-table,"Failure analysis; not experimental result"
 PA021,references,P1,paper_writing/paper_artifacts/references/REFERENCE_TARGET_BY_WORKSTREAM.csv,paper_writing/paper_artifacts/references/master.bib,in-progress,"250-candidate coverage plan; final bibliography target 200+ if warranted"
 PA022,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN5_STATUS.md,paper_writing/paper_artifacts/references/BIB_VALIDATION_STATUS.csv,in-progress,"30 validated references"
+PA023,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_INDUSTRIAL_AR_CONTRADICTION_CLUSTER.md,evidence/search/primary_discovery_batch04.csv,pre-freeze-candidate,"Do not report as prevalence until corpus freeze"
+PA024,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN6_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"37 validated references"
 
