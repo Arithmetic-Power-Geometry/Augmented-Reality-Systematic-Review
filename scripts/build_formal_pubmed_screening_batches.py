@@ -58,3 +58,5 @@ summary.write_text(
     encoding="utf-8"
 )
 print("PASS: generated 31 batches covering 7728 unique PMIDs")
+
+# Run 54 trigger: repository-native generation of immutable screening work units.
