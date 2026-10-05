@@ -132,4 +132,11 @@ PA130,table,P1,paper_writing/paper_artifacts/tables/VALIDATED_EVIDENCE_LIBRARY_2
 PA131,algorithm,P1,paper_writing/paper_artifacts/algorithms/POST_200_REFERENCE_ADMISSION_GATE.md,paper_writing/paper_artifacts/references/master.bib,workflow,"After 200 references, additions require documented evidence obligation"
 PA132,figure,P1,paper_writing/paper_artifacts/figures/FIG_VALIDATED_EVIDENCE_LIBRARY_200_RUN43.svg,paper_writing/paper_artifacts/tables/VALIDATED_EVIDENCE_LIBRARY_200_RUN43.md,milestone-complete,"200-reference evidence-library milestone and next scientific gate"
 PA133,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN43_STATUS.md,paper_writing/paper_artifacts/references/master.bib,milestone-complete,"200 validated references reached; formal corpus remains blocked"
+PA134,table,P1,paper_writing/paper_artifacts/tables/CORPUS_FREEZE_READINESS_SCORECARD_RUN44.md,evidence/search/formal_search_execution_matrix.csv,control,"Separates completed infrastructure from locked corpus-derived evidence"
+PA135,table,P1,paper_writing/paper_artifacts/tables/CLAIM_TO_EVIDENCE_LEDGER_RUN44.md,paper_writing/paper_artifacts/references/master.bib,control,"Defines which manuscript claims are currently supportable"
+PA136,table,P1,paper_writing/paper_artifacts/tables/FINAL_ANALYSIS_EXECUTION_MAP_RUN44.md,protocol/RESEARCH_QUESTIONS.md,control,"Maps frozen-corpus inputs to final Results artifacts"
+PA137,algorithm,P1,paper_writing/paper_artifacts/algorithms/FINAL_RESULTS_UNLOCK_GATE.md,evidence/search/formal_search_execution_matrix.csv,workflow,"Fail-closed gate for final Results/Discussion"
+PA138,figure,P1,paper_writing/paper_artifacts/figures/FIG_PAPER_RESULTS_UNLOCK_ARCHITECTURE_RUN44.svg,paper_writing/paper_artifacts/tables/CORPUS_FREEZE_READINESS_SCORECARD_RUN44.md,control,"Visual dependency from formal execution to final paper"
+PA139,table,P1,paper_writing/paper_artifacts/tables/MANUSCRIPT_SECTION_READINESS_RUN44.md,paper_writing/manuscript/main.md,control,"Section-level readiness and final unlock conditions"
+PA140,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN44_STATUS.md,paper_writing/paper_artifacts/tables/MANUSCRIPT_SECTION_READINESS_RUN44.md,in-progress,"Paper-ready architecture complete; 0/91 formal cells remain blocker"
 
