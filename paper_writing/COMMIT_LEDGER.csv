@@ -26,3 +26,7 @@ milestone,commit_sha,path
 "Run 54 batch workflow",6cbfa519bdae2d38b2790082f874ff31aaa82646,.github/workflows/build-formal-pubmed-screening-batches.yml
 "Run 54 workflow trigger",494ce3e7db17f0c7807e2d6e9290dfb33d689696,scripts/build_formal_pubmed_screening_batches.py
 "Run 54 status",c1df5e29e78e63dd3e3acab68ea6dcdc5f3789c8,paper_writing/paper_artifacts/analysis/RUN54_REPOSITORY_NATIVE_SCREENING_BATCH_BUILD.md
+"Run 55 screening batch result",bfaafd10855ba6a19d0f8bbf0d4b46fe87137a0b,paper_writing/paper_artifacts/tables/RUN55_SCREENING_BATCH_EXECUTION_RESULT.md
+"Run 55 batch algorithm",33842c654532ada5cb14105390263ebc04938a42,paper_writing/paper_artifacts/algorithms/A_FORMAL_SCREENING_BATCH_CONSTRUCTION_RUN55.md
+"Run 55 paper gate",2f6bdce4a00a64de9377d46c83a5362dac54f0f6,paper_writing/paper_artifacts/analysis/RUN55_PAPER_GATE_STATUS.md
+"Run 55 screening figure",fd74cf9d07009ac62a4866427a4777da1c1ceb0c,paper_writing/paper_artifacts/figures/FIG_RUN55_SCREENING_PROGRESS.svg
