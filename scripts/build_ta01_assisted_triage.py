@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create nonbinding TA-01 assisted recommendations from the frozen committed batch. Run 60."""
+"""Create nonbinding TA-01 assisted recommendations from the frozen committed batch. Run 61 terminology correction."""
 import csv,re,hashlib
 from pathlib import Path
 src=Path("evidence/screening/formal_pubmed_batches/TA-01.csv")
@@ -7,7 +7,7 @@ out=Path("evidence/screening/assisted/TA-01_ASSISTED_TRIAGE_RUN60.csv")
 if not src.exists(): raise SystemExit("BLOCK: TA-01 is not committed")
 rows=list(csv.DictReader(src.open(encoding="utf-8-sig")))
 if len(rows)!=250: raise SystemExit(f"BLOCK: expected 250 rows, got {len(rows)}")
-strong=["augmented reality","mixed reality","augmented-reality","head-mounted display","head mounted display","hololens","magic leap","optical see-through","video see-through","spatial computing"]
+strong=["augmented reality","mixed reality","mixed-reality","blended reality","augmented-reality","head-mounted display","head mounted display","hololens","magic leap","optical see-through","video see-through","spatial computing"]
 fields=["screening_ordinal","batch_id","pmid","doi","title","abstract","year","journal","assisted_recommendation","assisted_confidence","assisted_rationale","primary_decision","reason_code","primary_screener","decision_timestamp","evidence_note","decision_version","second_verification_state","adjudication_state"]
 out.parent.mkdir(parents=True,exist_ok=True); rr=[]
 for r in rows:
