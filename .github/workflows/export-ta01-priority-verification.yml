@@ -1,0 +1,21 @@
+name: Export Run 63 TA-01 priority verification queue
+on:
+  push:
+    branches: [main]
+    paths: ["scripts/audit_ta01_include_candidates.py"]
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python scripts/audit_ta01_include_candidates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: run63-ta01-priority-verification
+          path: |
+            evidence/screening/assisted/TA-01_INCLUDE_CANDIDATE_AUDIT_RUN62.csv
+            paper_writing/paper_artifacts/provenance/RUN62_TA01_INCLUDE_AUDIT.json
