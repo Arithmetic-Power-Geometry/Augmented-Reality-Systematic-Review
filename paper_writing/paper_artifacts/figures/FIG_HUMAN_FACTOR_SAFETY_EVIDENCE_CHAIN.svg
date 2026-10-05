@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+<rect width="1200" height="520" fill="white"/>
+<text x="600" y="45" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">AR Human-Factor Safety Evidence Chain</text>
+<g font-family="Arial" font-size="18" text-anchor="middle">
+<rect x="40" y="120" width="170" height="90" rx="12" fill="#eef2f7" stroke="#333"/><text x="125" y="155">Safety goal</text><text x="125" y="182">training / live</text>
+<rect x="250" y="120" width="170" height="90" rx="12" fill="#eef2f7" stroke="#333"/><text x="335" y="155">AR function</text><text x="335" y="182">cue / guide / adapt</text>
+<rect x="460" y="120" width="170" height="90" rx="12" fill="#eef2f7" stroke="#333"/><text x="545" y="155">Human state</text><text x="545" y="182">attention / load</text>
+<rect x="670" y="120" width="170" height="90" rx="12" fill="#eef2f7" stroke="#333"/><text x="755" y="155">Outcome</text><text x="755" y="182">hazard / error / skill</text>
+<rect x="880" y="120" width="270" height="90" rx="12" fill="#eef2f7" stroke="#333"/><text x="1015" y="155">Time + context</text><text x="1015" y="182">immediate / retention / field</text>
+<text x="600" y="310" font-size="22" font-weight="bold">Evidence must preserve both sides</text>
+<rect x="160" y="350" width="360" height="95" rx="12" fill="#f3f3f3" stroke="#333"/><text x="340" y="387">Potential benefit</text><text x="340" y="415">guidance, learning, hazard recognition</text>
+<rect x="680" y="350" width="360" height="95" rx="12" fill="#f3f3f3" stroke="#333"/><text x="860" y="387">Potential burden</text><text x="860" y="415">distraction, workload, fatigue, discomfort</text>
+</g>
+<g stroke="#333" stroke-width="3" fill="none">
+<path d="M210 165 H250"/><path d="M420 165 H460"/><path d="M630 165 H670"/><path d="M840 165 H880"/>
+</g>
+</svg>
