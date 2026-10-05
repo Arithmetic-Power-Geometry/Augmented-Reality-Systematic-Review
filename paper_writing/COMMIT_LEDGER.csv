@@ -30,3 +30,6 @@ milestone,commit_sha,path
 "Run 55 batch algorithm",33842c654532ada5cb14105390263ebc04938a42,paper_writing/paper_artifacts/algorithms/A_FORMAL_SCREENING_BATCH_CONSTRUCTION_RUN55.md
 "Run 55 paper gate",2f6bdce4a00a64de9377d46c83a5362dac54f0f6,paper_writing/paper_artifacts/analysis/RUN55_PAPER_GATE_STATUS.md
 "Run 55 screening figure",fd74cf9d07009ac62a4866427a4777da1c1ceb0c,paper_writing/paper_artifacts/figures/FIG_RUN55_SCREENING_PROGRESS.svg
+"Run 56 metadata retry workflow",3ff5ef893a0219195a506724214efaa8dee82ef1,.github/workflows/retry-unresolved-pubmed-metadata.yml
+"Run 56 metadata retry script",1256f83b966dc9c01e5a6df5ab0f7ba8cb14de0e,scripts/retry_unresolved_pubmed_metadata.py
+"Run 56 manuscript methods",22821098074ff7cb44db1b036abd223b07ead071,paper_writing/manuscript/sections/RUN56_FORMAL_SEARCH_AND_SELECTION_METHODS.md
