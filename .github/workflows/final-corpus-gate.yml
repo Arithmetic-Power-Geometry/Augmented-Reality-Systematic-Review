@@ -1,0 +1,25 @@
+name: Final corpus fail-closed gate
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/final_corpus_gate.py"
+      - "evidence/screening/**"
+      - "evidence/primary/final_study_family_ledger.csv"
+      - "evidence/search/final_citation_chase_ledger.csv"
+permissions:
+  contents: read
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Evaluate final corpus gate
+        run: python scripts/final_corpus_gate.py
+      - name: Upload gate evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: run57-final-corpus-gate
+          path: paper_writing/paper_artifacts/provenance/RUN57_FINAL_CORPUS_GATE.json
