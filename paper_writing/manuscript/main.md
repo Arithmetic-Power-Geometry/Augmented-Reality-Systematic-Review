@@ -126,7 +126,7 @@ Screening has two stages: title/abstract followed by full text. Each record rece
 
 For the final corpus, all included studies require a second independent verification pass, together with a stratified sample of exclusions. Any genuine inter-rater agreement statistic will be reported only if a genuine second screener performs the verification; no synthetic reviewer agreement will be created.
 
-**Screening state:** PENDING_FORMAL_EXECUTION.
+**Screening state:** final formal screening is externally blocked pending source-native exports; the 16-study Pilot Corpus V1 has completed pilot screening and downstream validation.
 
 ### I. Evidence Extraction
 
@@ -161,11 +161,11 @@ PRISMA identification, screening, retrieval, exclusion, and inclusion totals are
 - reports_sought = reports_not_retrieved + reports_assessed;
 - reports_assessed = reports_excluded_full_text + included_reports.
 
-**All numeric PRISMA fields remain PENDING_FORMAL_EXECUTION.**
+**All final numeric PRISMA fields remain externally blocked pending source-native formal-search execution and corpus freeze.**
 
 ## III. Results
 
-**BLOCKED UNTIL NEXT-05 CORPUS FREEZE.** No final corpus-derived result, prevalence estimate, PRISMA count, gap frequency, or cross-study ranking is inserted in Draft V0.1.
+**FINAL SYSTEMATIC RESULTS BLOCKED UNTIL NEXT-05 CORPUS FREEZE.** Pilot Corpus V1 results are available as workflow-validation evidence, but no final corpus-derived prevalence estimate, PRISMA count, gap frequency, or universal cross-study ranking is asserted.
 
 ## IV. Discussion
 
@@ -173,8 +173,8 @@ A section architecture is reserved for: evolution of AR evidence; comparability 
 
 ## V. Conclusion
 
-**PENDING FINAL SYNTHESIS.** The conclusion will be written only after the evidence map, contradiction analysis, reproducibility audit, and verified-gap analysis are complete.
+**FINAL CONCLUSION LOCKED TO FINAL SYNTHESIS.** The conclusion will be written only after the evidence map, contradiction analysis, reproducibility audit, and verified-gap analysis are complete.
 
 ## References
 
-The manuscript bibliography is maintained in paper_writing/paper_artifacts/references/master.bib. Draft V0.1 cites only keys already present in that validated master file.
+The manuscript bibliography is maintained in paper_writing/paper_artifacts/references/master.bib. The current evidence library contains 212 validated BibTeX records; manuscript citations must use keys present in that master file.
