@@ -81,3 +81,9 @@ milestone,commit_sha,path
 "Run 64 corrected figure counts",41e6258c3882392f8267542ec4b7a6d4b0d19d65,paper_writing/paper_artifacts/figures/FIG_RUN64_TA01_REVIEWER_READY_ORDER.svg
 "Run 65 manuscript selection boundary",5f064f1c643c3724fb155644175064be28dff780,paper_writing/manuscript/sections/RUN65_HUMAN_CONFIRMED_SELECTION_BOUNDARY.md
 "Run 65 TA01 completion validator",cb0968859f3f3bba78426d3312a2748f860a5900,scripts/validate_ta01_primary_completion.py
+"Run 66 TA02 builder",830826e53a0c2246e5b3405aa8027748702792dc,scripts/build_ta02_assisted_triage.py
+"Run 66 TA02 workflow",913730a89dacf69da5411001c050146c7b8081a8,.github/workflows/materialize-ta02-assisted-triage.yml
+"Run 66 manuscript progression",a0b3a4ca6280d039c5a1f2785229c981160f085c,paper_writing/manuscript/sections/RUN66_PARALLEL_SCREENING_PROGRESSION.md
+"Run 66 TA02 result",caf12fb109eb34a880acc55a81c6ffa8f84ce58d,paper_writing/paper_artifacts/tables/RUN66_TA02_ASSISTED_TRIAGE_RESULT.md
+"Run 66 TA02 algorithm",71a0b8668d232b53fa881e2f14c3f0111173099a,paper_writing/paper_artifacts/algorithms/RUN66_TA02_PROGRESSION_ALGORITHM.md
+"Run 66 TA02 figure",5426723d28f3f7079431735860467eae1add66b9,paper_writing/paper_artifacts/figures/FIG_RUN66_TA02_ASSISTED_TRIAGE.svg
