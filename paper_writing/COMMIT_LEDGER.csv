@@ -110,3 +110,13 @@ milestone,commit_sha,path
 "Run 70 TA03 audit table",fc87442e4d073216cc168dcfea6e308158310cb9,paper_writing/paper_artifacts/tables/RUN70_TA03_TRIAGE_AND_RESCUE_AUDIT.md
 "Run 70 TA03 algorithm",e36eed0ca9d90e51c96f25e691d482aaf853eb89,paper_writing/paper_artifacts/algorithms/RUN70_TA03_CORRECTED_SAFETY_PIPELINE.md
 "Run 70 TA03 figure",d1e6beb989462de11df51cdfab2ee24b09a86c55,paper_writing/paper_artifacts/figures/FIG_RUN70_TA03_TRIAGE.svg
+"Run 71 TA03 audit script",75ac3c1fd4c429b2dfd0eadfc1297a63c852ab08,scripts/audit_ta03_include_candidates.py
+"Run 71 TA03 audit workflow",7108a79d67a4ebe4a1bfe3a2333f82b5d4434aed,.github/workflows/run71-ta03-include-audit.yml
+"Run 71 include findings",8a1323bdf4270a41b81694814cd4924642c71f1a,paper_writing/paper_artifacts/tables/RUN71_TA03_INCLUDE_RISK_AND_VERIFICATION.md
+"Run 71 verification gate",687e6179e78fd9287a538e23c575335947743d69,paper_writing/paper_artifacts/algorithms/RUN71_TA03_INCLUDE_VERIFICATION_GATE.md
+"Run 71 include figure",2c6d9273c16495caed9b66a0983e28abaae16652,paper_writing/paper_artifacts/figures/FIG_RUN71_TA03_INCLUDE_AUDIT.svg
+"Run 71 packet builder",572a27ada00f3d9eed8628d0f8b2b98ea321163c,scripts/build_ta03_reviewer_ready_run71.py
+"Run 71 packet workflow",182dca4cc5fc433f064cc95f216e29bf3770eef2,.github/workflows/run71-ta03-reviewer-packet.yml
+"Run 71 packet table",e81ec254e32930d1bd18ddb397fd77a0aa8d2051,paper_writing/paper_artifacts/tables/RUN71_TA03_FINAL_REVIEWER_PACKET.md
+"Run 71 packet figure",f7af13df41fda6e06bf43fc70ca121304325cd19,paper_writing/paper_artifacts/figures/FIG_RUN71_TA03_FINAL_REVIEWER_PACKET.svg
+"Run 71 manuscript handoff",1421e72a2180588c938789ffc22f14f16310dea9,paper_writing/manuscript/sections/RUN71_TA03_REVIEWER_HANDOFF.md
