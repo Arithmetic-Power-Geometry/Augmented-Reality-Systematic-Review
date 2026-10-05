@@ -71,4 +71,8 @@ PA069,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_HUMAN_FACTOR_SAFET
 PA070,algorithm,P1,paper_writing/paper_artifacts/algorithms/HUMAN_FACTOR_SAFETY_CLAIM_PROMOTION.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Safety claim promotion/qualification gate"
 PA071,figure,P1,paper_writing/paper_artifacts/figures/FIG_HUMAN_FACTOR_SAFETY_EVIDENCE_CHAIN.svg,paper_writing/paper_artifacts/tables/CANDIDATE_HUMAN_FACTOR_SAFETY_MODEL.md,pre-freeze-candidate,"Benefit/burden human-factor safety evidence chain"
 PA072,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN27_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"120 validated references; human-factor safety structure added"
+PA073,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_REPRODUCIBILITY_REPLICATION_MODEL.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"R0-R8 reproducibility/replication evidence model with component flags"
+PA074,algorithm,P1,paper_writing/paper_artifacts/algorithms/REPRODUCIBILITY_EVIDENCE_CLASSIFICATION_GATE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Classification and synthesis claim gate for reproducibility evidence"
+PA075,figure,P1,paper_writing/paper_artifacts/figures/FIG_REPRODUCIBILITY_EVIDENCE_LADDER.svg,paper_writing/paper_artifacts/tables/CANDIDATE_REPRODUCIBILITY_REPLICATION_MODEL.md,pre-freeze-candidate,"Transparency-to-replication evidence ladder"
+PA076,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN28_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"124 validated references; reproducibility/replication model added"
 
