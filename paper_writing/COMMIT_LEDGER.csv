@@ -62,3 +62,8 @@ milestone,commit_sha,path
 "Run 61 rescue gate",7ca845d4b69f8075990ed252a391db47e79de596,paper_writing/paper_artifacts/algorithms/RUN61_EXCLUSION_CANDIDATE_RESCUE_GATE.md
 "Run 61 exclusion audit figure",01d3653cbb7c01ee05a8da308d72f6c9f4018f4a,paper_writing/paper_artifacts/figures/FIG_RUN61_TA01_EXCLUSION_AUDIT.svg
 "Run 61 triage terminology correction",5ae4c31a61d630bc9ce653c9ba535105e8da1326,scripts/build_ta01_assisted_triage.py
+"Run 62 include audit script",2a61363103290423c3f795e73a9fda617ff15db7,scripts/audit_ta01_include_candidates.py
+"Run 62 include audit workflow",3715d7ae255b2bf7c0b01f56d401088562199344,.github/workflows/audit-ta01-include-candidates.yml
+"Run 62 include risk table",11ceb67201d1db83fb4fe030cc95ff10f475eb2a,paper_writing/paper_artifacts/tables/RUN62_TA01_INCLUDE_CANDIDATE_RISK_AUDIT.md
+"Run 62 include risk algorithm",a19b65c40c39024b7a4cf08da632e7c7b63a19b3,paper_writing/paper_artifacts/algorithms/RUN62_INCLUDE_CANDIDATE_FALSE_POSITIVE_GATE.md
+"Run 62 include risk figure",7c472f267ddbb415d8847f19496c893ab0a978a1,paper_writing/paper_artifacts/figures/FIG_RUN62_TA01_INCLUDE_RISK_AUDIT.svg
