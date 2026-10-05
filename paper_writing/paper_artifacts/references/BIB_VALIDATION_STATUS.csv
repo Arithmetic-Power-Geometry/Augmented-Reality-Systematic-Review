@@ -53,4 +53,9 @@ Tian2010Occlusion,PD0035,validated,"MDPI + PubMed/PMC",yes,"Authors/volume/issue
 Li2022MonocularOcclusion,PD0036,validated,"ScienceDirect",yes,"Authors/volume/pages/DOI confirmed"
 Fan2026DepthCueConflict,PD0037,validated,"Springer Nature",yes,"Authors/volume/article/DOI confirmed"
 Denning2014Bystanders,PD0038,validated,"ACM Digital Library + DBLP",yes,"Authors/proceedings/pages/DOI confirmed"
+OHagan2022EverydayPrivacy,PD0039,validated,"ACM IMWUT + University of Glasgow repository",yes,"Seven authors/volume/issue/article/DOI confirmed"
+Corbett2023BystandAR,PD0040,validated,"ACM MobiSys + Montclair institutional record",yes,"Five authors/pages/DOI confirmed"
+Hao2024DelayGuaranteed,PD0041,validated,"ScienceDirect",yes,"Three authors/article/DOI confirmed"
+Na2024GenerativeAIEdge,PD0042,validated,"MDPI Applied Sciences",yes,"Authors/volume/issue/article/DOI confirmed"
+Ahn2020EnergyEfficient,PD0043,validated,"IEEE WCL + KAIST institutional record",yes,"Four authors/volume/issue/pages/DOI confirmed"
 
