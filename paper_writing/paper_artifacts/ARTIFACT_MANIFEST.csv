@@ -56,4 +56,6 @@ PA054,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_RESOURCE_SAFETY_DE
 PA055,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN20_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"92 validated references; formal export blocker remains"
 PA056,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_TEMPORAL_FIELD_VALIDITY_MODEL.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"F0-F5 field-validity hierarchy and active environment refinement"
 PA057,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN21_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"96 validated sources; longitudinal/field-validity structure added"
+PA058,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_EVALUATION_MEASUREMENT_ONTOLOGY.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"M1-M10 AR evaluation ontology and comparability constraints"
+PA059,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN22_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"100 validated references; measurement ontology added"
 
