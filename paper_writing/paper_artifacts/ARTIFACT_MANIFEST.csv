@@ -43,4 +43,5 @@ PA041,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_SAFETY_SITUATIONAL
 PA042,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_CORPUS_FREEZE_READINESS.md,protocol/PRIMARY_STUDY_SEARCH_STRATEGY.md,in-progress,"Ten remaining operations before corpus freeze/manuscript folder"
 PA043,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN14_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"76 validated references"
 PA044,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_SEARCH_PROVENANCE_GATE.md,evidence/search/formal_search_execution_matrix.csv,in-progress,"91 planned source-query executions; no PRISMA counts until provenance complete"
+PA045,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN15_STATUS.md,evidence/search/DATABASE_QUERY_TRANSLATION_SPEC.md,in-progress,"Search translation and raw-export/dedup contracts frozen before execution"
 
