@@ -25,4 +25,11 @@ Pantforder2024DigitalTwinsMR,PD0025,validated,"IEEE Xplore + TUM institutional p
 Sahoo2026LaserProjection,PD0026,validated,"PubMed + ScienceDirect",yes,"Authors/volume/article/DOI confirmed"
 Sheng2024SLAMReview,R020,validated,"ScienceDirect",yes,"Review evidence; authors/volume/article/DOI confirmed"
 Zhang2026PoseEstimationReview,R021,validated,"publisher article page",yes,"Review evidence; authors/volume/issue/article/DOI confirmed"
+Azuma1997Survey,R022,validated,"MIT Press Presence publisher record",yes,"Foundational AR survey; volume/issue/pages/DOI confirmed"
+Azuma2001Advances,R023,validated,"IEEE Xplore + Crossref-derived bibliographic record",yes,"Six authors/volume/issue/pages/DOI confirmed"
+Billinghurst2015Survey,R024,validated,"publisher + University of Canterbury repository",yes,"Authors/volume/issue/pages/DOI confirmed"
+Sereno2022Collaborative,R025,validated,"PubMed + IEEE TVCG bibliographic metadata",yes,"Authors/volume/issue/pages/DOI confirmed"
+Macedo2023Occlusion,R026,validated,"PubMed + IEEE TVCG bibliographic metadata",yes,"Authors/volume/issue/pages/DOI confirmed"
+Gsaxner2023HoloLensMedicine,R027,validated,"PubMed + ScienceDirect",yes,"Seven authors/volume/article/DOI confirmed"
+Birlo2022OSTSurgery,R028,validated,"PubMed/PMC + ScienceDirect + UCL repository",yes,"Four authors/volume/article/DOI confirmed"
 
