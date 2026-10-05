@@ -32,4 +32,7 @@ PA030,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_ACCESSIBILITY_MULT
 PA031,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN9_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"52 validated references"
 PA032,table,P1/P3,paper_writing/paper_artifacts/tables/CANDIDATE_ADAPTIVE_AR_PRIOR_ART_CONSTRAINT.md,evidence/search/primary_discovery_batch08.csv,pre-freeze-novelty-control,"Mandatory anchor for NEXT-27 closest-prior-work audit"
 PA033,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN10_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"55 validated references"
+PA034,table,P1/P3,paper_writing/paper_artifacts/tables/CANDIDATE_GENAI_AR_CAPABILITY_FRONTIER.md,evidence/search/primary_discovery_batch09.csv,pre-freeze-novelty-control,"Mandatory GenAI prior-art map for NEXT-27"
+PA035,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_COLLABORATIVE_AR_TWO_LAYER_EVALUATION.md,evidence/search/primary_discovery_batch09.csv,pre-freeze-candidate,"System + collaboration outcome separation"
+PA036,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN11_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"63 validated references"
 
