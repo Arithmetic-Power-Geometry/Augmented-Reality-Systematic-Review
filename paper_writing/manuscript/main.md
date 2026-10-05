@@ -1,6 +1,6 @@
 # Augmented Reality: A Systematic Review of Technologies, Algorithms, Benchmarks, Evaluation Methods, Research Gaps, and Future Directions
 
-**Manuscript status:** Draft V0.1 — methods-first, pre-corpus-freeze
+**Manuscript status:** Draft V0.2 — methods-first, pre-corpus-freeze
 **Target venue:** IEEE Transactions on Visualization and Computer Graphics
 **Claim boundary:** No final corpus size, PRISMA counts, prevalence, or corpus-derived result is asserted before NEXT-05 freeze.
 
@@ -34,7 +34,19 @@ Subject to final corpus verification, this review makes five methodological cont
 
 These contributions are provisional until the formal corpus and closest-prior-work audit are frozen.
 
-### B. Research Questions
+### B. Positioning Against Prior Reviews
+
+The AR literature already contains substantial review coverage, so the present study is positioned against that prior synthesis rather than treating breadth as novelty. In industrial contexts, Palmarini et al. synthesized AR maintenance applications and identified fragmentation across hardware, software, and solution choices [Palmarini2018Maintenance]. Fernández del Amo et al. subsequently examined 74 maintenance-related papers through authoring, context-awareness, interaction analysis, and knowledge-transfer mechanisms [FernandezDelAmo2018KnowledgeTransfer]. Vocational-training research has likewise been synthesized across industrial, medical, and educational applications [Chiang2022VocationalTraining]. These reviews establish that application taxonomy, technology enumeration, and training-effect summaries are already mature review objectives.
+
+Education has an equally substantial synthesis base. Meta-analyses have evaluated learning gains and pedagogical moderators [Garzon2019LearningGains, Garzon2020Pedagogy], while later work has examined K–12 evidence, cognitive load, and mixed-reality learning effectiveness [Zhang2022K12AR, Zhu2026CognitiveLoad, Huang2025MixedRealityEducation]. Consequently, this review does not treat a positive learning effect, engagement advantage, or device comparison as transferable without retaining pedagogy, learner, comparator, exposure, outcome, and time-horizon conditions.
+
+Healthcare provides an especially strong test of overclaiming. Earlier reviews evaluated the validity of AR for medical training [Barsom2016MedicalTraining] and medical education more broadly [Tang2020MedicalEducation]. Subsequent syntheses examined surgical education [Kovoor2021SurgicalEducation, ElAshry2026SurgicalTrainingReview], health-sciences higher education [RodriguezAbad2021HealthSciences], and the combined VR/AR medical-education review landscape [Tene2024MedicalUmbrella]. A 2026 U.S. scoping review further focused on XR head-mounted displays in healthcare education [Lauinger2026XRHealthEducation]. These studies make a new healthcare taxonomy neither necessary nor defensibly novel.
+
+Recent reviews also narrow interaction, evaluation, replication, intelligent AR, digital-twin integration, accessibility, and field-deployment questions. For example, interaction/UX evaluation has been synthesized directly [Hughes2025InteractionUX], while replication practices across IEEE ISMAR and IEEE VR have been examined independently [Arefin2025Replication]. Intelligent and conversational AR, adaptive multimodal interfaces, and AR–digital-twin integration likewise have dedicated recent reviews [Bassyouni2021AIRobotics, Wu2026ConversationalAR, Ramtohul2025AdaptiveMultimodal, Yin2023ARDigitalTwin, Kautsar2026Bidirectional].
+
+The resulting opportunity is therefore methodological rather than taxonomic. Existing reviews usually optimize for a domain, technology family, outcome class, or application question. The present review instead asks whether evidence produced under heterogeneous AR conditions can be **compared, transferred, reproduced, reconciled, and converted into a defensible next experiment**. Its organizing contribution is the joint use of P_i=(D,T,H,S,A,M,E,U,R), C0–C3 comparability, the Evidence Cube, study-family provenance, graded reproducibility/replication evidence, contradiction analysis, and a gap-promotion gate. Final claims that this combination is distinct from all closest prior reviews remain provisional until the formal review-of-reviews and primary corpus are frozen.
+
+### C. Research Questions
 
 **RQ1 — Evolution:** How have AR research problems, enabling technologies, devices, algorithms, applications, and evaluation practices evolved from foundational work to the present?
 
