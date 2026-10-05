@@ -1,0 +1,2 @@
+search_run_id,source,query_id,concept_block,exact_executed_query,execution_date,date_from,date_to,filters,raw_result_count,exported_count,export_file,export_sha256,access_limitation,operator_or_tool,status,notes
+SR0000,TEMPLATE,Q00,AR-core,"NOT EXECUTED",,,,,,,,,,,template,"Populate one row per executed source-query pair; never replace exact query text with a paraphrase."
