@@ -25,4 +25,7 @@ PA023,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_INDUSTRIAL_AR_CONT
 PA024,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN6_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"37 validated references"
 PA025,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_OCCLUSION_EVOLUTION.md,evidence/search/primary_discovery_batch05.csv,pre-freeze-candidate,"Temporal mechanism/evaluation synthesis; verify after corpus freeze"
 PA026,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN7_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"42 validated references"
+PA027,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_EDGE_RESOURCE_TRADEOFF.md,evidence/search/primary_discovery_batch06.csv,pre-freeze-candidate,"Latency-energy-quality synthesis; no novelty claim"
+PA028,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_BYSTANDER_PRIVACY_PROGRESSION.md,evidence/search/primary_discovery_batch06.csv,pre-freeze-candidate,"Privacy progression; verify after corpus freeze"
+PA029,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN8_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"47 validated references"
 
