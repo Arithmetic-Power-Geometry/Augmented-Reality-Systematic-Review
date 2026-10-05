@@ -60,14 +60,19 @@ jobs:
               data,url=get({'db':'pubmed','term':term,'datetype':'pdat','mindate':'1800/01/01','maxdate':'2026/10/05','rettype':'count','retmode':'json'})
               total=int(data['esearchresult']['count'])
               ids=[]
-              # Year segmentation avoids PubMed 10k ESearch retrieval ceiling.
-              for y in range(1800,2027):
-                  end='2026/10/05' if y==2026 else f'{y}/12/31'
-                  d,u=get({'db':'pubmed','term':term,'datetype':'pdat','mindate':f'{y}/01/01','maxdate':end,'retmax':'10000','retmode':'json'})
-                  cnt=int(d['esearchresult']['count'])
-                  if cnt>10000: raise RuntimeError(f'{qi} year {y} exceeds 10k; subdivide before execution')
+              if total <= 10000:
+                  d,u=get({'db':'pubmed','term':term,'datetype':'pdat','mindate':'1800/01/01','maxdate':'2026/10/05','retmax':'10000','retmode':'json'})
                   ids.extend(d['esearchresult'].get('idlist',[]))
                   time.sleep(.34)
+              else:
+                  # Segment only large sets to respect PubMed's 10k ESearch retrieval ceiling.
+                  for y in range(1800,2027):
+                      end='2026/10/05' if y==2026 else f'{y}/12/31'
+                      d,u=get({'db':'pubmed','term':term,'datetype':'pdat','mindate':f'{y}/01/01','maxdate':end,'retmax':'10000','retmode':'json'})
+                      cnt=int(d['esearchresult']['count'])
+                      if cnt>10000: raise RuntimeError(f'{qi} year {y} exceeds 10k; subdivide before execution')
+                      ids.extend(d['esearchresult'].get('idlist',[]))
+                      time.sleep(.34)
               # preserve unique PMID export; count reconciliation is mandatory
               ids=list(dict.fromkeys(ids))
               if len(ids)!=total: raise RuntimeError(f'{qi}: count {total} != unique exported PMID {len(ids)}')
