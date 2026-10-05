@@ -1,0 +1,5 @@
+discovery_id,year,title,venue,doi,workstream,evidence_type,status
+PD0063,2023,"Aria Digital Twin: A New Benchmark Dataset for Egocentric 3D Machine Perception","ICCV 2023","10.1109/ICCV51070.2023.01842","scene understanding; datasets; reproducibility","dataset + multi-task benchmark",validated_candidate
+PD0064,2023,"EgoObjects: A Large-Scale Egocentric Dataset for Fine-Grained Object Understanding","ICCV 2023","10.1109/ICCV51070.2023.01840","object recognition; datasets; continual learning","dataset + four benchmark tasks",validated_candidate
+PD0065,2026,"Egocentric human-object interaction detection: A new benchmark and method","Expert Systems with Applications","10.1016/j.eswa.2025.130216","scene understanding; human-object interaction","benchmark + method",validated_candidate
+PD0066,2026,"Benchmarking Vision-Language Models under Contradictory Virtual Content Attacks in Augmented Reality","CVPR Findings 2026","","security; safety; VLM; benchmarks","AR robustness benchmark; 11 VLMs",validated_candidate
