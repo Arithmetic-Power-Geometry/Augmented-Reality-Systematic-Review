@@ -6,3 +6,6 @@ PA004,algorithm,P1,paper_writing/paper_artifacts/algorithms/A1_DISCOVERY_TO_SCRE
 PA005,table,P1,paper_writing/paper_artifacts/tables/NEXT_03_SCREENING_OUTCOME.md,evidence/search/screening_batch01.csv,screened-seed,"Not final PRISMA corpus"
 PA006,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_03_screening_flow.csv,evidence/search/screening_batch01.csv,screened-seed,"Seed-batch flow only"
 PA007,algorithm,P1,paper_writing/paper_artifacts/algorithms/A2_CANONICALIZE_DEDUP_SCREEN.md,protocol/PRIMARY_STUDY_SEARCH_STRATEGY.md,workflow,"Review workflow algorithm; not AR method"
+PA008,table,P1,paper_writing/paper_artifacts/tables/NEXT_04_PILOT_EVIDENCE_CUBE.md,evidence/primary/structured_extraction_batch01.csv,pilot-extraction,"Schema-validation table; not field prevalence"
+PA009,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_04_PILOT_EXTRACTION.md,evidence/primary/structured_extraction_batch01.csv,pilot-extraction,"Signals only; final synthesis pending corpus freeze"
+PA010,references,P1,paper_writing/paper_artifacts/references/master.bib,paper_writing/paper_artifacts/references/BIB_VALIDATION_STATUS.csv,validated-library,"Only validated entries allowed for manuscript citation"
