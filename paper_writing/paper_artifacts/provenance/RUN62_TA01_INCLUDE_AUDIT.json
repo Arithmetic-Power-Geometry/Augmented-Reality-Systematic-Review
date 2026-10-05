@@ -1,0 +1,12 @@
+{
+  "n": 211,
+  "states": {
+    "PRIORITY_VERIFY": 40,
+    "LIKELY_ADVANCE_PENDING_PRIMARY_REVIEW": 171
+  },
+  "flags": {
+    "ABSTRACT_MISSING": 7,
+    "AR_MENTION_MAY_BE_CONTEXT_ONLY": 32,
+    "SECONDARY_OR_COMMENTARY_TITLE": 4
+  }
+}
