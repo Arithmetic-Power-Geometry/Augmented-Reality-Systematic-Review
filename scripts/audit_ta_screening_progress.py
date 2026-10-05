@@ -22,3 +22,5 @@ out=Path("paper_writing/paper_artifacts/provenance/RUN58_TA_SCREENING_PROGRESS.j
 out.parent.mkdir(parents=True,exist_ok=True)
 out.write_text(json.dumps({"expected_total":7728,"valid_primary_decisions":total_valid,"remaining":7728-total_valid,"batches":rows},indent=2),encoding="utf-8")
 print(f"TA_PROGRESS valid={total_valid} remaining={7728-total_valid}")
+
+# Run 58 execution trigger.
