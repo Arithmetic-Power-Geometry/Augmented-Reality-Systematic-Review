@@ -124,4 +124,8 @@ PA122,table,P1,paper_writing/paper_artifacts/tables/REHABILITATION_NEUROCOGNITIV
 PA123,algorithm,P1,paper_writing/paper_artifacts/algorithms/SECONDARY_REVIEW_EVIDENCE_PROMOTION_GATE.md,paper_writing/paper_artifacts/references/master.bib,workflow,"Prevents secondary-review evidence leaking into primary PRISMA corpus"
 PA124,figure,P1,paper_writing/paper_artifacts/figures/FIG_CONDITIONAL_REHABILITATION_EVIDENCE_RUN41.svg,paper_writing/paper_artifacts/tables/REHABILITATION_NEUROCOGNITIVE_EVIDENCE_RUN41.md,pre-freeze-secondary,"Conditional rehabilitation synthesis; no universal efficacy claim"
 PA125,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN41_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"178 validated references; 22+ to 200; formal corpus blocked"
+PA126,table,P1,paper_writing/paper_artifacts/tables/BROAD_HEALTH_PROFESSIONS_EVIDENCE_RUN42.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-secondary,"Broad-review and health-professions anchors; secondary counts not primary corpus"
+PA127,algorithm,P1,paper_writing/paper_artifacts/algorithms/MIXED_XR_SEPARABILITY_GATE.md,paper_writing/paper_artifacts/references/master.bib,workflow,"Prevents pooled XR evidence from being relabeled as AR evidence"
+PA128,figure,P1,paper_writing/paper_artifacts/figures/FIG_MIXED_XR_SEPARABILITY_RUN42.svg,paper_writing/paper_artifacts/algorithms/MIXED_XR_SEPARABILITY_GATE.md,pre-freeze-secondary,"AR separability logic; no primary-corpus result"
+PA129,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN42_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"183 validated references; 17+ to 200; formal corpus blocked"
 
