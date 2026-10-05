@@ -1,0 +1,6 @@
+discovery_id,year,title,venue,doi,workstream,evidence_type,status
+PD0044,2017,"AR4VI: AR as an Accessibility Tool for People with Visual Impairments","IEEE ISMAR-Adjunct","10.1109/ISMAR-Adjunct.2017.89","accessibility/inclusion","concept/system primary",validated_candidate
+PD0045,2019,"An augmented reality sign-reading assistant for users with reduced vision","PLOS ONE","10.1371/journal.pone.0210630","accessibility; navigation","controlled primary",validated_candidate
+PD0046,2020,"Use of augmented reality technology for improving visual acuity of individuals with low vision","Indian Journal of Ophthalmology","10.4103/ijo.IJO_1524_19","accessibility; healthcare","prospective clinical primary; N=100",validated_candidate
+PD0047,2021,"Pressing a Button You Cannot See: Evaluating Visual Designs to Assist Persons with Low Vision through Augmented Reality","ACM VRST","10.1145/3489849.3489873","accessibility; interaction","user-study primary",validated_candidate
+PD0048,2026,"Remote Assistance with Augmented Reality: A Flexible Accessibility Solution for Low Vision Museum Visitors","International Journal of Human-Computer Interaction","10.1080/10447318.2025.2531268","accessibility; remote assistance","real-world qualitative primary; N=11",validated_candidate
