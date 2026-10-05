@@ -1,0 +1,75 @@
+name: PubMed Formal Metadata Enrichment
+
+on:
+  push:
+    paths:
+      - '.github/workflows/pubmed-formal-metadata.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch PubMed metadata for frozen Q00 pool
+        run: |
+          python - <<'PY'
+          import csv, time, urllib.parse, urllib.request, xml.etree.ElementTree as ET, hashlib
+          from pathlib import Path
+          src=Path('evidence/search/raw_exports/pubmed/SR_PUBMED_Q00_2026-10-05.csv')
+          ids=[r['pmid'] for r in csv.DictReader(src.open(encoding='utf-8'))]
+          if len(ids)!=10198: raise RuntimeError(f'Expected frozen Q00 10198 PMIDs, got {len(ids)}')
+          out=Path('evidence/search/derived/pubmed'); out.mkdir(parents=True,exist_ok=True)
+          dst=out/'PUBMED_Q00_METADATA_2026-10-05.csv'
+          fields=['pmid','doi','title','abstract','authors','journal','year','publication_types','language']
+          rows=[]
+          for i in range(0,len(ids),200):
+              batch=ids[i:i+200]
+              data=urllib.parse.urlencode({'db':'pubmed','id':','.join(batch),'retmode':'xml'})
+              req=urllib.request.Request('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?'+data,headers={'User-Agent':'AR-Systematic-Review/1.0'})
+              for attempt in range(5):
+                  try:
+                      with urllib.request.urlopen(req,timeout=90) as r: root=ET.fromstring(r.read())
+                      break
+                  except Exception:
+                      if attempt==4: raise
+                      time.sleep(2**attempt)
+              for art in root.findall('.//PubmedArticle'):
+                  cit=art.find('MedlineCitation'); article=cit.find('Article')
+                  pmid=(cit.findtext('PMID') or '').strip()
+                  title=''.join(article.find('ArticleTitle').itertext()) if article.find('ArticleTitle') is not None else ''
+                  absx=' '.join(''.join(x.itertext()) for x in article.findall('./Abstract/AbstractText'))
+                  authors=[]
+                  for au in article.findall('./AuthorList/Author'):
+                      name=' '.join(filter(None,[au.findtext('ForeName'),au.findtext('LastName')])).strip()
+                      if name: authors.append(name)
+                  journal=article.findtext('./Journal/Title') or ''
+                  year=article.findtext('./Journal/JournalIssue/PubDate/Year') or article.findtext('./Journal/JournalIssue/PubDate/MedlineDate') or ''
+                  ptypes='; '.join(x.text or '' for x in article.findall('./PublicationTypeList/PublicationType'))
+                  langs='; '.join(x.text or '' for x in article.findall('./Language'))
+                  doi=''
+                  for aid in art.findall('./PubmedData/ArticleIdList/ArticleId'):
+                      if aid.attrib.get('IdType')=='doi': doi=(aid.text or '').strip()
+                  rows.append({'pmid':pmid,'doi':doi,'title':title,'abstract':absx,'authors':'; '.join(authors),'journal':journal,'year':year,'publication_types':ptypes,'language':langs})
+              time.sleep(.34)
+          by={r['pmid']:r for r in rows}
+          if len(by)!=len(ids): raise RuntimeError(f'Metadata reconciliation failed: {len(by)} != {len(ids)}')
+          with dst.open('w',newline='',encoding='utf-8') as h:
+              w=csv.DictWriter(h,fieldnames=fields); w.writeheader(); w.writerows(by[x] for x in ids)
+          sha=hashlib.sha256(dst.read_bytes()).hexdigest()
+          (out/'PUBMED_Q00_METADATA_2026-10-05.sha256').write_text(sha+'  '+dst.name+'\n')
+          print('records',len(ids),'sha256',sha)
+          PY
+      - name: Commit formal metadata
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/search/derived/pubmed
+          git commit -m "Enrich frozen PubMed Q00 formal corpus metadata" || exit 0
+          git push
