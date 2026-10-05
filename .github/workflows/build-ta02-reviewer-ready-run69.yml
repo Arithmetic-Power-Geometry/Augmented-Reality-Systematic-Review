@@ -1,0 +1,28 @@
+name: Build TA-02 reviewer packet
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/build-ta02-reviewer-ready-run69.yml"
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/build_ta02_reviewer_ready_run69.py
+      - run: |
+          git pull --rebase origin main
+          python scripts/build_ta02_reviewer_ready_run69.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/screening/reviewer_ready/TA-02_REVIEWER_READY_RUN69.csv
+          git diff --cached --quiet && exit 0
+          git commit -m "Materialize TA-02 reviewer packet"
+          git push
