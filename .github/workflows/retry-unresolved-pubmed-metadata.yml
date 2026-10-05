@@ -1,0 +1,24 @@
+name: Retry unresolved PubMed metadata
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/retry_unresolved_pubmed_metadata.py"
+permissions:
+  contents: read
+jobs:
+  retry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Retry 11 preserved PubMed identities
+        run: python scripts/retry_unresolved_pubmed_metadata.py
+      - name: Upload retry evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: run56-pubmed-metadata-retry
+          path: evidence/search/derived/pubmed/run56_metadata_retry/
+          if-no-files-found: error
