@@ -53,3 +53,8 @@ milestone,commit_sha,path
 "Run 59 release contract",094c27de73aa492abd6cb517d58c5da40f02bb69,paper_writing/paper_artifacts/algorithms/RUN59_FINAL_NUMERICAL_MANUSCRIPT_RELEASE_CONTRACT.md
 "Run 59 final fields state",863ec813168e61b5dd743fe2431445eee70fecf2,paper_writing/paper_artifacts/tables/RUN59_FINAL_FIELDS_TRUTH_STATE.md
 "Run 59 release figure",1ec1873d8013b217740f5fd0443eec14406f0e88,paper_writing/paper_artifacts/figures/FIG_RUN59_FINAL_MANUSCRIPT_RELEASE_GATE.svg
+"Run 60 triage builder",628e37959a295b7351a2f9a2369ae32620002c29,scripts/build_ta01_assisted_triage.py
+"Run 60 materialization workflow",f4d921f8325fb132f429201400db52196c74b2e4,.github/workflows/materialize-ta01-assisted-triage.yml
+"Run 60 triage result",f8f5daf8b5325eafddf3d769c0342503b15e5913,paper_writing/paper_artifacts/tables/RUN60_TA01_ASSISTED_TRIAGE_RESULT.md
+"Run 60 triage algorithm",6b95de381b037362761b13e6b49197a73e7fb491,paper_writing/paper_artifacts/algorithms/RUN60_TA01_ASSISTED_TRIAGE_ALGORITHM.md
+"Run 60 triage figure",f3df5425e14af1a74b9e4bc829dc7e5c88b8946e,paper_writing/paper_artifacts/figures/FIG_RUN60_TA01_ASSISTED_TRIAGE.svg
