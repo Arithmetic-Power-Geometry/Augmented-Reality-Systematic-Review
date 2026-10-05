@@ -1,0 +1,19 @@
+milestone,commit_sha,path
+"Research questions",1ce0ed6da7d2d2d08b85f2231d4c8807a118ed8d,protocol/RESEARCH_QUESTIONS.md
+"Decision model",e5fb1451ed89f158922f2f0178cffd9882c628c2,protocol/DECISION_MODEL.md
+"19-review expansion",dba29989445e0ffc2475b937720465efafa76a23,evidence/reviews/review_master.csv
+"Candidate gaps",091bc37b60e695bfb3a9aee4cd2f23aa229946b5,evidence/gaps/candidate_gaps_phase1.csv
+"SLAM methods",5bef658c4131c8641ec87c182c5f557c93da368c,evidence/benchmarks/slam_methods.csv
+"Datasets",4af304f1c8c8af911361ef7d9a407f537e4e0f0,evidence/benchmarks/datasets.csv
+"Metrics",d7edf2d90280a35d2a927ff19239fe8c532a1c98,evidence/benchmarks/metrics.csv
+"Tracking hypotheses",535b9c61167a6b5e35b399d7b5a7ff5778a61090,evidence/gaps/tracking_localization_hypotheses.csv
+"E001 preregistration",c7c7afd89e54e47be99ff846f58182f63c43d0d7,experiments/E001_EUROC_MH01_ORBSLAM3.md
+"Evaluator",82d5c1e94e76dfa6342a51842dae4a4bfb8203ab,benchmarks/tracking_localization_slam/evaluator/trajectory_metrics.py
+"Evaluator math tests",785dda3c358d289e2767d1ef77038d0990ed30ba,benchmarks/tracking_localization_slam/scripts/test_evaluator_math.py
+"One-command E001",c47faf720a5b3dba937acde66c22a8c9ba439225,experiments/runners/execute_E001.sh
+"EuRoC GT adapter",5defb588d6173dba6c990d3b3747b52d2ef3f1f0,benchmarks/tracking_localization_slam/adapters/euroc_groundtruth_to_common.py
+"E001 readiness",ea2953c4c1141e46255c8ac04f6ec9c1b788875d,experiments/E001_READINESS.md
+"ORB container correction",7ce92efc092f1940350e8fe93c86c801a2dc77c4,containers/orbslam3/Dockerfile
+"Full-SHA build guard",a20969abc9850eb77ac892698cf4db1c7e8b5385,containers/build.sh
+"E001 dependency lock",a00502eed69b8152e0a7cf339d729603f0969f45,benchmarks/tracking_localization_slam/E001_DEPENDENCY_LOCK.csv
+"Build smoke workflow",0e7b662447076af0c3433e6739011f52fc99f3d2,.github/workflows/orbslam3-build-smoke.yml
