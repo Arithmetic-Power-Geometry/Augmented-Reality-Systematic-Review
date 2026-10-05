@@ -135,4 +135,9 @@ Merino2020MRAREvaluation,R066,validated,"IEEE ISMAR + TU Graz metadata",yes,"Six
 Hepperle2021Reproducibility,R067,validated,"IEEE ISMAR-Adjunct + University of Vienna metadata",yes,"Three authors/pages/DOI confirmed; VR reproducibility/replicability methods paper"
 Vlake2024RATEXR,R068,validated,"JMIR + PubMed + EQUATOR",yes,"Full author/group metadata/volume/article/DOI confirmed; XR reporting guideline"
 Banzi2026ReproducibilityConsensus,R069,validated,"PLOS Biology + PMC",yes,"Six named authors plus study group/volume/issue/article/DOI confirmed; multidisciplinary reproducibility consensus"
+Guo2022EnvironmentHMD,R070,validated,"IEEE TIM + NCKU institutional metadata",yes,"Four authors/volume/article/pages/DOI confirmed; 87-paper HMD environment survey"
+Dey2018UsabilityReview,R071,validated,"Frontiers + PMC",yes,"Four authors/volume/article/DOI confirmed; 291 papers/369 AR user studies"
+SadeghiNiaraki2020MarkerlessSurvey,R072,validated,"Sensors + PubMed/PMC",yes,"Two authors/volume/issue/article/DOI confirmed; markerless tracking/registration survey"
+Schubert2018TUMVI,R073,validated,"IEEE IROS + TUM institutional metadata",yes,"Six authors/pages/DOI confirmed; public visual-inertial benchmark"
+Burri2016EuRoC,R074,validated,"IJRR/SAGE + ETH dataset metadata",yes,"Eight authors/volume/issue/pages/DOI confirmed; visual-inertial dataset benchmark"
 
