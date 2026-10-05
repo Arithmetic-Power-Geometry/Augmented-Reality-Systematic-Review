@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="650" viewBox="0 0 1300 650">
+<rect width="1300" height="650" fill="white"/>
+<text x="650" y="45" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">AR Evidence: Transparency to Independent Replication</text>
+<g font-family="Arial" text-anchor="middle">
+<g font-size="17">
+<rect x="45" y="120" width="120" height="80" rx="10" fill="#f4f4f4" stroke="#333"/><text x="105" y="153">R0</text><text x="105" y="178">Opaque</text>
+<rect x="185" y="120" width="120" height="80" rx="10" fill="#f4f4f4" stroke="#333"/><text x="245" y="153">R1</text><text x="245" y="178">Reported</text>
+<rect x="325" y="120" width="120" height="80" rx="10" fill="#f4f4f4" stroke="#333"/><text x="385" y="153">R2</text><text x="385" y="178">Materials</text>
+<rect x="465" y="120" width="120" height="80" rx="10" fill="#f4f4f4" stroke="#333"/><text x="525" y="153">R3</text><text x="525" y="178">Data</text>
+<rect x="605" y="120" width="120" height="80" rx="10" fill="#f4f4f4" stroke="#333"/><text x="665" y="153">R4</text><text x="665" y="178">Code</text>
+<rect x="745" y="120" width="120" height="80" rx="10" fill="#f4f4f4" stroke="#333"/><text x="805" y="153">R5</text><text x="805" y="178">Environment</text>
+<rect x="885" y="120" width="120" height="80" rx="10" fill="#f4f4f4" stroke="#333"/><text x="945" y="153">R6</text><text x="945" y="178">Executable</text>
+<rect x="1025" y="120" width="120" height="80" rx="10" fill="#f4f4f4" stroke="#333"/><text x="1085" y="153">R7</text><text x="1085" y="178">Reproduced</text>
+<rect x="1165" y="120" width="100" height="80" rx="10" fill="#f4f4f4" stroke="#333"/><text x="1215" y="153">R8</text><text x="1215" y="178">Replicated</text>
+</g>
+<g stroke="#333" stroke-width="2"><path d="M165 160H185"/><path d="M305 160H325"/><path d="M445 160H465"/><path d="M585 160H605"/><path d="M725 160H745"/><path d="M865 160H885"/><path d="M1005 160H1025"/><path d="M1145 160H1165"/></g>
+<text x="650" y="280" font-size="22" font-weight="bold">Do not collapse these evidence states</text>
+<rect x="120" y="330" width="300" height="105" rx="12" fill="#f4f4f4" stroke="#333"/><text x="270" y="370" font-size="19">Artifact availability</text><text x="270" y="400" font-size="16">Can materials/data/code be obtained?</text>
+<rect x="500" y="330" width="300" height="105" rx="12" fill="#f4f4f4" stroke="#333"/><text x="650" y="370" font-size="19">Reproduction</text><text x="650" y="400" font-size="16">Can the reported result be rerun?</text>
+<rect x="880" y="330" width="300" height="105" rx="12" fill="#f4f4f4" stroke="#333"/><text x="1030" y="370" font-size="19">Replication</text><text x="1030" y="400" font-size="16">Does a new study test the finding?</text>
+<text x="650" y="535" font-size="18">Every numerical synthesis value is labeled REPORTED or REPRODUCED.</text>
+<text x="650" y="570" font-size="18">Missing artifacts reduce verifiability; they do not prove the scientific result false.</text>
+</g>
+</svg>
