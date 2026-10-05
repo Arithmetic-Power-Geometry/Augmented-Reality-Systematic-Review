@@ -37,4 +37,8 @@ MurArtal2015ORBSLAM,M006,validated,"IEEE Xplore + official ORB-SLAM repository c
 MurArtal2017ORBSLAM2,M007,validated,"IEEE Xplore + official ORB-SLAM2 repository citation",yes,"Authors/volume/issue/pages/DOI confirmed"
 Qin2018VINSMono,M002,validated,"IEEE Xplore + bibliographic cross-check",yes,"Authors/volume/issue/pages/DOI confirmed"
 Campos2021ORBSLAM3,M001,validated,"IEEE Xplore + author publication record",yes,"Authors/volume/issue/pages/DOI confirmed"
+Sarlin2022LaMAR,M004,validated,"ECVA + ETH Research Collection + DBLP",yes,"Authors/ECCV/LNCS volume/pages/DOI confirmed"
+Chegini2023RegistrationValidation,R029,validated,"PubMed",yes,"Authors/journal/volume/issue/pages/DOI confirmed"
+Kovoor2021SurgicalEducation,R030,validated,"PubMed",yes,"Authors/journal/volume/issue/pages/DOI confirmed"
+Barsom2016MedicalTraining,R031,validated,"Springer Nature + PMC",yes,"Authors/journal/volume/pages/DOI confirmed"
 
