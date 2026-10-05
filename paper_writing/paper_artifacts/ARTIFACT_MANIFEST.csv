@@ -87,4 +87,8 @@ PA085,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_AR_DIGITAL_TWIN_SY
 PA086,algorithm,P1,paper_writing/paper_artifacts/algorithms/AR_DIGITAL_TWIN_CLASSIFICATION_GATE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Evidence-based AR-DT classification and synchronization gate"
 PA087,figure,P1,paper_writing/paper_artifacts/figures/FIG_AR_DIGITAL_TWIN_SYNCHRONIZATION_MATURITY.svg,paper_writing/paper_artifacts/tables/CANDIDATE_AR_DIGITAL_TWIN_SYNCHRONIZATION_MODEL.md,pre-freeze-candidate,"Static overlay to lifecycle operational twin evidence ladder"
 PA088,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN31_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"139 validated references; AR-DT synchronization model added"
+PA089,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_AR_LEARNING_EVIDENCE_TRANSFER_MODEL.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Learning outcomes and E0-E6 durability/transfer evidence model"
+PA090,algorithm,P1,paper_writing/paper_artifacts/algorithms/EDUCATIONAL_AR_EVIDENCE_PROMOTION_GATE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Educational outcome/time-horizon/moderator claim gate"
+PA091,figure,P1,paper_writing/paper_artifacts/figures/FIG_EDUCATIONAL_AR_DURABLE_LEARNING.svg,paper_writing/paper_artifacts/tables/CANDIDATE_AR_LEARNING_EVIDENCE_TRANSFER_MODEL.md,pre-freeze-candidate,"Immediate effect to retention/transfer/longitudinal learning evidence"
+PA092,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN32_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"144 validated references; educational AR evidence model added"
 
