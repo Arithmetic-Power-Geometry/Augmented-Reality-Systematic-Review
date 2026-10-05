@@ -1,0 +1,9 @@
+{
+  "query_id": "Q04",
+  "term": "(\"augmented reality\"[Title/Abstract] OR \"mixed reality\"[Title/Abstract] OR \"extended reality\"[Title/Abstract] OR \"AR system\"[Title/Abstract] OR \"AR application\"[Title/Abstract]) AND (edge OR cloud OR networking OR latency OR bandwidth OR energy OR thermal OR resource)",
+  "count": 1805,
+  "exported": 1805,
+  "sha256": "15b7ae982971d55f8cb626149f98f2e710bcaf771295a3eaba712262a8225c50",
+  "count_endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22augmented+reality%22%5BTitle%2FAbstract%5D+OR+%22mixed+reality%22%5BTitle%2FAbstract%5D+OR+%22extended+reality%22%5BTitle%2FAbstract%5D+OR+%22AR+system%22%5BTitle%2FAbstract%5D+OR+%22AR+application%22%5BTitle%2FAbstract%5D%29+AND+%28edge+OR+cloud+OR+networking+OR+latency+OR+bandwidth+OR+energy+OR+thermal+OR+resource%29&datetype=pdat&mindate=1800%2F01%2F01&maxdate=2026%2F10%2F05&rettype=count&retmode=json",
+  "execution_date": "2026-10-05"
+}

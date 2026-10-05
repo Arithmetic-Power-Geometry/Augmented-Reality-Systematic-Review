@@ -1,0 +1,9 @@
+{
+  "query_id": "Q12",
+  "term": "(\"augmented reality\"[Title/Abstract] OR \"mixed reality\"[Title/Abstract] OR \"extended reality\"[Title/Abstract] OR \"AR system\"[Title/Abstract] OR \"AR application\"[Title/Abstract]) AND (dataset OR benchmark OR metric OR evaluation OR experiment OR reproducibility OR replication OR code OR \"open source\")",
+  "count": 4443,
+  "exported": 4443,
+  "sha256": "ddfa7665493329cf3b98aed5ef5e27d6a17da5e867a27da254b2dfe6d97f3549",
+  "count_endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22augmented+reality%22%5BTitle%2FAbstract%5D+OR+%22mixed+reality%22%5BTitle%2FAbstract%5D+OR+%22extended+reality%22%5BTitle%2FAbstract%5D+OR+%22AR+system%22%5BTitle%2FAbstract%5D+OR+%22AR+application%22%5BTitle%2FAbstract%5D%29+AND+%28dataset+OR+benchmark+OR+metric+OR+evaluation+OR+experiment+OR+reproducibility+OR+replication+OR+code+OR+%22open+source%22%29&datetype=pdat&mindate=1800%2F01%2F01&maxdate=2026%2F10%2F05&rettype=count&retmode=json",
+  "execution_date": "2026-10-05"
+}

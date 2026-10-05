@@ -1,0 +1,9 @@
+{
+  "query_id": "Q00",
+  "term": "(\"augmented reality\"[Title/Abstract] OR \"mixed reality\"[Title/Abstract] OR \"extended reality\"[Title/Abstract] OR \"AR system\"[Title/Abstract] OR \"AR application\"[Title/Abstract])",
+  "count": 10198,
+  "exported": 10198,
+  "sha256": "aea421fc80bb203adfcb9da747bb490a77151904703c877344c4e5a3738a1e54",
+  "count_endpoint": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22augmented+reality%22%5BTitle%2FAbstract%5D+OR+%22mixed+reality%22%5BTitle%2FAbstract%5D+OR+%22extended+reality%22%5BTitle%2FAbstract%5D+OR+%22AR+system%22%5BTitle%2FAbstract%5D+OR+%22AR+application%22%5BTitle%2FAbstract%5D%29&datetype=pdat&mindate=1800%2F01%2F01&maxdate=2026%2F10%2F05&rettype=count&retmode=json",
+  "execution_date": "2026-10-05"
+}
