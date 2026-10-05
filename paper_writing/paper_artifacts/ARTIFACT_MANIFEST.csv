@@ -48,4 +48,6 @@ PA046,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_PRIOR_REVIEW_POSIT
 PA047,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN16_STATUS.md,evidence/search/formal_search_execution_matrix.csv,in-progress,"81 validated references; formal exports still blocking corpus freeze"
 PA048,analysis,P1,paper_writing/paper_artifacts/analysis/PRISMA_COUNT_DERIVATION_SPEC.md,evidence/search/screening_master_template.csv,in-progress,"PRISMA counts derived from frozen ledgers with reconciliation identities"
 PA049,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN17_STATUS.md,evidence/search/formal_search_execution_matrix.csv,in-progress,"Screening/dedup/study-family infrastructure ready; 81 validated references"
+PA050,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_BROAD_REVIEW_REPLICATION_DIFFERENTIATION.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Broad-review novelty stress test and replication evidence"
+PA051,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN18_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"85 validated references; broadness-only novelty prohibited"
 
