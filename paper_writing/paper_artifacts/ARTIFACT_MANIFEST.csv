@@ -79,4 +79,8 @@ PA077,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_BENCHMARK_VALIDITY
 PA078,algorithm,P1,paper_writing/paper_artifacts/algorithms/BENCHMARK_COMPARABILITY_TRANSFER_GATE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"C0-C3 comparability and benchmark-to-field transfer gate"
 PA079,figure,P1,paper_writing/paper_artifacts/figures/FIG_BENCHMARK_TO_FIELD_TRANSFER.svg,paper_writing/paper_artifacts/tables/CANDIDATE_BENCHMARK_VALIDITY_TRANSFER_MODEL.md,pre-freeze-candidate,"Benchmark-to-AR-field validity evidence transitions"
 PA080,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN29_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"129 validated references; benchmark validity/transfer model added"
+PA081,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_INTELLIGENT_ADAPTIVE_GENERATIVE_AR_MODEL.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"AI function/adaptation target/evidence maturity synthesis model"
+PA082,algorithm,P1,paper_writing/paper_artifacts/algorithms/INTELLIGENT_AR_EVIDENCE_MATURITY_GATE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"M0-M7 evidence maturity and adaptive-claim gate"
+PA083,figure,P1,paper_writing/paper_artifacts/figures/FIG_INTELLIGENT_AR_CAPABILITY_MATURITY.svg,paper_writing/paper_artifacts/tables/CANDIDATE_INTELLIGENT_ADAPTIVE_GENERATIVE_AR_MODEL.md,pre-freeze-candidate,"AI capability versus evidence maturity"
+PA084,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN30_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"134 validated references; intelligent/adaptive/generative AR model added"
 
