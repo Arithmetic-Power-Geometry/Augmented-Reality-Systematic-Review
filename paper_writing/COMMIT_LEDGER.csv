@@ -41,3 +41,10 @@ milestone,commit_sha,path
 "Run 57 dependency matrix",02b21cc76101d087dcc8af44830cf6f63f4800cf,paper_writing/paper_artifacts/tables/RUN57_FINALIZATION_DEPENDENCY_MATRIX.md
 "Run 57 critical path figure",9b856ac9d77209a923c7e0373dea871d54c1c648,paper_writing/paper_artifacts/figures/FIG_RUN57_CRITICAL_PATH_TO_FINAL.svg
 "Run 57 source accounting fix",c709e32c86a513375669efe81f565556a87b5a88,scripts/final_corpus_gate.py
+"Run 58 TA01 protocol",67de1fe0607a5984358791eb797a1c4044f5b5bb,paper_writing/paper_artifacts/algorithms/RUN58_TA01_ASSISTED_SCREENING_PROTOCOL.md
+"Run 58 selection methods",5c8b38198a283a6a367810b68913613f6eea541d,paper_writing/manuscript/sections/RUN58_SELECTION_PROCESS.md
+"Run 58 decision template",15158fcfc9219a4e6204853483cb5e4a2a162c28,paper_writing/paper_artifacts/tables/RUN58_TA01_DECISION_LEDGER_TEMPLATE.csv
+"Run 58 progress workflow",4c69516b0d46716d36c5e22c506421cd0bda2392,.github/workflows/audit-ta-screening-progress.yml
+"Run 58 progress script",14739527af1e88bfe82da8a82e6bc4fbc4a85b30,scripts/audit_ta_screening_progress.py
+"Run 58 control-loop figure",50c5957f92cbcbac477662f9582af7a0662fb785,paper_writing/paper_artifacts/figures/FIG_RUN58_TA_SCREENING_CONTROL_LOOP.svg
+"Run 58 progress interpretation",ab91ea10abdd78f24db114922c0352e3d7268bb1,paper_writing/paper_artifacts/tables/RUN58_SCREENING_PROGRESS_INTERPRETATION.md
