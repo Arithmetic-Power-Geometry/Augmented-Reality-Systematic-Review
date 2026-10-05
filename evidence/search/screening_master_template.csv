@@ -1,0 +1,2 @@
+record_id,canonical_record_id,study_family_id,title,year,doi,source_runs,ta_decision,ta_reason,ta_screener,ta_date,ft_status,ft_decision,ft_reason,ft_screener,ft_date,verification_status,second_screener,adjudication_status,adjudicator,notes
+TEMPLATE,,,,,,,"uncertain","","","",not_started,"uncertain","","","","not_started","","not_required","","","Controlled decisions: include|exclude|uncertain; exclusion codes from frozen protocol"
