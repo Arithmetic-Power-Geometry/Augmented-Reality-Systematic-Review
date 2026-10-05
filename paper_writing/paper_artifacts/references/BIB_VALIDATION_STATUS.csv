@@ -19,3 +19,10 @@ Kagami2026TagAlong,PD0017,validated,"PubMed authoritative journal metadata + IEE
 Kanellopoulos2026Diagnosing,PD0018,validated,"ACM Digital Library article metadata",yes,"Authors/volume/issue/article/pages/DOI confirmed"
 Ahmetovic2025Artwork,PD0019,validated,"ACM MobileHCI accepted list + publisher-format manuscript/institutional repository",yes,"Authors/volume/issue/article/pages/DOI confirmed"
 Chen2026UbiGrip,PD0020,validated,"IEEE Xplore + official IEEE VR 2026 program",yes,"12 authors/venue/DOI confirmed; proceedings pages cross-checked"
+Cox2025ClinicalAR,PD0023,validated,"IEEE Xplore + bibliographic cross-check",yes,"Authors/pages/venue/DOI confirmed"
+Mathew2026ARRAE,PD0024,validated,"ACM Digital Library",yes,"Authors/pages/proceedings/DOI confirmed"
+Pantforder2024DigitalTwinsMR,PD0025,validated,"IEEE Xplore + TUM institutional publication record",yes,"Authors/pages/venue/DOI confirmed"
+Sahoo2026LaserProjection,PD0026,validated,"PubMed + ScienceDirect",yes,"Authors/volume/article/DOI confirmed"
+Sheng2024SLAMReview,R020,validated,"ScienceDirect",yes,"Review evidence; authors/volume/article/DOI confirmed"
+Zhang2026PoseEstimationReview,R021,validated,"publisher article page",yes,"Review evidence; authors/volume/issue/article/DOI confirmed"
+
