@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="660" viewBox="0 0 1300 660">
+<rect width="1300" height="660" fill="white"/>
+<text x="650" y="45" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">Industrial AR: From Prototype to Sustained Adoption</text>
+<g font-family="Arial" text-anchor="middle">
+<g font-size="16">
+<rect x="35" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="110" y="152">I0</text><text x="110" y="178">Concept</text>
+<rect x="215" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="290" y="152">I1</text><text x="290" y="178">Lab prototype</text>
+<rect x="395" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="470" y="152">I2</text><text x="470" y="178">Industrial-like</text>
+<rect x="575" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="650" y="152">I3</text><text x="650" y="178">Representative worker</text>
+<rect x="755" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="830" y="152">I4</text><text x="830" y="178">Field trial</text>
+<rect x="935" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="1010" y="152">I5</text><text x="1010" y="178">Operational</text>
+<rect x="1115" y="120" width="150" height="85" rx="10" fill="#f4f4f4" stroke="#333"/><text x="1190" y="152">I6</text><text x="1190" y="178">Sustained adoption</text>
+</g>
+<g stroke="#333" stroke-width="3"><path d="M185 162H215"/><path d="M365 162H395"/><path d="M545 162H575"/><path d="M725 162H755"/><path d="M905 162H935"/><path d="M1085 162H1115"/></g>
+<text x="650" y="285" font-size="22" font-weight="bold">Deployment evidence must travel with performance evidence</text>
+<rect x="90" y="340" width="320" height="115" rx="12" fill="#f4f4f4" stroke="#333"/><text x="250" y="380" font-size="18">Worker/task</text><text x="250" y="410" font-size="15">time / error / workload / skill</text>
+<rect x="490" y="340" width="320" height="115" rx="12" fill="#f4f4f4" stroke="#333"/><text x="650" y="380" font-size="18">System/workflow</text><text x="650" y="410" font-size="15">tracking / authoring / integration / support</text>
+<rect x="890" y="340" width="320" height="115" rx="12" fill="#f4f4f4" stroke="#333"/><text x="1050" y="380" font-size="18">Organization</text><text x="1050" y="410" font-size="15">safety / cost / scale / sustained use</text>
+<text x="650" y="535" font-size="19">Faster laboratory assembly does not by itself establish industrial productivity.</text>
+<text x="650" y="570" font-size="19">A successful pilot does not by itself establish sustained organizational adoption.</text>
+</g>
+</svg>
