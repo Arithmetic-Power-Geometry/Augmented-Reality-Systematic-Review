@@ -48,4 +48,9 @@ AticiUlusu2021CognitiveLoad,PD0030,validated,"Taylor & Francis publisher page",y
 Marino2024AssemblyGuidance,PD0031,validated,"University of Calabria repository + DOI metadata",yes,"Authors/volume/article/DOI confirmed"
 Kim2024MarkerlessSurgery,PD0032,validated,"PubMed + ScienceDirect",yes,"Six authors/volume/issue/pages/DOI confirmed"
 Schneider2020LiverRegistration,PD0033,validated,"PubMed + Springer Nature",yes,"14 authors/volume/issue/pages/DOI confirmed"
+Wang2005Occlusion,PD0034,validated,"MIT Press Presence",yes,"Authors/volume/issue/pages/DOI confirmed"
+Tian2010Occlusion,PD0035,validated,"MDPI + PubMed/PMC",yes,"Authors/volume/issue/pages/DOI confirmed"
+Li2022MonocularOcclusion,PD0036,validated,"ScienceDirect",yes,"Authors/volume/pages/DOI confirmed"
+Fan2026DepthCueConflict,PD0037,validated,"Springer Nature",yes,"Authors/volume/article/DOI confirmed"
+Denning2014Bystanders,PD0038,validated,"ACM Digital Library + DBLP",yes,"Authors/proceedings/pages/DOI confirmed"
 
