@@ -1,0 +1,5 @@
+artifact_id,artifact_type,paper,path,source,status,claim_boundary
+PA001,table,P1,paper_writing/paper_artifacts/tables/primary_discovery_batch01.md,evidence/search/primary_discovery_batch01.csv,discovery,"No prevalence or included-study claim"
+PA002,figure,P1,paper_writing/paper_artifacts/figures/workstream_coverage_batch01.svg,paper_writing/paper_artifacts/analysis/workstream_coverage_batch01.csv,discovery,"Coverage diagnostic only"
+PA003,analysis,P1,paper_writing/paper_artifacts/analysis/workstream_coverage_batch01.csv,evidence/search/primary_discovery_batch01.csv,discovery,"Overlapping workstream counts"
+PA004,algorithm,P1,paper_writing/paper_artifacts/algorithms/A1_DISCOVERY_TO_SCREENING.md,protocol/PRIMARY_STUDY_SEARCH_STRATEGY.md,workflow,"Not an AR scientific algorithm"
