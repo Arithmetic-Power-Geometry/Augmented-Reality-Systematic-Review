@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<rect width="1200" height="420" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#111}.h{font-size:24px;font-weight:bold}.t{font-size:18px}.s{font-size:15px}</style>
+<text x="40" y="42" class="h">Run 53 — Formal corpus path to final paper</text>
+<g fill="none" stroke="#111" stroke-width="2">
+<rect x="40" y="90" width="190" height="100" rx="12"/><rect x="280" y="90" width="190" height="100" rx="12"/>
+<rect x="520" y="90" width="190" height="100" rx="12"/><rect x="760" y="90" width="190" height="100" rx="12"/>
+<rect x="1000" y="90" width="160" height="100" rx="12"/>
+<path d="M230 140 H280 M470 140 H520 M710 140 H760 M950 140 H1000"/>
+<path d="M1080 190 V260 H860"/>
+<rect x="650" y="260" width="210" height="100" rx="12"/>
+<path d="M650 310 H560"/>
+<rect x="350" y="260" width="210" height="100" rx="12"/>
+<path d="M350 310 H260"/>
+<rect x="50" y="260" width="210" height="100" rx="12"/>
+</g>
+<text x="62" y="120" class="t">10,198 PubMed</text><text x="62" y="148" class="s">2,459 deterministic</text><text x="62" y="172" class="s">7,739 unresolved</text>
+<text x="300" y="120" class="t">TA screening</text><text x="300" y="148" class="s">7,728 records</text><text x="300" y="172" class="s">31 fixed batches</text>
+<text x="540" y="120" class="t">Full text</text><text x="540" y="148" class="s">include/exclude/uncertain</text><text x="540" y="172" class="s">reasons preserved</text>
+<text x="780" y="120" class="t">Study families</text><text x="780" y="148" class="s">canonical reports</text><text x="780" y="172" class="s">companions linked</text>
+<text x="1015" y="120" class="t">Citation chase</text><text x="1015" y="148" class="s">backward/forward</text><text x="1015" y="172" class="s">stopping rule</text>
+<text x="670" y="290" class="t">Independent verification</text><text x="670" y="320" class="s">all includes + stratified exclusions</text><text x="670" y="344" class="s">adjudication preserved</text>
+<text x="375" y="290" class="t">Corpus freeze</text><text x="375" y="320" class="s">checksum + final PRISMA</text><text x="375" y="344" class="s">rerun NEXT-06..19</text>
+<text x="72" y="290" class="t">Final manuscript</text><text x="72" y="320" class="s">Results + Discussion</text><text x="72" y="344" class="s">submission audit</text>
+</svg>
