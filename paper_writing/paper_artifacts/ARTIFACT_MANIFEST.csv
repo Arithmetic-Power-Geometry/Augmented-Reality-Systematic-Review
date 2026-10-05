@@ -83,4 +83,8 @@ PA081,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_INTELLIGENT_ADAPTI
 PA082,algorithm,P1,paper_writing/paper_artifacts/algorithms/INTELLIGENT_AR_EVIDENCE_MATURITY_GATE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"M0-M7 evidence maturity and adaptive-claim gate"
 PA083,figure,P1,paper_writing/paper_artifacts/figures/FIG_INTELLIGENT_AR_CAPABILITY_MATURITY.svg,paper_writing/paper_artifacts/tables/CANDIDATE_INTELLIGENT_ADAPTIVE_GENERATIVE_AR_MODEL.md,pre-freeze-candidate,"AI capability versus evidence maturity"
 PA084,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN30_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"134 validated references; intelligent/adaptive/generative AR model added"
+PA085,table,P1,paper_writing/paper_artifacts/tables/CANDIDATE_AR_DIGITAL_TWIN_SYNCHRONIZATION_MODEL.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"D0-D6 AR-DT linkage/synchronization/operational maturity model"
+PA086,algorithm,P1,paper_writing/paper_artifacts/algorithms/AR_DIGITAL_TWIN_CLASSIFICATION_GATE.md,paper_writing/paper_artifacts/references/master.bib,pre-freeze-candidate,"Evidence-based AR-DT classification and synchronization gate"
+PA087,figure,P1,paper_writing/paper_artifacts/figures/FIG_AR_DIGITAL_TWIN_SYNCHRONIZATION_MATURITY.svg,paper_writing/paper_artifacts/tables/CANDIDATE_AR_DIGITAL_TWIN_SYNCHRONIZATION_MODEL.md,pre-freeze-candidate,"Static overlay to lifecycle operational twin evidence ladder"
+PA088,analysis,P1,paper_writing/paper_artifacts/analysis/NEXT_05_RUN31_STATUS.md,paper_writing/paper_artifacts/references/master.bib,in-progress,"139 validated references; AR-DT synchronization model added"
 
