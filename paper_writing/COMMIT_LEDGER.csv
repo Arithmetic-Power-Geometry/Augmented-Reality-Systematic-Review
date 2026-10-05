@@ -48,3 +48,8 @@ milestone,commit_sha,path
 "Run 58 progress script",14739527af1e88bfe82da8a82e6bc4fbc4a85b30,scripts/audit_ta_screening_progress.py
 "Run 58 control-loop figure",50c5957f92cbcbac477662f9582af7a0662fb785,paper_writing/paper_artifacts/figures/FIG_RUN58_TA_SCREENING_CONTROL_LOOP.svg
 "Run 58 progress interpretation",ab91ea10abdd78f24db114922c0352e3d7268bb1,paper_writing/paper_artifacts/tables/RUN58_SCREENING_PROGRESS_INTERPRETATION.md
+"Run 59 final manuscript generator",c9e41922a0689972f2121cfecb55aef3a81747df,scripts/generate_final_manuscript_numerics.py
+"Run 59 final manuscript workflow",a6c260ee170070b13cc36b01748603a2c50fa5d4,.github/workflows/generate-final-manuscript-numerics.yml
+"Run 59 release contract",094c27de73aa492abd6cb517d58c5da40f02bb69,paper_writing/paper_artifacts/algorithms/RUN59_FINAL_NUMERICAL_MANUSCRIPT_RELEASE_CONTRACT.md
+"Run 59 final fields state",863ec813168e61b5dd743fe2431445eee70fecf2,paper_writing/paper_artifacts/tables/RUN59_FINAL_FIELDS_TRUTH_STATE.md
+"Run 59 release figure",1ec1873d8013b217740f5fd0443eec14406f0e88,paper_writing/paper_artifacts/figures/FIG_RUN59_FINAL_MANUSCRIPT_RELEASE_GATE.svg
