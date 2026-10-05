@@ -1,0 +1,30 @@
+name: Run70 TA03 triage
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/run70-ta03-triage.yml"
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/build_formal_pubmed_screening_batches.py
+      - run: python scripts/build_ta03_assisted_triage.py
+      - run: |
+          git pull --rebase origin main
+          python scripts/build_formal_pubmed_screening_batches.py
+          python scripts/build_ta03_assisted_triage.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/screening/formal_pubmed_batches/TA-03.csv evidence/screening/assisted/TA-03_ASSISTED_TRIAGE_RUN60.csv
+          git diff --cached --quiet && exit 0
+          git commit -m "Materialize Run70 TA03 evidence"
+          git push
