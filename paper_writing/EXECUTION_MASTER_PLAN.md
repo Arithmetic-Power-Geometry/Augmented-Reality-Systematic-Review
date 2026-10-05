@@ -44,21 +44,21 @@ Candidate gaps are not findings. Reported results are not reproduced results. Em
 | NEXT-02 | Primary-study discovery batch 1 across 25 workstreams; preserve raw discovery records | BLOCKING | P1 | **COMPLETE — discovery-only reviewer PASS** |
 | NEXT-03 | Deduplication and screening engine with exclusion reasons | BLOCKING | P1 | **COMPLETE — reviewer PASS** |
 | NEXT-04 | Populate D,T,H,S,A,M,E,U,R and reproducibility fields for eligible studies | BLOCKING | P1 | **COMPLETE — pilot extraction reviewer PASS** |
-| NEXT-05 | Continue search/screening to exhaustion; freeze eligible corpus and PRISMA counts | BLOCKING | P1 | **NEXT — IN PROGRESS; formal database export evidence still required** |
-| NEXT-06 | Temporal evolution analysis | REQUIRED | P1 | TODO |
-| NEXT-07 | Domain × technology / Evidence Cube analysis | REQUIRED | P1 | TODO |
-| NEXT-08 | Finalize algorithm/method taxonomy beyond localization | REQUIRED | P1 | TODO |
-| NEXT-09 | Hardware × sensor × environment analysis | REQUIRED | P1 | TODO |
-| NEXT-10 | Dataset × algorithm analysis | REQUIRED | P1 | TODO |
-| NEXT-11 | Metric-fragmentation analysis | REQUIRED | P1 | TODO |
-| NEXT-12 | Compute C0-C3 comparability distribution and causes | CORE NOVELTY | P1 | TODO |
-| NEXT-13 | Primary-study reproducibility audit | CORE NOVELTY | P1 | TODO |
-| NEXT-14 | User/population/accessibility analysis | REQUIRED | P1 | TODO |
-| NEXT-15 | Cognitive-load stratification | REQUIRED | P1 | TODO |
-| NEXT-16 | Contradiction mining | CORE NOVELTY | P1 | TODO |
-| NEXT-17 | Persistent-gap analysis | CORE NOVELTY | P1 | TODO |
-| NEXT-18 | Researcher decision map | CORE NOVELTY | P1 | TODO |
-| NEXT-19 | Rank experimentally actionable opportunities after closest-prior-work checks | REQUIRED | P1/P2 | TODO |
+| NEXT-05 | Continue search/screening to exhaustion; freeze eligible corpus and PRISMA counts | BLOCKING | P1 | **BLOCKED — source-native formal exports required** |
+| NEXT-06 | Temporal evolution analysis | REQUIRED | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
+| NEXT-07 | Domain × technology / Evidence Cube analysis | REQUIRED | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
+| NEXT-08 | Finalize algorithm/method taxonomy beyond localization | REQUIRED | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
+| NEXT-09 | Hardware × sensor × environment analysis | REQUIRED | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
+| NEXT-10 | Dataset × algorithm analysis | REQUIRED | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
+| NEXT-11 | Metric-fragmentation analysis | REQUIRED | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
+| NEXT-12 | Compute C0-C3 comparability distribution and causes | CORE NOVELTY | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
+| NEXT-13 | Primary-study reproducibility audit | CORE NOVELTY | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
+| NEXT-14 | User/population/accessibility analysis | REQUIRED | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
+| NEXT-15 | Cognitive-load stratification | REQUIRED | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
+| NEXT-16 | Contradiction mining | CORE NOVELTY | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
+| NEXT-17 | Persistent-gap analysis | CORE NOVELTY | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
+| NEXT-18 | Researcher decision map | CORE NOVELTY | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
+| NEXT-19 | Rank experimentally actionable opportunities after closest-prior-work checks | REQUIRED | P1/P2 | **PILOT COMPLETE — final corpus rerun blocked** |
 | NEXT-20 | Confirm actual ORB-SLAM3 build-smoke evidence | BLOCKING | P2 | TODO |
 | NEXT-21 | Execute E001; preserve raw/provenance/ATE/RPE | BLOCKING | P2 | TODO |
 | NEXT-22 | Design sensor-fair mono-inertial ORB-SLAM3 baseline | REQUIRED | P2 | TODO |
@@ -85,29 +85,10 @@ Framework/Methods prose may be drafted before the evidence corpus is frozen. Res
 
 **Repository/supplement:** primary-study database, screening ledger, extraction tables, complete matrices, scripts, manifests, provenance, experimental raw/derived outputs and generated figures/tables.
 
-## Current project-management estimate
+## Current project-management state
 
-| Dimension | Completion |
-|---|---:|
-| Research idea | 100% |
-| Novel review methodology | ~95% |
-| Research questions | 100% |
-| Evidence schema | 100% |
-| Comparability methodology | 100% |
-| Gap methodology | 100% |
-| Review-of-reviews | ~85% |
-| Primary-study mining | ~15-20% |
-| Quantitative evidence analysis | ~20% |
-| Reproducibility infrastructure | ~90% |
-| Benchmark infrastructure | ~90% |
-| Actual experiments | ~0-5% |
-| Novel adaptive method | ~20%, candidate only |
-| Final figures/tables | ~15% |
-| Manuscript | ~10% |
-| Overall TVCG readiness | ~55-60% |
+Paper-1 methodology, bibliography, pilot extraction and pilot analyses NEXT-06 through NEXT-19 are complete. Final population-level reruns remain dependent on NEXT-05 formal source exports and corpus freeze. P2/P3 experiments remain separate future work and are not required to fabricate Paper-1 review findings.
 
 ## Resume marker
 
-> **NEXT TASK: NEXT-05 — Execute/expand the frozen systematic search, process source-query exports, deduplicate and screen to search exhaustion, validate remaining bibliography records, and freeze the eligible corpus plus defensible PRISMA counts.**
-
-For every future **do next** instruction: execute the current NEXT item, save machine-readable and human-readable outputs, validate them, submit the stage to the adversarial IEEE/TVCG reviewer gate, resolve every CRITICAL/HIGH objection, commit the reviewed artifacts to GitHub, update this ledger, and advance the resume marker.
+> **NEXT TASK: NEXT-05 EXTERNAL INPUT — obtain source-native formal exports. On arrival, execute the already-frozen ingestion → deduplication → screening → study-family → citation-chase → corpus-freeze → PRISMA → final-analysis pipeline.**
