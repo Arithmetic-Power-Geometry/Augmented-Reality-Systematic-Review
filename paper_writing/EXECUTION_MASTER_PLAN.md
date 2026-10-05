@@ -43,7 +43,7 @@ Candidate gaps are not findings. Reported results are not reproduced results. Em
 | NEXT-01 | Freeze systematic primary-study search protocol: sources, queries, dates, inclusion/exclusion, deduplication, screening rules and search registry | BLOCKING | P1 | **COMPLETE — adversarial gate PASS** |
 | NEXT-02 | Primary-study discovery batch 1 across 25 workstreams; preserve raw discovery records | BLOCKING | P1 | **COMPLETE — discovery-only reviewer PASS** |
 | NEXT-03 | Deduplication and screening engine with exclusion reasons | BLOCKING | P1 | **COMPLETE — reviewer PASS** |
-| NEXT-04 | Populate D,T,H,S,A,M,E,U,R and reproducibility fields for eligible studies | BLOCKING | P1 | TODO |
+| NEXT-04 | Populate D,T,H,S,A,M,E,U,R and reproducibility fields for eligible studies | BLOCKING | P1 | **COMPLETE — pilot extraction reviewer PASS** |
 | NEXT-05 | Continue search/screening to exhaustion; freeze eligible corpus and PRISMA counts | BLOCKING | P1 | **NEXT — IN PROGRESS; formal database export evidence still required** |
 | NEXT-06 | Temporal evolution analysis | REQUIRED | P1 | TODO |
 | NEXT-07 | Domain × technology / Evidence Cube analysis | REQUIRED | P1 | TODO |
