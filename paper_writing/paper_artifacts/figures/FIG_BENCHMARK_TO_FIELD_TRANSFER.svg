@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1250" height="610" viewBox="0 0 1250 610">
+<rect width="1250" height="610" fill="white"/>
+<text x="625" y="45" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold">From Benchmark Score to AR Field Validity</text>
+<g font-family="Arial" text-anchor="middle">
+<g font-size="18">
+<rect x="50" y="125" width="165" height="90" rx="12" fill="#f3f3f3" stroke="#333"/><text x="132" y="160">T0</text><text x="132" y="187">Same benchmark</text>
+<rect x="250" y="125" width="165" height="90" rx="12" fill="#f3f3f3" stroke="#333"/><text x="332" y="160">T1</text><text x="332" y="187">New environment</text>
+<rect x="450" y="125" width="165" height="90" rx="12" fill="#f3f3f3" stroke="#333"/><text x="532" y="160">T2</text><text x="532" y="187">New device/sensor</text>
+<rect x="650" y="125" width="165" height="90" rx="12" fill="#f3f3f3" stroke="#333"/><text x="732" y="160">T3</text><text x="732" y="187">AR-realistic</text>
+<rect x="850" y="125" width="165" height="90" rx="12" fill="#f3f3f3" stroke="#333"/><text x="932" y="160">T4</text><text x="932" y="187">Human task</text>
+<rect x="1050" y="125" width="150" height="90" rx="12" fill="#f3f3f3" stroke="#333"/><text x="1125" y="160">T5</text><text x="1125" y="187">Field</text>
+</g>
+<g stroke="#333" stroke-width="3"><path d="M215 170H250"/><path d="M415 170H450"/><path d="M615 170H650"/><path d="M815 170H850"/><path d="M1015 170H1050"/></g>
+<text x="625" y="300" font-size="22" font-weight="bold">Every transition needs evidence; it is not an assumption.</text>
+<rect x="130" y="355" width="420" height="120" rx="12" fill="#f3f3f3" stroke="#333"/>
+<text x="340" y="395" font-size="19">Technical comparability</text>
+<text x="340" y="425" font-size="16">task + sensor + GT + metric + protocol</text>
+<rect x="700" y="355" width="420" height="120" rx="12" fill="#f3f3f3" stroke="#333"/>
+<text x="910" y="395" font-size="19">External validity</text>
+<text x="910" y="425" font-size="16">environment + device + user + operational context</text>
+<text x="625" y="550" font-size="18">Benchmark superiority does not by itself establish user or field superiority.</text>
+</g>
+</svg>
