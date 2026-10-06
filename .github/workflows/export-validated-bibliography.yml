@@ -10,18 +10,39 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Build IEEE bibliography
+      - name: Materialize validated bibliography
+        shell: python
         run: |
-          mkdir -p paper_writing/submission/validated_bibliography
-          cp paper_writing/paper_artifacts/references/master.bib paper_writing/submission/validated_bibliography/master.bib
-          cd paper_writing/submission/validated_bibliography
-          printf '\\relax\n\\citation{*}\n\\bibstyle{IEEEtran}\n\\bibdata{master}\n' > bibonly.aux
-          bibtex bibonly
-          test "$(grep -c '\\bibitem' bibonly.bbl)" -eq 212
-      - name: Commit generated BBL
+          import re, pathlib, shutil
+          src=pathlib.Path('paper_writing/paper_artifacts/references/master.bib')
+          out=pathlib.Path('paper_writing/submission/validated_bibliography')
+          out.mkdir(parents=True,exist_ok=True)
+          shutil.copy2(src,out/'master.bib')
+          c=src.read_text()
+          entries=list(re.finditer(r'@(\\w+)\\{([^,]+),([\\s\\S]*?)(?=\\n@|\\s*$)',c))
+          def fld(b,n):
+              m=re.search(n+r'\\s*=\\s*\\{([\\s\\S]*?)\\}\\s*,?\\s*(?:\\n|$)',b,re.I)
+              return re.sub(r'\\s+',' ',m.group(1)).strip() if m else ''
+          result=['\\\\begin{thebibliography}{212}']
+          for m in entries:
+              b=m.group(3); key=m.group(2)
+              a=fld(b,'author'); t=fld(b,'title'); j=fld(b,'journal') or fld(b,'booktitle')
+              v=fld(b,'volume'); no=fld(b,'number'); pp=fld(b,'pages'); y=fld(b,'year'); doi=fld(b,'doi')
+              s='\\\\bibitem{'+key+'} '+a+'. '+t+'.'
+              if j: s+=' \\\\emph{'+j+'}.'
+              if v: s+=' vol. '+v+','
+              if no: s+=' no. '+no+','
+              if pp: s+=' pp. '+pp+','
+              s+=' '+y+'.'
+              if doi: s+=' doi: '+doi+'.'
+              result.append(s)
+          result.append('\\\\end{thebibliography}')
+          assert len(entries)==212, len(entries)
+          (out/'bibliography.tex').write_text('\\n'.join(result)+'\\n')
+      - name: Commit generated bibliography
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add paper_writing/submission/validated_bibliography/master.bib paper_writing/submission/validated_bibliography/bibonly.bbl
-          git diff --cached --quiet || git commit -m "Materialize validated 212-entry IEEE bibliography"
+          git add paper_writing/submission/validated_bibliography/
+          git diff --cached --quiet || git commit -m 'Materialize validated 212-entry IEEE bibliography'
           git push
