@@ -160,3 +160,8 @@ milestone,commit_sha,path
 "Run 75 algorithm",b08f93c926c8efc3e40f17c645346be0c8968b0a,paper_writing/paper_artifacts/algorithms/RUN75_INTERVENTION_MATERIALITY_RESCUE_GATE.md
 "Run 75 figure",9f7e21deb13c48e40f61f652860555372cebf646,paper_writing/paper_artifacts/figures/FIG_RUN75_TA07_FINAL_REVIEWER_PACKET.svg
 "Run 75 manuscript",e16670c3131e749a74647194e6154e67e6b24c09,paper_writing/manuscript/sections/RUN75_INTERVENTION_MATERIALITY_SCREENING.md
+"Run 76 final readiness audit",1781de92721fe31934ee5e7e668326faecbfde1d,scripts/audit_final_results_readiness_run76.py
+"Run 76 truth-state table",49b2c82846c3a2a85a741c327a9490abad006ebb,paper_writing/paper_artifacts/tables/RUN76_FINAL_NUMERICAL_RESULTS_TRUTH_STATE.md
+"Run 76 release algorithm",24278b2a5541f56c68f8b2668dc2134f5905ec8c,paper_writing/paper_artifacts/algorithms/RUN76_FINAL_RESULTS_RELEASE_ALGORITHM.md
+"Run 76 readiness workflow",e4c19a0ea5c95e4dc5497888c82c891ae9da7c15,.github/workflows/run76-final-results-readiness.yml
+"Run 76 release figure",4952daed044ce0c07031eb349579bd5496fa9923,paper_writing/paper_artifacts/figures/FIG_RUN76_FINAL_NUMERICAL_RELEASE_PATH.svg
