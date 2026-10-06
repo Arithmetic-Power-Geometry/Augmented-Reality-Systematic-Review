@@ -1,0 +1,10 @@
+gate_id,requirement,status,evidence_path,blocking_reason
+S2G01,Stage 1 corpus frozen,BLOCKED,evidence/corpus/stage1/STAGE1_GATE_CHECKLIST.csv,Stage 1 currently blocked
+S2G02,Reviewer-B eligibility decisions complete,BLOCKED,evidence/corpus/stage2/REVIEWER_B_ELIGIBILITY_TEMPLATE.csv,genuine independent reviewer required
+S2G03,Reviewer-B P_i extraction complete,BLOCKED,evidence/corpus/stage2/REVIEWER_B_PI_TEMPLATE.csv,genuine independent reviewer required
+S2G04,C0-C3 independent validation complete,BLOCKED,evidence/corpus/stage2/REVIEWER_B_COMPARABILITY_TEMPLATE.csv,genuine independent reviewer required
+S2G05,T0-T5 independent validation complete,BLOCKED,evidence/corpus/stage2/REVIEWER_B_TRANSFER_TEMPLATE.csv,genuine independent reviewer required where applicable
+S2G06,R0-R8 independent validation complete,BLOCKED,evidence/corpus/stage2/REVIEWER_B_PI_TEMPLATE.csv,genuine independent reviewer required
+S2G07,Reliability statistics generated,BLOCKED,evidence/corpus/stage2/STAGE2_RELIABILITY_REPORT.json,requires paired independent inputs
+S2G08,Disagreements adjudicated,BLOCKED,evidence/corpus/stage2/ADJUDICATION_TEMPLATE.csv,requires disagreements
+S2G09,Stage-2 validation frozen,BLOCKED,evidence/corpus/stage2/,upstream Stage-2 gates incomplete
