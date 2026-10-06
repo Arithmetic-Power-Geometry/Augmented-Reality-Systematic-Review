@@ -1,0 +1,3 @@
+# Run 74 — Semantic Rescue Beyond Literal AR Terminology
+
+TA-06 showed why literal keyword matching is insufficient for augmented-reality screening. A primary technical study may implement registered or augmented visualization without using the exact phrase “augmented reality” in its title or abstract. The exclusion-side safety audit therefore evaluates augmentation semantics as well as explicit AR/MR/XR terminology. This recovered a study on hidden-tumour visualization in augmented monocular liver laparoscopy and routed XR-adjacent records to human confirmation when AR separability remained uncertain. The rescue procedure affects review order only; it does not determine eligibility.
