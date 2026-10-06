@@ -1,0 +1,3 @@
+# Run 75 — Intervention Materiality in Assisted Screening
+
+TA-07 reinforces that screening assistance must evaluate whether augmented reality is materially part of the intervention rather than relying only on isolated terminology. Two records initially placed in the exclusion queue were recovered because their evaluated interventions explicitly incorporated AR: a high-intensity stroke-rehabilitation program using robotic augmented/virtual reality and an AI–AR photography-education system. Conversely, generic XR environments were not automatically treated as AR when separability was unclear. This intervention-materiality gate reduces false-negative risk while preserving the distinction between computational prioritization and genuine eligibility decisions.
