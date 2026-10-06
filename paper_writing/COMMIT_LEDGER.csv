@@ -165,3 +165,9 @@ milestone,commit_sha,path
 "Run 76 release algorithm",24278b2a5541f56c68f8b2668dc2134f5905ec8c,paper_writing/paper_artifacts/algorithms/RUN76_FINAL_RESULTS_RELEASE_ALGORITHM.md
 "Run 76 readiness workflow",e4c19a0ea5c95e4dc5497888c82c891ae9da7c15,.github/workflows/run76-final-results-readiness.yml
 "Run 76 release figure",4952daed044ce0c07031eb349579bd5496fa9923,paper_writing/paper_artifacts/figures/FIG_RUN76_FINAL_NUMERICAL_RELEASE_PATH.svg
+"Run 77 all-batch preparation",99c98209d4897cf3058676994fd1f39e6a6be488,scripts/prepare_all_screening_batches_run77.py
+"Run 77 genuine ledger validator",427d61d92408a1453add892443749bfb543b8446,scripts/validate_genuine_screening_ledger.py
+"Run 77 preparation workflow",50842578f73a2bdb28905cf2366af2099d6e4362,.github/workflows/run77-prepare-all-screening.yml
+"Run 77 complete screening table",891f8805099875029e27fd0cfe4035768bf70d1e,paper_writing/paper_artifacts/tables/RUN77_COMPLETE_SCREENING_PREPARATION.md
+"Run 77 human handoff",d9ad05a6c0e1cc445644fb14c53cbf7a4b67b89e,paper_writing/paper_artifacts/algorithms/RUN77_HUMAN_SCREENING_HANDOFF.md
+"Run 77 all-records figure",c65869d282422ee4e58c71ffe4a8cfc28660cb79,paper_writing/paper_artifacts/figures/FIG_RUN77_ALL_RECORDS_REVIEWER_READY.svg
