@@ -1,0 +1,25 @@
+name: Run74 TA06 include audit
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/run74-ta06-include-audit.yml"]
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python scripts/audit_ta06_include_candidates.py
+      - run: |
+          git pull --rebase origin main
+          python scripts/audit_ta06_include_candidates.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/screening/assisted/TA-06_INCLUDE_CANDIDATE_AUDIT_RUN74.csv paper_writing/paper_artifacts/provenance/RUN74_TA06_INCLUDE_AUDIT.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Materialize Run74 TA06 include audit"
+          git push
