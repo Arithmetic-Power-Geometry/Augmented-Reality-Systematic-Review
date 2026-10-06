@@ -1,0 +1,41 @@
+{
+  "all_pass": false,
+  "run": "RUN76",
+  "checks": [
+    {
+      "gate": "title_abstract_final_ledger",
+      "passed": false,
+      "detail": "rows=0 coded=0 reviewer_attributed=0 required=7728"
+    },
+    {
+      "gate": "full_text_complete",
+      "passed": false,
+      "detail": "rows=0 coded=0"
+    },
+    {
+      "gate": "study_families_resolved",
+      "passed": false,
+      "detail": "rows=0"
+    },
+    {
+      "gate": "citation_chasing_complete",
+      "passed": false,
+      "detail": "rows=0"
+    },
+    {
+      "gate": "independent_verification_complete",
+      "passed": false,
+      "detail": "rows=0"
+    },
+    {
+      "gate": "corpus_frozen",
+      "passed": false,
+      "detail": "missing"
+    },
+    {
+      "gate": "final_NEXT06_NEXT19_rerun",
+      "passed": false,
+      "detail": "present=0/14"
+    }
+  ]
+}
