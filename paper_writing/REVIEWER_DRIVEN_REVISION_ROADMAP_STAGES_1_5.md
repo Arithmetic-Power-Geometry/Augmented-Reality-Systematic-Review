@@ -15,7 +15,7 @@ Independent verification; disagreements/adjudication; eligibility agreement; P_i
 ## Stage 3 — Evidence and quality analysis
 Final P_i extraction; C0-C3 comparability; T0-T5 transfer states; R0-R8 reproducibility; risk-of-bias/study-quality appraisal differentiated by study type; populated Evidence Cube.
 
-**Exit:** primary evidence matrices frozen.
+**Stage-3 implementation specification:** For each canonical study extract P_i=(D,T,H,S,A,M,E,U,R); generate pairwise C0-C3 comparability records; claim-level T0-T5 transfer records; component-derived R0-R8 reproducibility records; classify observable study design before appraisal; apply design-appropriate domain-level study appraisal rather than one universal numeric score; populate technique × environment × device × user × metric × domain Evidence Cube cells; preserve explicit missingness and evidence notes; compute final distributions only after Stages 1 and 2 pass. Sparse cube cells are observations, not automatic gaps. Pilot outputs cannot satisfy the final gate.\n\n**Exit:** primary evidence matrices frozen.
 
 ## Stage 4 — Higher-level synthesis
 Failure regimes; contradictions after condition normalization; persistent gaps; closest-prior-work checks; verified-opportunity gate; domain analysis; temporal analysis; database/coder/threshold/unresolved-field/study-family sensitivity analyses.
