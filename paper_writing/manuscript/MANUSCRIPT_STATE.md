@@ -23,7 +23,7 @@ Status: **PAPER-READY DRAFT / FINAL SYSTEMATIC RESULTS EXTERNALLY BLOCKED**
 - contradiction/failure-regime candidates;
 - pilot gap-promotion states;
 - researcher decision map;
-- experimental validation-priority map;
+- future-research priority map (no live-user or new experimental validation is required for Paper 1);
 - final analysis acceptance tests and PRISMA derivation rules.
 
 ## External blocker
@@ -36,3 +36,9 @@ A full paper draft may now be developed using the completed background, Methods 
 
 ## Immediate trigger
 Immediate next evidence gate: complete title/abstract review for 7,728 PubMed records and resolve 11 metadata-unavailable records; then full text → families → citation chase → second independent verification → freeze → PRISMA → rerun NEXT-06..NEXT-19 → final manuscript audit.
+
+
+## Stage-5 scope freeze — 2026-10-06
+Paper 1 is frozen as a systematic-review/evidence-synthesis manuscript. It will not add a live-user study, recruit participants, or use a new human-subject experiment as a completion criterion. E001/E002/E003 and NEXT-20–NEXT-29 are separate future experimental work.
+
+Final manuscript generation remains fail-closed: completed-review numerical Abstract, PRISMA, Results, Discussion and Conclusions are released only after the genuine corpus/validation/evidence/synthesis gates pass. Until then, pilot numbers remain explicitly pilot.
