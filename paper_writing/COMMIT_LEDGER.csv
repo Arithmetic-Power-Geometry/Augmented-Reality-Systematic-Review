@@ -171,3 +171,11 @@ milestone,commit_sha,path
 "Run 77 complete screening table",891f8805099875029e27fd0cfe4035768bf70d1e,paper_writing/paper_artifacts/tables/RUN77_COMPLETE_SCREENING_PREPARATION.md
 "Run 77 human handoff",d9ad05a6c0e1cc445644fb14c53cbf7a4b67b89e,paper_writing/paper_artifacts/algorithms/RUN77_HUMAN_SCREENING_HANDOFF.md
 "Run 77 all-records figure",c65869d282422ee4e58c71ffe4a8cfc28660cb79,paper_writing/paper_artifacts/figures/FIG_RUN77_ALL_RECORDS_REVIEWER_READY.svg
+"Run 78 downstream initializer",74b1ffce1003b5196a577d9a6f17fa1961d380bc,scripts/initialize_downstream_ledgers_run78.py
+"Run 78 corpus freeze",c565edd5d623e7c85226567475e2c720cdd7d527,scripts/freeze_final_corpus.py
+"Run 78 final PRISMA generator",9666ca5551f56194d0934c778cc97a4a751556a8,scripts/generate_final_prisma_run78.py
+"Run 78 finalization workflow",770e7e2183279781ff5de8d8300938e1a2335cca,.github/workflows/run78-downstream-finalization.yml
+"Run 78 downstream table",c5ca9ef6f0074f60ac18a2fef33c0ef9adf51e89,paper_writing/paper_artifacts/tables/RUN78_DOWNSTREAM_FINALIZATION_CHAIN.md
+"Run 78 finalization algorithm",19ff6342a960f2e7b709aafa5f635e64c874aa68,paper_writing/paper_artifacts/algorithms/RUN78_END_TO_END_FINALIZATION_ALGORITHM.md
+"Run 78 manuscript method",a591f47e4be370cc5bdb6eba50cc6a3ef8b57c09,paper_writing/manuscript/sections/RUN78_STUDY_SELECTION_AUTOMATION_BOUNDARY.md
+"Run 78 finalization figure",90640c34968402630b4f0303dae6f397185b4e56,paper_writing/paper_artifacts/figures/FIG_RUN78_END_TO_END_FINALIZATION.svg
