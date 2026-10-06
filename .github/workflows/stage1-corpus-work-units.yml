@@ -1,0 +1,27 @@
+name: Stage 1 corpus work units
+on:
+  push:
+    paths:
+      - '.github/workflows/stage1-corpus-work-units.yml'
+      - 'scripts/build_formal_pubmed_screening_batches.py'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build all title-abstract work units
+        run: python scripts/build_formal_pubmed_screening_batches.py
+      - name: Verify batch invariants
+        run: |
+          test "$(find evidence/screening/formal_pubmed_batches -maxdepth 1 -name 'TA-*.csv' | wc -l)" -eq 31
+          test "$(awk -F, 'NR>1{s+=$4} END{print s}' evidence/screening/formal_pubmed_batches/BATCH_CHECKSUMS.csv)" -eq 7728
+          grep -q 'TA-31,7501,7728,228' evidence/screening/formal_pubmed_batches/BATCH_CHECKSUMS.csv
+      - name: Commit Stage 1 work units
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add evidence/screening/formal_pubmed_batches/
+          git diff --cached --quiet || git commit -m "Stage 1: materialize all PubMed screening work units"
+          git push
