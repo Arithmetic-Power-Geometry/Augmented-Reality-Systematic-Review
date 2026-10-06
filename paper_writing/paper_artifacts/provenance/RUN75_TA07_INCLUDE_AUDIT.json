@@ -1,0 +1,14 @@
+{
+  "n": 236,
+  "states": {
+    "PRIORITY_VERIFY": 82,
+    "LIKELY_ADVANCE_PENDING_PRIMARY_REVIEW": 154
+  },
+  "flags": {
+    "AR_MENTION_MAY_BE_CONTEXT_ONLY": 70,
+    "SECONDARY_OR_COMMENTARY_TITLE": 14,
+    "ABSTRACT_MISSING": 6
+  },
+  "sha256": "92815c5761dc7c8c7d7f33c8163b598fd9575c78ae19481dc091f19b15eedb40",
+  "official_primary_decisions_written": 0
+}
