@@ -45,6 +45,26 @@ Failure regimes; contradictions after condition normalization; persistent gaps; 
 ## Stage 5 — Final evidence artifacts and manuscript
 Real PRISMA flow; data-rich figures; final result tables; explicit RQ1-RQ13 answers; revise related-framework comparison; replace prospective language; distinguish background references from included primary studies; rewrite Results/Discussion/Abstract/Conclusion; reduce project-management material; bibliographic audit; final IEEE preflight.
 
+### Stage-5 implementation specification
+
+**Paper identity.** Paper 1 is a completed systematic review and evidence-synthesis paper. It does not require a live-user study, new participant recruitment, or a new human-subject experiment. Any proposed experiment/new adaptive method is future work or a separate paper and is not used to validate Paper-1 review conclusions.
+
+**PRISMA.** Derive the flow only from frozen search, deduplication, screening, full-text, study-family and citation-chasing ledgers. No hand-entered or estimated count is authoritative.
+
+**RQ closure.** RQ1–RQ13 must each resolve through the Stage-4 RQ answer ledger as ANSWERED, PARTIALLY_ANSWERED, or INSUFFICIENT_EVIDENCE, with denominator, evidence references, sensitivity status and limitations.
+
+**Results-first figures.** Replace schematic/project-management graphics where possible with corpus-derived PRISMA, temporal evolution, domain/technology distribution, Evidence Cube occupancy, C0–C3 comparability, R0–R8 reproducibility, study-quality, contradiction/failure-regime, and persistent-gap/robustness figures.
+
+**Results-first tables.** Prioritize corpus characteristics, design/quality appraisal, comparability causes, reproducibility distribution, domain/user/environment evidence, contradictions/failure regimes, sensitivity analyses, verified opportunities and RQ answers. Methodological framework tables are retained only when needed to interpret results.
+
+**Manuscript rewrite.** Abstract reports completed-review methods and empirical findings. Results contain only frozen-corpus outputs. Discussion interprets those outputs against prior reviews/frameworks. Conclusion states empirical findings and limitations, not prospective promises.
+
+**Bibliography-role audit.** Separate background/method references from included primary-study evidence. Every field-level synthesis claim resolves to included-study IDs rather than citation-range decoration.
+
+**No-live-user rule.** NEXT-20–NEXT-29 experimental work is outside Paper 1. Remove any implication that E001/E002/E003, live-user validation, participant recruitment, or a novel adaptive method is required for acceptance of the systematic review. The review may identify experimentally actionable future work without executing it.
+
+**Final release gate.** Compile/preflight only after Stages 1–4 PASS. Verify PRISMA identities, all RQ answers, denominators, cross-references, figure/table citations, bibliography integrity, repository provenance, manuscript/repository separation, and absence of pilot denominators in final claims.
+
 ## Reviewer-suggestion mapping
 - Genre/title ambiguity -> Stage 5 after completed evidence.
 - Abstract lacks completed-review outcomes -> Stage 5.
