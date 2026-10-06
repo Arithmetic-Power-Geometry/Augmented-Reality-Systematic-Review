@@ -20,6 +20,26 @@ Final P_i extraction; C0-C3 comparability; T0-T5 transfer states; R0-R8 reproduc
 ## Stage 4 — Higher-level synthesis
 Failure regimes; contradictions after condition normalization; persistent gaps; closest-prior-work checks; verified-opportunity gate; domain analysis; temporal analysis; database/coder/threshold/unresolved-field/study-family sensitivity analyses.
 
+### Stage-4 implementation specification
+
+**Condition-normalized contradiction test.** Candidate opposing claims are first aligned on task, population/user, device, sensing stack, environment, metric semantics, comparator, protocol and deployment maturity. C0 pairs cannot establish contradiction. C1 pairs may define contextual tension only. C2/C3 pairs may enter a contradiction test when outcome direction is genuinely opposed after normalization. Each cluster ends as VERIFIED_CONTRADICTION, CONDITION_DEPENDENT, INSUFFICIENT_EVIDENCE, or NOT_COMPARABLE.
+
+**Failure-regime extraction.** For each supported degradation/failure claim, record method, triggering condition, baseline condition, outcome/metric, direction/magnitude when reported, evidence provenance, comparability level and replication status. A failure regime requires a condition-linked degradation signal, not merely a study limitation.
+
+**Persistent-gap promotion.** A sparse Evidence Cube cell is only a candidate. Promotion requires: corpus persistence; not explained by scope/search limitations; contradiction check; reproducibility/evidence-quality check; closest-prior-work search; and an experimentally actionable missing comparison or condition. Terminal states are VERIFIED_OPPORTUNITY, PERSISTENT_BUT_NOT_ACTIONABLE, EXPLAINED_BY_EXISTING_WORK, EVIDENCE_TOO_WEAK, or UNRESOLVED.
+
+**Closest-prior-work gate.** Search the frozen included corpus, linked companion reports, review-of-reviews library and citation-chase additions for the same task × method × condition × outcome combination before any novelty/opportunity claim.
+
+**Domain and temporal synthesis.** Report counts and normalized proportions by domain, technology, hardware/sensing, study design, evidence maturity and year/era. Interpret temporal change only when database coverage and inclusion policy are stable enough for the comparison.
+
+**Sensitivity analyses.** Recompute central findings under: (S1) source/database inclusion sets; (S2) Reviewer-A vs Reviewer-B pre-adjudication coding; (S3) alternative defensible C/T/R boundary thresholds; (S4) unresolved-field best/worst/complete-case handling; (S5) report-level versus canonical study-family counting; (S6) exclusion of high-concern study-quality domains; and (S7) exclusion of weakly comparable C0/C1 evidence where a claim depends on direct comparison.
+
+**Robustness rule.** A manuscript conclusion is robust only if its direction/interpretation survives the prespecified relevant sensitivity analyses or the sensitivity dependence is disclosed explicitly.
+
+**Final outputs.** Frozen contradiction/failure ledger; gap-promotion ledger; closest-prior-work ledger; domain/temporal tables; sensitivity matrix; RQ1–RQ13 answer ledger; provenance/checksums.
+
+**Pilot restriction.** Existing 16-study contradiction and gap tables remain method-validation artifacts only. They contain candidate tensions and no VERIFIED OPPORTUNITY; they cannot be converted into field-wide prevalence or novelty claims.
+
 **Exit:** all RQ-level findings and robustness checks frozen.
 
 ## Stage 5 — Final evidence artifacts and manuscript
