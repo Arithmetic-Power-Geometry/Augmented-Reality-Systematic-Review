@@ -1,0 +1,31 @@
+name: Export validated bibliography
+on:
+  push:
+    paths:
+      - '.github/workflows/export-validated-bibliography.yml'
+      - 'paper_writing/submission/BIB_EXPORT_TRIGGER.txt'
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare bibliography artifact
+        run: |
+          mkdir -p bibliography_export
+          cp paper_writing/paper_artifacts/references/master.bib bibliography_export/master.bib
+          cat > bibliography_export/bibonly.aux <<'EOF'
+          \relax
+          \citation{*}
+          \bibstyle{IEEEtran}
+          \bibdata{master}
+          EOF
+          cd bibliography_export
+          bibtex bibonly
+          test -s bibonly.bbl
+          grep -c '\\bibitem' bibonly.bbl
+      - uses: actions/upload-artifact@v4
+        with:
+          name: validated-bibliography-212
+          path: |
+            bibliography_export/master.bib
+            bibliography_export/bibonly.bbl
