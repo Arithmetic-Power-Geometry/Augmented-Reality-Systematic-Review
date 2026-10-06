@@ -1,0 +1,25 @@
+name: Run76 final results readiness
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/run76-final-results-readiness.yml"]
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - name: Audit final-result prerequisites
+        run: |
+          python scripts/audit_final_results_readiness_run76.py || test $? -eq 2
+      - name: Commit audit provenance
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add paper_writing/paper_artifacts/provenance/RUN76_FINAL_RESULTS_READINESS.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Record Run76 final results readiness"
+          git push
