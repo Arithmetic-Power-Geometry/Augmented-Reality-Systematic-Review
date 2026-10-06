@@ -1,0 +1,14 @@
+{
+  "n": 229,
+  "states": {
+    "PRIORITY_VERIFY": 74,
+    "LIKELY_ADVANCE_PENDING_PRIMARY_REVIEW": 155
+  },
+  "flags": {
+    "AR_MENTION_MAY_BE_CONTEXT_ONLY": 59,
+    "SECONDARY_OR_COMMENTARY_TITLE": 15,
+    "ABSTRACT_MISSING": 8
+  },
+  "sha256": "dd2ea9c6bf0f956cada289c7c0b78391caa3f4a700a292e81182de1699b9c08b",
+  "official_primary_decisions_written": 0
+}
