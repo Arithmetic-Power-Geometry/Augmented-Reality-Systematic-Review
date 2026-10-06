@@ -3,29 +3,25 @@ on:
   push:
     paths:
       - '.github/workflows/export-validated-bibliography.yml'
-      - 'paper_writing/submission/BIB_EXPORT_TRIGGER.txt'
+permissions:
+  contents: write
 jobs:
   export:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Prepare bibliography artifact
+      - name: Build IEEE bibliography
         run: |
-          mkdir -p bibliography_export
-          cp paper_writing/paper_artifacts/references/master.bib bibliography_export/master.bib
-          cat > bibliography_export/bibonly.aux <<'EOF'
-          \relax
-          \citation{*}
-          \bibstyle{IEEEtran}
-          \bibdata{master}
-          EOF
-          cd bibliography_export
+          mkdir -p paper_writing/submission/validated_bibliography
+          cp paper_writing/paper_artifacts/references/master.bib paper_writing/submission/validated_bibliography/master.bib
+          cd paper_writing/submission/validated_bibliography
+          printf '\\relax\n\\citation{*}\n\\bibstyle{IEEEtran}\n\\bibdata{master}\n' > bibonly.aux
           bibtex bibonly
-          test -s bibonly.bbl
-          grep -c '\\bibitem' bibonly.bbl
-      - uses: actions/upload-artifact@v4
-        with:
-          name: validated-bibliography-212
-          path: |
-            bibliography_export/master.bib
-            bibliography_export/bibonly.bbl
+          test "$(grep -c '\\bibitem' bibonly.bbl)" -eq 212
+      - name: Commit generated BBL
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add paper_writing/submission/validated_bibliography/master.bib paper_writing/submission/validated_bibliography/bibonly.bbl
+          git diff --cached --quiet || git commit -m "Materialize validated 212-entry IEEE bibliography"
+          git push
