@@ -1,0 +1,10 @@
+gate_id,requirement,status,evidence_path,blocking_reason
+S1G01,All 91 source-query cells accounted,PARTIAL,evidence/search/search_registry.csv,13 executed and 78 limitation-documented
+S1G02,All source-native exports genuinely executed,BLOCKED,evidence/search/search_registry.csv,78 non-PubMed cells not executed
+S1G03,Master cross-source merge complete,BLOCKED,evidence/corpus/stage1/master_records.csv,non-PubMed exports unavailable
+S1G04,Cross-source deduplication complete,BLOCKED,evidence/corpus/stage1/deduplication_ledger.csv,master merge unavailable
+S1G05,Title-abstract screening complete,BLOCKED,evidence/screening/formal_pubmed_batches/,7728 genuine decisions required
+S1G06,Full-text screening complete,BLOCKED,evidence/corpus/stage1/FULL_TEXT_ELIGIBILITY_TEMPLATE.csv,depends on TA decisions
+S1G07,Study-family resolution complete,BLOCKED,evidence/corpus/stage1/STUDY_FAMILY_TEMPLATE.csv,depends on full-text corpus
+S1G08,Citation chasing reaches stopping rule,BLOCKED,evidence/corpus/stage1/CITATION_CHASING_TEMPLATE.csv,depends on included seed
+S1G09,Stage-1 corpus frozen,BLOCKED,evidence/corpus/stage1/,upstream gates incomplete
