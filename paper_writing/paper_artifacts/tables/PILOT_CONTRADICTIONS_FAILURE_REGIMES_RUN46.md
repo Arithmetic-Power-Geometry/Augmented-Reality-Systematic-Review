@@ -10,3 +10,7 @@ No contradiction is promoted as verified.
 | localization capability vs environment dependence | S0010/S0014 | sensing stacks and indoor/outdoor contexts differ | environment/sensor/ground-truth matching |
 
 Pilot failure-regime hypothesis: device restrictions, task complexity, sensing stack, population and deployment context condition reported performance.
+
+
+## Stage-4 pilot interpretation
+This pilot has **0 VERIFIED_CONTRADICTION** states. The four clusters are hypothesis-generating tensions only. Final contradiction status requires condition normalization across task, population, device, sensing, environment, metric semantics, comparator, protocol and deployment maturity, followed by the comparability gate.
