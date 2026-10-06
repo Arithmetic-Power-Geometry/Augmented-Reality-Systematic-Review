@@ -1,0 +1,3 @@
+# Run 73 — Named-Platform Rescue in Screening Assistance
+
+TA-05 exposed a recurring retrieval-screening issue: relevant augmented- or extended-reality systems may be represented by platform names rather than by the literal phrase “augmented reality.” The exclusion-side safety audit therefore checks named platforms and the described intervention rather than relying on lexical matching alone. In TA-05 this recovered the B-onic XR surgical-planning workflow and the Next-AR intraoperative navigation platform from the assisted-exclusion queue. This rescue layer is intentionally conservative: it changes reviewer priority, not study eligibility. Final eligibility remains a genuine reviewer decision recorded independently of the assistance layer.
