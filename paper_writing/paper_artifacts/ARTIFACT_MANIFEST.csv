@@ -289,3 +289,8 @@ PA286,provenance,P1,paper_writing/paper_artifacts/provenance/RUN77_ALL_BATCH_PRE
 PA287,table,P1,paper_writing/paper_artifacts/tables/RUN77_COMPLETE_SCREENING_PREPARATION.md,evidence/screening/final_title_abstract_ledger.csv,manuscript-ready,"Complete title/abstract workload preparation"
 PA288,algorithm,P1,paper_writing/paper_artifacts/algorithms/RUN77_HUMAN_SCREENING_HANDOFF.md,scripts/validate_genuine_screening_ledger.py,reproducible,"Human screening handoff and validation"
 PA289,figure,P1,paper_writing/paper_artifacts/figures/FIG_RUN77_ALL_RECORDS_REVIEWER_READY.svg,paper_writing/paper_artifacts/tables/RUN77_COMPLETE_SCREENING_PREPARATION.md,manuscript-ready,"Reviewer-ready workload distribution"
+PA290,table,P1,paper_writing/paper_artifacts/tables/RUN78_DOWNSTREAM_FINALIZATION_CHAIN.md,paper_writing/paper_artifacts/provenance/RUN78_DOWNSTREAM_INITIALIZATION.json,manuscript-ready,"Operational downstream chain and current gates"
+PA291,algorithm,P1,paper_writing/paper_artifacts/algorithms/RUN78_END_TO_END_FINALIZATION_ALGORITHM.md,scripts/freeze_final_corpus.py,reproducible,"End-to-end finalization after genuine screening"
+PA292,figure,P1,paper_writing/paper_artifacts/figures/FIG_RUN78_END_TO_END_FINALIZATION.svg,paper_writing/paper_artifacts/tables/RUN78_DOWNSTREAM_FINALIZATION_CHAIN.md,manuscript-ready,"Genuine screening to final manuscript path"
+PA293,method,P1,paper_writing/manuscript/sections/RUN78_STUDY_SELECTION_AUTOMATION_BOUNDARY.md,evidence/screening/final_title_abstract_ledger.csv,manuscript-ready,"Study-selection automation boundary"
+PA294,software,P1,scripts/generate_final_prisma_run78.py,paper_writing/paper_artifacts/provenance/FINAL_CORPUS_FREEZE.sha256,fail-closed,"Final PRISMA generator"
