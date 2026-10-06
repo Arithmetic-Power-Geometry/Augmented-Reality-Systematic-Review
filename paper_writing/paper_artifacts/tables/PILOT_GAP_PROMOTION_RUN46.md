@@ -10,3 +10,7 @@
 | CG006 Intelligent/LLM AR immature | UNTESTED IN PILOT | seed cannot establish field-wide maturity |
 
 None is promoted to VERIFIED OPPORTUNITY.
+
+
+## Stage-4 pilot interpretation
+This table validates the promotion logic only. The pilot has **0 VERIFIED_OPPORTUNITY** states. CG001–CG005 are observations or seed-supported candidates; CG006 is untested. Final promotion requires the frozen-corpus persistence, contradiction, reproducibility/study-quality, closest-prior-work, and experimental-actionability gates defined in the Stage-4 roadmap.
