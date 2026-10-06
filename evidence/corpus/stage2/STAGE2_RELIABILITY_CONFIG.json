@@ -1,0 +1,35 @@
+{
+  "comparisons": [
+    {
+      "name": "eligibility",
+      "reviewer_a": "evidence/corpus/stage2/REVIEWER_A_ELIGIBILITY.csv",
+      "reviewer_b": "evidence/corpus/stage2/REVIEWER_B_ELIGIBILITY.csv",
+      "key": "record_id",
+      "a_field": "decision"
+    },
+    {
+      "name": "C0-C3",
+      "reviewer_a": "evidence/corpus/stage2/REVIEWER_A_COMPARABILITY.csv",
+      "reviewer_b": "evidence/corpus/stage2/REVIEWER_B_COMPARABILITY.csv",
+      "key": "comparison_id",
+      "a_field": "C_level",
+      "weighted": true
+    },
+    {
+      "name": "T0-T5",
+      "reviewer_a": "evidence/corpus/stage2/REVIEWER_A_TRANSFER.csv",
+      "reviewer_b": "evidence/corpus/stage2/REVIEWER_B_TRANSFER.csv",
+      "key": "claim_id",
+      "a_field": "T_level",
+      "weighted": true
+    },
+    {
+      "name": "R0-R8",
+      "reviewer_a": "evidence/corpus/stage2/REVIEWER_A_PI.csv",
+      "reviewer_b": "evidence/corpus/stage2/REVIEWER_B_PI.csv",
+      "key": "study_id",
+      "a_field": "R_level",
+      "weighted": true
+    }
+  ]
+}
