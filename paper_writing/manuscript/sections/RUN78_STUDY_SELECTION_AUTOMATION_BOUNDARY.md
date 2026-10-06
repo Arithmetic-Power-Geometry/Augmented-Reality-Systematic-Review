@@ -1,0 +1,3 @@
+# Run 78 — Study Selection and Automation Boundary
+
+The review uses computational assistance to prepare and prioritize the title/abstract screening workload, while eligibility decisions remain attributable to genuine reviewers. The assistance layer does not populate primary-decision or reviewer-identity fields. Downstream processing is fail-closed: full-text eligibility, report-to-study-family resolution, citation chasing, independent verification, adjudication, corpus freezing, and final numerical synthesis are released only after their prerequisite evidence ledgers are complete. This separation permits reproducible automation without representing machine-generated prompts as reviewer decisions.
