@@ -1,0 +1,12 @@
+{
+  "title_abstract_ready": false,
+  "genuine_decisions": 0,
+  "required": 7728,
+  "downstream_ledgers_initialized": [
+    "evidence/screening/final_full_text_ledger.csv",
+    "evidence/primary/final_study_family_ledger.csv",
+    "evidence/search/final_citation_chase_ledger.csv",
+    "evidence/screening/final_independent_verification.csv"
+  ],
+  "note": "Headers only until genuine upstream evidence exists."
+}
