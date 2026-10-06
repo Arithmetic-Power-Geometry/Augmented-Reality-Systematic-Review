@@ -1,0 +1,32 @@
+name: Run78 downstream finalization chain
+on:
+  push:
+    branches: [main]
+    paths: [".github/workflows/run78-downstream-finalization.yml"]
+permissions:
+  contents: write
+jobs:
+  initialize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: python scripts/initialize_downstream_ledgers_run78.py
+      - name: Validate genuine title abstract decisions
+        run: python scripts/validate_genuine_screening_ledger.py || test $? -eq 2
+      - name: Attempt corpus freeze
+        run: python scripts/freeze_final_corpus.py || test $? -eq 2
+      - name: Attempt final PRISMA
+        run: python scripts/generate_final_prisma_run78.py || test $? -eq 2
+      - name: Persist initialized ledgers and provenance
+        run: |
+          git pull --rebase origin main
+          python scripts/initialize_downstream_ledgers_run78.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/screening/final_full_text_ledger.csv evidence/primary/final_study_family_ledger.csv evidence/search/final_citation_chase_ledger.csv evidence/screening/final_independent_verification.csv paper_writing/paper_artifacts/provenance/RUN78_DOWNSTREAM_INITIALIZATION.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Initialize Run78 downstream finalization ledgers"
+          git push
