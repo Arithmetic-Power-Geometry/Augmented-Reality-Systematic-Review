@@ -32,7 +32,7 @@
 2. Formal C0-C3 comparability framework.
 3. Evidence-qualified gap discovery.
 4. Reproducibility/comparability audit.
-5. Review-to-experiment bridge.
+5. Evidence-to-research-decision bridge (future experiments may be recommended but are not executed in Paper 1).
 
 Candidate gaps are not findings. Reported results are not reproduced results. Empty Evidence Cube cells are not automatically research gaps. The adaptive localization method must not be called novel before closest-prior-work and experimental failure-regime audits.
 
@@ -59,16 +59,16 @@ Candidate gaps are not findings. Reported results are not reproduced results. Em
 | NEXT-17 | Persistent-gap analysis | CORE NOVELTY | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
 | NEXT-18 | Researcher decision map | CORE NOVELTY | P1 | **PILOT COMPLETE — final corpus rerun blocked** |
 | NEXT-19 | Rank experimentally actionable opportunities after closest-prior-work checks | REQUIRED | P1/P2 | **PILOT COMPLETE — final corpus rerun blocked** |
-| NEXT-20 | Confirm actual ORB-SLAM3 build-smoke evidence | BLOCKING | P2 | TODO |
-| NEXT-21 | Execute E001; preserve raw/provenance/ATE/RPE | BLOCKING | P2 | TODO |
-| NEXT-22 | Design sensor-fair mono-inertial ORB-SLAM3 baseline | REQUIRED | P2 | TODO |
-| NEXT-23 | Execute matched VINS-Mono/OpenVINS runs | REQUIRED | P2 | TODO |
-| NEXT-24 | Freeze and execute LaMAR AR-native track | REQUIRED | P2 | TODO |
-| NEXT-25 | Benchmark-transfer stability analysis | CORE RESULT | P2 | TODO |
-| NEXT-26 | Failure-regime analysis | CORE RESULT | P2/P3 | TODO |
-| NEXT-27 | Adaptive-method closest-prior-work novelty audit | NOVELTY GATE | P3 | TODO |
-| NEXT-28 | Formulate new method only if verified gap survives | CONDITIONAL | P3 | TODO |
-| NEXT-29 | Novel-method baselines, ablations, robustness and statistics | CONDITIONAL | P3 | TODO |
+| NEXT-20 | Confirm actual ORB-SLAM3 build-smoke evidence | SEPARATE FUTURE EXPERIMENTAL TRACK | P2 | DEFERRED — NOT REQUIRED FOR PAPER 1 |
+| NEXT-21 | Execute E001; preserve raw/provenance/ATE/RPE | SEPARATE FUTURE EXPERIMENTAL TRACK | P2 | DEFERRED — NOT REQUIRED FOR PAPER 1 |
+| NEXT-22 | Design sensor-fair mono-inertial ORB-SLAM3 baseline | SEPARATE FUTURE EXPERIMENTAL TRACK | P2 | DEFERRED — NOT REQUIRED FOR PAPER 1 |
+| NEXT-23 | Execute matched VINS-Mono/OpenVINS runs | SEPARATE FUTURE EXPERIMENTAL TRACK | P2 | DEFERRED — NOT REQUIRED FOR PAPER 1 |
+| NEXT-24 | Freeze and execute LaMAR AR-native track | SEPARATE FUTURE EXPERIMENTAL TRACK | P2 | DEFERRED — NOT REQUIRED FOR PAPER 1 |
+| NEXT-25 | Benchmark-transfer stability analysis | SEPARATE FUTURE EXPERIMENTAL TRACK | P2 | DEFERRED — NOT REQUIRED FOR PAPER 1 |
+| NEXT-26 | Experimental failure-regime analysis | SEPARATE FUTURE EXPERIMENTAL TRACK | P2/P3 | DEFERRED — Paper-1 literature failure-regime synthesis remains in NEXT-16/Stage 4 |
+| NEXT-27 | Adaptive-method closest-prior-work novelty audit | SEPARATE FUTURE EXPERIMENTAL TRACK | P3 | DEFERRED — NOT REQUIRED FOR PAPER 1 |
+| NEXT-28 | Formulate new method only if verified gap survives | SEPARATE FUTURE EXPERIMENTAL TRACK | P3 | DEFERRED — NOT REQUIRED FOR PAPER 1 |
+| NEXT-29 | Novel-method baselines, ablations, robustness and statistics | SEPARATE FUTURE EXPERIMENTAL TRACK | P3 | DEFERRED — NOT REQUIRED FOR PAPER 1 |
 | NEXT-30 | Generate/freeze final paper figures, tables and evidence release | BLOCKING | P1 | TODO |
 | NEXT-31 | Write TVCG manuscript from frozen evidence | FINAL | P1 | TODO |
 | NEXT-32 | Final TVCG submission audit | FINAL | P1 | TODO |
@@ -87,7 +87,7 @@ Framework/Methods prose may be drafted before the evidence corpus is frozen. Res
 
 ## Current project-management state
 
-Paper-1 methodology, bibliography, pilot extraction and pilot analyses NEXT-06 through NEXT-19 are complete. Final population-level reruns remain dependent on NEXT-05 formal source exports and corpus freeze. P2/P3 experiments remain separate future work and are not required to fabricate Paper-1 review findings.
+Paper-1 methodology, bibliography, pilot extraction and pilot analyses NEXT-06 through NEXT-19 are complete. Final population-level reruns remain dependent on NEXT-05 formal source exports and corpus freeze. P2/P3 experiments remain separate future work. Paper 1 adds no live-user study, participant recruitment, or new experimental validation; its claims are validated through the frozen systematic-review evidence and robustness pipeline.
 
 ## Resume marker
 
