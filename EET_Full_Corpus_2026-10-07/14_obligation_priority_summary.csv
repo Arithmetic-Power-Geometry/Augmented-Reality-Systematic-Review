@@ -1,0 +1,9 @@
+rank,obligation_id,reason
+1,O9,heterogeneity/condition dependence unresolved
+2,O2,measurement-semantic compatibility
+3,O3,task compatibility
+4,O4,device compatibility
+5,O6,environment/deployment compatibility
+6,O5,population compatibility
+7,O8,scope coverage
+8,O10,reproducibility/provenance for transfer
