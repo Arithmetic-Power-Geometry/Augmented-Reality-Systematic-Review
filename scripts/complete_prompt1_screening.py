@@ -53,3 +53,4 @@ table.write_text("# Prompt 1 — Screening and Eligibility Result\n\n"
  "Uncertain records advance. No missing-metadata or ambiguous record is excluded by this gate. "
  "Full-text eligibility is intentionally deferred to Prompt 2.\n",encoding="utf-8")
 print(json.dumps(prov,indent=2))
+
