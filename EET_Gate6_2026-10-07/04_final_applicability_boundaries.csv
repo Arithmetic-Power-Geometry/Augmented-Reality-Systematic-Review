@@ -1,0 +1,8 @@
+factor,status,boundary_or_note
+missingness,CAUTION,"UEE warning at >=50% missingness"
+noise,CONDITIONALLY_ROBUST,"advantage persists through tested range; UEE high at 1.5"
+heterogeneity,ROBUST,"no failure boundary through tested heterogeneity=1.0"
+context_overlap,ROBUST,"advantage persists to overlap=0.10"
+metric_mismatch,ROBUST,"advantage persists through mismatch=0.50"
+evidence_density,CAUTION,"UEE warning at <=20 evidence objects"
+quality_corruption,CAUTION,"UEE high at 50% corruption"
