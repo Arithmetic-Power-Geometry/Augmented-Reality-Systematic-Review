@@ -1,0 +1,8 @@
+factor,boundary,status,interpretation
+missingness,0.50,UEE_WARNING,"At >=50% missingness, under-entitlement cost becomes large despite OEE advantage"
+noise,1.50,UEE_WARNING,"At maximum tested noise, EET remains better on OEE/F1 but becomes materially conservative"
+heterogeneity,none_in_tested_range,NO_FAILURE_BOUNDARY,"Advantage did not disappear through heterogeneity=1.0"
+context_overlap,none_in_tested_range,NO_FAILURE_BOUNDARY,"Advantage persisted down to overlap=0.10"
+metric_mismatch,none_in_tested_range,NO_FAILURE_BOUNDARY,"Advantage persisted through mismatch=0.50"
+quality_corruption,0.50,UEE_WARNING,"At 50% corruption, under-entitlement cost is high"
+evidence_density,20,UEE_WARNING,"At <=20 evidence objects, UEE becomes materially high"
