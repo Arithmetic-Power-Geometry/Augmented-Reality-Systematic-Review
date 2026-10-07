@@ -1,0 +1,11 @@
+decision,GO
+basis_1,"mathematical core coherent after counterexample correction and ablation"
+basis_2,"confirmatory OEE improvement exceeds frozen practical thresholds"
+basis_3,"UEE cost remains within frozen noninferiority boundary in confirmatory comparison"
+basis_4,"macro-F1 and condition-split thresholds pass"
+basis_5,"stress tests define explicit caution boundaries rather than invalidating method"
+basis_6,"core components survive ablation and replication"
+basis_7,"published-evidence application adds interpretable structure without claiming real-world accuracy"
+basis_8,"novelty wording restricted to integration-level synthesis framework"
+basis_9,"reproducibility largely passes; Gate5 hash-manifest retrieval gap must be repaired before submission"
+basis_10,"hostile-review risks remain bounded and must be disclosed"
