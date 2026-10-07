@@ -1,0 +1,9 @@
+claim_id,claim_family,claim_text,scope,note
+C01,effect_existence,AR can materially affect outcome(s) within a specified context,local,descriptive branch
+C02,directional_local_benefit,AR improves an outcome within a specified supported context,local,directional benefit branch
+C03,directional_local_harm,AR worsens an outcome within a specified supported context,local,directional harm branch
+C04,condition_dependence,AR effects differ by task/device/population/environment/metric,cross-context,context-dependence branch
+C05,scoped_generalization,A directional effect generalizes across a specified comparable family,scoped,requires compatibility across boundary dimensions
+C06,broad_generalization,A directional effect generalizes broadly across AR use contexts,broad,strongest transfer claim
+C07,technical_performance_local,An AR technical method improves a specified technical metric in its tested regime,local technical,technical branch
+C08,deployment_transfer,A validated effect/technical advantage transfers from controlled to operational/deployment contexts,transfer,requires deployment compatibility
