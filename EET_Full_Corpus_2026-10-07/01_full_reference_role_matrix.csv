@@ -1,0 +1,213 @@
+reference_index,citation_key,study_id,role,domain,reason,empirical_eligibility,EET_analysis_role,future_manuscript_section
+1,Cheng2024ARUISecurity,S0001,ELIGIBLE_EMPIRICAL,context_scope,No DOI invented; proceedings metadata used,YES,empirical_evidence,AR evidence
+2,Baumeister2017CognitiveCost,S0006,ELIGIBLE_EMPIRICAL,context_scope,Volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+3,Lauer2021HMDChildren,S0011,ELIGIBLE_EMPIRICAL,context_scope,Corrects provisional discovery venue,YES,empirical_evidence,AR evidence
+4,Alessa2023Neurophysiological,S0005,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/issue/article/DOI confirmed,YES,empirical_evidence,AR evidence
+5,Wang2021MultimodalInteraction,S0002,ELIGIBLE_EMPIRICAL,context_scope,Authors volume issue pages DOI confirmed,YES,empirical_evidence,AR evidence
+6,Knoben2026AccessibleWorkshops,S0003,ELIGIBLE_EMPIRICAL,context_scope,Five authors volume issue article DOI confirmed,YES,empirical_evidence,AR evidence
+7,Szentirmai2024UniversallyDesignedAR,S0004,ELIGIBLE_EMPIRICAL,context_scope,Authors volume pages DOI confirmed,YES,empirical_evidence,AR evidence
+8,VidalBalea2020CollaborativeIndustry,S0007,ELIGIBLE_EMPIRICAL,context_scope,Five authors volume issue article DOI confirmed,YES,empirical_evidence,AR evidence
+9,Perno2025DigitalTwinsAR,S0008,ELIGIBLE_EMPIRICAL,context_scope,Three authors title journal year DOI confirmed,YES,empirical_evidence,AR evidence
+10,Begout2022ARAuthoringDT,S0009,ELIGIBLE_EMPIRICAL,context_scope,Four authors volume article DOI confirmed,YES,empirical_evidence,AR evidence
+11,Fan2021ARAssetTracking,S0010,ELIGIBLE_EMPIRICAL,context_scope,Authors volume pages DOI confirmed,YES,empirical_evidence,AR evidence
+12,Guedes2023IsThisReal,S0012,ELIGIBLE_EMPIRICAL,context_scope,Five authors LNCS volume pages DOI confirmed,YES,empirical_evidence,AR evidence
+13,Lin2016AREducationDisabilities,S0013,ELIGIBLE_EMPIRICAL,context_scope,Eight authors volume pages DOI confirmed,YES,empirical_evidence,AR evidence
+14,Alfakhori2026SituatedUrbanAR,S0014,ELIGIBLE_EMPIRICAL,context_scope,Three authors volume start page DOI confirmed,YES,empirical_evidence,AR evidence
+15,VanDenBergh2025DigitalTwinOperators,S0015,ELIGIBLE_EMPIRICAL,context_scope,Two authors article number pages DOI confirmed,YES,empirical_evidence,AR evidence
+16,Mohanty2025PupilDilationAR,S0016,ELIGIBLE_EMPIRICAL,context_scope,Seven authors volume issue pages DOI confirmed,YES,empirical_evidence,AR evidence
+17,Kagami2026TagAlong,PD0017,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+18,Kanellopoulos2026Diagnosing,PD0018,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/issue/article/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+19,Ahmetovic2025Artwork,PD0019,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/issue/article/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+20,Chen2026UbiGrip,PD0020,ELIGIBLE_EMPIRICAL,context_scope,12 authors/venue/DOI confirmed; proceedings pages cross-checked,YES,empirical_evidence,AR evidence
+21,Cox2025ClinicalAR,PD0023,ELIGIBLE_EMPIRICAL,context_scope,Authors/pages/venue/DOI confirmed,YES,empirical_evidence,AR evidence
+22,Mathew2026ARRAE,PD0024,ELIGIBLE_EMPIRICAL,context_scope,Authors/pages/proceedings/DOI confirmed,YES,empirical_evidence,AR evidence
+23,Pantforder2024DigitalTwinsMR,PD0025,ELIGIBLE_EMPIRICAL,context_scope,Authors/pages/venue/DOI confirmed,YES,empirical_evidence,AR evidence
+24,Sahoo2026LaserProjection,PD0026,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/article/DOI confirmed,YES,empirical_evidence,AR evidence
+25,Sheng2024SLAMReview,R020,SECONDARY_SYNTHESIS,prior_art_and_scope,Review evidence; authors/volume/article/DOI confirmed,NO,context,Related work
+26,Zhang2026PoseEstimationReview,R021,SECONDARY_SYNTHESIS,prior_art_and_scope,Review evidence; authors/volume/issue/article/DOI confirmed,NO,context,Related work
+27,Azuma1997Survey,R022,SECONDARY_SYNTHESIS,context_scope,Foundational AR survey; volume/issue/pages/DOI confirmed,NO,context,AR evidence
+28,Azuma2001Advances,R023,SECONDARY_SYNTHESIS,context_scope,Six authors/volume/issue/pages/DOI confirmed,NO,context,AR evidence
+29,Billinghurst2015Survey,R024,SECONDARY_SYNTHESIS,context_scope,Authors/volume/issue/pages/DOI confirmed,NO,context,AR evidence
+30,Sereno2022Collaborative,R025,SECONDARY_SYNTHESIS,context_scope,Authors/volume/issue/pages/DOI confirmed,NO,context,AR evidence
+31,Macedo2023Occlusion,R026,SECONDARY_SYNTHESIS,context_scope,Authors/volume/issue/pages/DOI confirmed,NO,context,AR evidence
+32,Gsaxner2023HoloLensMedicine,R027,SECONDARY_SYNTHESIS,context_scope,Seven authors/volume/article/DOI confirmed,NO,context,AR evidence
+33,Birlo2022OSTSurgery,R028,SECONDARY_SYNTHESIS,context_scope,Four authors/volume/article/DOI confirmed,NO,context,AR evidence
+34,Klein2007PTAM,M005,TECHNICAL_BACKGROUND,context_scope,Authors/ISMAR/pages/DOI confirmed,NO,context,AR evidence
+35,MurArtal2015ORBSLAM,M006,TECHNICAL_BACKGROUND,context_scope,Authors/volume/issue/pages/DOI confirmed,NO,context,AR evidence
+36,MurArtal2017ORBSLAM2,M007,TECHNICAL_BACKGROUND,context_scope,Authors/volume/issue/pages/DOI confirmed,NO,context,AR evidence
+37,Qin2018VINSMono,M002,TECHNICAL_BACKGROUND,context_scope,Authors/volume/issue/pages/DOI confirmed,NO,context,AR evidence
+38,Campos2021ORBSLAM3,M001,TECHNICAL_BACKGROUND,context_scope,Authors/volume/issue/pages/DOI confirmed,NO,context,AR evidence
+39,Sarlin2022LaMAR,M004,TECHNICAL_BACKGROUND,context_scope,Authors/ECCV/LNCS volume/pages/DOI confirmed,NO,context,AR evidence
+40,Chegini2023RegistrationValidation,R029,SECONDARY_SYNTHESIS,context_scope,Authors/journal/volume/issue/pages/DOI confirmed,NO,context,AR evidence
+41,Kovoor2021SurgicalEducation,R030,SECONDARY_SYNTHESIS,context_scope,Authors/journal/volume/issue/pages/DOI confirmed,NO,context,AR evidence
+42,Barsom2016MedicalTraining,R031,SECONDARY_SYNTHESIS,context_scope,Authors/journal/volume/pages/DOI confirmed,NO,context,AR evidence
+43,Drouot2022IndustrialAssembly,PD0027,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/article/DOI confirmed,YES,empirical_evidence,AR evidence
+44,Yang2019AssemblyCognitiveLoad,PD0028,ELIGIBLE_EMPIRICAL,context_scope,Eight authors/volume/article/DOI confirmed,YES,empirical_evidence,AR evidence
+45,Seeliger2023QualityInspection,PD0029,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/article/DOI confirmed,YES,empirical_evidence,AR evidence
+46,AticiUlusu2021CognitiveLoad,PD0030,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+47,Marino2024AssemblyGuidance,PD0031,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/article/DOI confirmed,YES,empirical_evidence,AR evidence
+48,Kim2024MarkerlessSurgery,PD0032,ELIGIBLE_EMPIRICAL,context_scope,Six authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+49,Schneider2020LiverRegistration,PD0033,ELIGIBLE_EMPIRICAL,context_scope,14 authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+50,Wang2005Occlusion,PD0034,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+51,Tian2010Occlusion,PD0035,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+52,Li2022MonocularOcclusion,PD0036,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+53,Fan2026DepthCueConflict,PD0037,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/article/DOI confirmed,YES,empirical_evidence,AR evidence
+54,Denning2014Bystanders,PD0038,ELIGIBLE_EMPIRICAL,context_scope,Authors/proceedings/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+55,OHagan2022EverydayPrivacy,PD0039,ELIGIBLE_EMPIRICAL,context_scope,Seven authors/volume/issue/article/DOI confirmed,YES,empirical_evidence,AR evidence
+56,Corbett2023BystandAR,PD0040,ELIGIBLE_EMPIRICAL,context_scope,Five authors/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+57,Hao2024DelayGuaranteed,PD0041,ELIGIBLE_EMPIRICAL,context_scope,Three authors/article/DOI confirmed,YES,empirical_evidence,AR evidence
+58,Na2024GenerativeAIEdge,PD0042,ELIGIBLE_EMPIRICAL,context_scope,Authors/volume/issue/article/DOI confirmed,YES,empirical_evidence,AR evidence
+59,Ahn2020EnergyEfficient,PD0043,ELIGIBLE_EMPIRICAL,context_scope,Four authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+60,Coughlan2017AR4VI,PD0044,ELIGIBLE_EMPIRICAL,context_scope,Authors/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+61,Huang2019SignReading,PD0045,ELIGIBLE_EMPIRICAL,context_scope,Six authors/volume/issue/article/DOI confirmed,YES,empirical_evidence,AR evidence
+62,Gopalakrishnan2020VisualAcuity,PD0046,ELIGIBLE_EMPIRICAL,context_scope,Four authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+63,Lang2021ButtonLowVision,PD0047,ELIGIBLE_EMPIRICAL,context_scope,Authors/article/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+64,Salameh2026RemoteAssistance,PD0048,ELIGIBLE_EMPIRICAL,context_scope,Three authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+65,Seeliger2024ContextAdaptive,PD0049,ELIGIBLE_EMPIRICAL,context_scope,Three authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+66,Islam2026ARAuthentication,PD0050,ELIGIBLE_EMPIRICAL,context_scope,Nine authors/volume/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+67,Ethiraj2026AuthenticationReview,R032,SECONDARY_SYNTHESIS,prior_art_and_scope,Two authors/volume/article/DOI confirmed; secondary review,NO,context,Related work
+68,Marques2023CollaborativeEvaluation,PD0051,ELIGIBLE_EMPIRICAL,context_scope,Six authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+69,Yang2024SharedArtifact,PD0052,ELIGIBLE_EMPIRICAL,context_scope,Seven authors/volume/article/DOI confirmed,YES,empirical_evidence,AR evidence
+70,Blum2025CroCoDL,PD0053,ELIGIBLE_EMPIRICAL,context_scope,Seven authors/CVPR/pages confirmed; no DOI asserted,YES,empirical_evidence,AR evidence
+71,Rasch2026SharedGaze,PD0054,ELIGIBLE_EMPIRICAL,context_scope,Five authors/article/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+72,Shi2025CARINGAI,PD0055,ELIGIBLE_EMPIRICAL,context_scope,Seven authors/article/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+73,Yang2025SocialMind,PD0056,ELIGIBLE_EMPIRICAL,context_scope,Seven authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+74,Li2025Satori,PD0057,ELIGIBLE_EMPIRICAL,context_scope,Nine authors/article/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+75,Zhu2025AgentAR,PD0058,ELIGIBLE_EMPIRICAL,context_scope,Six authors/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+76,Aschenbrenner2019HumanFactors,PD0059,ELIGIBLE_EMPIRICAL,context_scope,Seven authors/volume/article/DOI confirmed,YES,empirical_evidence,AR evidence
+77,Derby2022DeviceUsability,PD0060,ELIGIBLE_EMPIRICAL,context_scope,Two authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+78,Leins2024GuidedAssembly,PD0061,ELIGIBLE_EMPIRICAL,context_scope,Three authors/volume/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+79,Gurerk2025ProductivityLearning,PD0062,ELIGIBLE_EMPIRICAL,context_scope,Three authors/volume/article/DOI confirmed,YES,empirical_evidence,AR evidence
+80,Elmqaddem2026Augmentiverse,R033,SECONDARY_SYNTHESIS,evidence_object_context,Single author/volume/issue/DOI confirmed; standards/interoperability synthesis,NO,context,Method / context
+81,Pan2023AriaDigitalTwin,PD0063,ELIGIBLE_EMPIRICAL,context_scope,Nine authors/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+82,Zhu2023EgoObjects,PD0064,ELIGIBLE_EMPIRICAL,context_scope,Nine authors/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+83,Deng2026EgoHOIBench,PD0065,ELIGIBLE_EMPIRICAL,context_scope,Three authors/volume/article/DOI confirmed,YES,empirical_evidence,AR evidence
+84,Xiu2026ContrAR,PD0066,ELIGIBLE_EMPIRICAL,context_scope,Four authors/pages confirmed; no DOI asserted,YES,empirical_evidence,AR evidence
+85,Donley2021EasyCom,PD0067,ELIGIBLE_EMPIRICAL,context_scope,Nine authors/arXiv identifier confirmed; dataset paper intentionally cited as preprint,YES,empirical_evidence,AR evidence
+86,Aromaa2020Awareness,PD0068,ELIGIBLE_EMPIRICAL,context_scope,Six authors/volume/article/DOI confirmed,YES,empirical_evidence,AR evidence
+87,Chaudhari2025SafetyHazards,PD0069,ELIGIBLE_EMPIRICAL,context_scope,Seven authors/volume/article/DOI confirmed,YES,empirical_evidence,AR evidence
+88,Cardenas2026DisplayClutterSafety,PD0070,ELIGIBLE_EMPIRICAL,context_scope,Four authors/volume/issue/pages/DOI confirmed,YES,empirical_evidence,AR evidence
+89,Li2026SpatialNeglectReview,R034,SECONDARY_SYNTHESIS,context_scope,Nine authors/volume/issue/pages/DOI confirmed; secondary evidence,NO,context,AR evidence
+90,ElAshry2026SurgicalTrainingReview,R035,SECONDARY_SYNTHESIS,context_scope,Five authors/volume/article/DOI confirmed; secondary evidence,NO,context,AR evidence
+91,Man2026NavigationMetaAnalysis,R036,SECONDARY_SYNTHESIS,context_scope,Five authors/volume/issue/pages/DOI confirmed; secondary evidence,NO,context,AR evidence
+92,Kostakopoulos2026RoboticUrologyReview,R037,SECONDARY_SYNTHESIS,context_scope,Seven authors/volume/issue/DOI confirmed; secondary evidence,NO,context,AR evidence
+93,Xu2026DentalImplantMetaAnalysis,R038,SECONDARY_SYNTHESIS,context_scope,Four authors/article number/DOI confirmed; secondary evidence,NO,context,AR evidence
+94,Arefin2025Replication,R039,SECONDARY_SYNTHESIS,prior_art_and_scope,Six authors/pages/DOI confirmed; replication scoping review,NO,context,Related work
+95,Liu2026CGEducationReview,R040,SECONDARY_SYNTHESIS,prior_art_and_scope,Four authors/volume/article/DOI confirmed; secondary review,NO,context,Related work
+96,Balado2026AsBuiltXR,R041,SECONDARY_SYNTHESIS,prior_art_and_scope,Five authors/volume/issue/article/DOI confirmed; secondary XR workflow review,NO,context,Related work
+97,Angra2025ARVRReview,R042,SECONDARY_SYNTHESIS,prior_art_and_scope,Six authors/volume/article/DOI confirmed; broad bibliometric/systematic review,NO,context,Related work
+98,Hu2025XRRealityCheck,PD0071,ELIGIBLE_EMPIRICAL,prior_art_and_scope,Four authors/pages/DOI confirmed; peer-reviewed benchmark with public reproducibility artifacts,YES,empirical_evidence,Related work
+99,Makamara2022XRStandards,R043,SECONDARY_SYNTHESIS,evidence_object_context,Two authors/pages/DOI confirmed; secondary standards survey,NO,context,Method / context
+100,IEEE2048_101_2023,S001,METHODOLOGICAL_PRIOR_ART,evidence_object_context,Active standard; approval/publication dates and scope confirmed; standards source not primary study,NO,context,Method / context
+101,Sahu2025EdgeEnergy,PD0072,ELIGIBLE_EMPIRICAL,context_scope,Seven authors/volume/article/DOI confirmed; mobile AR edge-energy primary study,YES,empirical_evidence,AR evidence
+102,Chen2024ConstructionSafetyVLM,PD0073,ELIGIBLE_EMPIRICAL,context_scope,Seven authors/volume/article/DOI confirmed; AR+DL+VLM construction safety system,YES,empirical_evidence,AR evidence
+103,Seo2021CachePower,PD0074,ELIGIBLE_EMPIRICAL,context_scope,Six authors/volume/issue/pages/DOI confirmed; cache/power MAR optimization,YES,empirical_evidence,AR evidence
+104,He2021DRLOffloading,PD0075,ELIGIBLE_EMPIRICAL,context_scope,Five authors/volume/issue/pages/DOI confirmed; DRL offloading/resource allocation,YES,empirical_evidence,AR evidence
+105,Scargill2024EnvironmentTexture,PD0076,ELIGIBLE_EMPIRICAL,context_scope,Five authors/volume/issue/article/pages/DOI confirmed; persistent markerless AR environment optimization,YES,empirical_evidence,AR evidence
+106,Masood2020IndustrialAdoption,PD0077,ELIGIBLE_EMPIRICAL,task_device_context,Two authors/volume/article/DOI confirmed; 22 industrial/university experiments,YES,empirical_evidence,Industrial evidence
+107,Loizeau2021FieldEvaluation,PD0078,ELIGIBLE_EMPIRICAL,task_device_context,Four authors/volume/article/DOI confirmed; aeronautical maintenance field-evaluation methodology,YES,empirical_evidence,Industrial evidence
+108,Zigart2022IndustrialSAR,PD0079,ELIGIBLE_EMPIRICAL,task_device_context,Two authors/pages/DOI confirmed; industrial SAR field study,YES,empirical_evidence,Industrial evidence
+109,Hughes2025InteractionUX,R044,SECONDARY_SYNTHESIS,prior_art_and_scope,Two authors/volume/article/DOI confirmed; 86-study interaction/UX systematic review,NO,context,Related work
+110,Suzuki2024PhysiologicalCognitiveLoad,R045,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/volume/issue/pages/DOI confirmed; physiological cognitive-load systematic review,NO,context,Related work
+111,Buchner2021CognitiveLoadMap,R046,SECONDARY_SYNTHESIS,claim_scope_condition_split,Three authors/volume/article/DOI confirmed; 64-study cognitive-load systematic map,NO,context,Published-evidence validation
+112,Lim2019UsabilityMeasures,R047,SECONDARY_SYNTHESIS,prior_art_and_scope,Five authors/volume/issue/article/DOI confirmed; 72-study MAR usability-measure review,NO,context,Related work
+113,Zhou2008ISMARTrends,R048,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/pages/DOI confirmed; historical ISMAR tracking-interaction-display review,NO,context,Related work
+114,Hertel2021InteractionTaxonomy,R049,SECONDARY_SYNTHESIS,context_scope,Six authors/pages/DOI confirmed; 44-paper task-modality taxonomy,NO,context,AR evidence
+115,Bai2025GestureSpeech,R050,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/volume/issue/pages/DOI confirmed; 16-study gesture-speech multimodal review,NO,context,Related work
+116,Quinn2024OutOfView,R051,SECONDARY_SYNTHESIS,prior_art_and_scope,Two authors/pages/DOI confirmed; out-of-view attention-guidance systematic review,NO,context,Related work
+117,Wang2021RemoteCollaborationReview,R052,SECONDARY_SYNTHESIS,prior_art_and_scope,Nine authors/volume/article/DOI confirmed; 215-paper AR/MR remote-collaboration review,NO,context,Related work
+118,Ghamandi2023CollaborativeXR,R053,SECONDARY_SYNTHESIS,context_scope,Seven authors/pages/DOI confirmed; 148-paper collaborative XR task taxonomy,NO,context,AR evidence
+119,Vanukuru2023DualStream,PD0080,ELIGIBLE_EMPIRICAL,context_scope,Seven authors/pages/DOI confirmed; synchronous mobile AR spatial communication,YES,empirical_evidence,AR evidence
+120,VidalBalea2025AnchorSharing,PD0081,ELIGIBLE_EMPIRICAL,context_scope,Four authors/volume/issue/article/DOI confirmed; multi-user multi-platform spatial-anchor synchronization,YES,empirical_evidence,AR evidence
+121,Pur2023LowVisionReview,R054,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/volume/issue/pages/DOI confirmed; low-vision AR/VR systematic review,NO,context,Related work
+122,Berenguer2020AutismAR,R055,SECONDARY_SYNTHESIS,prior_art_and_scope,Five authors/volume/issue/article/DOI confirmed; AR autism systematic review,NO,context,Related work
+123,Baragash2022OlderAdultsXR,R056,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/volume/article/DOI confirmed; 57-study older-adult VR/AR mapping review,NO,context,Related work
+124,Ceyssens2025OlderAdultsAR,R057,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/volume/issue/article/DOI confirmed; older-adult AR systematic review,NO,context,Related work
+125,DeGuzman2019SecurityPrivacy,R058,SECONDARY_SYNTHESIS,domain_transfer,Three authors/volume/issue/pages/DOI confirmed; mixed-reality security/privacy survey,NO,context,Security/privacy evidence
+126,Hallal2024AuthenticationXR,R059,SECONDARY_SYNTHESIS,domain_transfer,Three authors/volume/issue/article/DOI confirmed; 197-publication XR authentication survey,NO,context,Security/privacy evidence
+127,Alzahrani2022ARCybersecurity,R060,SECONDARY_SYNTHESIS,prior_art_and_scope,Two authors/volume/issue/article/DOI confirmed; AR/cybersecurity smart-cities systematic review,NO,context,Related work
+128,Stephenson2022AuthenticationSoK,R061,SECONDARY_SYNTHESIS,domain_transfer,Six authors/pages/DOI confirmed; AR/VR authentication systematization,NO,context,Security/privacy evidence
+129,Gong2024ARSafetyTraining,R062,SECONDARY_SYNTHESIS,heterogeneity_and_scope,Five authors/volume/article/DOI confirmed; 37-paper AR safety-training SLR/meta-analysis,NO,context,Prior art / quantitative synthesis
+130,Dodoo2025XRWorkerSafety,R063,SECONDARY_SYNTHESIS,prior_art_and_scope,Four authors/volume/article/DOI confirmed; 41-study high-risk-industry XR safety review,NO,context,Related work
+131,Ma2026CognitionAwareSafety,R064,SECONDARY_SYNTHESIS,prior_art_and_scope,Four authors/volume/article/DOI confirmed; 128-study cognition-aware construction AR safety review,NO,context,Related work
+132,GonnermannMuller2025ARLearningDesign,R065,SECONDARY_SYNTHESIS,prior_art_and_scope,Two authors/volume/issue/article/DOI confirmed; empirical cognitive-load design review,NO,context,Related work
+133,Merino2020MRAREvaluation,R066,SECONDARY_SYNTHESIS,context_scope,Six authors/pages/DOI confirmed; 458-paper MR/AR evaluation SLR,NO,context,AR evidence
+134,Hepperle2021Reproducibility,R067,SECONDARY_SYNTHESIS,provenance_and_stability,Three authors/pages/DOI confirmed; VR reproducibility/replicability methods paper,NO,context,Reproducibility
+135,Vlake2024RATEXR,R068,SECONDARY_SYNTHESIS,context_scope,Full author/group metadata/volume/article/DOI confirmed; XR reporting guideline,NO,context,AR evidence
+136,Banzi2026ReproducibilityConsensus,R069,SECONDARY_SYNTHESIS,provenance_and_stability,Six named authors plus study group/volume/issue/article/DOI confirmed; multidisciplinary reproducibility consensus,NO,context,Reproducibility
+137,Guo2022EnvironmentHMD,R070,SECONDARY_SYNTHESIS,context_scope,Four authors/volume/article/pages/DOI confirmed; 87-paper HMD environment survey,NO,context,AR evidence
+138,Dey2018UsabilityReview,R071,SECONDARY_SYNTHESIS,context_scope,Four authors/volume/article/DOI confirmed; 291 papers/369 AR user studies,NO,context,AR evidence
+139,SadeghiNiaraki2020MarkerlessSurvey,R072,SECONDARY_SYNTHESIS,context_scope,Two authors/volume/issue/article/DOI confirmed; markerless tracking/registration survey,NO,context,AR evidence
+140,Schubert2018TUMVI,R073,SECONDARY_SYNTHESIS,context_scope,Six authors/pages/DOI confirmed; public visual-inertial benchmark,NO,context,AR evidence
+141,Burri2016EuRoC,R074,SECONDARY_SYNTHESIS,context_scope,Eight authors/volume/issue/pages/DOI confirmed; visual-inertial dataset benchmark,NO,context,AR evidence
+142,Bassyouni2021AIRobotics,R075,SECONDARY_SYNTHESIS,prior_art_and_scope,Two authors/volume/article/DOI confirmed; 29-paper AR+AI robotics systematic review,NO,context,Related work
+143,Wu2026ConversationalAR,R076,SECONDARY_SYNTHESIS,prior_art_and_scope,Five authors/accepted-online date/DOI confirmed; 44-study conversational-agent AR systematic review,NO,context,Related work
+144,Mustapha2026AugmentedIntelligence,R077,SECONDARY_SYNTHESIS,prior_art_and_scope,Two authors/proceedings/pages/DOI confirmed; 30-paper AR+AI systematic review,NO,context,Related work
+145,Ramtohul2025AdaptiveMultimodal,R078,SECONDARY_SYNTHESIS,prior_art_and_scope,Two authors/volume/article/DOI confirmed; 15-study adaptive multimodal MAR review,NO,context,Related work
+146,Wang2026ImmersiveAI,R079,SECONDARY_SYNTHESIS,prior_art_and_scope,Five authors/volume/issue/pages/DOI confirmed; 43-study immersive analytics+AI review,NO,context,Related work
+147,Yin2023ARDigitalTwin,R080,SECONDARY_SYNTHESIS,context_scope,Four authors/volume/article/DOI confirmed; AR-assisted DT lifecycle survey,NO,context,AR evidence
+148,Sthapit2026DTXR,R081,SECONDARY_SYNTHESIS,context_scope,Two authors/volume/issue/article/DOI confirmed; 52-study DT+XR construction SLR,NO,context,AR evidence
+149,Kautsar2026Bidirectional,R082,SECONDARY_SYNTHESIS,context_scope,Four authors/volume/pages/DOI confirmed; AR/MR-DT bidirectional synchronization SLR,NO,context,AR evidence
+150,Qiu2019DigitalAssembly,R083,SECONDARY_SYNTHESIS,prior_art_and_scope,Five authors/volume/issue/pages/DOI confirmed; AR+DT digital assembly review,NO,context,Related work
+151,Errandonea2020DTMaintenance,R084,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/volume/article/DOI confirmed; DT maintenance review with 167 collected results,NO,context,Related work
+152,Garzon2019LearningGains,R085,SECONDARY_SYNTHESIS,heterogeneity_and_scope,Two authors/volume/pages/DOI confirmed; 64-paper quantitative meta-analysis,NO,context,Prior art / quantitative synthesis
+153,Garzon2020Pedagogy,R086,SECONDARY_SYNTHESIS,heterogeneity_and_scope,Five authors/volume/article/DOI confirmed; 41-study pedagogy meta-analysis,NO,context,Prior art / quantitative synthesis
+154,Zhang2022K12AR,R087,SECONDARY_SYNTHESIS,heterogeneity_and_scope,Five authors/volume/issue/article/DOI confirmed; 129-article K-12 review/meta-analysis,NO,context,Prior art / quantitative synthesis
+155,Zhu2026CognitiveLoad,R088,SECONDARY_SYNTHESIS,heterogeneity_and_scope,Four authors/volume/article/DOI confirmed; 27-study cognitive-load meta-analysis,NO,context,Prior art / quantitative synthesis
+156,Huang2025MixedRealityEducation,R089,SECONDARY_SYNTHESIS,heterogeneity_and_scope,Three authors/volume/article/DOI confirmed; 124-paper review with 32-study meta-analysis,NO,context,Prior art / quantitative synthesis
+157,Nicolai2026NavigatedSurgery,R090,SECONDARY_SYNTHESIS,context_scope,Ten authors/volume/issue/article/DOI confirmed; 61 patient-only clinical navigation studies,NO,context,AR evidence
+158,Xiong2025LaparoscopicTraining,R091,SECONDARY_SYNTHESIS,heterogeneity_and_scope,Five authors/volume/issue/pages/DOI confirmed; 12 studies/434 participants meta-analysis,NO,context,Prior art / quantitative synthesis
+159,Yoon2018Surgeon,R092,SECONDARY_SYNTHESIS,population_task_transfer,Ten authors/volume/issue/article/DOI confirmed; 74 surgical HUD articles,NO,context,Medical evidence
+160,Bollen2022IntraoperativeAR,R093,SECONDARY_SYNTHESIS,prior_art_and_scope,Four authors/volume/issue/article/DOI confirmed; intraoperative AR/MR outcomes review,NO,context,Related work
+161,Williams2020SurgicalTraining,R094,SECONDARY_SYNTHESIS,prior_art_and_scope,Four authors/volume/issue/pages/DOI confirmed; surgical-training review,NO,context,Related work
+162,Suresh2023SurgicalTraining,R095,SECONDARY_SYNTHESIS,prior_art_and_scope,Five authors/volume/issue/pages/DOI confirmed; surgical-training systematic review,NO,context,Related work
+163,Palmarini2018Maintenance,R096,SECONDARY_SYNTHESIS,task_device_context,Four authors/volume/pages/DOI confirmed; 30-primary-study maintenance SLR,NO,context,Industrial evidence
+164,Gattullo2022VisualAssets,R097,SECONDARY_SYNTHESIS,prior_art_and_scope,Five authors/volume/issue/pages/DOI confirmed; industrial visual-assets systematic review,NO,context,Related work
+165,Wang2016Assembly,R098,SECONDARY_SYNTHESIS,task_device_context,Three authors/volume/issue/pages/DOI confirmed; comprehensive AR assembly survey,NO,context,Industrial evidence
+166,Baroroh2021SmartManufacturing,R099,SECONDARY_SYNTHESIS,task_device_context,Three authors/volume/pages/DOI confirmed; human-computational-intelligence manufacturing SLR,NO,context,Industrial evidence
+167,Ho2022QualityControl,R100,SECONDARY_SYNTHESIS,task_device_context,Four authors/volume/issue/article/DOI confirmed; AR manufacturing quality-control SLR,NO,context,Industrial evidence
+168,Breitkreuz2022RemoteMaintenance,R101,SECONDARY_SYNTHESIS,task_device_context,Four authors/volume/pages/DOI confirmed; 89-article remote-maintenance SLR,NO,context,Industrial evidence
+169,Page2021PRISMA,R102,SECONDARY_SYNTHESIS,context_scope,PRISMA 2020 statement; full authors/volume/article/DOI confirmed,NO,context,AR evidence
+170,Rethlefsen2021PRISMAS,R103,SECONDARY_SYNTHESIS,context_scope,PRISMA-S; authors/group/volume/article/DOI confirmed,NO,context,AR evidence
+171,McGowan2016PRESS,R104,SECONDARY_SYNTHESIS,context_scope,PRESS 2015 guideline; six authors/volume/pages/DOI confirmed,NO,context,AR evidence
+172,Bramer2016Deduplication,R105,SECONDARY_SYNTHESIS,context_scope,Deduplication method; five authors/volume/issue/pages/DOI confirmed,NO,context,AR evidence
+173,Bramer2017DatabaseCombinations,R106,SECONDARY_SYNTHESIS,context_scope,Four authors/volume/article/DOI confirmed,NO,context,AR evidence
+174,Tang2020MedicalEducation,R107,SECONDARY_SYNTHESIS,prior_art_and_scope,Four authors/11(1)/e81-e96/DOI confirmed; 36-study medical-education systematic review,NO,context,Related work
+175,Tene2024MedicalUmbrella,R108,SECONDARY_SYNTHESIS,prior_art_and_scope,Five authors/volume/article/DOI confirmed; umbrella review of VR/AR medical education,NO,context,Related work
+176,RodriguezAbad2021HealthSciences,R109,SECONDARY_SYNTHESIS,prior_art_and_scope,Four authors/18(8)/4262/DOI confirmed; health-sciences higher-education systematic review,NO,context,Related work
+177,Lauinger2026XRHealthEducation,R110,SECONDARY_SYNTHESIS,prior_art_and_scope,Seven authors/volume/article/DOI confirmed; 29-study US XR-HMD healthcare-education scoping review,NO,context,Related work
+178,Chiang2022VocationalTraining,R111,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/volume/article/DOI confirmed; 80-study vocational-training systematic review,NO,context,Related work
+179,FernandezDelAmo2018KnowledgeTransfer,R112,SECONDARY_SYNTHESIS,task_device_context,Five authors/volume/pages/DOI confirmed; 74-paper maintenance knowledge-transfer SLR,NO,context,Industrial evidence
+180,Burke2025XRHigherEducation,R113,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/69/998-1011/DOI confirmed; 295-study higher-education XR review,NO,context,Related work
+181,Williams2025AnatomyAR,R114,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/38(2)/168-185/DOI confirmed; anatomy AR teaching systematic review,NO,context,Related work
+182,Fugate2025ImmersiveXRMedical,R115,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/15(4)/468/DOI confirmed; 56-study immersive XR medical/nursing review,NO,context,Related work
+183,FernandezMoyano2025IndustryImpact,R116,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/15(5)/2415/DOI confirmed; 74-article industrial AR scoping review,NO,context,Related work
+184,Haq2026SurgicalTraining,R117,SECONDARY_SYNTHESIS,prior_art_and_scope,Two authors/50(6)/1567-1578/DOI confirmed; surgical training systematic review,NO,context,Related work
+185,Jia2025StrokeARMeta,R118,SECONDARY_SYNTHESIS,prior_art_and_scope,"Four authors/34(11)/4578-4589/DOI confirmed; 11-study AR stroke systematic review, 8 meta-analyzed",NO,context,Related work
+186,Alashram2025StrokeLowerLimbAR,R119,SECONDARY_SYNTHESIS,prior_art_and_scope,Single author/42/1039-1046/DOI confirmed; five RCT lower-limb stroke review,NO,context,Related work
+187,Su2024TKAExtendedReality,R120,SECONDARY_SYNTHESIS,heterogeneity_and_scope,Five authors/39(3)/582-590.e4/DOI confirmed; 14-RCT TKA XR meta-analysis,NO,context,Prior art / quantitative synthesis
+188,Plavoukou2025KneeRehabilitation,R121,SECONDARY_SYNTHESIS,prior_art_and_scope,Five authors/17(2)/e79011/DOI confirmed; four-RCT knee osteoarthritis review,NO,context,Related work
+189,Bello2025NeurocognitiveXR,R122,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/184/473-487/DOI confirmed; 28-study XR neurocognitive assessment review,NO,context,Related work
+190,Williamson2025SCIExtendedReality,R123,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/63(2)/58-65/DOI confirmed; systematic scoping review of SCI XR psychological outcomes,NO,context,Related work
+191,Nikolaidis2022ReviewOfReviews,R124,SECONDARY_SYNTHESIS,prior_art_and_scope,Single author/8(5)/145/DOI confirmed; systematic analysis of 47 AR reviews,NO,context,Related work
+192,Gonzales2025NonTechnicalHealthcareXR,R125,SECONDARY_SYNTHESIS,prior_art_and_scope,Three authors/125/104463/DOI confirmed; 15-study healthcare non-technical-skills XR scoping review,NO,context,Related work
+193,Asoodar2024HealthProfessionsLearning,R126,SECONDARY_SYNTHESIS,prior_art_and_scope,Four authors/9(1)/36/DOI confirmed; 184-study health-professions immersive-learning scoping review,NO,context,Related work
+194,Mondal2024IndiaHealthcareEducation,R127,SECONDARY_SYNTHESIS,prior_art_and_scope,Single author/13(8)/2841-2850/DOI confirmed; India-focused healthcare education systematic review,NO,context,Related work
+195,Chahartangi2025ARVirtualPatients,R128,SECONDARY_SYNTHESIS,prior_art_and_scope,Four authors/20(7)/e0324740/DOI confirmed; 27-study AR virtual-patient healthcare training scoping review,NO,context,Related work
+196,Li2025ARHigherEducationMeta,R129,SECONDARY_SYNTHESIS,heterogeneity_and_scope,Six authors/15(6)/678/DOI confirmed; higher-education AR systematic review/meta-analysis,NO,context,Prior art / quantitative synthesis
+197,Roman2024HealthSciencesTeaching,R130,SECONDARY_SYNTHESIS,prior_art_and_scope,Four authors/238/460-467/DOI confirmed; 16-article health-sciences teaching review,NO,context,Related work
+198,Shidende2023AccessibilityEvaluation,R131,SECONDARY_SYNTHESIS,context_scope,Four authors/306/575-582/DOI confirmed; 60-article accessibility-evaluation SLR,NO,context,AR evidence
+199,Upadhyay2024CollaborativeHigherEducation,R132,SECONDARY_SYNTHESIS,prior_art_and_scope,Six authors/121/104360/DOI confirmed; 20-study collaborative AR higher-education review,NO,context,Related work
+200,Stefanidi2024AROnTheMove,R133,SECONDARY_SYNTHESIS,context_scope,Three authors/8(MHCI)/1-30/DOI confirmed; vulnerable-road-user AR SLR,NO,context,AR evidence
+201,Zilak2022HandheldAccessibility,R134,SECONDARY_SYNTHESIS,context_scope,Three authors/22(20)/7719/DOI confirmed; handheld AR disability SLR,NO,context,AR evidence
+202,Egger2020IntelligentManufacturing,R135,SECONDARY_SYNTHESIS,task_device_context,Two authors/140/106195/DOI confirmed; 96-paper intelligent-manufacturing AR SLR,NO,context,Industrial evidence
+203,Runji2023MaintenanceOperatorNeeds,R136,SECONDARY_SYNTHESIS,task_device_context,Three authors/10(2)/567-585/DOI confirmed; manufacturing-maintenance operator-needs SLR,NO,context,Industrial evidence
+204,Ramtohul2024CulturalHeritage,R137,SECONDARY_SYNTHESIS,prior_art_and_scope,Two authors/32/e00317/DOI confirmed; 45-work cultural-heritage AR review,NO,context,Related work
+205,Chen2022ARRetail,R138,SECONDARY_SYNTHESIS,context_scope,Four authors/50(4)/498-518/DOI confirmed; 76-paper AR retail SLR,NO,context,AR evidence
+206,Liang2021ARTourism,R139,SECONDARY_SYNTHESIS,prior_art_and_scope,Two authors/21(1)/DOI confirmed; AR-only tourism systematic review,NO,context,Related work
+207,Senyer2025CulturalHeritageMobile,R140,SECONDARY_SYNTHESIS,prior_art_and_scope,Two authors/8(4)/1245-1257/DOI confirmed; mobile cultural-heritage AR review,NO,context,Related work
+208,Balalle2025HigherEducationXR,R141,SECONDARY_SYNTHESIS,context_scope,Single author/4/151/DOI confirmed; higher-education VR/AR/MR SLR,NO,context,AR evidence
+209,Kazlaris2025CollaborativeLearning,R142,SECONDARY_SYNTHESIS,context_scope,Four authors/9(9)/94/DOI confirmed; collaborative-learning AR SLR,NO,context,AR evidence
+210,Salman2025SmartFacilities,R143,SECONDARY_SYNTHESIS,prior_art_and_scope,Two authors/14(1)/254-275/DOI confirmed; smart facilities AR/MR systematic review,NO,context,Related work
+211,PerezPachon2020ImageOverlaySurgery,R144,SECONDARY_SYNTHESIS,prior_art_and_scope,Four authors/vol 1260/175-195/DOI confirmed; 76-study surgical overlay review,NO,context,Related work
+212,Kumar2022OnlineRetailAR,R145,SECONDARY_SYNTHESIS,context_scope,Single author/50(4)/537-559/DOI confirmed; 53-article online-retail AR SLR,NO,context,AR evidence
