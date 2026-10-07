@@ -1,0 +1,6 @@
+id,class,citations,compatibility_dimension,interpretation
+CD01,CONDITION_SPLIT,Yang2019AssemblyCognitiveLoad,task stage / complexity,same AR assistance can decrease or increase cognitive load depending on stage/complexity
+CD02,ESTIMAND_SPLIT,Alessa2023Neurophysiological;Mohanty2025PupilDilationAR,measurement semantics,EEG/NASA-TLX/task time versus pupil-dilation/NASA-TLX mental demand
+CD03,INSUFFICIENT_OVERLAP,Drouot2022IndustrialAssembly;Seeliger2023QualityInspection,task/device/metric context,opposite directional summaries not treated as same-claim conflict
+CD04,UNRESOLVED,cross-domain broad benefit claims,domain/device/population/environment,insufficient compatibility for universal claim
+CD05,SAME_CLAIM_CONFLICT,NONE_CONFIRMED,all dimensions,no clean corpus-wide same-claim conflict confirmed from currently structured evidence
