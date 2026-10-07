@@ -1,0 +1,9 @@
+criterion,assessment
+interpretable_claim_frontier,YES
+meaningful_condition_splits,YES
+explicit_generalization_blockers,YES
+UNKNOWN_preserved,YES
+useful_disagreement_with_simpler_synthesis,YES
+ground_truth_accuracy_claim_allowed,NO
+excessive_conservatism_observed,POSSIBLE_WHEN_METADATA_INCOMPLETE
+overall_assessment,"supports interpretability/applicability, not real-world accuracy"
