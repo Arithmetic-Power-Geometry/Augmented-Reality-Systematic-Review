@@ -1,0 +1,12 @@
+item,value
+worlds_generated,200
+EET_OEE,0.0395
+EET_UEE,0.0200
+EET_macro_F1_claim_state,0.8876
+EET_condition_split_F1,0.9189
+strongest_baseline_OEE,B6:0.2062
+strongest_baseline_macro_F1,B6:0.7982
+EET_vs_B2_condition_split_F1_delta,0.2092
+gate2_quantitative_superiority,PROVISIONAL_YES_ON_FROZEN_SYNTHETIC_TASKS
+caveat,"Synthetic benchmark only; Gate3 stress/ablation and Gate4 published-evidence validation still required"
+gate3_ready,YES
