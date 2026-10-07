@@ -1,0 +1,15 @@
+item,value
+final_decision,GO
+confirmatory_EET_V2_OEE,0.068333
+confirmatory_EET_V2_UEE,0.006667
+confirmatory_EET_V2_macro_F1,0.892995
+confirmatory_EET_V2_condition_split_F1,0.918919
+strongest_baseline_OEE_comparator,"B5 0.220000 / B6 0.280000 depending applicable task"
+paired_OEE_advantage_vs_B6,0.193333
+paired_OEE_CI_vs_B6,"[0.090000,0.300000]"
+threshold_audit,PASS
+overall_robustness,CONDITIONALLY_ROBUST
+novelty_position,"integration-level evidence-to-claim-entitlement synthesis framework"
+reference_readiness,"212/212 accounted for"
+reproducibility,"PASS_WITH_HASH_MANIFEST_REPAIR"
+next_action,"full eligible corpus application and results freeze"
