@@ -1,0 +1,11 @@
+claim_id,obligation_id,obligation_description,status_from_validation_set
+C2,O1,"intervention/comparator identity",PARTIALLY_SATISFIED
+C2,O2,"cognitive-load construct/measurement compatibility",PARTIALLY_SATISFIED
+C2,O3,"task compatibility",SATISFIED_FOR_LOCAL_SUBSETS
+C3,O4,"task-stage/complexity compatibility",VIOLATED_OR_PARTIAL
+C3,O5,"device/display compatibility",PARTIAL
+C3,O6,"population compatibility",PARTIAL
+C3,O7,"environment compatibility",PARTIAL
+C3,O8,"validation-design compatibility",PARTIAL
+C6,O9,"evidence across generalized boundary",PARTIAL
+C6,O10,"heterogeneity/condition-dependence resolved",VIOLATED
