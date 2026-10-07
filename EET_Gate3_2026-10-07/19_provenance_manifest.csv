@@ -1,0 +1,9 @@
+artifact,basis
+01_gate2_reproduction_check.csv,"Committed Gate2 headline values"
+02-08_*_stress.csv,"Frozen Gate1 stress axes; deterministic synthetic perturbation model"
+11_ablation_results.csv,"Frozen Gate1 ablation variants"
+12_ablation_pairwise_deltas.csv,"Differences from A0 Full EET"
+13_component_necessity.csv,"Diagnostic interpretation from ablation deltas"
+14_UEE_penalty_analysis.csv,"Stress-grid UEE comparison"
+15_failure_mode_taxonomy.csv,"All observed unfavorable Gate3 patterns retained"
+18_gate3_result_summary.csv,"Gate3 synthesis; no EET V2 revision"
