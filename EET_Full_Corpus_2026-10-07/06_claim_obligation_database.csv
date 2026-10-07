@@ -1,0 +1,11 @@
+obligation_id,description,applies_to
+O1,intervention/comparator identity,all directional claims
+O2,metric/measurement-semantic compatibility,C02;C03;C05;C06;C07;C08
+O3,task compatibility,C05;C06;C08
+O4,device/hardware compatibility,C05;C06;C08
+O5,population compatibility,C05;C06
+O6,environment/deployment compatibility,C05;C06;C08
+O7,validation-design compatibility,C05;C06;C08
+O8,context coverage across asserted scope,C05;C06;C08
+O9,heterogeneity/condition dependence resolved,C06
+O10,provenance/reproducibility sufficient for claimed scope,C05;C06;C08
