@@ -1,0 +1,6 @@
+id,failure,reason
+GF01,high evidence volume != broad entitlement,cross-domain heterogeneity prevents universal claims
+GF02,lab-to-field transfer,controlled results cannot automatically license operational deployment claims
+GF03,metric mismatch,heterogeneous measures limit pooled directional claims
+GF04,population transfer,specialized populations require explicit compatibility
+GF05,device transfer,HoloLens/mobile/SAR/OST-HMD/laser projection evidence not automatically interchangeable
