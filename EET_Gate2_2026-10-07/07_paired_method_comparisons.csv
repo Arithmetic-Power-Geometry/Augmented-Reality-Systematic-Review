@@ -1,0 +1,7 @@
+baseline,paired_worlds,OEE_improvement_baseline_minus_EET,bootstrap95_low,bootstrap95_high,UEE_change_EET_minus_baseline
+B0,200,0.5117,0.4350,0.5850,0.0167
+B1,200,0.3617,0.2900,0.4333,0.0167
+B2,200,0.2600,0.1967,0.3217,0.0167
+B3,200,0.2767,0.2050,0.3467,0.0167
+B5,100,0.2033,0.1100,0.3000,0.0333
+B6,100,0.1633,0.0733,0.2600,0.0333
