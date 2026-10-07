@@ -1,0 +1,80 @@
+study_id,citation_key,year,title,domain,task,device,population,environment,intervention,comparator,metrics,validation_design,provenance,eligibility_reason
+S0001,Cheng2024ARUISecurity,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,USENIX proceedings BibTeX,validated primary/empirical reference
+S0006,Baumeister2017CognitiveCost,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PubMed + institutional repository/DOI metadata,validated primary/empirical reference
+S0011,Lauer2021HMDChildren,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PubMed/PMC publisher metadata,validated primary/empirical reference
+S0005,Alessa2023Neurophysiological,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PubMed/PMC + publisher metadata,validated primary/empirical reference
+S0002,Wang2021MultimodalInteraction,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,IEEE/DBLP journal metadata,validated primary/empirical reference
+S0003,Knoben2026AccessibleWorkshops,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,MDPI version of record,validated primary/empirical reference
+S0004,Szentirmai2024UniversallyDesignedAR,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PubMed + publisher metadata,validated primary/empirical reference
+S0007,VidalBalea2020CollaborativeIndustry,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,MDPI version of record,validated primary/empirical reference
+S0008,Perno2025DigitalTwinsAR,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Springer version of record,validated primary/empirical reference
+S0009,Begout2022ARAuthoringDT,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Frontiers version of record,validated primary/empirical reference
+S0010,Fan2021ARAssetTracking,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ISPRS version of record,validated primary/empirical reference
+S0012,Guedes2023IsThisReal,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Springer + institutional repository metadata,validated primary/empirical reference
+S0013,Lin2016AREducationDisabilities,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Elsevier/ScienceDirect metadata,validated primary/empirical reference
+S0014,Alfakhori2026SituatedUrbanAR,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ISPRS version of record,validated primary/empirical reference
+S0015,VanDenBergh2025DigitalTwinOperators,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ACM version of record,validated primary/empirical reference
+S0016,Mohanty2025PupilDilationAR,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,SAGE version of record,validated primary/empirical reference
+PD0017,Kagami2026TagAlong,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PubMed authoritative journal metadata + IEEE VR program,validated primary/empirical reference
+PD0018,Kanellopoulos2026Diagnosing,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ACM Digital Library article metadata,validated primary/empirical reference
+PD0019,Ahmetovic2025Artwork,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ACM MobileHCI accepted list + publisher-format manuscript/institutional repository,validated primary/empirical reference
+PD0020,Chen2026UbiGrip,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,IEEE Xplore + official IEEE VR 2026 program,validated primary/empirical reference
+PD0023,Cox2025ClinicalAR,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,IEEE Xplore + bibliographic cross-check,validated primary/empirical reference
+PD0024,Mathew2026ARRAE,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ACM Digital Library,validated primary/empirical reference
+PD0025,Pantforder2024DigitalTwinsMR,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,IEEE Xplore + TUM institutional publication record,validated primary/empirical reference
+PD0026,Sahoo2026LaserProjection,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PubMed + ScienceDirect,validated primary/empirical reference
+PD0027,Drouot2022IndustrialAssembly,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PubMed + ScienceDirect,validated primary/empirical reference
+PD0028,Yang2019AssemblyCognitiveLoad,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Frontiers + PMC,validated primary/empirical reference
+PD0029,Seeliger2023QualityInspection,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ScienceDirect,validated primary/empirical reference
+PD0030,AticiUlusu2021CognitiveLoad,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Taylor & Francis publisher page,validated primary/empirical reference
+PD0031,Marino2024AssemblyGuidance,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,University of Calabria repository + DOI metadata,validated primary/empirical reference
+PD0032,Kim2024MarkerlessSurgery,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PubMed + ScienceDirect,validated primary/empirical reference
+PD0033,Schneider2020LiverRegistration,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PubMed + Springer Nature,validated primary/empirical reference
+PD0034,Wang2005Occlusion,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,MIT Press Presence,validated primary/empirical reference
+PD0035,Tian2010Occlusion,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,MDPI + PubMed/PMC,validated primary/empirical reference
+PD0036,Li2022MonocularOcclusion,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ScienceDirect,validated primary/empirical reference
+PD0037,Fan2026DepthCueConflict,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Springer Nature,validated primary/empirical reference
+PD0038,Denning2014Bystanders,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ACM Digital Library + DBLP,validated primary/empirical reference
+PD0039,OHagan2022EverydayPrivacy,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ACM IMWUT + University of Glasgow repository,validated primary/empirical reference
+PD0040,Corbett2023BystandAR,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ACM MobiSys + Montclair institutional record,validated primary/empirical reference
+PD0041,Hao2024DelayGuaranteed,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ScienceDirect,validated primary/empirical reference
+PD0042,Na2024GenerativeAIEdge,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,MDPI Applied Sciences,validated primary/empirical reference
+PD0043,Ahn2020EnergyEfficient,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,IEEE WCL + KAIST institutional record,validated primary/empirical reference
+PD0044,Coughlan2017AR4VI,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PubMed/PMC + IEEE proceedings metadata,validated primary/empirical reference
+PD0045,Huang2019SignReading,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PLOS ONE + PubMed,validated primary/empirical reference
+PD0046,Gopalakrishnan2020VisualAcuity,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PubMed/PMC,validated primary/empirical reference
+PD0047,Lang2021ButtonLowVision,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ACM Digital Library,validated primary/empirical reference
+PD0048,Salameh2026RemoteAssistance,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Taylor & Francis + DBLP,validated primary/empirical reference
+PD0049,Seeliger2024ContextAdaptive,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Taylor & Francis + ETH Research Collection,validated primary/empirical reference
+PD0050,Islam2026ARAuthentication,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,IEEE Access + University of West Florida repository,validated primary/empirical reference
+PD0051,Marques2023CollaborativeEvaluation,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PubMed + IEEE CG&A,validated primary/empirical reference
+PD0052,Yang2024SharedArtifact,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Frontiers + DOAJ,validated primary/empirical reference
+PD0053,Blum2025CroCoDL,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,CVF Open Access,validated primary/empirical reference
+PD0054,Rasch2026SharedGaze,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ACM CHI,validated primary/empirical reference
+PD0055,Shi2025CARINGAI,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ACM CHI + Purdue author page,validated primary/empirical reference
+PD0056,Yang2025SocialMind,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ACM IMWUT + author publication page,validated primary/empirical reference
+PD0057,Li2025Satori,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ACM CHI + paper reference format,validated primary/empirical reference
+PD0058,Zhu2025AgentAR,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Author publication page + ACM DOI,validated primary/empirical reference
+PD0059,Aschenbrenner2019HumanFactors,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Frontiers + PubMed + TU Delft,validated primary/empirical reference
+PD0060,Derby2022DeviceUsability,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,SAGE + Embry-Riddle repository,validated primary/empirical reference
+PD0061,Leins2024GuidedAssembly,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Springer Nature,validated primary/empirical reference
+PD0062,Gurerk2025ProductivityLearning,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ScienceDirect + DOAJ,validated primary/empirical reference
+PD0063,Pan2023AriaDigitalTwin,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,CVF ICCV Open Access + IEEE DOI metadata,validated primary/empirical reference
+PD0064,Zhu2023EgoObjects,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,CVF ICCV Open Access + DOI metadata,validated primary/empirical reference
+PD0065,Deng2026EgoHOIBench,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Elsevier ScienceDirect,validated primary/empirical reference
+PD0066,Xiu2026ContrAR,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,CVF CVPR Findings Open Access,validated primary/empirical reference
+PD0067,Donley2021EasyCom,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Official EasyCom repository + arXiv record,validated primary/empirical reference
+PD0068,Aromaa2020Awareness,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,PubMed + ScienceDirect,validated primary/empirical reference
+PD0069,Chaudhari2025SafetyHazards,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ScienceDirect + institutional repository,validated primary/empirical reference
+PD0070,Cardenas2026DisplayClutterSafety,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,SAGE Human Factors,validated primary/empirical reference
+PD0071,Hu2025XRRealityCheck,UNKNOWN,UNKNOWN,prior_art_and_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,IEEE Xplore + Duke Scholars + official artifact repository,validated primary/empirical reference
+PD0072,Sahu2025EdgeEnergy,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Scientific Reports + PubMed/PMC,validated primary/empirical reference
+PD0073,Chen2024ConstructionSafetyVLM,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Elsevier Automation in Construction,validated primary/empirical reference
+PD0074,Seo2021CachePower,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,IEEE WCL + KAIST repository,validated primary/empirical reference
+PD0075,He2021DRLOffloading,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,IEEE Xplore,validated primary/empirical reference
+PD0076,Scargill2024EnvironmentTexture,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,ACM DL + DBLP + Duke Scholars,validated primary/empirical reference
+PD0077,Masood2020IndustrialAdoption,UNKNOWN,UNKNOWN,task_device_context,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Elsevier + Strathclyde/Cambridge repositories,validated primary/empirical reference
+PD0078,Loizeau2021FieldEvaluation,UNKNOWN,UNKNOWN,task_device_context,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Frontiers version of record + DOAJ,validated primary/empirical reference
+PD0079,Zigart2022IndustrialSAR,UNKNOWN,UNKNOWN,task_device_context,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,IEEE Xplore + TU Wien repository,validated primary/empirical reference
+PD0080,Vanukuru2023DualStream,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,IEEE Xplore + DBLP,validated primary/empirical reference
+PD0081,VidalBalea2025AnchorSharing,UNKNOWN,UNKNOWN,context_scope,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,UNKNOWN,Applied Sciences version of record + DOAJ,validated primary/empirical reference
