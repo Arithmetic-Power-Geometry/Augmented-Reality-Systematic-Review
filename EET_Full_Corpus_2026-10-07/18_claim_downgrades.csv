@@ -1,0 +1,4 @@
+id,candidate_claim,EET_result,reason
+D01,AR generally improves outcomes across contexts,NOT_LICENSED,cross-domain task/device/population/metric heterogeneity
+D02,AR generally reduces cognitive load,NOT_LICENSED,"condition splits, moderator effects and adverse local findings"
+D03,technical superiority transfers directly to field deployment,NOT_LICENSED_BROADLY,deployment/context obligations unresolved
