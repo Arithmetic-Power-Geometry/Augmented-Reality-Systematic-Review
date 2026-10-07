@@ -1,0 +1,7 @@
+claim_id,entitlement_state,strongest_scope,reason
+C1,LICENSED,"multiple local contexts","direct evidence across several domains shows AR can alter workload"
+C2,LICENSED_LOCAL_ONLY,"selected supported contexts","decreases reported in clinical simulation and quality inspection; other directions are mixed or unknown"
+C3,NOT_LICENSED_BROADLY,"none","task-stage/device/population/environment comparability insufficient"
+C4,LICENSED_LOCAL_ONLY,"industrial assembly contexts","Drouot and Yang provide local adverse-direction evidence"
+C5,LICENSED,"cross-context","Yang stage/complexity reversal plus R014 extreme heterogeneity/moderators support condition dependence"
+C6,NOT_LICENSED,"none","I2=92.7%, moderator effects, mixed directions, incomplete compatibility"
