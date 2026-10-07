@@ -1,0 +1,48 @@
+name: Final EET PDF
+on:
+  push:
+    paths:
+      - '.github/workflows/build-eet-final.yml'
+  workflow_dispatch:
+jobs:
+  build:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prepare source
+        run: |
+          cd EET_Final_Manuscript_2026-10-07
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('main.tex')
+          s=p.read_text()
+          marker='\\usepackage{balance}'
+          s=s.replace(marker, marker+'\n\\usepackage[strings]{underscore}')
+          p.write_text(s)
+          PY
+      - name: Compile
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          working_directory: EET_Final_Manuscript_2026-10-07
+          args: -pdf -interaction=nonstopmode -halt-on-error
+      - name: Package
+        run: |
+          cd EET_Final_Manuscript_2026-10-07
+          cp main.pdf EET_IEEE_Manuscript.pdf
+          zip -r EET_IEEE_Submission_Package.zip main.tex references.bib README.md cover_letter.tex highlights.txt CITATION.cff STATUS.csv EET_IEEE_Manuscript.pdf
+      - uses: actions/upload-artifact@v4
+        with:
+          name: EET-IEEE-Final
+          path: |
+            EET_Final_Manuscript_2026-10-07/EET_IEEE_Manuscript.pdf
+            EET_Final_Manuscript_2026-10-07/EET_IEEE_Submission_Package.zip
+      - name: Commit outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add EET_Final_Manuscript_2026-10-07/EET_IEEE_Manuscript.pdf EET_Final_Manuscript_2026-10-07/EET_IEEE_Submission_Package.zip
+          git commit -m "Add compiled EET PDF and ZIP" || exit 0
+          git push
