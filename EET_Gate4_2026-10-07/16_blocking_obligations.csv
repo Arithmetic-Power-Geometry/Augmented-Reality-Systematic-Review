@@ -1,0 +1,7 @@
+rank,obligation,blocked_claims,importance
+1,O10 heterogeneity/condition dependence resolved,"C6",HIGH
+2,O4 task-stage/complexity compatibility,"C3;C6",HIGH
+3,O5 device/display compatibility,"C3;C6",HIGH
+4,O2 measurement-semantic compatibility,"C3;C6",HIGH
+5,O6 population compatibility,"C3;C6",MEDIUM
+6,O7 environment compatibility,"C3;C6",MEDIUM
