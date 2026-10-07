@@ -13,43 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install TeX and plotting dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y texlive-latex-extra texlive-publishers texlive-science latexmk python3-matplotlib zip
-      - name: Generate figures
-        run: |
-          cd EET_Final_Manuscript_2026-10-07
-          mkdir -p figures
-          python3 - <<'PY'
-          import matplotlib.pyplot as plt
-          methods=['EET V2','B2','B5','B6']
-          oee=[0.068333,0.286667,0.220000,0.280000]
-          mf1=[0.892995,0.651796,0.788665,0.745814]
-          x=range(len(methods))
-          fig,ax=plt.subplots(figsize=(6.2,3.6))
-          w=.36
-          ax.bar([i-w/2 for i in x],oee,w,label='OEE (lower)')
-          ax.bar([i+w/2 for i in x],mf1,w,label='Macro-F1 (higher)')
-          ax.set_xticks(list(x),methods)
-          ax.set_ylim(0,1)
-          ax.set_ylabel('Score')
-          ax.legend(frameon=False,ncol=2)
-          fig.tight_layout()
-          fig.savefig('figures/confirmatory_metrics.pdf',bbox_inches='tight')
-          plt.close(fig)
-          axes=['Heterogeneity','Context overlap','Metric mismatch','Missingness','Quality corruption','Noise','Evidence density']
-          status=[1,1,1,0,0,0,0]
-          fig,ax=plt.subplots(figsize=(6.4,3.8))
-          ax.barh(axes,status)
-          ax.set_xlim(0,1.05)
-          ax.set_xticks([0,1],['Caution','Robust'])
-          ax.set_xlabel('Observed status across frozen stress range')
-          fig.tight_layout()
-          fig.savefig('figures/stress_boundaries.pdf',bbox_inches='tight')
-          plt.close(fig)
-          PY
-      - name: Compile manuscript
+      - name: Sanitize BibTeX
         run: |
           cd EET_Final_Manuscript_2026-10-07
           python3 - <<'PY'
@@ -64,13 +28,18 @@ jobs:
                   out.append(ch)
           p.write_text(''.join(out))
           PY
-          latexmk -C
-          latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
-          cp main.pdf EET_IEEE_Manuscript.pdf
+      - name: Compile manuscript
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: main.tex
+          working_directory: EET_Final_Manuscript_2026-10-07
+          latexmk_use_xelatex: false
+          args: -pdf -interaction=nonstopmode -halt-on-error
       - name: Build source ZIP
         run: |
           cd EET_Final_Manuscript_2026-10-07
-          zip -r EET_IEEE_Submission_Package.zip main.tex references.bib figures README.md cover_letter.tex highlights.txt CITATION.cff STATUS.csv EET_IEEE_Manuscript.pdf
+          cp main.pdf EET_IEEE_Manuscript.pdf
+          zip -r EET_IEEE_Submission_Package.zip main.tex references.bib README.md cover_letter.tex highlights.txt CITATION.cff STATUS.csv EET_IEEE_Manuscript.pdf
       - name: Upload compiled deliverables
         uses: actions/upload-artifact@v4
         with:
@@ -83,6 +52,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add EET_Final_Manuscript_2026-10-07/EET_IEEE_Manuscript.pdf EET_Final_Manuscript_2026-10-07/EET_IEEE_Submission_Package.zip EET_Final_Manuscript_2026-10-07/figures/
+          git add EET_Final_Manuscript_2026-10-07/EET_IEEE_Manuscript.pdf EET_Final_Manuscript_2026-10-07/EET_IEEE_Submission_Package.zip
           git commit -m "Build compiled EET manuscript deliverables" || exit 0
           git push
