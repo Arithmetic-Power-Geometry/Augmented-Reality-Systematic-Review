@@ -1,0 +1,9 @@
+id,metric,endpoint_class,direction,scope,prespecified_gate
+M01,OEE,PRIMARY,Lower is better,Synthetic worlds with known truth,"0.02 absolute OEE improvement or >=10% relative, subject to UEE noninferiority"
+M02,UEE,PRIMARY,Lower is better,Synthetic worlds with known truth,Must not worsen by >0.02 absolute when claiming OEE superiority
+M03,Macro-F1 claim-state,PRIMARY,Higher is better,Entitled/not-entitled/unresolved or task-specific labels,At least +0.03 absolute over strongest applicable simple baseline for GO claim
+M04,Condition-split macro-F1,PRIMARY,Higher is better,Adversarial and heterogeneous worlds,At least +0.05 absolute over context-naive baseline
+M05,Frontier exact/weighted recovery,SECONDARY,Higher is better,Synthetic claim posets,Report exact and distance-weighted recovery
+M06,Minimal-obstruction recovery,SECONDARY,Higher is better,Worlds with known blocking sets,Jaccard/F1 of minimal blocker sets
+M07,Runtime,SECONDARY,Lower is better,All benchmark worlds,Report scaling; no superiority claim from runtime unless relevant
+M08,Stability calibration,SECONDARY,Better calibration,Perturbed worlds,Compare predicted rho to empirical survival
