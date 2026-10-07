@@ -1,0 +1,6 @@
+comparison,OEE_gain,UEE_cost,assessment
+EET_V2_vs_B2,0.218333,0.006667,ACCEPTABLE
+EET_V2_vs_B5,0.133333,0.013333,ACCEPTABLE
+EET_V2_vs_B6,0.193333,0.013333,ACCEPTABLE
+stress_high_missingness,"advantage persists","UEE rises materially",CAUTION
+stress_low_density,"advantage persists","UEE rises materially",CAUTION
