@@ -1,0 +1,7 @@
+id,proposed_rule,counterexample_or_risk,v1_resolution,status
+C01,c0='AR can alter load' < c1='AR reduces load',invalid implication ordering,Remove from single chain; effect-exists and directional reduction are separate branches,RESOLVED
+C02,Evidence addition always expands frontier,defeating evidence can retract entitlement,Allow nonmonotonic contraction/replacement,RESOLVED
+C03,Licensed region always down-set,fails without implication-consistency of obligation semantics,"Make down-set conditional theorem, not axiom",RESOLVED
+C04,Opposite signs imply contradiction,different contexts/metrics can reverse direction,Require same-claim compatibility before SAME_CLAIM_CONFLICT,RESOLVED
+C05,Sparse evidence cell is a scientific gap,sparse cell may not block any claim,Gap requires identifiable blocking obligation,RESOLVED
+C06,Expected frontier gain is novel,VOI/EVSI already prioritize new evidence,Treat only frontier-specific utility as candidate distinction pending benchmark,OPEN
