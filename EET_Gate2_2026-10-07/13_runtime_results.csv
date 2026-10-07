@@ -1,0 +1,8 @@
+method,status,note
+EET,NOT_REPORTED,"Stable machine-level runtime cannot be inferred from connector execution"
+B0,NOT_REPORTED,"same"
+B1,NOT_REPORTED,"same"
+B2,NOT_REPORTED,"same"
+B3,NOT_REPORTED,"same"
+B5,NOT_REPORTED,"same"
+B6,NOT_REPORTED,"same"
