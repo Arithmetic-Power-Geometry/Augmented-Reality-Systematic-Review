@@ -1,0 +1,8 @@
+item,expected,observed,status
+worlds_generated,200,200,PASS
+EET_OEE,0.0395,0.0395,PASS
+EET_UEE,0.0200,0.0200,PASS
+EET_macro_F1,0.8876,0.8876,PASS
+EET_condition_split_F1,0.9189,0.9189,PASS
+B6_OEE,0.2062,0.2062,PASS
+B6_macro_F1,0.7982,0.7982,PASS
