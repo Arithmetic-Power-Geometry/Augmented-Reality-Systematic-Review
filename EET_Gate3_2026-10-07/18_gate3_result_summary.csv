@@ -1,0 +1,12 @@
+item,value
+gate2_reproduction,PASS
+overall_status,CONDITIONALLY_ROBUST
+core_components_keep,"claim_order;obligation_structure;frontier;transfer_model"
+questionable_components,stability
+remove_candidate,obstruction_analysis
+heterogeneity_hypothesis,SUPPORTED
+context_dependence_hypothesis,SUPPORTED
+moderate_missingness_survival,SUPPORTED
+high_missingness_warning,YES
+main_failure_mode,excessive_conservatism_under_severe_evidence_degradation
+ready_for_gate4,YES
