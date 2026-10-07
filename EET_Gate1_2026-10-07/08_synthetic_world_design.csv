@@ -1,0 +1,11 @@
+family_id,family,count,ground_truth_independent_of_eet
+W01,valid_local_claim,20,yes
+W02,valid_broad_claim,20,yes
+W03,unsupported_generalization,20,yes
+W04,same_claim_conflict,20,yes
+W05,condition_split,20,yes
+W06,estimand_split,20,yes
+W07,missing_obligation,20,yes
+W08,redundant_evidence,20,yes
+W09,fragile_vs_stable,20,yes
+W10,dense_narrow_vs_sparse_diverse,20,yes
