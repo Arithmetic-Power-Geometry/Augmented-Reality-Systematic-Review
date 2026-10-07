@@ -1,0 +1,8 @@
+factor,overall_result,key_finding
+missingness,CONDITIONALLY_ROBUST,"OEE advantage persists through 60% missingness, but UEE rises materially above 40-50%"
+noise,CONDITIONALLY_ROBUST,"Advantage persists to maximum tested noise; UEE becomes substantial at noise=1.5"
+heterogeneity,ROBUST_SO_FAR,"EET retains strongest separation in high-heterogeneity regimes and preserves condition-split advantage"
+context_overlap,ROBUST_SO_FAR,"Advantage increases as overlap decreases, consistent with context-sensitive design intent"
+metric_mismatch,ROBUST_SO_FAR,"EET remains superior as metric mismatch increases"
+quality_corruption,CONDITIONALLY_ROBUST,"Advantage remains, but UEE becomes high at 50% corruption"
+evidence_density,CONDITIONALLY_ROBUST,"EET remains best, but very sparse evidence produces high UEE/conservatism"
