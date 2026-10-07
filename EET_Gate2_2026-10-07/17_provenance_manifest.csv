@@ -1,0 +1,9 @@
+artifact,basis
+01_world_manifest.csv,"Gate1 frozen 200-world design + deterministic seeds"
+02_ground_truth.csv,"latent generator independent of prediction methods"
+03_evidence_objects.csv,"generated from latent effect + noise + missingness"
+04_method_predictions.csv,"frozen Gate2 implementations"
+05_primary_metrics.csv,"Gate1 frozen primary endpoints"
+07_paired_method_comparisons.csv,"paired-world bootstrap; 2000 replicates"
+14_failure_cases.csv,"all EET mismatches retained"
+16_gate2_result_summary.csv,"derived from committed Gate2 metrics"
