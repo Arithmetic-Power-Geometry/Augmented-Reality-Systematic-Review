@@ -1,0 +1,5 @@
+criterion,result,interpretation
+specificity,HIGH,"identifies concrete blockers O4/O5/O2/O10 rather than generic sparse areas"
+actionability,HIGH,"directly maps to hypothetical evidence priorities"
+predictive_increment_from_gate3,LOW,"Gate3 ablation showed negligible predictive gain"
+gate4_decision,KEEP_AS_EXPLANATORY_NOT_CORE_PREDICTOR,"retain for interpretation only, not as required predictive component"
