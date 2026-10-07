@@ -1,0 +1,6 @@
+claim_id,claim_text,scope,frontier_status
+C01,AR can materially affect outcomes in specified contexts,cross-domain local,MAXIMAL_IN_EFFECT_EXISTENCE_BRANCH
+C04,AR effects are condition dependent across task/device/population/environment/metric,cross-context,MAXIMAL_IN_CONDITION_BRANCH
+C05,Scoped directional generalizations are supportable only within compatible evidence families,domain/scoped,MAXIMAL_IN_GENERALIZATION_BRANCH
+C07,Technical AR methods can improve specified technical metrics within tested regimes,local technical,MAXIMAL_IN_TECHNICAL_BRANCH
+C08,Selected effects/advantages transfer to deployment contexts where explicit field evidence exists,selected deployment,MAXIMAL_IN_TRANSFER_BRANCH
