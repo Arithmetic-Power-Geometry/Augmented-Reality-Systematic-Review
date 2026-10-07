@@ -52,6 +52,19 @@ jobs:
       - name: Compile manuscript
         run: |
           cd EET_Final_Manuscript_2026-10-07
+          python3 - <<'PY'
+          from pathlib import Path
+          p=Path('references.bib')
+          s=p.read_text()
+          out=[]
+          for i,ch in enumerate(s):
+              if ch=='&' and (i==0 or s[i-1] != chr(92)):
+                  out.append(chr(92)+'&')
+              else:
+                  out.append(ch)
+          p.write_text(''.join(out))
+          PY
+          latexmk -C
           latexmk -pdf -interaction=nonstopmode -halt-on-error main.tex
           cp main.pdf EET_IEEE_Manuscript.pdf
       - name: Build source ZIP
