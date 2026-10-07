@@ -1,0 +1,8 @@
+weaker_claim,stronger_claim,relation_status,rule
+C02,C05,VALID,scoped generalization implies supported local benefit
+C05,C06,VALID,broad generalization subsumes scoped generalization
+C03,C05,INCOMPARABLE,local harm does not imply or negate scoped benefit outside same claim object
+C01,C02,NO_ORDER,effect existence does not logically imply benefit
+C01,C03,NO_ORDER,effect existence does not logically imply harm
+C07,C08,VALID_WHEN_SAME_ESTIMAND,deployment transfer strengthens local technical performance only for matched metric/task
+C04,C06,NO_ORDER,condition dependence may block broad generalization rather than lie below it
