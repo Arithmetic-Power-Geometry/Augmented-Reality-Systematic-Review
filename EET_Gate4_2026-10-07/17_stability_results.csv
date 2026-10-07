@@ -1,0 +1,7 @@
+claim_id,stability_class,rationale
+C1,HIGH,"effect-existence survives reasonable interpretation changes"
+C2,MODERATE,"local reduction depends on which resolved study contexts are included"
+C3,LOW,"scoped generalization sensitive to compatibility thresholds"
+C4,MODERATE,"local adverse-direction evidence survives in specific industrial contexts"
+C5,HIGH,"condition dependence supported by within-program reversal and meta-analytic moderation"
+C6,LOW,"universal reduction fails under multiple reasonable perturbations"
