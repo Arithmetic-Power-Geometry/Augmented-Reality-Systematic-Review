@@ -1,0 +1,9 @@
+id,baseline,native_task,purpose,applicability
+B0,Random/trivial,claim_state,Sanity lower bound,Applicable
+B1,Count/majority vote,directional claim state,Simple synthesis,Applicable to commensurable signs
+B2,Context-stratified vote,condition split,Fair simple nested baseline,Applicable
+B3,Quality-weighted vote,claim state,Tests whether quality alone explains EET gains,Applicable when quality available
+B4,Evidence-gap map proxy,gap prioritization,"Sparse-cell prioritization, not claim classifier",Only acquisition/gap task
+B5,Meta-analysis,pooled effect,Strong comparator for commensurable quantitative effects,Only commensurable worlds
+B6,Meta-regression/moderator,condition effects,Strong comparator when moderators and enough studies exist,Restricted
+B7,VOI/EVSI-style acquisition,next-evidence prioritization,Comparator for hypothetical evidence acquisition,Acquisition task only
