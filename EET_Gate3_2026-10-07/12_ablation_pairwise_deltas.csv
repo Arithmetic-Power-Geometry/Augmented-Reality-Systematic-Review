@@ -1,0 +1,7 @@
+variant,delta_OEE,delta_UEE,delta_macro_F1,delta_condition_split_F1,delta_frontier_recovery
+A1 minus claim order,0.0455,-0.0030,-0.0456,-0.0169,-0.0470
+A2 minus obligation structure,0.1025,-0.0100,-0.1066,-0.0579,-0.1050
+A3 minus frontier,0.0565,-0.0040,-0.0636,-0.0299,-0.0620
+A4 minus obstruction analysis,0.0015,0.0000,-0.0016,-0.0009,-0.0010
+A5 minus stability,0.0035,0.0010,-0.0036,-0.0019,-0.0030
+A6 minus transfer model,0.0315,-0.0020,-0.0356,-0.0139,-0.0380
