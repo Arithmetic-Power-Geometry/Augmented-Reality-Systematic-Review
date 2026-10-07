@@ -1,0 +1,9 @@
+obligation_id,description,blocked_claim_count,priority
+O9,heterogeneity/condition dependence unresolved,3,HIGH
+O2,measurement-semantic compatibility,4,HIGH
+O3,task compatibility,3,HIGH
+O4,device compatibility,3,HIGH
+O6,environment/deployment compatibility,3,HIGH
+O5,population compatibility,2,MEDIUM
+O8,scope coverage,3,HIGH
+O10,reproducibility/provenance for transfer,1,MEDIUM
