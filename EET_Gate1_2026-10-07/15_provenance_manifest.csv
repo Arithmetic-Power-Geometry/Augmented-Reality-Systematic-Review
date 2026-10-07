@@ -1,0 +1,11 @@
+artifact,source_or_basis,status
+02_212_reference_citation_obligation_matrix.csv,"master.bib + BIB_VALIDATION_STATUS.csv",generated_gate1
+03_prior_art_novelty_matrix.csv,"repository prior work + external prior-art audit",generated_gate1
+04_EET_V1_formal_specification.csv,"CEG predecessor + counterexample correction",generated_gate1
+05_counterexamples_and_resolutions.csv,"formal consistency audit",generated_gate1
+06_primary_endpoints.csv,"prespecified before benchmark",frozen_gate1
+07_baselines_and_applicability.csv,"fair baseline design",frozen_gate1
+08_synthetic_world_design.csv,"independent DGP requirement",frozen_gate1
+09_stress_test_design.csv,"prespecified perturbation axes",frozen_gate1
+10_ablation_design.csv,"component necessity test",frozen_gate1
+11_published_evidence_extraction_schema.csv,"retrospective published evidence only",frozen_gate1
