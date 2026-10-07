@@ -1,0 +1,7 @@
+risk,status,required_positioning
+"posets/lattices already exist",RESOLVED,"do not claim invention; cite order theory"
+"minimal hitting sets already exist",RESOLVED,"use established terminology where equivalent"
+"VOI already prioritizes evidence",PARTIALLY_RESOLVED,"treat hypothetical evidence value as optional frontier-specific utility, not core novelty"
+"meta-analysis already handles heterogeneity",PARTIALLY_RESOLVED,"position EET as complementary when claim scope/compatibility exceed pooled estimand question"
+"evidence-gap maps already show gaps",RESOLVED,"distinguish sparse cells from claim-blocking obligations"
+"framework may look like relabeling",PARTIALLY_RESOLVED,"emphasize integrated claim-entitlement problem and benchmarked behavior, not renamed primitives"
