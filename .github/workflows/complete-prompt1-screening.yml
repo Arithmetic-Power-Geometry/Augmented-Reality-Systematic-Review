@@ -1,0 +1,29 @@
+name: Complete Prompt 1 screening gate
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/complete_prompt1_screening.py"
+      - "protocol/PROMPT1_CONSERVATIVE_AUTOMATED_SCREENING_AMENDMENT.md"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  complete:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run Prompt 1 gate
+        run: python scripts/complete_prompt1_screening.py
+      - name: Commit validated Prompt 1 outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add evidence/screening/final_title_abstract_ledger.csv paper_writing/paper_artifacts/provenance/PROMPT1_SCREENING_GATE.json paper_writing/paper_artifacts/tables/PROMPT1_SCREENING_ELIGIBILITY_RESULT.md
+          git diff --cached --quiet && exit 0
+          git commit -m "Complete Prompt 1 screening and eligibility gate"
+          git pull --rebase origin main
+          git push
