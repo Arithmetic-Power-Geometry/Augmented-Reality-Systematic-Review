@@ -1,0 +1,8 @@
+artifact_or_area,status,gate1_note
+protocol/CLAIM_ENTITLEMENT_GEOMETRY.md,HISTORICAL_ACTIVE_PRE_GATE1,"Source conceptual predecessor; Gate1 freeze stored separately"
+protocol/EVIDENCE_QUALIFICATION_PIPELINE.md,SUPERSEDED,"Repository provenance only"
+pilot/EET_PILOT_01_COGNITIVE_LOAD.md,NEEDS_REVISION,"Old single-chain claim order contains c0<c1 issue; Gate1 theory corrects this"
+paper_writing/paper_artifacts/references/master.bib,ACTIVE,"212 entries confirmed against validation registry"
+paper_writing/paper_artifacts/references/BIB_VALIDATION_STATUS.csv,ACTIVE,"212 validation rows confirmed"
+evidence/screening/*,HISTORICAL,"Not used as human-validation evidence in Gate1"
+EET_Gate1_2026-10-07/,ACTIVE,"New Gate1 freeze folder; all paper-facing structured artifacts stored as CSV"
