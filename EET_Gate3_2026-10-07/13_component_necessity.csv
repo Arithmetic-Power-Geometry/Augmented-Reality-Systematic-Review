@@ -1,0 +1,7 @@
+component,classification,evidence
+claim_order,KEEP,"Removal increases OEE by 0.0455 and reduces macro-F1 by 0.0456"
+obligation_structure,KEEP,"Largest ablation loss: OEE +0.1025; macro-F1 -0.1066"
+frontier,KEEP,"Removal degrades OEE, macro-F1, and frontier recovery materially"
+obstruction_analysis,REMOVE_CANDIDATE,"Negligible Gate-3 predictive contribution; may remain only as explanatory output if Gate4 proves usefulness"
+stability,QUESTIONABLE,"Small direct Gate-3 predictive contribution; value may emerge in perturbation interpretation rather than classification"
+transfer_model,KEEP,"Material OEE/F1/frontier loss when removed"
