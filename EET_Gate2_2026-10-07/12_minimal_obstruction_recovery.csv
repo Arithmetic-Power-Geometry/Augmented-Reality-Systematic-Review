@@ -1,0 +1,2 @@
+status,reason
+NOT_SCORED,"Gate1 frozen world design did not specify explicit gold minimal obstruction sets; scoring would require changing the frozen benchmark"
