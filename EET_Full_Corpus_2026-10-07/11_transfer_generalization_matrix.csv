@@ -1,0 +1,7 @@
+boundary,status,finding
+device,PARTIAL,device classes vary widely; local technical benefits do not imply cross-device transfer
+task,PARTIAL,task-stage and task-family effects can reverse
+population,PARTIAL,"children, disabled users, clinicians, operators, general adults are not interchangeable"
+environment,PARTIAL,"lab, simulation, field, industrial, clinical and outdoor contexts differ"
+metric,PARTIAL,"accuracy, task time, NASA-TLX, EEG, usability and physiological metrics are not one estimand"
+deployment,PARTIAL,some field studies exist but controlled evidence remains dominant in several domains
