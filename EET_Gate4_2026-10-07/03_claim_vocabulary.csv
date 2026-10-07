@@ -1,0 +1,7 @@
+claim_id,claim_family,claim_text,scope,strength_note
+C1,effect_existence,"AR can alter cognitive load/workload in a specified task/context","local","descriptive effect-existence branch"
+C2,directional_local,"AR reduces cognitive load/workload in a specified supported context","local","directional local branch"
+C3,directional_scoped,"AR reduces cognitive load across a specified comparable procedural-task family","scoped","requires cross-study compatibility"
+C4,directional_local_adverse,"AR increases cognitive load/workload in a specified supported context","local","opposite directional local branch"
+C5,condition_dependence,"AR cognitive-load effects depend on task stage, device, population, feedback, or related context","cross-context","heterogeneity/condition-split branch"
+C6,universal_reduction,"AR generally reduces cognitive load across AR use contexts","broad","strong broad claim requiring resolved cross-context obligations"
