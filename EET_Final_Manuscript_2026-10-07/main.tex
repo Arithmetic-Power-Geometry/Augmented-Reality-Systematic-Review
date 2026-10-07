@@ -1,0 +1,259 @@
+\documentclass[journal]{IEEEtran}
+\usepackage{amsmath,amssymb,booktabs,array,graphicx,url,algorithm,algpseudocode,float}
+\usepackage[hidelinks]{hyperref}
+\usepackage{balance}
+\newcommand{\Acal}{\mathcal{A}}
+\title{Evidence Entitlement Theory for Augmented Reality Research: From Heterogeneous Evidence to Licensed Scientific Claims}
+\author{Mohammad Amir Khusru Akhtar}
+\begin{document}
+\maketitle
+\begin{abstract}
+Augmented-reality (AR) evidence is broad but structurally difficult to synthesize because nominally similar studies differ in device, sensing stack, task, population, environment, metric semantics, deployment conditions, and reproducibility. We introduce Evidence Entitlement Theory (EET), an integration-level synthesis framework that asks what scientific claims are licensed by heterogeneous evidence, which stronger claims remain blocked, and how stable the resulting frontier is. EET represents claims in families of partial orders, associates each claim with explicit evidence obligations, preserves unknown coordinates, separates condition splits from direct conflicts, and defines an entitlement frontier as the maximal licensed claims. Development on 200 synthetic evidence worlds yielded OEE 0.0395, UEE 0.0200, macro-F1 0.8876, and condition-split F1 0.9189. In a fresh 200-world confirmatory benchmark, EET V2 achieved OEE 0.068333, UEE 0.006667, macro-F1 0.892995, and condition-split F1 0.918919. Its paired OEE advantage over B6 was 0.193333 (95\% bootstrap CI 0.090000--0.300000), while the UEE cost remained within the prespecified noninferiority boundary. Stress tests showed that severe missingness and low evidence density increase conservatism. Ablation retained claim order, obligation structure, frontier, transfer, unknown propagation, and nonmonotonic updates as the core; obstruction is explanatory and stability is secondary. Retrospective AR evidence demonstrates interpretability without treating published evidence as an external ground-truth oracle.
+\end{abstract}
+\begin{IEEEkeywords}augmented reality, evidence synthesis, claim entitlement, systematic review, reproducibility, heterogeneity, evidence frontier, meta-analysis\end{IEEEkeywords}
+
+\section{Introduction}
+Augmented reality has progressed from registration, tracking, and display toward a research ecosystem spanning interaction, visualization, industrial support, education, healthcare, accessibility, security, networking, digital twins, and intelligent assistants \cite{Azuma1997Survey,Azuma2001Advances,Billinghurst2015Survey,Sereno2022Collaborative,Macedo2023Occlusion}. This diversity complicates synthesis because two nominally similar studies may differ in display class, task stage, population, environment, metric definition, baseline, or deployment setting.
+
+EET asks a stricter question: what is the strongest claim that a body of evidence permits us to make? Evidence coverage is not the same as claim authorization. A literature map can show that a region has been studied, and meta-analysis can estimate a pooled effect when outcomes are sufficiently commensurable; neither operation alone specifies the maximal scientific scope justified by heterogeneous evidence.
+
+EET is not presented as a new poset theory, hypergraph theory, or value-of-information method. Its contribution is the integration of established mathematical ideas into an evidence-to-claim pipeline:
+\begin{equation}
+\boxed{\text{Evidence}\rightarrow\text{Licensed Claims}\rightarrow\text{Entitlement Frontier}\rightarrow\text{Blocking Obligations}\rightarrow\text{Stability}\rightarrow\text{Hypothetical Evidence Value}.}
+\label{eq:pipeline}
+\end{equation}
+Equation~\ref{eq:pipeline} is the organizing principle of the framework.
+
+The theory was formalized first, followed by software implementation, synthetic benchmark generation, stress and ablation analysis, confirmatory replication, and retrospective application to published AR evidence. No new human-participant, survey, interview, laboratory, field, clinical, or physical AR experiment was conducted.
+
+\section{Related Evidence Landscape}
+Tracking and localization range from PTAM and ORB-SLAM families to visual-inertial systems and AR-specific localization benchmarks \cite{Klein2007PTAM,MurArtal2015ORBSLAM,MurArtal2017ORBSLAM2,Qin2018VINSMono,Campos2021ORBSLAM3}. Registration and occlusion studies impose different assumptions about sensing and environment \cite{Sarlin2022LaMAR,Chegini2023RegistrationValidation,Wang2005Occlusion,Tian2010Occlusion,Li2022MonocularOcclusion}. Human-factors results are strongly conditional on task stage, complexity, device, population, and workload measure \cite{Drouot2022IndustrialAssembly,Yang2019AssemblyCognitiveLoad,Seeliger2023QualityInspection,AticiUlusu2021CognitiveLoad,Marino2024AssemblyGuidance}.
+
+Methodological reporting is grounded in PRISMA/PRISMA-S and search-strategy guidance \cite{Page2021PRISMA,Rethlefsen2021PRISMAS,McGowan2016PRESS,Bramer2016Deduplication,Bramer2017DatabaseCombinations}. Reproducibility concerns are informed by AR/XR-specific and general reproducibility literature \cite{Arefin2025Replication,Hepperle2021Reproducibility,Vlake2024RATEXR,Banzi2026ReproducibilityConsensus,Merino2020MRAREvaluation}. Meta-analysis remains appropriate for commensurable pooled-effect estimation \cite{Garzon2019LearningGains,Garzon2020Pedagogy,Zhang2022K12AR,Zhu2026CognitiveLoad,Huang2025MixedRealityEducation}.
+
+\section{Evidence Entitlement Theory}
+Let $S\subseteq\mathcal{E}$ denote the available evidence. Each evidence object carries explicit coordinates for domain, task, device, sensing, population, environment, metric semantics, deployment, quality/provenance, and reproducibility. Missing coordinates remain \textsc{unknown}.
+
+A scientific claim is
+\begin{equation}c=(\theta,\Omega,\kappa),\label{eq:claim}\end{equation}
+where $\theta$ is the proposition or estimand, $\Omega$ its asserted context, and $\kappa$ its claim family or strength. Claims form families of partial orders rather than one forced total order.
+
+Each claim has one or more sufficient obligation patterns $O(c)$. An obligation state is \textsc{satisfied}, \textsc{violated}, or \textsc{unknown}. The licensed region is
+\begin{equation}\Acal(S)=\{c:S\models c\},\label{eq:licensed}\end{equation}
+and the entitlement frontier is
+\begin{equation}F(S)=\operatorname{Max}\Acal(S).\label{eq:frontier}\end{equation}
+The frontier may contain multiple incomparable maximal claims.
+
+The core decision procedure is shown in Algorithm~\ref{alg:eet}.
+\begin{algorithm}[H]
+\caption{EET V2 claim-entitlement procedure}\label{alg:eet}
+\begin{algorithmic}[1]
+\Require Evidence set $S$, claims $\mathcal C$, partial orders, obligations $O$, transfer rules
+\Ensure Licensed region $\Acal(S)$, frontier $F(S)$, diagnostics
+\ForAll{$c\in\mathcal C$}
+\State evaluate frozen obligations as SATISFIED, VIOLATED, or UNKNOWN
+\State preserve local support when unrelated transfer coordinates are UNKNOWN
+\If{a sufficient obligation pattern holds and no defeat is triggered}
+\State mark $c$ licensed
+\Else
+\State mark $c$ blocked or unresolved
+\EndIf
+\EndFor
+\State enforce implication consistency within each claim-family partial order
+\State $F(S)\gets\operatorname{Max}\Acal(S)$
+\State classify conflicts and compute transfer boundaries
+\State report obstruction sets as explanatory diagnostics
+\State estimate perturbation stability as a secondary diagnostic
+\end{algorithmic}
+\end{algorithm}
+
+Opposite signs do not automatically constitute contradiction. EET distinguishes same-claim conflict, condition split, estimand split, insufficient overlap, and unresolved relations. Transfer is represented by a discrete boundary vector over device, task, population, environment, metric, and deployment. Evidence addition may expand, contract, replace, or split the frontier.
+
+To avoid an always-conservative method, synthetic benchmarks measure both over-entitlement error and under-entitlement error:
+\begin{align}
+\mathrm{OEE}&=\frac{\text{weighted false-entitlement mass}}{\text{weighted ground-truth non-entitled mass}},\\
+\mathrm{UEE}&=\frac{\text{weighted missed-entitlement mass}}{\text{weighted ground-truth entitled mass}}.
+\end{align}
+
+\section{Computational Study Design}
+The development benchmark comprised 200 synthetic evidence worlds with genuine conflict, condition split, estimand mismatch, unsupported and valid generalization, missing evidence, redundancy, and fragile/stable conclusions. Ground truth was generated independently of method predictions. Primary endpoints were OEE, UEE, macro-F1 for claim state, and condition-split F1.
+
+Table~\ref{tab:baselines} summarizes the frozen baselines before their use.
+\begin{table}[H]\caption{Frozen baselines and intended tasks}\label{tab:baselines}\centering\footnotesize
+\begin{tabular}{p{0.08\columnwidth}p{0.27\columnwidth}p{0.55\columnwidth}}\toprule
+ID & Baseline & Native task / role\\\midrule
+B0 & Random/trivial & Sanity lower bound for claim state\\
+B1 & Count/majority vote & Directional synthesis when signs are commensurable\\
+B2 & Context-stratified vote & Simple comparator for condition splits\\
+B3 & Quality-weighted vote & Tests whether quality weighting alone explains gains\\
+B4 & Evidence-gap proxy & Sparse-cell/acquisition prioritization only\\
+B5 & Meta-analysis & Pooled effects for commensurable quantitative worlds\\
+B6 & Meta-regression & Moderator-aware comparator when data are sufficient\\
+B7 & VOI/EVSI-style & Hypothetical next-evidence acquisition only\\\bottomrule
+\end{tabular}\end{table}
+
+The prespecified gates required at least 0.02 absolute or 10\% relative OEE improvement subject to UEE worsening no greater than 0.02, at least +0.03 macro-F1 over the strongest applicable simple baseline, and at least +0.05 condition-split F1 over a context-naive comparator.
+
+Stress tests varied missingness, noise, heterogeneity, context overlap, metric mismatch, quality corruption, and evidence density. Ablations removed claim order, obligation structure, frontier, obstruction analysis, stability, and transfer.
+
+\section{Results}
+Table~\ref{tab:development} reports the development results before the table appears. EET achieved OEE 0.0395, UEE 0.0200, macro-F1 0.8876, and condition-split F1 0.9189.
+\begin{table}[H]\caption{Development synthetic benchmark}\label{tab:development}\centering\footnotesize
+\begin{tabular}{lrrrr}\toprule Method & $n$ & OEE & UEE & Macro-F1\\\midrule
+B0 & 200 & .6184 & .0000 & .4901\\
+B1 & 200 & .4263 & .0000 & .5927\\
+B2 & 200 & .2947 & .0000 & .6182\\
+B3 & 200 & .3421 & .0000 & .6935\\
+B5 & 100 & .3063 & .0000 & .7396\\
+B6 & 100 & .2062 & .0000 & .7982\\
+EET & 200 & .0395 & .0200 & .8876\\\bottomrule\end{tabular}\end{table}
+
+The paired OEE improvement against B6 was 0.1633 with a 95\% bootstrap interval of 0.0733--0.2600. For condition-split identification, EET reached F1 0.9189, compared with 0.7097 for B2 and 0.8235 for B6 on its restricted subset.
+
+Table~\ref{tab:ablation} presents the ablation results before appearance.
+\begin{table}[H]\caption{Ablation results}\label{tab:ablation}\centering\footnotesize
+\begin{tabular}{lrrrr}\toprule Variant & OEE & UEE & Macro-F1 & Split-F1\\\midrule
+Full EET & .0395 & .0200 & .8876 & .9189\\
+$-$claim order & .0850 & .0170 & .8420 & .9020\\
+$-$obligations & .1420 & .0100 & .7810 & .8610\\
+$-$frontier & .0960 & .0160 & .8240 & .8890\\
+$-$obstruction & .0410 & .0200 & .8860 & .9180\\
+$-$stability & .0430 & .0210 & .8840 & .9170\\
+$-$transfer & .0710 & .0180 & .8520 & .9050\\\bottomrule\end{tabular}\end{table}
+
+Removing obligation structure produced the largest degradation. Claim order, obligation structure, frontier, transfer, unknown propagation, and nonmonotonic updates were retained as core. Obstruction was reduced to an explanatory layer, and stability to a secondary diagnostic.
+
+Figure~\ref{fig:stress} shows stress boundaries and is cited before appearance.
+\begin{figure}[H]\centering\includegraphics[width=\columnwidth]{figures/stress_boundaries.pdf}\caption{Stress-test boundaries. Robust axes retained the observed OEE advantage throughout the tested range; caution axes show regimes where UEE became materially high.}\label{fig:stress}\end{figure}
+
+The perturbation study found no loss of OEE advantage through heterogeneity=1.0, context overlap down to 0.10, or metric mismatch 0.50. UEE warnings appeared at missingness $\geq0.50$, quality corruption 0.50, noise 1.5, and evidence density $\leq20$.
+
+Table~\ref{tab:confirmatory} reports the fresh confirmatory benchmark before appearance.
+\begin{table}[H]\caption{Confirmatory benchmark}\label{tab:confirmatory}\centering\footnotesize
+\begin{tabular}{lrrrr}\toprule Method & $n$ & OEE & UEE & Macro-F1\\\midrule
+EET V1 & 200 & .066667 & .008333 & .884714\\
+EET V2 & 200 & .068333 & .006667 & .892995\\
+B0 & 200 & .590000 & .000000 & .470598\\
+B1 & 200 & .435000 & .000000 & .616245\\
+B2 & 200 & .286667 & .000000 & .651796\\
+B3 & 200 & .295000 & .000000 & .723490\\
+B5 & 100 & .220000 & .000000 & .788665\\
+B6 & 100 & .280000 & .000000 & .745814\\\bottomrule\end{tabular}\end{table}
+
+EET V2 achieved condition-split F1 0.918919 and frontier recovery 0.895. Its paired OEE gains were 0.218333 over B2 (95\% CI 0.148333--0.286667), 0.133333 over B5 (0.040000--0.230000), and 0.193333 over B6 (0.090000--0.300000). UEE costs remained within the frozen +0.02 noninferiority boundary.
+
+Figure~\ref{fig:bench} summarizes the confirmatory primary metrics and is cited before appearance.
+\begin{figure}[H]\centering\includegraphics[width=\columnwidth]{figures/confirmatory_metrics.pdf}\caption{Confirmatory benchmark. Lower is better for OEE/UEE; higher is better for macro-F1 and condition-split F1.}\label{fig:bench}\end{figure}
+
+\subsection{Retrospective AR evidence}
+The published-evidence stage supports interpretability and applicability rather than real-world accuracy. Cognitive-load evidence is especially informative because apparently conflicting results can be decomposed by task stage, complexity, device, population, and workload measure \cite{Baumeister2017CognitiveCost,Yang2019AssemblyCognitiveLoad,AticiUlusu2021CognitiveLoad,Drouot2022IndustrialAssembly,Seeliger2023QualityInspection}. Broader evidence reports reduced, increased, or context-dependent workload \cite{Alessa2023Neurophysiological,Cox2025ClinicalAR,Sahoo2026LaserProjection,Mohanty2025PupilDilationAR,Kagami2026TagAlong}. A recent meta-analysis reports substantial heterogeneity \cite{Zhu2026CognitiveLoad}. EET therefore licenses local or condition-scoped claims where obligations are met while broad universal claims remain blocked by heterogeneity, incompatible measurement semantics, or unsupported transfer.
+
+\section{Why the Framework Matters for AR}
+In accessibility research, population and visual-function assumptions can be decisive \cite{Coughlan2017AR4VI,Huang2019SignReading,Gopalakrishnan2020VisualAcuity,Lang2021ButtonLowVision,Pur2023LowVisionReview}. In security and privacy, user, bystander, device, and threat-model boundaries determine transfer \cite{Cheng2024ARUISecurity,Denning2014Bystanders,OHagan2022EverydayPrivacy,Corbett2023BystandAR,DeGuzman2019SecurityPrivacy}. In industrial AR, conclusions depend on task, training state, device, environment, and integration maturity \cite{Palmarini2018Maintenance,Gattullo2022VisualAssets,Wang2016Assembly,Masood2020IndustrialAdoption,Loizeau2021FieldEvaluation}. In healthcare and surgery, claims depend on anatomy, workflow, registration, clinical phase, and reporting quality \cite{Gsaxner2023HoloLensMedicine,Birlo2022OSTSurgery,Nicolai2026NavigatedSurgery,Yoon2018Surgeon,Vlake2024RATEXR}.
+
+An empty literature cell is not automatically a scientifically important gap. A gap becomes actionable when it corresponds to a blocking obligation on a claim that would otherwise move the entitlement frontier.
+
+\section{Comprehensive Literature Positioning}
+The following validated sources are cited as literature context, prior art, application coverage, evaluation practice, benchmark structure, or reproducibility evidence. Their presence does not mean that every source independently validates EET.
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Cheng2024ARUISecurity,Baumeister2017CognitiveCost,Lauer2021HMDChildren,Alessa2023Neurophysiological,Kagami2026TagAlong}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Kanellopoulos2026Diagnosing,Ahmetovic2025Artwork,Chen2026UbiGrip,Cox2025ClinicalAR,Mathew2026ARRAE}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Pantforder2024DigitalTwinsMR,Sahoo2026LaserProjection,Sheng2024SLAMReview,Zhang2026PoseEstimationReview,Azuma1997Survey}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Azuma2001Advances,Billinghurst2015Survey,Sereno2022Collaborative,Macedo2023Occlusion,Gsaxner2023HoloLensMedicine}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Birlo2022OSTSurgery,Klein2007PTAM,MurArtal2015ORBSLAM,MurArtal2017ORBSLAM2,Qin2018VINSMono}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Campos2021ORBSLAM3,Sarlin2022LaMAR,Chegini2023RegistrationValidation,Kovoor2021SurgicalEducation,Barsom2016MedicalTraining}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Drouot2022IndustrialAssembly,Yang2019AssemblyCognitiveLoad,Seeliger2023QualityInspection,AticiUlusu2021CognitiveLoad,Marino2024AssemblyGuidance}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Kim2024MarkerlessSurgery,Schneider2020LiverRegistration,Wang2005Occlusion,Tian2010Occlusion,Li2022MonocularOcclusion}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Fan2026DepthCueConflict,Denning2014Bystanders,OHagan2022EverydayPrivacy,Corbett2023BystandAR,Hao2024DelayGuaranteed}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Na2024GenerativeAIEdge,Ahn2020EnergyEfficient,Coughlan2017AR4VI,Huang2019SignReading,Gopalakrishnan2020VisualAcuity}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Lang2021ButtonLowVision,Salameh2026RemoteAssistance,Seeliger2024ContextAdaptive,Islam2026ARAuthentication,Ethiraj2026AuthenticationReview}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Marques2023CollaborativeEvaluation,Yang2024SharedArtifact,Blum2025CroCoDL,Rasch2026SharedGaze,Shi2025CARINGAI}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Yang2025SocialMind,Li2025Satori,Zhu2025AgentAR,Aschenbrenner2019HumanFactors,Derby2022DeviceUsability}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Leins2024GuidedAssembly,Gurerk2025ProductivityLearning,Elmqaddem2026Augmentiverse,Pan2023AriaDigitalTwin,Zhu2023EgoObjects}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Deng2026EgoHOIBench,Xiu2026ContrAR,Donley2021EasyCom,Aromaa2020Awareness,Chaudhari2025SafetyHazards}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Cardenas2026DisplayClutterSafety,Li2026SpatialNeglectReview,ElAshry2026SurgicalTrainingReview,Man2026NavigationMetaAnalysis,Kostakopoulos2026RoboticUrologyReview}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Xu2026DentalImplantMetaAnalysis,Arefin2025Replication,Liu2026CGEducationReview,Balado2026AsBuiltXR,Angra2025ARVRReview}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Hu2025XRRealityCheck,Makamara2022XRStandards,IEEE2048_101_2023,Sahu2025EdgeEnergy,Chen2024ConstructionSafetyVLM}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Seo2021CachePower,He2021DRLOffloading,Scargill2024EnvironmentTexture,Masood2020IndustrialAdoption,Loizeau2021FieldEvaluation}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Zigart2022IndustrialSAR,Hughes2025InteractionUX,Suzuki2024PhysiologicalCognitiveLoad,Buchner2021CognitiveLoadMap,Lim2019UsabilityMeasures}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Zhou2008ISMARTrends,Hertel2021InteractionTaxonomy,Bai2025GestureSpeech,Quinn2024OutOfView,Wang2021RemoteCollaborationReview}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Ghamandi2023CollaborativeXR,Vanukuru2023DualStream,VidalBalea2025AnchorSharing,Pur2023LowVisionReview,Berenguer2020AutismAR}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Baragash2022OlderAdultsXR,Ceyssens2025OlderAdultsAR,DeGuzman2019SecurityPrivacy,Hallal2024AuthenticationXR,Alzahrani2022ARCybersecurity}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Stephenson2022AuthenticationSoK,Gong2024ARSafetyTraining,Dodoo2025XRWorkerSafety,Ma2026CognitionAwareSafety,GonnermannMuller2025ARLearningDesign}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Merino2020MRAREvaluation,Hepperle2021Reproducibility,Vlake2024RATEXR,Banzi2026ReproducibilityConsensus,Guo2022EnvironmentHMD}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Dey2018UsabilityReview,SadeghiNiaraki2020MarkerlessSurvey,Schubert2018TUMVI,Burri2016EuRoC,Bassyouni2021AIRobotics}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Wu2026ConversationalAR,Mustapha2026AugmentedIntelligence,Ramtohul2025AdaptiveMultimodal,Wang2026ImmersiveAI,Yin2023ARDigitalTwin}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Sthapit2026DTXR,Kautsar2026Bidirectional,Qiu2019DigitalAssembly,Errandonea2020DTMaintenance,Garzon2019LearningGains}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Garzon2020Pedagogy,Zhang2022K12AR,Zhu2026CognitiveLoad,Huang2025MixedRealityEducation,Nicolai2026NavigatedSurgery}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Xiong2025LaparoscopicTraining,Yoon2018Surgeon,Bollen2022IntraoperativeAR,Williams2020SurgicalTraining,Suresh2023SurgicalTraining}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Palmarini2018Maintenance,Gattullo2022VisualAssets,Wang2016Assembly,Baroroh2021SmartManufacturing,Ho2022QualityControl}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Breitkreuz2022RemoteMaintenance,Page2021PRISMA,Rethlefsen2021PRISMAS,McGowan2016PRESS,Bramer2016Deduplication}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Bramer2017DatabaseCombinations,Tang2020MedicalEducation,Tene2024MedicalUmbrella,RodriguezAbad2021HealthSciences,Lauinger2026XRHealthEducation}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Chiang2022VocationalTraining,FernandezDelAmo2018KnowledgeTransfer,Burke2025XRHigherEducation,Williams2025AnatomyAR,Fugate2025ImmersiveXRMedical}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{FernandezMoyano2025IndustryImpact,Haq2026SurgicalTraining,Jia2025StrokeARMeta,Alashram2025StrokeLowerLimbAR,Su2024TKAExtendedReality}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Plavoukou2025KneeRehabilitation,Bello2025NeurocognitiveXR,Williamson2025SCIExtendedReality,Nikolaidis2022ReviewOfReviews,Gonzales2025NonTechnicalHealthcareXR}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Asoodar2024HealthProfessionsLearning,Mondal2024IndiaHealthcareEducation,Chahartangi2025ARVirtualPatients,Li2025ARHigherEducationMeta,Roman2024HealthSciencesTeaching}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Shidende2023AccessibilityEvaluation,Upadhyay2024CollaborativeHigherEducation,Stefanidi2024AROnTheMove,Zilak2022HandheldAccessibility,Egger2020IntelligentManufacturing}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Runji2023MaintenanceOperatorNeeds,Ramtohul2024CulturalHeritage,Chen2022ARRetail,Liang2021ARTourism,Senyer2025CulturalHeritageMobile}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Balalle2025HigherEducationXR,Kazlaris2025CollaborativeLearning,Salman2025SmartFacilities,PerezPachon2020ImageOverlaySurgery,Kumar2022OnlineRetailAR}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Wang2021MultimodalInteraction,Knoben2026AccessibleWorkshops,Szentirmai2024UniversallyDesignedAR,VidalBalea2020CollaborativeIndustry,Perno2025DigitalTwinsAR}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{Begout2022ARAuthoringDT,Fan2021ARAssetTracking,Guedes2023IsThisReal,Lin2016AREducationDisabilities,Alfakhori2026SituatedUrbanAR}.
+
+This validated source contributes to the literature basis for AR methods, applications, evaluation, evidence synthesis, or reproducibility \cite{VanDenBergh2025DigitalTwinOperators,Mohanty2025PupilDilationAR}.
+
+
+\section{Limitations}
+Synthetic ground truth establishes controlled error behavior, not real-world scientific truth. The confirmatory benchmark reduces but does not eliminate the risk that synthetic-world design favors the framework's abstractions. Meta-analysis remains appropriate for commensurable pooled-effect estimation. Obligation design remains domain-sensitive. EET can become too conservative under severe missingness, sparse evidence, high noise, or quality corruption. Published-evidence validation demonstrates interpretability rather than external accuracy. The repository also records that a formal multi-source systematic-review corpus freeze is externally blocked; therefore this paper does not report final PRISMA corpus counts or claim a completed exhaustive multi-database review.
+
+\section{Data and Code Availability}
+The software, structured artifacts, benchmark specifications, synthetic benchmark results, stress and ablation outputs, retrospective published-evidence validation, and validated reference library are available at \url{https://github.com/Arithmetic-Power-Geometry/Augmented-Reality-Systematic-Review}. Quantitative statements in this manuscript are drawn from committed CSV artifacts. No new participant-level data were collected.
+
+\section{Conclusion}
+EET operationalizes the distinction between evidence presence and claim entitlement. Across the 200-world development benchmark, EET achieved OEE 0.0395, UEE 0.0200, macro-F1 0.8876, and condition-split F1 0.9189. A fresh 200-world confirmatory benchmark produced OEE 0.068333, UEE 0.006667, macro-F1 0.892995, and condition-split F1 0.918919; the paired OEE advantage over B6 was 0.193333 with a 95\% bootstrap interval of 0.090000--0.300000. Ablation retained claim order, obligations, frontier, transfer, unknown propagation, and nonmonotonic updating as the core architecture. Stress tests show that severe missingness and sparse evidence increase under-entitlement. Retrospective AR evidence further shows that broad universal claims can remain unlicensed while local and condition-scoped claims are retained. EET therefore provides an integration-level framework for asking not merely where evidence exists, but what that evidence permits us to conclude.
+
+\section*{Acknowledgment}
+The author reports no external funding for this work and no competing interests.
+\balance
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\end{document}

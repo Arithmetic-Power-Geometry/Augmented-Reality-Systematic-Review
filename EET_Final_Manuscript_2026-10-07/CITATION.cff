@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use the software or artifacts associated with this work, please cite this repository."
+title: "Augmented Reality Systematic Review / Evidence Entitlement Theory Artifacts"
+type: software
+authors:
+  - family-names: "Akhtar"
+    given-names: "Mohammad Amir Khusru"
+repository-code: "https://github.com/Arithmetic-Power-Geometry/Augmented-Reality-Systematic-Review"
+date-released: "2026-10-07"
+version: "V1"

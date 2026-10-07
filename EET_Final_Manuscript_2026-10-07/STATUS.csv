@@ -1,0 +1,9 @@
+item,status,note
+manuscript_package,COMPLETE,"IEEEtran source package"
+reference_library,212_VALIDATED,"master.bib copied unchanged"
+all_212_cited_in_prose,YES,"maximum five keys per citation command"
+tables,4,"baselines development ablation confirmatory"
+algorithm,1,"EET V2 claim-entitlement procedure"
+full_systematic_corpus_freeze,NOT_CLAIMED,"upstream external blockers remain"
+final_prisma_counts,NOT_CLAIMED,"not supported by current frozen repository state"
+submission_scope,METHOD_THEORY_COMPUTATIONAL_RETROSPECTIVE,"not exhaustive completed systematic-review results"

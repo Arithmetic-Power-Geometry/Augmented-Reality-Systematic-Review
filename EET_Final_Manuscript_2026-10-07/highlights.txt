@@ -1,0 +1,5 @@
+Evidence Entitlement Theory maps heterogeneous evidence to the strongest licensed scientific claims.
+Development benchmark: OEE 0.0395, UEE 0.0200, macro-F1 0.8876, split-F1 0.9189.
+Confirmatory benchmark: OEE 0.068333, UEE 0.006667, macro-F1 0.892995, split-F1 0.918919.
+Core components after ablation: claim order, obligations, frontier, transfer, unknown propagation, nonmonotonic updates.
+Severe missingness and low evidence density increase conservatism; EET does not replace meta-analysis.
