@@ -1,0 +1,7 @@
+id,allowed_claim
+A1,"EET reduced over-entitlement error relative to applicable baselines in both development and confirmatory synthetic benchmarks."
+A2,"In the confirmatory benchmark, EET V2 achieved OEE 0.068333 and macro-F1 0.892995."
+A3,"EET V2 improved condition-split F1 relative to the context-stratified baseline in the confirmatory benchmark."
+A4,"EET's advantage was conditional: severe missingness, low evidence density, and heavy corruption increased under-entitlement."
+A5,"The framework is positioned as an integration of established mathematical tools around scientific claim entitlement rather than as a new poset, hypergraph, or VOI theory."
+A6,"Claim order, obligation structure, frontier, and transfer remained the core components after ablation."
