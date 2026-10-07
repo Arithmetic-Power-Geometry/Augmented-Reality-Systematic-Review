@@ -1,0 +1,9 @@
+claim_id,entitlement_status,scope,supporting_evidence_summary,defeating_evidence,unresolved_obligations,stability
+C01,LICENSED,cross-domain local,"multiple empirical AR studies across interaction, industrial, healthcare, accessibility, tracking, security, digital twins",none,none,HIGH_STABILITY
+C02,LICENSED_LOCAL_ONLY,multiple domain-specific contexts,"favorable results reported in subsets including workload, usability, performance, accessibility, technical metrics",counterexamples/context dependence,O2;O3;O4;O5;O6,MODERATE_STABILITY
+C03,LICENSED_LOCAL_ONLY,specific contexts,adverse workload/cost/safety/usability findings exist in specific settings,none,O2;O3;O4;O5;O6,MODERATE_STABILITY
+C04,LICENSED,cross-domain,"heterogeneity and context-dependent effects recur across cognitive-load, interaction, accessibility and deployment evidence",none,none,HIGH_STABILITY
+C05,PARTIALLY_LICENSED,domain-specific families only,some reviews/meta-analyses and repeated domain studies support scoped generalization,cross-domain incompatibility,O2;O3;O4;O5;O6;O7;O8,MODERATE_STABILITY
+C06,NOT_LICENSED,none,evidence volume high but heterogeneous across domain/device/task/metric,mixed directions; moderator effects; incomparable estimands,O2;O3;O4;O5;O6;O8;O9,LOW_STABILITY
+C07,LICENSED_LOCAL_ONLY,technical study regimes,"multiple technical studies validate tracking, registration, networking, edge, security and rendering metrics",none,O2;O3;O4;O6,MODERATE_STABILITY
+C08,PARTIALLY_LICENSED,selected field/deployment studies,some operational/field studies support transfer,controlled-to-field gaps remain,O3;O4;O6;O7;O8;O10,LOW_TO_MODERATE_STABILITY
