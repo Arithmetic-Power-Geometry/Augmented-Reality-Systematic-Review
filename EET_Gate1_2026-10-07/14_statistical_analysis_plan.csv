@@ -1,0 +1,8 @@
+item,frozen_rule
+comparison_unit,"paired synthetic evidence world"
+primary_endpoints,"OEE;UEE;macro-F1 claim-state;condition-split macro-F1"
+uncertainty,"paired bootstrap 95% CI over worlds; family-stratified reporting"
+effect_size,"absolute paired difference plus relative difference where interpretable"
+minimum_practical_improvement,"see endpoint-specific gates in 06_primary_endpoints.csv"
+multiple_comparisons,"primary endpoints interpreted jointly; secondary endpoints descriptive unless multiplicity-adjusted"
+negative_results,"must be retained and reported"
