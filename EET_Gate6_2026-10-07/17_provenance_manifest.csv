@@ -1,0 +1,11 @@
+artifact,source
+01_final_claim_evidence_matrix.csv,"Gates1-5 committed artifacts"
+02_frozen_threshold_audit.csv,"Gate1 thresholds + Gate5 confirmatory metrics"
+03_OEE_UEE_final_tradeoff.csv,"Gate5 paired comparisons + Gate3 stress findings"
+04_final_applicability_boundaries.csv,"Gate3 stress/failure boundaries"
+05_final_component_architecture.csv,"Gate3 ablation + Gate5 V2 status"
+06_final_novelty_position.csv,"Gate1 prior-art audit + final component simplification"
+08_final_212_reference_audit.csv,"Gate1 212-reference matrix"
+10_hostile_reviewer_audit.csv,"adversarial synthesis of Gates1-5"
+11_reproducibility_audit.csv,"artifact availability and committed benchmark outputs"
+14_final_GO_MODIFY_STOP_decision.csv,"Gate1 frozen decision rule applied to final evidence"
