@@ -7,6 +7,9 @@ on:
   workflow_dispatch:
 jobs:
   build:
+    if: github.actor != 'github-actions[bot]'
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -63,3 +66,10 @@ jobs:
             EET_Final_Manuscript_2026-10-07/EET_IEEE_Manuscript.pdf
             EET_Final_Manuscript_2026-10-07/EET_IEEE_Submission_Package.zip
           retention-days: 30
+      - name: Commit compiled PDF and ZIP
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add EET_Final_Manuscript_2026-10-07/EET_IEEE_Manuscript.pdf EET_Final_Manuscript_2026-10-07/EET_IEEE_Submission_Package.zip EET_Final_Manuscript_2026-10-07/figures/
+          git commit -m "Build compiled EET manuscript deliverables" || exit 0
+          git push
