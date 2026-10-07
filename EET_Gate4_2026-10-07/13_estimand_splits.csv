@@ -1,0 +1,3 @@
+source_pair,split_reason,status
+"PD0005 vs PD0016","EEG/NASA-TLX/task-time versus pupil-dilation/NASA-TLX mental-demand semantics","POTENTIAL_ESTIMAND_SPLIT"
+"PD0027 vs PD0029","multi-measure workload/performance versus human-factors/workload outcome bundle","POTENTIAL_ESTIMAND_SPLIT"
