@@ -1,0 +1,8 @@
+baseline,native_output,validation_set_output
+count_majority,"direction count","mixed/partially favorable evidence; cannot encode claim scope exactly"
+context_stratified,"direction by context","detects some industrial/education/clinical differences and Yang stage split"
+quality_weighted,"weighted direction","not fully computable from repository summaries because compatible quality weights are not frozen at study level"
+meta_analysis,"pooled effect + heterogeneity","R014 reports overall reduction with I2=92.7% and moderator effects in educational AR"
+meta_regression,"moderator effects","R014 reports moderation by intervention frequency and feedback form"
+evidence_gap_map,"sparse cells","many device/task/population combinations remain underrepresented"
+VOI_EVSI_style,"hypothetical evidence priority","would prioritize uncertainty reduction but not natively express entitlement frontier"
