@@ -1,0 +1,3 @@
+item,status,note
+Gate6_artifact_hashes,NOT_COMPUTED_IN_CONNECTOR,"Git commit SHAs provide repository integrity; per-file SHA256 should be generated during full-corpus reproducibility packaging"
+Gate5_hash_manifest,UNAVAILABLE_DURING_GATE6_AUDIT,"repair before submission if strict file-level hashing is required"
