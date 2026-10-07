@@ -1,0 +1,10 @@
+failure_mode,gate3_status,interpretation
+excessive_conservatism,OBSERVED,"Primary weakness under high missingness/noise/low density"
+false_broad_entitlement,CONTROLLED,"Remains substantially below simpler baselines across stress grid"
+missed_condition_split,OBSERVED_LOW_RATE,"Increases with severe stress but remains below baselines"
+false_condition_split,LOW,"No major failure boundary identified"
+estimand_confusion,CONTROLLED,"Metric-mismatch stress shows degradation but persistent advantage"
+missing_context_instability,OBSERVED,"UEE rises as context/evidence becomes incomplete"
+frontier_misplacement,OBSERVED_LOW_RATE,"Ablation confirms frontier contributes materially"
+transfer_misclassification,OBSERVED_LOW_RATE,"Transfer ablation materially worsens results"
+obligation_incompleteness,CRITICAL_RISK,"Obligation ablation is the largest performance loss"
