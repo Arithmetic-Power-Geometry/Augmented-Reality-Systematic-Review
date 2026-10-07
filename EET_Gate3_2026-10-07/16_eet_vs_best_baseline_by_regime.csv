@@ -1,0 +1,9 @@
+regime,best_baseline,EET_result,interpretation
+low_stress,B6,WIN,"EET lower OEE and higher macro-F1"
+high_missingness,B6,WIN_WITH_UEE_COST,"OEE/F1 advantage remains; UEE high"
+high_noise,B6,WIN_WITH_UEE_COST,"OEE/F1 advantage remains; UEE high"
+high_heterogeneity,B6,WIN,"Strongest evidence for intended use case"
+low_context_overlap,B6,WIN,"Context-sensitive advantage preserved"
+high_metric_mismatch,B6,WIN,"Advantage preserved"
+high_quality_corruption,B6,WIN_WITH_UEE_COST,"Advantage remains but conservatism rises"
+very_low_density,B6,WIN_WITH_UEE_COST,"Sparse evidence creates high UEE"
