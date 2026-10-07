@@ -1,0 +1,7 @@
+item,value,status
+reference_count,212,PASS
+all_accounted_for,YES,PASS
+validated_registry_matches_master_bib,YES,PASS
+citation_padding_required,NO,PASS
+all_212_must_be_forced_into_manuscript,NO,PASS
+future_use_rule,"cite only when supporting an identifiable statement",PASS
