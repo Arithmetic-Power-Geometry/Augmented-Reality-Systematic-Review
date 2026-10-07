@@ -1,0 +1,6 @@
+criterion,frozen_threshold,confirmatory_value,status
+OEE_vs_B6,">=0.02 absolute or >=10% relative improvement","0.193333 absolute improvement",PASS
+OEE_vs_B5,">=0.02 absolute or >=10% relative improvement","0.133333 absolute improvement",PASS
+UEE_noninferiority,"worsening <=0.02 absolute where superiority claimed","0.013333 vs B5/B6",PASS
+Macro_F1,">=+0.03 over strongest applicable simple baseline","0.892995 vs 0.788665 B5; +0.104330",PASS
+Condition_split_F1,">=+0.05 over context-naive comparator","0.918919 vs 0.709677 B2; +0.209242",PASS
