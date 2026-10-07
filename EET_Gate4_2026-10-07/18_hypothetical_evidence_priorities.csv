@@ -1,0 +1,6 @@
+priority_rank,hypothetical_evidence_object,blocked_obligations_addressed,expected_use
+1,"multi-device, same-task, same-metric comparative AR workload evidence","O5;O2","separate device effects from measurement effects"
+2,"same-device evidence across assembly stages/complexities","O4","test whether Yang-like reversals generalize"
+3,"cross-population study with same task/device/metric","O6","test population transfer"
+4,"field vs laboratory comparison with matched task/device/metric","O7","test environment transfer"
+5,"study reporting both physiological and subjective workload under same protocol","O2","resolve estimand/measurement compatibility"
