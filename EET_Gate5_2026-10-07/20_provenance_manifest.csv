@@ -1,0 +1,8 @@
+artifact,basis
+01_EET_V1_to_V2_revision_ledger.csv,Gate2/3/4 documented failures only
+04_confirmatory_world_manifest.csv,fresh seeds independent of development worlds
+05_confirmatory_ground_truth.csv,latent truth generator; predictors do not receive labels
+07_confirmatory_predictions.csv,EET V1; EET V2; frozen applicable baselines
+09_confirmatory_primary_metrics.csv,Gate1 primary metrics unchanged
+11_paired_baseline_comparisons.csv,paired-world bootstrap 95% CI
+15_failure_cases.csv,all EET V2 failures retained

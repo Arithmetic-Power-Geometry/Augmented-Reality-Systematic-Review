@@ -1,0 +1,9 @@
+component,V2_status
+claim_order,CORE_KEEP
+obligation_structure,CORE_KEEP
+frontier,CORE_KEEP
+transfer_model,CORE_KEEP
+obstruction_analysis,EXPLANATORY_ONLY
+stability,SECONDARY_DIAGNOSTIC
+unknown_propagation,CORE_KEEP
+nonmonotonic_updates,CORE_KEEP

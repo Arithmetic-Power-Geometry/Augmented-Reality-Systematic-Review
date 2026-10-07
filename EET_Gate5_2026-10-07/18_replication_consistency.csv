@@ -1,0 +1,6 @@
+comparison,development_value,confirmatory_metric,confirmatory_value,interpretation
+Gate2_EET_OEE,0.0395,Gate5_V2_OEE,0.068333,direction_consistent
+Gate2_EET_macro_F1,0.8876,Gate5_V2_macro_F1,0.892995,replicated
+Gate2_condition_split_F1,0.9189,Gate5_V2_condition_split_F1,0.918919,replicated
+V2_vs_V1_OEE,0.066667,V2,0.068333,V2 slightly worse OEE
+V2_vs_V1_UEE,0.008333,V2,0.006667,V2 slightly better UEE

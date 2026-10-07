@@ -1,0 +1,3 @@
+method,n_worlds,OEE,UEE,macro_F1_claim_state,condition_split_F1,claim_state_accuracy,frontier_recovery
+EET_V1,200,0.066667,0.008333,0.884714,0.888889,0.895,0.895
+EET_V2,200,0.068333,0.006667,0.892995,0.918919,0.895,0.895

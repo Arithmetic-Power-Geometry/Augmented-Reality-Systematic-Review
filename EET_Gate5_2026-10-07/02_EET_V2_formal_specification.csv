@@ -1,0 +1,17 @@
+id,component,V2_formalization
+V2-01,Evidence object,explicit coordinates with UNKNOWN preserved
+V2-02,Claim object,"c=(theta,Omega,kappa)"
+V2-03,Claim structure,family of partial orders; no forced total order
+V2-04,Obligations,SATISFIED|VIOLATED|UNKNOWN; sufficient-pattern semantics
+V2-05,Entitlement,claim licensed when frozen sufficient obligations hold and no defeating condition is triggered
+V2-06,Local-missingness rule,unrelated unknown transfer fields do not automatically defeat a directly supported local claim; broad promotion remains blocked
+V2-07,Licensed region,A(S)={c:S|=c}; downward closure conditional on implication-consistency
+V2-08,Frontier,F(S)=Max A(S); incomparable maxima allowed
+V2-09,Contradictions,SAME_CLAIM_CONFLICT|CONDITION_SPLIT|ESTIMAND_SPLIT|INSUFFICIENT_OVERLAP|UNRESOLVED
+V2-10,Transfer,discrete boundary vector over device/task/population/environment/metric/deployment
+V2-11,UNKNOWN semantics,UNKNOWN never silently converted to SATISFIED or VIOLATED
+V2-12,Stability,secondary diagnostic rho(c); not core prediction requirement
+V2-13,Obstruction,explanatory-only minimal unsatisfied/unknown blocker set
+V2-14,OEE,weighted false-entitlement mass / weighted non-entitled mass
+V2-15,UEE,weighted missed-entitlement mass / weighted true-entitled mass
+V2-16,Frontier change,expansion/contraction/replacement/split permitted; nonmonotonic updates allowed

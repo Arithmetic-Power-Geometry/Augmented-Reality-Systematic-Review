@@ -1,0 +1,14 @@
+item,value
+fresh_confirmatory_worlds,200
+EET_V1_OEE,0.066667
+EET_V2_OEE,0.068333
+EET_V1_UEE,0.008333
+EET_V2_UEE,0.006667
+EET_V1_macro_F1,0.884714
+EET_V2_macro_F1,0.892995
+EET_V1_condition_split_F1,0.888889
+EET_V2_condition_split_F1,0.918919
+gate5_decision,REPLICATED_NO_MEANINGFUL_IMPROVEMENT
+obstruction_status,EXPLANATORY_ONLY
+stability_status,SECONDARY_DIAGNOSTIC
+ready_for_gate6,YES

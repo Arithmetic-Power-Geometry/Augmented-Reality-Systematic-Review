@@ -1,0 +1,8 @@
+component,final_status
+claim_order,SURVIVES_REPLICATION
+obligation_structure,SURVIVES_REPLICATION
+frontier,SURVIVES_REPLICATION
+transfer_model,SURVIVES_REPLICATION
+obstruction_analysis,EXPLANATORY_ONLY
+stability,SECONDARY_DIAGNOSTIC
+missingness_relaxation,SUPPORTED_WITH_CAUTION

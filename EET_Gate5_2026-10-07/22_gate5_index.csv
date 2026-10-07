@@ -1,0 +1,16 @@
+order,file_name
+1,README.md
+2,01_EET_V1_to_V2_revision_ledger.csv
+3,02_EET_V2_formal_specification.csv
+4,03_EET_V2_component_status.csv
+5,08_EET_V1_vs_V2.csv
+6,09_confirmatory_primary_metrics.csv
+7,11_paired_baseline_comparisons.csv
+8,13_OEE_UEE_tradeoff.csv
+9,14_condition_split_replication.csv
+10,17_component_final_status.csv
+11,18_replication_consistency.csv
+12,19_gate5_result_summary.csv
+13,20_provenance_manifest.csv
+14,confirmatory_benchmark.py
+15,22_gate5_index.csv

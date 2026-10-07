@@ -1,0 +1,5 @@
+metric,value
+delta_OEE_V2_minus_V1,0.001667
+delta_UEE_V2_minus_V1,-0.001667
+delta_macro_F1_V2_minus_V1,0.008281
+delta_condition_split_F1_V2_minus_V1,0.030030
