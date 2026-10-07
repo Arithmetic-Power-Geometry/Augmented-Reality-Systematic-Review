@@ -1,0 +1,6 @@
+comparison_axis,EET,baseline_difference
+strongest_claim_scope,"local/scoped frontier","counting/meta-analysis does not natively encode maximum licensed claim scope"
+mixed_direction_handling,"condition split / local adverse branch","simple pooling risks flattening Yang and Drouot context dependence"
+unknown_handling,"UNKNOWN preserved","simple counts may omit or collapse missing fields"
+generalization_blockers,"explicit O4-O10 blockers","evidence-gap maps identify sparsity but not necessarily claim-blocking obligations"
+heterogeneity_interpretation,"blocks universal claim","meta-analysis reports heterogeneity/moderators but not full claim-order frontier"
