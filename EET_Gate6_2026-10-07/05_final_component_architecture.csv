@@ -1,0 +1,9 @@
+component,final_status,rationale
+claim_order,CORE,"material ablation loss"
+obligation_structure,CORE,"largest ablation contribution"
+frontier,CORE,"material OEE/F1/frontier loss when removed"
+transfer_model,CORE,"material ablation loss"
+obstruction,EXPLANATORY_ONLY,"negligible predictive gain; useful blocker interpretation"
+stability,SECONDARY_DIAGNOSTIC,"small predictive gain; useful perturbation characterization"
+UNKNOWN_handling,CORE,"prevents silent imputation and overclaiming"
+nonmonotonic_updates,CORE,"needed for claim contraction/replacement under defeating evidence"
