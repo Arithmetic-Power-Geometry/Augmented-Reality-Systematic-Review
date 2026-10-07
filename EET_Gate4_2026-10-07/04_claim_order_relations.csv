@@ -1,0 +1,7 @@
+weaker_claim,stronger_claim,relation_status,justification
+C2,C3,VALID,"C3 generalizes C2 over a broader comparable task family"
+C3,C6,VALID,"C6 broadens directional reduction beyond comparable procedural tasks"
+C1,C2,NO_ORDER,"effect existence does not logically imply reduction"
+C1,C4,NO_ORDER,"effect existence does not logically imply increase"
+C2,C4,INCOMPARABLE,"opposite directional local branches"
+C5,C6,NO_ORDER,"condition dependence is not weaker than universal reduction; it may directly block it"
