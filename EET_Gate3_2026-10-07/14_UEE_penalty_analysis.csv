@@ -1,0 +1,8 @@
+factor,low_stress_UEE,high_stress_UEE,assessment
+missingness,0.0200,0.1600,"strong conservatism growth"
+noise,0.0200,0.1200,"material conservatism growth"
+heterogeneity,0.0200,0.1200,"material but controlled growth"
+context_overlap,0.0300,0.1100,"low-overlap contexts increase conservatism"
+metric_mismatch,0.0200,0.1200,"metric mismatch increases conservatism"
+quality_corruption,0.0200,0.1200,"quality corruption increases conservatism"
+evidence_density,0.0200,0.1600,"very sparse evidence creates strongest UEE penalty"
