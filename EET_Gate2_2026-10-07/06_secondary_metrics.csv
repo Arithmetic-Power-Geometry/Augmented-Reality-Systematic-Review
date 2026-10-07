@@ -1,0 +1,5 @@
+metric,method,value,note
+frontier_recovery,EET,0.9000,"proxy exact claim/condition agreement at Gate2"
+minimal_obstruction_recovery,EET,NA,"not scored because Gate1 synthetic worlds did not encode explicit gold minimal blocker sets"
+stability_calibration,EET,NA,"reserved for Gate3 perturbation sweeps"
+runtime,EET,NA,"connector execution does not provide stable machine-level benchmark timing"
