@@ -1,0 +1,16 @@
+id,component,formalization,operational_note,status
+T01,Evidence universe,"E={e1,...,en}",Evidence objects with explicit UNKNOWN coordinates,FROZEN_V1
+T02,Claim object,"c=(theta,Omega,kappa)",theta proposition/estimand; Omega asserted context; kappa claim family/strength,FROZEN_V1
+T03,Claim structure,"family of partial orders, not one forced total order",c1<=c2 only when c2 logically implies c1 and has equal/greater scope under frozen semantics,FROZEN_V1
+T04,Obligation state,SATISFIED|VIOLATED|UNKNOWN,UNKNOWN propagates and never silently becomes satisfied/violated,FROZEN_V1
+T05,Entitlement,S |= c iff a frozen sufficient obligation pattern for c is satisfied and no defeating condition is triggered,Nonmonotonic defeat allowed,FROZEN_V1
+T06,Licensed region,A(S)={c:S|=c},Downward closure only guaranteed when implication-consistency axiom holds,FROZEN_V1
+T07,Frontier,F(S)=Max A(S),May contain multiple incomparable maximal claims,FROZEN_V1
+T08,Minimal obstruction,minimal unsatisfied/unknown obligation sets blocking c,Compute via minimal hitting-set/transversal formulation where applicable,FROZEN_V1
+T09,Contradiction classes,SAME_CLAIM_CONFLICT|CONDITION_SPLIT|ESTIMAND_SPLIT|INSUFFICIENT_OVERLAP|UNRESOLVED,Opposite result signs alone never imply same-claim conflict,FROZEN_V1
+T10,Transfer,discrete boundary-crossing vector over device/task/population/environment/metric/deployment,No smooth/differential core assumption,FROZEN_V1
+T11,Stability,rho(c)=fraction of prespecified perturbations retaining entitlement,Perturbation family frozen before confirmatory benchmark,FROZEN_V1
+T12,Epistemic correction,claim loss/scope contraction after new evidence is a valid update,Evidence addition need not be monotone,FROZEN_V1
+T13,OEE,weighted false entitlement mass / weighted ground-truth non-entitled mass,Penalizes claims stronger/broader than truth permits,FROZEN_V1
+T14,UEE,weighted missed entitlement mass / weighted true-entitled mass,Prevents trivial always-conservative method,FROZEN_V1
+T15,Hypothetical evidence value,expected frontier change under candidate evidence outcomes,Must be compared to VOI/EVSI; no physical experiment,PROVISIONAL_V1
