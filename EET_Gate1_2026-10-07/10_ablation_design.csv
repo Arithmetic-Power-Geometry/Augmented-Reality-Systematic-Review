@@ -1,0 +1,8 @@
+id,variant
+A0,Full EET
+A1,minus claim order
+A2,minus obligation structure
+A3,minus frontier
+A4,minus obstruction analysis
+A5,minus stability
+A6,minus transfer model
