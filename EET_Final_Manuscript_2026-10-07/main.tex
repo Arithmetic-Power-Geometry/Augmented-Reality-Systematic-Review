@@ -124,7 +124,25 @@ $-$transfer & .0710 & .0180 & .8520 & .9050\\\bottomrule\end{tabular}\end{table}
 Removing obligation structure produced the largest degradation. Claim order, obligation structure, frontier, transfer, unknown propagation, and nonmonotonic updates were retained as core. Obstruction was reduced to an explanatory layer, and stability to a secondary diagnostic.
 
 Figure~\ref{fig:stress} shows stress boundaries and is cited before appearance.
-\begin{figure}[H]\centering\includegraphics[width=\columnwidth]{figures/stress_boundaries.pdf}\caption{Stress-test boundaries. Robust axes retained the observed OEE advantage throughout the tested range; caution axes show regimes where UEE became materially high.}\label{fig:stress}\end{figure}
+\begin{figure}[H]
+\centering
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lc}
+\toprule
+Stress axis & Observed status\\
+\midrule
+Heterogeneity to 1.0 & Robust\\
+Context overlap to 0.10 & Robust\\
+Metric mismatch to 0.50 & Robust\\
+Missingness $\geq 0.50$ & Caution\\
+Quality corruption 0.50 & Caution\\
+Noise 1.50 & Caution\\
+Evidence density $\leq 20$ & Caution\\
+\bottomrule
+\end{tabular}
+\caption{Stress-test boundaries. Robust axes retained the observed OEE advantage throughout the tested range; caution axes show regimes where UEE became materially high.}
+\label{fig:stress}
+\end{figure}
 
 The perturbation study found no loss of OEE advantage through heterogeneity=1.0, context overlap down to 0.10, or metric mismatch 0.50. UEE warnings appeared at missingness $\geq0.50$, quality corruption 0.50, noise 1.5, and evidence density $\leq20$.
 
@@ -143,7 +161,22 @@ B6 & 100 & .280000 & .000000 & .745814\\\bottomrule\end{tabular}\end{table}
 EET V2 achieved condition-split F1 0.918919 and frontier recovery 0.895. Its paired OEE gains were 0.218333 over B2 (95\% CI 0.148333--0.286667), 0.133333 over B5 (0.040000--0.230000), and 0.193333 over B6 (0.090000--0.300000). UEE costs remained within the frozen +0.02 noninferiority boundary.
 
 Figure~\ref{fig:bench} summarizes the confirmatory primary metrics and is cited before appearance.
-\begin{figure}[H]\centering\includegraphics[width=\columnwidth]{figures/confirmatory_metrics.pdf}\caption{Confirmatory benchmark. Lower is better for OEE/UEE; higher is better for macro-F1 and condition-split F1.}\label{fig:bench}\end{figure}
+\begin{figure}[H]
+\centering
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcc}
+\toprule
+Method & OEE $\downarrow$ & Macro-F1 $\uparrow$\\
+\midrule
+EET V2 & 0.0683 & 0.8930\\
+B2 & 0.2867 & 0.6518\\
+B5 & 0.2200 & 0.7887\\
+B6 & 0.2800 & 0.7458\\
+\bottomrule
+\end{tabular}
+\caption{Confirmatory benchmark summary. Lower OEE and higher macro-F1 are preferred; baselines are interpreted only on their applicable tasks.}
+\label{fig:bench}
+\end{figure}
 
 \subsection{Retrospective AR evidence}
 The published-evidence stage supports interpretability and applicability rather than real-world accuracy. Cognitive-load evidence is especially informative because apparently conflicting results can be decomposed by task stage, complexity, device, population, and workload measure \cite{Baumeister2017CognitiveCost,Yang2019AssemblyCognitiveLoad,AticiUlusu2021CognitiveLoad,Drouot2022IndustrialAssembly,Seeliger2023QualityInspection}. Broader evidence reports reduced, increased, or context-dependent workload \cite{Alessa2023Neurophysiological,Cox2025ClinicalAR,Sahoo2026LaserProjection,Mohanty2025PupilDilationAR,Kagami2026TagAlong}. A recent meta-analysis reports substantial heterogeneity \cite{Zhu2026CognitiveLoad}. EET therefore licenses local or condition-scoped claims where obligations are met while broad universal claims remain blocked by heterogeneity, incompatible measurement semantics, or unsupported transfer.
