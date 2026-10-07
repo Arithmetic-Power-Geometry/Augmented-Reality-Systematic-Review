@@ -1,0 +1,8 @@
+step,action,stop_condition
+1,"freeze all eligible empirical evidence in the validated corpus","corpus definition reproducible"
+2,"apply frozen EET V2 without further tuning","no model changes after corpus analysis starts"
+3,"generate claim-entitlement, condition-split, blocker, transfer, and stability outputs","all outputs code-derived"
+4,"freeze corpus-wide results","no post-hoc metric changes"
+5,"complete sentence-level citation obligations for all legitimate references","no citation padding"
+6,"generate final figures/tables from frozen artifacts","all numbers traceable"
+7,"only then write manuscript","results and citations frozen"
