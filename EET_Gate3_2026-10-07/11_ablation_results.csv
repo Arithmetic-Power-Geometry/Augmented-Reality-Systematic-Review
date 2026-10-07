@@ -1,0 +1,8 @@
+variant,OEE,UEE,macro_F1,condition_split_F1,frontier_recovery
+A0 Full EET,0.0395,0.0200,0.8876,0.9189,0.9000
+A1 minus claim order,0.0850,0.0170,0.8420,0.9020,0.8530
+A2 minus obligation structure,0.1420,0.0100,0.7810,0.8610,0.7950
+A3 minus frontier,0.0960,0.0160,0.8240,0.8890,0.8380
+A4 minus obstruction analysis,0.0410,0.0200,0.8860,0.9180,0.8990
+A5 minus stability,0.0430,0.0210,0.8840,0.9170,0.8970
+A6 minus transfer model,0.0710,0.0180,0.8520,0.9050,0.8620
