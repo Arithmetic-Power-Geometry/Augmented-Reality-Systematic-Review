@@ -1,0 +1,8 @@
+baseline,corpus_view,difference_from_EET
+study_counts,high evidence volume in several domains,does not determine claim entitlement
+taxonomy,organizes domain/device/task,does not identify maximum licensed claim
+evidence_gap_map,shows sparse combinations,sparsity is not identical to a claim-blocking obligation
+context_stratified,captures some condition dependence,does not natively produce full entitlement frontier
+quality_weighted,weights evidence quality,quality alone does not determine scope
+meta_analysis,useful where effects commensurable,not applicable to heterogeneous cross-domain estimands
+meta_regression,captures moderators,complementary to claim-scope entitlement
