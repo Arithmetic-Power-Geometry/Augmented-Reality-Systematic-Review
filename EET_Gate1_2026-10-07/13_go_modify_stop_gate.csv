@@ -1,0 +1,4 @@
+decision,criterion
+GO,"Primary endpoints show practically meaningful advantage on claimed tasks; no material UEE tradeoff; stress/ablation support key components; published-evidence application interpretable; reproducible"
+MODIFY,"Some components add value but theory contains redundancy, instability, arbitrary choices, or weak differentiation"
+STOP,"No meaningful advantage over simpler appropriate baselines, or conclusions dominated by arbitrary modeling choices, or candidate novelty collapses into established methods"
