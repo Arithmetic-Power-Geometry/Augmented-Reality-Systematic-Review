@@ -1,0 +1,6 @@
+comparison,threshold,status
+EET_vs_B6_OEE,"Gate1 practical improvement >=0.02 absolute",PASS
+EET_vs_B6_macro_F1,"Gate1 practical improvement >=0.03 absolute",PASS
+EET_vs_B2_condition_split_F1,"Gate1 practical improvement >=0.05 absolute",PASS
+UEE_noninferiority_low_to_moderate_stress,"<=0.02 additional absolute where superiority claimed",MIXED
+UEE_noninferiority_high_stress,"<=0.02 additional absolute where superiority claimed",FAIL
