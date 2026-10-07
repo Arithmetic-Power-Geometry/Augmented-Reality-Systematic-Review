@@ -1,0 +1,12 @@
+item,status,note
+development_worlds,PASS,"200 worlds committed"
+confirmatory_worlds,PASS,"200 fresh worlds committed"
+frozen_primary_metrics,PASS,"Gate1 endpoints unchanged"
+baseline_definitions,PASS,"Gate1 applicability retained"
+V2_specification,PASS,"Gate5 frozen EET V2 present"
+ground_truth_independence,PASS,"latent-world generation separated from prediction"
+predictions,PASS,"confirmatory predictions committed"
+provenance,PASS,"Gate artifacts include provenance manifests"
+hashes,PARTIAL,"Gate5 hash manifest file not retrievable in audit; other artifact integrity preserved by Git commits"
+failure_cases,PASS,"unfavorable cases retained"
+headline_reproducibility,PASS_WITH_LIMITATION,"Git history + committed CSVs support results; hash-manifest gap should be repaired before submission"
